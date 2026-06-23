@@ -340,7 +340,13 @@ def fetch_yfinance_stock():
     import yfinance as yf
 
     t = yf.Ticker(TICKER)
-    hist = t.history(period="2y", interval="1d", auto_adjust=False)
+    hist = t.history(
+        period="2y",
+        interval="1d",
+        auto_adjust=False,
+        repair=True
+    )
+    print(hist.tail())
     if hist.empty:
         raise RuntimeError("yfinance returned empty history")
 
