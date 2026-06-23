@@ -39,7 +39,7 @@ EXTRA_CASH_EUR = 500.00
 MAX_LOSS_EUR = 400.00
 PROFIT_TARGET_EUR = 500.00
 
-TICKER = "TTWO"
+TICKER = "TKE.DE"
 USD_TO_EUR_FALLBACK = 0.93  # If FX fetch fails
 
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "snapshot.json"
@@ -350,42 +350,35 @@ def fetch_yfinance_stock():
     except Exception:
         pass
 
-    # Get USD→EUR rate
-    try:
-        fx = yf.Ticker("EUR=X").history(period="5d")
-        # EUR=X is USD per 1 EUR; we want EUR per 1 USD
-        usd_per_eur = float(fx["Close"].iloc[-1])
-        usd_to_eur = 1.0 / usd_per_eur if usd_per_eur else USD_TO_EUR_FALLBACK
-    except Exception:
-        usd_to_eur = USD_TO_EUR_FALLBACK
+    
 
     last_close_usd = float(hist["Close"].iloc[-1])
     prev_close_usd = float(hist["Close"].iloc[-2]) if len(hist) > 1 else last_close_usd
 
-    last_close_eur = last_close_usd * usd_to_eur
-    prev_close_eur = prev_close_usd * usd_to_eur
+    last_close_eur = float(hist["Close"].iloc[-1])
+    prev_close_eur = float(hist["Close"].iloc[-2]) if len(hist) > 1 else last_close_eur
 
     day_change_abs = last_close_eur - prev_close_eur
     day_change_pct = (day_change_abs / prev_close_eur) * 100 if prev_close_eur else 0
 
     last_year = hist.tail(252)
-    w52_high = float(last_year["High"].max()) * usd_to_eur
-    w52_low = float(last_year["Low"].min()) * usd_to_eur
+    w52_high = float(last_year["High"].max())
+    w52_low = float(last_year["Low"].min())
 
     # Compact daily history for chart
     history = []
     for idx, row in hist.iterrows():
         history.append({
             "date": idx.strftime("%Y-%m-%d"),
-            "close": round(float(row["Close"]) * usd_to_eur, 2),
+            "close": round(float(row["Close"]), 2),
         })
 
     return {
         "ticker": TICKER,
         "currency": "EUR",
         "price_eur": round(last_close_eur, 2),
-        "price_usd": round(last_close_usd, 2),
-        "usd_to_eur": round(usd_to_eur, 4),
+        "price_usd": None,
+        "usd_to_eur": 1.0,
         "day_change_abs": round(day_change_abs, 2),
         "day_change_pct": round(day_change_pct, 2),
         "week52_high": round(w52_high, 2),
