@@ -1,0 +1,1621 @@
+{
+  "updated_at": "2026-06-22T22:18:50Z",
+  "updated_at_local": "22 Jun 2026, 22:18",
+  "stock": {
+    "ticker": "TTWO",
+    "currency": "EUR",
+    "price_eur": 215.05,
+    "price_usd": 231.24,
+    "usd_to_eur": 0.93,
+    "day_change_abs": -16.79,
+    "day_change_pct": -7.24,
+    "week52_high": 268.43,
+    "week52_low": 141.06,
+    "history": [
+      {
+        "date": "2025-05-19",
+        "close": 147.43
+      },
+      {
+        "date": "2025-05-20",
+        "close": 147.25
+      },
+      {
+        "date": "2025-05-21",
+        "close": 148.87
+      },
+      {
+        "date": "2025-05-22",
+        "close": 148.65
+      },
+      {
+        "date": "2025-05-23",
+        "close": 142.41
+      },
+      {
+        "date": "2025-05-26",
+        "close": 142.3
+      },
+      {
+        "date": "2025-05-27",
+        "close": 142.62
+      },
+      {
+        "date": "2025-05-28",
+        "close": 143.19
+      },
+      {
+        "date": "2025-05-29",
+        "close": 145.77
+      },
+      {
+        "date": "2025-05-30",
+        "close": 147.27
+      },
+      {
+        "date": "2025-06-02",
+        "close": 143.87
+      },
+      {
+        "date": "2025-06-03",
+        "close": 144.48
+      },
+      {
+        "date": "2025-06-04",
+        "close": 147.39
+      },
+      {
+        "date": "2025-06-05",
+        "close": 147.56
+      },
+      {
+        "date": "2025-06-06",
+        "close": 147.39
+      },
+      {
+        "date": "2025-06-09",
+        "close": 144.86
+      },
+      {
+        "date": "2025-06-10",
+        "close": 146.0
+      },
+      {
+        "date": "2025-06-11",
+        "close": 147.99
+      },
+      {
+        "date": "2025-06-12",
+        "close": 147.52
+      },
+      {
+        "date": "2025-06-13",
+        "close": 148.43
+      },
+      {
+        "date": "2025-06-16",
+        "close": 148.42
+      },
+      {
+        "date": "2025-06-17",
+        "close": 149.76
+      },
+      {
+        "date": "2025-06-18",
+        "close": 146.43
+      },
+      {
+        "date": "2025-06-19",
+        "close": 140.75
+      },
+      {
+        "date": "2025-06-20",
+        "close": 139.55
+      },
+      {
+        "date": "2025-06-23",
+        "close": 141.08
+      },
+      {
+        "date": "2025-06-24",
+        "close": 138.58
+      },
+      {
+        "date": "2025-06-25",
+        "close": 140.43
+      },
+      {
+        "date": "2025-06-26",
+        "close": 138.4
+      },
+      {
+        "date": "2025-06-27",
+        "close": 138.31
+      },
+      {
+        "date": "2025-06-30",
+        "close": 139.89
+      },
+      {
+        "date": "2025-07-01",
+        "close": 141.31
+      },
+      {
+        "date": "2025-07-02",
+        "close": 142.14
+      },
+      {
+        "date": "2025-07-03",
+        "close": 143.6
+      },
+      {
+        "date": "2025-07-04",
+        "close": 144.72
+      },
+      {
+        "date": "2025-07-07",
+        "close": 141.06
+      },
+      {
+        "date": "2025-07-08",
+        "close": 142.2
+      },
+      {
+        "date": "2025-07-09",
+        "close": 141.75
+      },
+      {
+        "date": "2025-07-10",
+        "close": 146.8
+      },
+      {
+        "date": "2025-07-11",
+        "close": 145.07
+      },
+      {
+        "date": "2025-07-14",
+        "close": 147.66
+      },
+      {
+        "date": "2025-07-15",
+        "close": 148.85
+      },
+      {
+        "date": "2025-07-16",
+        "close": 150.8
+      },
+      {
+        "date": "2025-07-17",
+        "close": 154.1
+      },
+      {
+        "date": "2025-07-18",
+        "close": 153.95
+      },
+      {
+        "date": "2025-07-21",
+        "close": 151.83
+      },
+      {
+        "date": "2025-07-22",
+        "close": 148.62
+      },
+      {
+        "date": "2025-07-23",
+        "close": 148.77
+      },
+      {
+        "date": "2025-07-24",
+        "close": 149.42
+      },
+      {
+        "date": "2025-07-25",
+        "close": 148.79
+      },
+      {
+        "date": "2025-07-28",
+        "close": 157.24
+      },
+      {
+        "date": "2025-07-29",
+        "close": 158.77
+      },
+      {
+        "date": "2025-07-30",
+        "close": 157.39
+      },
+      {
+        "date": "2025-07-31",
+        "close": 156.13
+      },
+      {
+        "date": "2025-08-01",
+        "close": 154.26
+      },
+      {
+        "date": "2025-08-04",
+        "close": 155.19
+      },
+      {
+        "date": "2025-08-05",
+        "close": 157.01
+      },
+      {
+        "date": "2025-08-06",
+        "close": 155.38
+      },
+      {
+        "date": "2025-08-07",
+        "close": 154.77
+      },
+      {
+        "date": "2025-08-08",
+        "close": 150.57
+      },
+      {
+        "date": "2025-08-11",
+        "close": 148.03
+      },
+      {
+        "date": "2025-08-12",
+        "close": 150.76
+      },
+      {
+        "date": "2025-08-13",
+        "close": 150.8
+      },
+      {
+        "date": "2025-08-14",
+        "close": 151.48
+      },
+      {
+        "date": "2025-08-15",
+        "close": 151.94
+      },
+      {
+        "date": "2025-08-18",
+        "close": 157.36
+      },
+      {
+        "date": "2025-08-19",
+        "close": 155.05
+      },
+      {
+        "date": "2025-08-20",
+        "close": 157.23
+      },
+      {
+        "date": "2025-08-21",
+        "close": 158.21
+      },
+      {
+        "date": "2025-08-22",
+        "close": 161.19
+      },
+      {
+        "date": "2025-08-25",
+        "close": 165.16
+      },
+      {
+        "date": "2025-08-26",
+        "close": 175.77
+      },
+      {
+        "date": "2025-08-27",
+        "close": 176.13
+      },
+      {
+        "date": "2025-08-28",
+        "close": 174.82
+      },
+      {
+        "date": "2025-08-29",
+        "close": 171.91
+      },
+      {
+        "date": "2025-09-01",
+        "close": 177.51
+      },
+      {
+        "date": "2025-09-02",
+        "close": 179.39
+      },
+      {
+        "date": "2025-09-03",
+        "close": 173.05
+      },
+      {
+        "date": "2025-09-04",
+        "close": 174.95
+      },
+      {
+        "date": "2025-09-05",
+        "close": 176.46
+      },
+      {
+        "date": "2025-09-08",
+        "close": 173.52
+      },
+      {
+        "date": "2025-09-09",
+        "close": 178.07
+      },
+      {
+        "date": "2025-09-10",
+        "close": 175.3
+      },
+      {
+        "date": "2025-09-11",
+        "close": 174.23
+      },
+      {
+        "date": "2025-09-12",
+        "close": 177.85
+      },
+      {
+        "date": "2025-09-15",
+        "close": 176.12
+      },
+      {
+        "date": "2025-09-16",
+        "close": 172.89
+      },
+      {
+        "date": "2025-09-17",
+        "close": 173.52
+      },
+      {
+        "date": "2025-09-18",
+        "close": 170.43
+      },
+      {
+        "date": "2025-09-19",
+        "close": 172.76
+      },
+      {
+        "date": "2025-09-22",
+        "close": 179.62
+      },
+      {
+        "date": "2025-09-23",
+        "close": 183.35
+      },
+      {
+        "date": "2025-09-24",
+        "close": 179.81
+      },
+      {
+        "date": "2025-09-25",
+        "close": 179.54
+      },
+      {
+        "date": "2025-09-26",
+        "close": 180.46
+      },
+      {
+        "date": "2025-09-29",
+        "close": 183.35
+      },
+      {
+        "date": "2025-09-30",
+        "close": 185.02
+      },
+      {
+        "date": "2025-10-01",
+        "close": 189.32
+      },
+      {
+        "date": "2025-10-02",
+        "close": 191.38
+      },
+      {
+        "date": "2025-10-03",
+        "close": 191.57
+      },
+      {
+        "date": "2025-10-06",
+        "close": 187.18
+      },
+      {
+        "date": "2025-10-07",
+        "close": 186.68
+      },
+      {
+        "date": "2025-10-08",
+        "close": 192.38
+      },
+      {
+        "date": "2025-10-09",
+        "close": 190.65
+      },
+      {
+        "date": "2025-10-10",
+        "close": 191.61
+      },
+      {
+        "date": "2025-10-13",
+        "close": 186.84
+      },
+      {
+        "date": "2025-10-14",
+        "close": 189.2
+      },
+      {
+        "date": "2025-10-15",
+        "close": 193.35
+      },
+      {
+        "date": "2025-10-16",
+        "close": 193.26
+      },
+      {
+        "date": "2025-10-17",
+        "close": 190.05
+      },
+      {
+        "date": "2025-10-20",
+        "close": 194.38
+      },
+      {
+        "date": "2025-10-21",
+        "close": 192.37
+      },
+      {
+        "date": "2025-10-22",
+        "close": 195.68
+      },
+      {
+        "date": "2025-10-23",
+        "close": 195.97
+      },
+      {
+        "date": "2025-10-24",
+        "close": 198.06
+      },
+      {
+        "date": "2025-10-27",
+        "close": 204.63
+      },
+      {
+        "date": "2025-10-28",
+        "close": 211.26
+      },
+      {
+        "date": "2025-10-29",
+        "close": 212.04
+      },
+      {
+        "date": "2025-10-30",
+        "close": 211.1
+      },
+      {
+        "date": "2025-10-31",
+        "close": 211.46
+      },
+      {
+        "date": "2025-11-03",
+        "close": 218.24
+      },
+      {
+        "date": "2025-11-04",
+        "close": 222.15
+      },
+      {
+        "date": "2025-11-05",
+        "close": 220.43
+      },
+      {
+        "date": "2025-11-06",
+        "close": 214.71
+      },
+      {
+        "date": "2025-11-07",
+        "close": 215.67
+      },
+      {
+        "date": "2025-11-10",
+        "close": 217.24
+      },
+      {
+        "date": "2025-11-11",
+        "close": 219.22
+      },
+      {
+        "date": "2025-11-12",
+        "close": 215.94
+      },
+      {
+        "date": "2025-11-13",
+        "close": 217.61
+      },
+      {
+        "date": "2025-11-14",
+        "close": 216.97
+      },
+      {
+        "date": "2025-11-17",
+        "close": 213.44
+      },
+      {
+        "date": "2025-11-18",
+        "close": 211.06
+      },
+      {
+        "date": "2025-11-19",
+        "close": 212.72
+      },
+      {
+        "date": "2025-11-20",
+        "close": 214.28
+      },
+      {
+        "date": "2025-11-21",
+        "close": 212.43
+      },
+      {
+        "date": "2025-11-24",
+        "close": 214.64
+      },
+      {
+        "date": "2025-11-25",
+        "close": 215.87
+      },
+      {
+        "date": "2025-11-26",
+        "close": 215.88
+      },
+      {
+        "date": "2025-11-27",
+        "close": 223.21
+      },
+      {
+        "date": "2025-11-28",
+        "close": 216.96
+      },
+      {
+        "date": "2025-12-01",
+        "close": 217.87
+      },
+      {
+        "date": "2025-12-02",
+        "close": 224.08
+      },
+      {
+        "date": "2025-12-03",
+        "close": 224.03
+      },
+      {
+        "date": "2025-12-04",
+        "close": 238.27
+      },
+      {
+        "date": "2025-12-05",
+        "close": 236.64
+      },
+      {
+        "date": "2025-12-08",
+        "close": 233.56
+      },
+      {
+        "date": "2025-12-09",
+        "close": 233.74
+      },
+      {
+        "date": "2025-12-10",
+        "close": 232.71
+      },
+      {
+        "date": "2025-12-11",
+        "close": 233.38
+      },
+      {
+        "date": "2025-12-12",
+        "close": 225.97
+      },
+      {
+        "date": "2025-12-15",
+        "close": 238.15
+      },
+      {
+        "date": "2025-12-16",
+        "close": 234.5
+      },
+      {
+        "date": "2025-12-17",
+        "close": 235.49
+      },
+      {
+        "date": "2025-12-18",
+        "close": 246.62
+      },
+      {
+        "date": "2025-12-19",
+        "close": 243.34
+      },
+      {
+        "date": "2025-12-22",
+        "close": 237.44
+      },
+      {
+        "date": "2025-12-23",
+        "close": 239.86
+      },
+      {
+        "date": "2025-12-24",
+        "close": 244.45
+      },
+      {
+        "date": "2025-12-25",
+        "close": 243.44
+      },
+      {
+        "date": "2025-12-26",
+        "close": 237.53
+      },
+      {
+        "date": "2025-12-29",
+        "close": 241.89
+      },
+      {
+        "date": "2025-12-30",
+        "close": 234.73
+      },
+      {
+        "date": "2025-12-31",
+        "close": 234.56
+      },
+      {
+        "date": "2026-01-01",
+        "close": 239.43
+      },
+      {
+        "date": "2026-01-02",
+        "close": 247.01
+      },
+      {
+        "date": "2026-01-05",
+        "close": 245.36
+      },
+      {
+        "date": "2026-01-06",
+        "close": 242.18
+      },
+      {
+        "date": "2026-01-07",
+        "close": 242.28
+      },
+      {
+        "date": "2026-01-08",
+        "close": 244.05
+      },
+      {
+        "date": "2026-01-09",
+        "close": 246.1
+      },
+      {
+        "date": "2026-01-12",
+        "close": 237.1
+      },
+      {
+        "date": "2026-01-13",
+        "close": 232.93
+      },
+      {
+        "date": "2026-01-14",
+        "close": 235.14
+      },
+      {
+        "date": "2026-01-15",
+        "close": 226.93
+      },
+      {
+        "date": "2026-01-16",
+        "close": 225.77
+      },
+      {
+        "date": "2026-01-19",
+        "close": 232.62
+      },
+      {
+        "date": "2026-01-20",
+        "close": 236.07
+      },
+      {
+        "date": "2026-01-21",
+        "close": 234.6
+      },
+      {
+        "date": "2026-01-22",
+        "close": 231.93
+      },
+      {
+        "date": "2026-01-23",
+        "close": 229.54
+      },
+      {
+        "date": "2026-01-26",
+        "close": 239.88
+      },
+      {
+        "date": "2026-01-27",
+        "close": 251.8
+      },
+      {
+        "date": "2026-01-28",
+        "close": 251.57
+      },
+      {
+        "date": "2026-01-29",
+        "close": 253.81
+      },
+      {
+        "date": "2026-01-30",
+        "close": 254.88
+      },
+      {
+        "date": "2026-02-02",
+        "close": 268.43
+      },
+      {
+        "date": "2026-02-03",
+        "close": 262.64
+      },
+      {
+        "date": "2026-02-04",
+        "close": 260.92
+      },
+      {
+        "date": "2026-02-05",
+        "close": 262.47
+      },
+      {
+        "date": "2026-02-06",
+        "close": 265.41
+      },
+      {
+        "date": "2026-02-09",
+        "close": 243.68
+      },
+      {
+        "date": "2026-02-10",
+        "close": 243.33
+      },
+      {
+        "date": "2026-02-11",
+        "close": 242.87
+      },
+      {
+        "date": "2026-02-12",
+        "close": 244.04
+      },
+      {
+        "date": "2026-02-13",
+        "close": 241.14
+      },
+      {
+        "date": "2026-02-16",
+        "close": 230.46
+      },
+      {
+        "date": "2026-02-17",
+        "close": 231.69
+      },
+      {
+        "date": "2026-02-18",
+        "close": 235.09
+      },
+      {
+        "date": "2026-02-19",
+        "close": 237.81
+      },
+      {
+        "date": "2026-02-20",
+        "close": 237.06
+      },
+      {
+        "date": "2026-02-23",
+        "close": 226.79
+      },
+      {
+        "date": "2026-02-24",
+        "close": 224.98
+      },
+      {
+        "date": "2026-02-25",
+        "close": 222.97
+      },
+      {
+        "date": "2026-02-26",
+        "close": 215.7
+      },
+      {
+        "date": "2026-02-27",
+        "close": 216.21
+      },
+      {
+        "date": "2026-03-02",
+        "close": 213.51
+      },
+      {
+        "date": "2026-03-03",
+        "close": 214.71
+      },
+      {
+        "date": "2026-03-04",
+        "close": 220.24
+      },
+      {
+        "date": "2026-03-05",
+        "close": 220.35
+      },
+      {
+        "date": "2026-03-06",
+        "close": 218.65
+      },
+      {
+        "date": "2026-03-09",
+        "close": 212.35
+      },
+      {
+        "date": "2026-03-10",
+        "close": 211.96
+      },
+      {
+        "date": "2026-03-11",
+        "close": 212.17
+      },
+      {
+        "date": "2026-03-12",
+        "close": 218.05
+      },
+      {
+        "date": "2026-03-13",
+        "close": 221.12
+      },
+      {
+        "date": "2026-03-16",
+        "close": 224.29
+      },
+      {
+        "date": "2026-03-17",
+        "close": 220.42
+      },
+      {
+        "date": "2026-03-18",
+        "close": 221.43
+      },
+      {
+        "date": "2026-03-19",
+        "close": 222.79
+      },
+      {
+        "date": "2026-03-20",
+        "close": 220.2
+      },
+      {
+        "date": "2026-03-23",
+        "close": 222.07
+      },
+      {
+        "date": "2026-03-24",
+        "close": 223.88
+      },
+      {
+        "date": "2026-03-25",
+        "close": 222.47
+      },
+      {
+        "date": "2026-03-26",
+        "close": 222.44
+      },
+      {
+        "date": "2026-03-27",
+        "close": 223.96
+      },
+      {
+        "date": "2026-03-30",
+        "close": 214.49
+      },
+      {
+        "date": "2026-03-31",
+        "close": 216.98
+      },
+      {
+        "date": "2026-04-01",
+        "close": 221.2
+      },
+      {
+        "date": "2026-04-02",
+        "close": 227.49
+      },
+      {
+        "date": "2026-04-03",
+        "close": 233.58
+      },
+      {
+        "date": "2026-04-06",
+        "close": 222.19
+      },
+      {
+        "date": "2026-04-07",
+        "close": 227.52
+      },
+      {
+        "date": "2026-04-08",
+        "close": 228.32
+      },
+      {
+        "date": "2026-04-09",
+        "close": 224.34
+      },
+      {
+        "date": "2026-04-10",
+        "close": 231.05
+      },
+      {
+        "date": "2026-04-13",
+        "close": 227.41
+      },
+      {
+        "date": "2026-04-14",
+        "close": 224.85
+      },
+      {
+        "date": "2026-04-15",
+        "close": 225.16
+      },
+      {
+        "date": "2026-04-16",
+        "close": 223.53
+      },
+      {
+        "date": "2026-04-17",
+        "close": 228.08
+      },
+      {
+        "date": "2026-04-20",
+        "close": 230.19
+      },
+      {
+        "date": "2026-04-21",
+        "close": 227.23
+      },
+      {
+        "date": "2026-04-22",
+        "close": 227.87
+      },
+      {
+        "date": "2026-04-23",
+        "close": 242.15
+      },
+      {
+        "date": "2026-04-24",
+        "close": 239.46
+      },
+      {
+        "date": "2026-04-27",
+        "close": 238.17
+      },
+      {
+        "date": "2026-04-28",
+        "close": 244.3
+      },
+      {
+        "date": "2026-04-29",
+        "close": 246.98
+      },
+      {
+        "date": "2026-04-30",
+        "close": 246.12
+      },
+      {
+        "date": "2026-05-01",
+        "close": 243.53
+      },
+      {
+        "date": "2026-05-04",
+        "close": 243.9
+      },
+      {
+        "date": "2026-05-05",
+        "close": 245.34
+      },
+      {
+        "date": "2026-05-06",
+        "close": 244.4
+      },
+      {
+        "date": "2026-05-07",
+        "close": 246.4
+      },
+      {
+        "date": "2026-05-08",
+        "close": 245.7
+      },
+      {
+        "date": "2026-05-11",
+        "close": 250.01
+      },
+      {
+        "date": "2026-05-12",
+        "close": 252.19
+      },
+      {
+        "date": "2026-05-13",
+        "close": 251.38
+      },
+      {
+        "date": "2026-05-14",
+        "close": 247.76
+      },
+      {
+        "date": "2026-05-15",
+        "close": 243.92
+      },
+      {
+        "date": "2026-05-18",
+        "close": 239.88
+      },
+      {
+        "date": "2026-05-19",
+        "close": 239.42
+      },
+      {
+        "date": "2026-05-20",
+        "close": 244.76
+      },
+      {
+        "date": "2026-05-21",
+        "close": 252.76
+      },
+      {
+        "date": "2026-05-22",
+        "close": 252.36
+      },
+      {
+        "date": "2026-05-25",
+        "close": 243.48
+      },
+      {
+        "date": "2026-05-26",
+        "close": 237.62
+      },
+      {
+        "date": "2026-05-27",
+        "close": 236.38
+      },
+      {
+        "date": "2026-05-28",
+        "close": 237.06
+      },
+      {
+        "date": "2026-05-29",
+        "close": 235.05
+      },
+      {
+        "date": "2026-06-01",
+        "close": 234.92
+      },
+      {
+        "date": "2026-06-02",
+        "close": 233.96
+      },
+      {
+        "date": "2026-06-03",
+        "close": 230.64
+      },
+      {
+        "date": "2026-06-04",
+        "close": 229.01
+      },
+      {
+        "date": "2026-06-05",
+        "close": 231.96
+      },
+      {
+        "date": "2026-06-08",
+        "close": 237.11
+      },
+      {
+        "date": "2026-06-09",
+        "close": 239.1
+      },
+      {
+        "date": "2026-06-10",
+        "close": 243.31
+      },
+      {
+        "date": "2026-06-11",
+        "close": 240.27
+      },
+      {
+        "date": "2026-06-12",
+        "close": 243.35
+      },
+      {
+        "date": "2026-06-15",
+        "close": 239.57
+      },
+      {
+        "date": "2026-06-16",
+        "close": 240.89
+      },
+      {
+        "date": "2026-06-17",
+        "close": 238.83
+      },
+      {
+        "date": "2026-06-18",
+        "close": 232.17
+      },
+      {
+        "date": "2026-06-19",
+        "close": 231.84
+      },
+      {
+        "date": "2026-06-22",
+        "close": 215.05
+      }
+    ],
+    "data_source": "sample"
+  },
+  "portfolio": {
+    "shares": 7.52397999,
+    "avg_price": 214.65,
+    "invested": 1615.0,
+    "extra_cash": 500.0,
+    "max_loss": 400.0,
+    "profit_target": 500.0,
+    "current_value": 1618.03,
+    "pl_abs": 3.03,
+    "pl_pct": 0.19,
+    "target_value": 2115.0,
+    "distance_to_target": 496.97,
+    "progress_pct": 0.61,
+    "break_even_price": 214.65
+  },
+  "strategy": {
+    "primary": "WAIT",
+    "primary_confidence": 80,
+    "reasoning": [
+      "Preorder event in 3 days — high volatility window.",
+      "Price is near your average cost (214.65 €).",
+      "Risk/reward is not attractive right now.",
+      "High 'buy the rumor, sell the news' risk before launch."
+    ],
+    "actions": {
+      "hold_shares": {
+        "verdict": "HOLD",
+        "confidence": 85
+      },
+      "invest_extra": {
+        "verdict": "WAIT",
+        "confidence": 80
+      },
+      "sell_all": {
+        "verdict": "NO",
+        "confidence": 90
+      }
+    },
+    "metrics": {
+      "days_to_preorder": 3,
+      "days_to_launch": 150,
+      "above_avg_pct": 0.19,
+      "bearish_signals": 1,
+      "bullish_signals": 4
+    }
+  },
+  "events": [
+    {
+      "date": "2023-12-04",
+      "title": "Trailer 1",
+      "short": "TRAILER 1",
+      "icon": "▶",
+      "type": "trailer",
+      "color": "#a855f7",
+      "impact": "Set franchise hype record; TTWO closed +1.8% next session.",
+      "source": "Rockstar Newswire"
+    },
+    {
+      "date": "2025-05-06",
+      "title": "Trailer 2",
+      "short": "TRAILER 2",
+      "icon": "▶",
+      "type": "trailer",
+      "color": "#a855f7",
+      "impact": "Confirmed Vice City setting; TTWO +3.2% week-over-week.",
+      "source": "Rockstar Newswire"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Cover Art",
+      "short": "COVER ART",
+      "icon": "🖼",
+      "type": "media",
+      "color": "#16a34a",
+      "impact": "Marketing kickoff. Generally bullish for pre-release positioning.",
+      "source": "Rockstar Newswire"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Preorders Open",
+      "short": "PREORDERS OPEN",
+      "icon": "🛒",
+      "type": "commerce",
+      "color": "#f97316",
+      "impact": "First hard demand signal. Historically high-volatility event.",
+      "source": "Take-Two IR"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Launch",
+      "short": "LAUNCH",
+      "icon": "🚀",
+      "type": "release",
+      "color": "#a855f7",
+      "impact": "Global release. Classic 'sell the news' risk window.",
+      "source": "Take-Two IR"
+    }
+  ],
+  "detected_events": [],
+  "fresh_detections": [],
+  "next_catalyst": {
+    "date": "2026-06-25",
+    "title": "Preorders Open",
+    "short": "PREORDERS OPEN",
+    "icon": "🛒",
+    "type": "commerce",
+    "color": "#f97316",
+    "impact": "First hard demand signal. Historically high-volatility event.",
+    "source": "Take-Two IR"
+  },
+  "news": [
+    {
+      "headline": "Take-Two Interactive shares hit fresh 52-week high ahead of GTA VI preorder window",
+      "date": "2026-06-21",
+      "url": "https://example.com/1",
+      "source": "Yahoo Finance",
+      "importance": 9,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Rockstar confirms GTA VI preorders open June 25 across PS5 and Xbox Series X|S",
+      "date": "2026-06-20",
+      "url": "https://example.com/2",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Analyst raises Take-Two price target to $300 citing GTA VI launch momentum",
+      "date": "2026-06-19",
+      "url": "https://example.com/3",
+      "source": "Yahoo Finance",
+      "importance": 8,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Cover art reveal drives r/GTA6 subscriber growth past 3 million milestone",
+      "date": "2026-06-18",
+      "url": "https://example.com/4",
+      "source": "r/GTA6",
+      "importance": 6,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two CFO signals 'measured' guidance update at next earnings call",
+      "date": "2026-06-17",
+      "url": "https://example.com/5",
+      "source": "Yahoo Finance",
+      "importance": 6,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Industry watchers warn of typical 'sell the news' pattern around AAA launches",
+      "date": "2026-06-16",
+      "url": "https://example.com/6",
+      "source": "Google News",
+      "importance": 7,
+      "sentiment": "bearish"
+    }
+  ],
+  "sentiment": {
+    "fan_excitement": 9,
+    "release_confidence": 8,
+    "short_term_risk": 6,
+    "long_term_upside": 8
+  },
+  "game_metrics": {
+    "franchise_sales": "400M+",
+    "copies_sold": "N/A",
+    "copies_sold_note": "Not Released",
+    "launch_estimate": "45M+",
+    "launch_estimate_note": "First Weeks (Est.)",
+    "preorder_numbers": "N/A",
+    "preorder_note": "Waiting",
+    "platforms": "PS5, XSX|S"
+  },
+  "analyst": {
+    "price_target_low": 280,
+    "price_target_high": 300,
+    "currency": "USD",
+    "rating": "STRONG BUY",
+    "analysts_count": 32,
+    "upside_low": 15,
+    "upside_high": 25
+  },
+  "countdowns": [
+    {
+      "key": "preorders",
+      "label": "Preorders",
+      "icon": "🛒",
+      "date": "2026-06-25",
+      "known": true
+    },
+    {
+      "key": "trailer-3",
+      "label": "Trailer 3",
+      "icon": "🎥",
+      "date": null,
+      "known": false
+    },
+    {
+      "key": "review-embargo",
+      "label": "Reviews",
+      "icon": "📰",
+      "date": null,
+      "known": false
+    },
+    {
+      "key": "launch",
+      "label": "Launch",
+      "icon": "🚀",
+      "date": "2026-11-19",
+      "known": true
+    },
+    {
+      "key": "online-mode",
+      "label": "Online Mode",
+      "icon": "🌐",
+      "date": null,
+      "known": false
+    }
+  ],
+  "data_quality": {
+    "stock": {
+      "source": "yfinance",
+      "status": "sample",
+      "elapsed_sec": 0.0,
+      "category": "stock",
+      "last_fetched": "2026-06-22T22:18:50Z"
+    },
+    "feeds": [
+      {
+        "label": "Yahoo Finance",
+        "status": "sample",
+        "items_raw": 0,
+        "elapsed_sec": 0.0,
+        "category": "financial",
+        "last_fetched": "2026-06-22T22:18:50Z"
+      },
+      {
+        "label": "Reuters",
+        "status": "sample",
+        "items_raw": 0,
+        "elapsed_sec": 0.0,
+        "category": "financial",
+        "last_fetched": "2026-06-22T22:18:50Z"
+      },
+      {
+        "label": "Google News",
+        "status": "sample",
+        "items_raw": 0,
+        "elapsed_sec": 0.0,
+        "category": "aggregator",
+        "last_fetched": "2026-06-22T22:18:50Z"
+      },
+      {
+        "label": "PlayStation Blog",
+        "status": "sample",
+        "items_raw": 0,
+        "elapsed_sec": 0.0,
+        "category": "platform",
+        "last_fetched": "2026-06-22T22:18:50Z"
+      },
+      {
+        "label": "Xbox Wire",
+        "status": "sample",
+        "items_raw": 0,
+        "elapsed_sec": 0.0,
+        "category": "platform",
+        "last_fetched": "2026-06-22T22:18:50Z"
+      },
+      {
+        "label": "IGN",
+        "status": "sample",
+        "items_raw": 0,
+        "elapsed_sec": 0.0,
+        "category": "gaming",
+        "last_fetched": "2026-06-22T22:18:50Z"
+      },
+      {
+        "label": "GamesRadar",
+        "status": "sample",
+        "items_raw": 0,
+        "elapsed_sec": 0.0,
+        "category": "gaming",
+        "last_fetched": "2026-06-22T22:18:50Z"
+      },
+      {
+        "label": "r/GTA6",
+        "status": "sample",
+        "items_raw": 0,
+        "elapsed_sec": 0.0,
+        "category": "community",
+        "last_fetched": "2026-06-22T22:18:50Z"
+      }
+    ],
+    "summary": {
+      "events_detected_total": 0,
+      "fresh_this_run": 0,
+      "news_items": 6,
+      "archive_count": 0,
+      "last_run_utc": "2026-06-22T22:18:50Z"
+    }
+  },
+  "alerts": [
+    {
+      "label": "Profit exceeds +500 €",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "portfolio",
+      "key": "profit-target",
+      "fresh": false
+    },
+    {
+      "label": "Stop Loss (−400 € from total capital)",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "portfolio",
+      "key": "stop-loss",
+      "fresh": false
+    },
+    {
+      "label": "TTWO falls 10% after preorder event",
+      "status": "BUY 500 €",
+      "active": false,
+      "tone": "blue",
+      "category": "portfolio",
+      "key": "post-preorder-dip",
+      "fresh": false
+    },
+    {
+      "label": "Trailer 3 released",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "trailer-3",
+      "fresh": false
+    },
+    {
+      "label": "GTA VI delayed",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "delay-announced",
+      "fresh": false
+    },
+    {
+      "label": "Gameplay reveal",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "gameplay-reveal",
+      "fresh": false
+    },
+    {
+      "label": "Collector Edition announced",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "collector-edition",
+      "fresh": false
+    },
+    {
+      "label": "Review embargo lifted",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "review-embargo",
+      "fresh": false
+    },
+    {
+      "label": "Metacritic score available",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "metacritic",
+      "fresh": false
+    },
+    {
+      "label": "PC version announced",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "pc-version",
+      "fresh": false
+    },
+    {
+      "label": "Online mode announced",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "online-mode",
+      "fresh": false
+    },
+    {
+      "label": "Launch trailer dropped",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "launch-trailer",
+      "fresh": false
+    },
+    {
+      "label": "Copies sold milestone",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "sales-milestone",
+      "fresh": false
+    },
+    {
+      "label": "Preorder record set",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "preorder-record",
+      "fresh": false
+    },
+    {
+      "label": "Wishlist ranking spike",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "wishlist-rank",
+      "fresh": false
+    },
+    {
+      "label": "Award / nomination",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "award-nomination",
+      "fresh": false
+    },
+    {
+      "label": "Price revealed",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "price-reveal",
+      "fresh": false
+    }
+  ]
+}

@@ -1,0 +1,3122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#f9faf8" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
+<title>TTWO Investment Dashboard · GTA VI Tracker</title>
+
+<!-- Plotly for the price chart -->
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<!-- html2canvas for the email export feature -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<style>
+/* ─────────────────────────────────────────────────────────────────────────
+   THEME TOKENS  ·  Light = Apple Stocks  ·  Dark = Bloomberg Terminal
+   ───────────────────────────────────────────────────────────────────────── */
+:root {
+  /* Surfaces */
+  --bg-page: #f9faf7;
+  --bg-card: #ffffff;
+  --bg-panel: #fff8e7;       /* warm cream — Decision Panel */
+  --bg-subtle: #f5f5f4;
+  --bg-elev: #ffffff;
+
+  /* Borders */
+  --border-soft: #ece9e4;
+  --border-line: #e5e7eb;
+  --border-strong: #d4d4d8;
+
+  /* Text */
+  --text-primary: #18181b;
+  --text-secondary: #6b7280;
+  --text-muted: #a1a1aa;
+
+  /* Brand accents */
+  --green: #16a34a;
+  --green-soft: #ecfdf5;
+  --green-line: #86efac;
+  --red: #dc2626;
+  --red-soft: #fef2f2;
+  --red-line: #fca5a5;
+  --blue: #2563eb;
+  --blue-soft: #eff6ff;
+  --blue-line: #93c5fd;
+  --orange: #ea580c;
+  --orange-soft: #fff7ed;
+  --orange-line: #fdba74;
+  --purple: #9333ea;
+  --purple-soft: #faf5ff;
+  --purple-line: #c4b5fd;
+  --yellow: #ca8a04;
+  --yellow-soft: #fefce8;
+
+  /* TTWO chart specifics */
+  --chart-line: #2563eb;
+  --chart-fill: rgba(59,130,246,0.10);
+  --chart-grid: #e7e5e0;
+  --chart-axis: #9ca3af;
+  --chart-avg: #6366f1;
+
+  /* Shadows (very subtle, Apple-style) */
+  --shadow-card: 0 1px 2px rgba(15,23,42,0.04), 0 1px 3px rgba(15,23,42,0.03);
+  --shadow-elev: 0 2px 6px rgba(15,23,42,0.05), 0 8px 24px rgba(15,23,42,0.04);
+  --shadow-pop:  0 10px 30px rgba(15,23,42,0.10);
+
+  /* Radii */
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-xl: 20px;
+
+  /* Type */
+  --font-ui: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+             "Inter", "Segoe UI", system-ui, sans-serif;
+  --font-num: "SF Pro Display", -apple-system, "Inter", "Segoe UI", system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+[data-theme="dark"] {
+  --bg-page: #07090d;          /* Bloomberg-ish near-black */
+  --bg-card: #10131a;
+  --bg-panel: #181410;         /* warm dark */
+  --bg-subtle: #0c0f15;
+  --bg-elev: #15191f;
+
+  --border-soft: #1f242d;
+  --border-line: #232831;
+  --border-strong: #2c333e;
+
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+
+  --green: #22c55e;
+  --green-soft: #052e16;
+  --green-line: #14532d;
+  --red: #f43f5e;
+  --red-soft: #2c0a13;
+  --red-line: #7f1d1d;
+  --blue: #3b82f6;
+  --blue-soft: #0a1530;
+  --blue-line: #1e3a8a;
+  --orange: #fb923c;
+  --orange-soft: #2a1308;
+  --orange-line: #7c2d12;
+  --purple: #a855f7;
+  --purple-soft: #1e0a3c;
+  --purple-line: #581c87;
+  --yellow: #eab308;
+  --yellow-soft: #1c1502;
+
+  --chart-line: #3b82f6;
+  --chart-fill: rgba(59,130,246,0.14);
+  --chart-grid: #1f242d;
+  --chart-axis: #6b7280;
+  --chart-avg: #818cf8;
+
+  --shadow-card: 0 0 0 1px rgba(255,255,255,0.02);
+  --shadow-elev: 0 4px 14px rgba(0,0,0,0.5);
+  --shadow-pop:  0 10px 40px rgba(0,0,0,0.6);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   RESET / BASE
+   ───────────────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01", "cv11";
+  min-height: 100vh;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+img { max-width: 100%; display: block; }
+button { font: inherit; cursor: pointer; }
+a { color: inherit; }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   LAYOUT  ·  Outer 2-column grid (main + decision sidebar)
+   ───────────────────────────────────────────────────────────────────────── */
+.app {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 18px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 16px;
+}
+.col-main { display: grid; gap: 14px; min-width: 0; }
+.col-side { display: grid; gap: 14px; align-content: start; }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   CARD PRIMITIVE
+   ───────────────────────────────────────────────────────────────────────── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--r-lg);
+  padding: 16px 18px;
+  box-shadow: var(--shadow-card);
+  position: relative;
+  min-width: 0;
+}
+.card-warm {
+  background: var(--bg-panel);
+  border-color: color-mix(in srgb, var(--orange-line) 35%, var(--border-soft));
+}
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+.card-title .info {
+  margin-left: auto;
+  color: var(--text-muted);
+  display: inline-flex;
+  cursor: help;
+}
+.card-title .info:hover { color: var(--text-secondary); }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   HEADER
+   ───────────────────────────────────────────────────────────────────────── */
+.header {
+  grid-column: 1 / -1;
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--r-lg);
+  padding: 14px 18px;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 18px;
+  align-items: center;
+  box-shadow: var(--shadow-card);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.brand-mark {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  display: grid;
+  place-items: center;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+  position: relative;
+  overflow: hidden;
+}
+.brand-mark::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.18), transparent 60%);
+}
+.brand-mark .t { color: white; }
+.brand-mark .two { color: #3b82f6; }
+.brand-meta {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.brand-meta .name {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+.brand-meta .full {
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+  font-weight: 700;
+  margin-top: 2px;
+}
+.title-block { min-width: 0; }
+.title-block h1 {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+.title-block .sub {
+  font-size: 14px;
+  color: var(--blue);
+  font-weight: 600;
+  margin-top: 2px;
+  letter-spacing: 0.02em;
+}
+.title-block .meta {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.title-block .meta .dot { color: var(--text-muted); }
+
+.hero-image {
+  width: 280px;
+  height: 80px;
+  border-radius: var(--r-md);
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-line);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04);
+  /* Apple Stocks "premium logo tile" feel — subtle inner ring + tiny hover lift */
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+.hero-image:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-elev);
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  /* Tiny saturation lift so it pops in both themes */
+  filter: saturate(1.05) contrast(1.02);
+}
+.hero-glass {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  /* Glass effect: soft highlight on top, slight darken at bottom */
+  background:
+    linear-gradient(180deg,
+      rgba(255,255,255,0.18) 0%,
+      rgba(255,255,255,0.04) 30%,
+      rgba(0,0,0,0)         60%,
+      rgba(0,0,0,0.18)     100%);
+  mix-blend-mode: overlay;
+}
+[data-theme="dark"] .hero-glass {
+  background:
+    linear-gradient(180deg,
+      rgba(255,255,255,0.10) 0%,
+      rgba(255,255,255,0.02) 30%,
+      rgba(0,0,0,0)         60%,
+      rgba(0,0,0,0.30)     100%);
+}
+.hero-image:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+/* Fallback shown only when assets/gta_cover.jpg is missing (onerror swap) */
+.hero-fallback {
+  display: none;  /* turned to grid by onerror handler */
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  background:
+    linear-gradient(135deg,
+      color-mix(in srgb, var(--blue) 30%, var(--bg-card)) 0%,
+      color-mix(in srgb, var(--purple) 30%, var(--bg-card)) 100%);
+  color: var(--text-primary);
+  font-weight: 900;
+  font-size: 28px;
+  letter-spacing: 0.18em;
+  font-family: var(--font-num);
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border-line);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 150ms ease;
+  white-space: nowrap;
+}
+.btn:hover {
+  background: var(--bg-subtle);
+  border-color: var(--border-strong);
+}
+.btn-primary {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: white;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  background: color-mix(in srgb, var(--blue) 88%, black);
+  border-color: color-mix(in srgb, var(--blue) 88%, black);
+}
+.btn-icon {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+}
+.btn .icon { width: 14px; height: 14px; }
+.btn-spinning .icon { animation: spin 1.2s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   KPI ROW
+   ───────────────────────────────────────────────────────────────────────── */
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+.kpi {
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--r-lg);
+  padding: 14px 16px;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  overflow: hidden;
+  min-height: 130px;
+}
+.kpi-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.kpi-label .info {
+  margin-left: auto;
+  color: var(--text-muted);
+  cursor: help;
+}
+.kpi-value {
+  font-family: var(--font-num);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.05;
+}
+.kpi-value.pos { color: var(--green); }
+.kpi-value.neg { color: var(--red); }
+.kpi-value.neutral { color: var(--blue); }
+.kpi-value.target { color: var(--orange); }
+.kpi-sub {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.kpi-sub.pos { color: var(--green); font-weight: 600; }
+.kpi-sub.neg { color: var(--red); font-weight: 600; }
+.kpi-foot {
+  margin-top: auto;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.kpi-sparkline {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  width: 100px;
+  height: 36px;
+  opacity: 0.9;
+}
+.kpi-icon-wrap {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: var(--blue-soft);
+  border: 1px solid var(--blue-line);
+  color: var(--blue);
+}
+.kpi-icon-wrap.green { background: var(--green-soft); border-color: var(--green-line); color: var(--green); }
+.kpi-icon-wrap.orange { background: var(--orange-soft); border-color: var(--orange-line); color: var(--orange); }
+
+.kpi-target-ring {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 64px;
+  height: 64px;
+}
+
+.range-bar {
+  margin-top: 8px;
+  height: 4px;
+  background: var(--border-soft);
+  border-radius: 2px;
+  position: relative;
+  overflow: visible;
+}
+.range-bar::after {
+  content: "";
+  position: absolute;
+  left: var(--pos, 50%);
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  background: var(--purple);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 3px var(--bg-card);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   CHART + POSITION ROW
+   ───────────────────────────────────────────────────────────────────────── */
+.chart-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 14px;
+}
+.chart-card { padding: 16px 18px; }
+.chart-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.chart-head h2 {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--blue);
+  margin: 0;
+}
+.range-pills {
+  display: inline-flex;
+  gap: 4px;
+  background: var(--bg-subtle);
+  padding: 3px;
+  border-radius: 8px;
+  border: 1px solid var(--border-soft);
+}
+.range-pill {
+  padding: 5px 12px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 120ms ease;
+}
+.range-pill:hover { color: var(--text-primary); }
+.range-pill.active {
+  background: var(--blue);
+  color: white;
+}
+.chart-change {
+  margin-left: auto;
+  text-align: right;
+}
+.chart-change .pct {
+  font-family: var(--font-num);
+  font-size: 18px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.chart-change .pct.pos { color: var(--green); }
+.chart-change .pct.neg { color: var(--red); }
+.chart-change .lbl {
+  font-size: 11px;
+  color: var(--text-secondary);
+  letter-spacing: 0.04em;
+}
+#priceChart {
+  width: 100%;
+  height: 360px;
+}
+
+/* Position summary table */
+.position-list {
+  display: flex;
+  flex-direction: column;
+}
+.position-row {
+  display: grid;
+  grid-template-columns: 28px 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-soft);
+  font-size: 13px;
+}
+.position-row:last-child { border-bottom: none; }
+.position-icon {
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+  background: var(--bg-subtle);
+  color: var(--text-secondary);
+}
+.position-label {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.position-value {
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.position-value.pos { color: var(--green); }
+.position-value.neg { color: var(--red); }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   HEALTH + SENTIMENT + METRICS ROW
+   ───────────────────────────────────────────────────────────────────────── */
+.mid-row {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1.4fr;
+  gap: 14px;
+}
+
+/* — Portfolio Health — */
+.health {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 14px;
+  align-items: center;
+}
+.health-shield {
+  width: 80px;
+  height: 90px;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.health-shield svg { width: 100%; height: 100%; }
+.health-shield .label {
+  position: absolute;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: white;
+}
+.health-stats { display: flex; flex-direction: column; gap: 6px; }
+.health-stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+.health-stat .lbl { color: var(--text-secondary); }
+.health-stat .val {
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+.health-stat .val.high { color: var(--red); font-weight: 700; }
+.health-stat .val.pos { color: var(--green); }
+.health-progress {
+  height: 4px;
+  background: var(--border-soft);
+  border-radius: 2px;
+  margin-top: 4px;
+  overflow: hidden;
+}
+.health-progress > div {
+  height: 100%;
+  background: linear-gradient(90deg, var(--green), var(--blue));
+  border-radius: 2px;
+  transition: width 800ms cubic-bezier(0.22,1,0.36,1);
+}
+
+/* — Sentiment gauges (4 circular) — */
+.gauges {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+.gauge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.gauge-ring {
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+.gauge-ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.gauge-ring .ring-bg {
+  fill: none;
+  stroke: var(--border-soft);
+  stroke-width: 6;
+}
+.gauge-ring .ring-fg {
+  fill: none;
+  stroke-width: 6;
+  stroke-linecap: round;
+  transition: stroke-dasharray 800ms cubic-bezier(0.22,1,0.36,1);
+}
+.gauge-ring .ring-text {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-num);
+  font-weight: 700;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+.gauge-ring .ring-text .max {
+  font-size: 9px;
+  color: var(--text-muted);
+  margin-left: 1px;
+  font-weight: 600;
+}
+.gauge-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  line-height: 1.2;
+}
+
+/* — Key Game Metrics — */
+.kgm-list { display: flex; flex-direction: column; }
+.kgm-row {
+  display: grid;
+  grid-template-columns: 24px 1fr auto auto;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border-soft);
+  font-size: 13px;
+}
+.kgm-row:last-child { border-bottom: none; }
+.kgm-icon { color: var(--text-muted); display: grid; place-items: center; }
+.kgm-label { color: var(--text-primary); font-weight: 500; }
+.kgm-val {
+  font-family: var(--font-num);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--green);
+}
+.kgm-val.muted { color: var(--text-muted); }
+.kgm-note {
+  font-size: 11px;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   CATALYST + ANALYST ROW
+   ───────────────────────────────────────────────────────────────────────── */
+.catalyst-row {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 14px;
+}
+.catalyst {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: center;
+}
+.catalyst-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: var(--blue-soft);
+  border: 1px solid var(--blue-line);
+  display: grid;
+  place-items: center;
+  color: var(--blue);
+}
+.catalyst-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.catalyst-eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+.catalyst-date {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+}
+.catalyst-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--orange);
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+.catalyst-note {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+.analyst-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  text-align: center;
+}
+.analyst-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-right: 1px solid var(--border-soft);
+  padding-right: 16px;
+}
+.analyst-cell:last-child { border-right: none; padding-right: 0; }
+.analyst-cell .lbl {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+.analyst-cell .big {
+  font-family: var(--font-num);
+  font-size: 22px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+.analyst-cell.target .big { color: var(--green); }
+.analyst-cell.rating .big { color: var(--blue); font-size: 18px; letter-spacing: 0.04em; }
+.analyst-cell.upside .big { color: var(--green); }
+.analyst-cell .note {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   COUNTDOWNS STRIP  ·  Compact chips between metrics and catalyst rows
+   ───────────────────────────────────────────────────────────────────────── */
+.countdowns-row { display: grid; grid-template-columns: 1fr; }
+.countdowns {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+.cd-chip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-soft);
+  border-radius: 10px;
+  min-width: 0;
+  transition: background 200ms ease, border-color 200ms ease, transform 150ms ease;
+}
+.cd-chip.unknown {
+  background: transparent;
+  border-style: dashed;
+  border-color: var(--border-strong);
+  opacity: 0.75;
+}
+.cd-chip.urgent {
+  background: var(--orange-soft);
+  border-color: var(--orange-line);
+}
+.cd-chip.very-urgent {
+  background: var(--red-soft);
+  border-color: var(--red-line);
+  animation: countdownPulse 3s ease-in-out infinite;
+}
+.cd-chip.past {
+  background: var(--green-soft);
+  border-color: var(--green-line);
+}
+@keyframes countdownPulse {
+  0%, 100% { box-shadow: 0 0 0 0   color-mix(in srgb, var(--red) 40%, transparent); }
+  50%      { box-shadow: 0 0 0 5px transparent; }
+}
+
+.cd-icon {
+  font-size: 22px;
+  line-height: 1;
+  width: 28px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.cd-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+  flex: 1;
+}
+.cd-label {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cd-value {
+  font-family: var(--font-num);
+  font-size: 16px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  line-height: 1.1;
+  white-space: nowrap;
+}
+.cd-chip.unknown      .cd-value { color: var(--text-muted); font-style: italic; }
+.cd-chip.urgent       .cd-value { color: var(--orange); }
+.cd-chip.very-urgent  .cd-value { color: var(--red); }
+.cd-chip.past         .cd-value { color: var(--green); }
+.cd-value .unit { font-size: 11px; color: var(--text-secondary); margin-left: 2px; font-weight: 500; }
+
+@media (max-width: 1280px) {
+  .countdowns { grid-template-columns: repeat(5, minmax(110px, 1fr)); overflow-x: auto; padding-bottom: 4px; }
+  .cd-chip { min-width: 110px; }
+}
+@media (max-width: 760px) {
+  .countdowns {
+    grid-template-columns: 1fr 1fr;
+    overflow-x: visible;
+  }
+  .cd-chip { padding: 9px 11px; }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   NEWS ROW  ·  Top 5 GTA VI / TTWO headlines, sentiment-coded
+   ───────────────────────────────────────────────────────────────────────── */
+.news-row { display: grid; grid-template-columns: 1fr; }
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+.news-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 14px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-left: 3px solid var(--border-strong);
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 150ms ease, box-shadow 150ms ease, border-color 150ms ease;
+  position: relative;
+  min-height: 132px;
+  overflow: hidden;
+}
+.news-card:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-elev);
+}
+.news-card.sent-bullish { border-left-color: var(--green); background: linear-gradient(180deg, var(--green-soft) 0%, var(--bg-card) 30%); }
+.news-card.sent-bearish { border-left-color: var(--red);   background: linear-gradient(180deg, var(--red-soft)   0%, var(--bg-card) 30%); }
+.news-card.sent-neutral { border-left-color: var(--yellow); background: linear-gradient(180deg, var(--yellow-soft) 0%, var(--bg-card) 30%); }
+[data-theme="dark"] .news-card.sent-bullish { background: linear-gradient(180deg, color-mix(in srgb, var(--green) 12%, var(--bg-card)) 0%, var(--bg-card) 40%); }
+[data-theme="dark"] .news-card.sent-bearish { background: linear-gradient(180deg, color-mix(in srgb, var(--red)   12%, var(--bg-card)) 0%, var(--bg-card) 40%); }
+[data-theme="dark"] .news-card.sent-neutral { background: linear-gradient(180deg, color-mix(in srgb, var(--yellow) 12%, var(--bg-card)) 0%, var(--bg-card) 40%); }
+
+.news-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.news-source { color: var(--text-secondary); }
+.news-date   { color: var(--text-muted); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+.news-headline {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--text-primary);
+  letter-spacing: -0.005em;
+  /* Clamp to 4 lines so cards stay uniform height */
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+.news-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.news-imp {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+.news-imp .imp-num { font-size: 11px; }
+.news-imp .imp-bar {
+  width: 32px;
+  height: 3px;
+  background: var(--border-soft);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.news-imp .imp-bar > span {
+  display: block;
+  height: 100%;
+  background: var(--text-secondary);
+  border-radius: 2px;
+}
+.news-sent {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  text-transform: uppercase;
+}
+.news-sent.bullish { color: var(--green); }
+.news-sent.bearish { color: var(--red);   }
+.news-sent.neutral { color: var(--yellow); }
+.news-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: var(--text-muted);
+  opacity: 0;
+  transition: opacity 150ms ease;
+}
+.news-card:hover .news-link { opacity: 1; }
+
+.news-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13px;
+  padding: 24px 0;
+  font-style: italic;
+}
+
+@media (max-width: 1280px) {
+  .news-grid { grid-template-columns: repeat(3, 1fr); }
+  .news-card:nth-child(n+4) { display: none; }  /* show top 3 on tablet */
+}
+@media (max-width: 760px) {
+  .news-grid { grid-template-columns: 1fr; }
+  .news-card:nth-child(n+4) { display: flex; }   /* re-enable on mobile (vertical list) */
+  .news-card { min-height: auto; }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   DECISION PANEL SIDEBAR
+   ───────────────────────────────────────────────────────────────────────── */
+.decision-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.decision-head h2 {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0;
+}
+.decision-head .info {
+  margin-left: auto;
+  color: var(--text-muted);
+}
+
+.strategy-block {
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--r-md);
+  padding: 14px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.strategy-block .label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+.strategy-block .verdict {
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: var(--orange);
+  line-height: 1;
+  margin-top: 4px;
+}
+.strategy-block .verdict.BUY { color: var(--green); }
+.strategy-block .verdict.HOLD { color: var(--blue); }
+.strategy-block .verdict.WAIT, .strategy-block .verdict.HOLDCASH { color: var(--orange); }
+.strategy-block .verdict.SELL, .strategy-block .verdict.REVIEW { color: var(--red); }
+.strategy-block .verdict.TAKEPROFIT { color: var(--purple); }
+.strategy-block .reason {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 6px;
+}
+.confidence-ring {
+  width: 78px;
+  height: 78px;
+  position: relative;
+}
+.confidence-ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.confidence-ring .text {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-num);
+  font-size: 18px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+.confidence-ring .text .pct { color: var(--orange); }
+.confidence-ring .text .sub {
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.action-pills {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.action-pill {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-radius: 10px;
+}
+.action-pill .ap-label {
+  font-size: 12px;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.action-pill .ap-label .ap-sub {
+  display: block;
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 1px;
+  font-weight: 400;
+}
+.ap-verdict {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 6px;
+  color: white;
+  white-space: nowrap;
+}
+.ap-verdict.green { background: var(--green); }
+.ap-verdict.orange { background: var(--orange); }
+.ap-verdict.red { background: var(--red); }
+.ap-verdict.blue { background: var(--blue); }
+.ap-verdict.purple { background: var(--purple); }
+.ap-conf {
+  font-family: var(--font-num);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.why-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+}
+.why-item {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 8px;
+  align-items: start;
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+.why-item .icn {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-line);
+  display: grid;
+  place-items: center;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.plan-list { display: flex; flex-direction: column; gap: 10px; }
+.plan-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 8px;
+  font-size: 11.5px;
+}
+.plan-item .pl-cond {
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+.plan-item .arrow { color: var(--text-muted); }
+
+.alerts-list { display: flex; flex-direction: column; gap: 6px; }
+.alert-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  align-items: center;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  transition: background-color 200ms ease, border-color 200ms ease, padding 200ms ease;
+}
+.alert-row .a-label { color: var(--text-primary); font-weight: 500; line-height: 1.3; }
+.alert-row .a-status {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Watching: muted, compact one-liner — keeps the panel calm */
+.alert-row:not(.active) .a-label  { color: var(--text-secondary); font-weight: 400; }
+.alert-row:not(.active) .a-status { color: var(--text-muted);     font-size: 9px;   }
+
+/* Active: tone-coded background, full padding, meta row */
+.alert-row.active {
+  padding: 8px 10px;
+  background: var(--orange-soft);
+  border-color: var(--orange-line);
+}
+.alert-row.active.tone-purple { background: var(--purple-soft); border-color: var(--purple-line); }
+.alert-row.active.tone-red    { background: var(--red-soft);    border-color: var(--red-line);    }
+.alert-row.active.tone-green  { background: var(--green-soft);  border-color: var(--green-line);  }
+.alert-row.active.tone-blue   { background: var(--blue-soft);   border-color: var(--blue-line);   }
+
+.a-status.purple { color: var(--purple); }
+.a-status.green  { color: var(--green);  }
+.a-status.blue   { color: var(--blue);   }
+.a-status.red    { color: var(--red);    }
+.a-status.orange { color: var(--orange); }
+
+/* Source + headline shown only on active alerts */
+.alert-row .a-meta {
+  grid-column: 1 / -1;
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 2px;
+  line-height: 1.35;
+}
+.alert-row .a-meta .src { font-weight: 700; color: var(--text-secondary); letter-spacing: 0.04em; }
+.alert-row .a-meta .head { display: block; margin-top: 2px; color: var(--text-secondary); font-style: italic; }
+
+/* Fresh this-run pulse — gentle attention without being annoying */
+.alert-row.active.fresh { animation: alertFreshPulse 2.6s ease-in-out infinite; }
+@keyframes alertFreshPulse {
+  0%, 100% { box-shadow: 0 0 0 0   color-mix(in srgb, var(--orange) 45%, transparent); }
+  50%      { box-shadow: 0 0 0 6px transparent; }
+}
+.alert-row.active.tone-red.fresh    { animation-name: alertFreshPulseRed;    }
+.alert-row.active.tone-green.fresh  { animation-name: alertFreshPulseGreen;  }
+.alert-row.active.tone-purple.fresh { animation-name: alertFreshPulsePurple; }
+@keyframes alertFreshPulseRed    { 0%,100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--red)    45%, transparent); } 50% { box-shadow: 0 0 0 6px transparent; } }
+@keyframes alertFreshPulseGreen  { 0%,100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--green)  45%, transparent); } 50% { box-shadow: 0 0 0 6px transparent; } }
+@keyframes alertFreshPulsePurple { 0%,100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--purple) 45%, transparent); } 50% { box-shadow: 0 0 0 6px transparent; } }
+
+/* Count badge in the card title */
+.alert-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--orange);
+  color: white;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 2px 7px;
+  border-radius: 9px;
+  min-width: 22px;
+  height: 16px;
+  margin-left: 4px;
+}
+.alert-count.zero {
+  background: transparent;
+  color: var(--text-muted);
+  font-weight: 600;
+  border: 1px solid var(--border-line);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   DATA QUALITY STRIP  ·  Full-width per-source status above the footer
+   ───────────────────────────────────────────────────────────────────────── */
+.quality-row {
+  grid-column: 1 / -1;
+}
+.quality-row .card { padding: 10px 14px; }
+.quality-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.quality-head .title {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+.quality-head .summary {
+  margin-left: auto;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  font-size: 11px;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+.quality-head .summary .pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+}
+.quality-head .summary .pill.bullish {
+  background: color-mix(in srgb, var(--green) 14%, var(--bg-card));
+  border-color: var(--green-line);
+  color: var(--green);
+}
+.quality-head .summary .pill.warn {
+  background: color-mix(in srgb, var(--red) 14%, var(--bg-card));
+  border-color: var(--red-line);
+  color: var(--red);
+}
+
+.quality-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  align-items: center;
+}
+.q-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.q-chip .label { font-weight: 600; color: var(--text-primary); }
+.q-chip .meta  { color: var(--text-muted); }
+.q-chip .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  flex-shrink: 0;
+  box-shadow: 0 0 0 0 transparent;
+}
+.q-chip .dot.ok      { background: var(--green); }
+.q-chip .dot.empty   { background: var(--yellow); }
+.q-chip .dot.error   { background: var(--red);   animation: qDotPulseRed 2s ease-in-out infinite; }
+.q-chip .dot.sample  { background: var(--blue);  opacity: 0.6; }
+.q-chip .dot.unknown { background: var(--text-muted); }
+.q-chip.error .label { color: var(--red); }
+.q-chip.sample       { opacity: 0.85; }
+
+@keyframes qDotPulseRed {
+  0%, 100% { box-shadow: 0 0 0 0   color-mix(in srgb, var(--red) 60%, transparent); }
+  50%      { box-shadow: 0 0 0 4px transparent; }
+}
+
+.q-chip-divider {
+  width: 1px;
+  height: 12px;
+  background: var(--border-line);
+  margin: 0 4px;
+}
+
+@media (max-width: 760px) {
+  .quality-head { gap: 6px; }
+  .quality-head .summary { margin-left: 0; width: 100%; }
+  .q-chip-divider { display: none; }
+  .quality-chips { gap: 6px 12px; }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   FOOTER
+   ───────────────────────────────────────────────────────────────────────── */
+.foot {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 4px 6px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.foot a { color: var(--text-secondary); text-decoration: none; }
+.foot a:hover { color: var(--text-primary); }
+.foot .right { display: flex; gap: 14px; align-items: center; }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   TOAST
+   ───────────────────────────────────────────────────────────────────────── */
+.toast-wrap {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  pointer-events: none;
+}
+.toast {
+  background: var(--bg-card);
+  border: 1px solid var(--border-line);
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-size: 13px;
+  color: var(--text-primary);
+  box-shadow: var(--shadow-pop);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.toast.success .dot { background: var(--green); }
+.toast.error .dot { background: var(--red); }
+.toast .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--blue);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   RESPONSIVE  ·  Tablet
+   ───────────────────────────────────────────────────────────────────────── */
+@media (max-width: 1280px) {
+  .app {
+    grid-template-columns: 1fr;
+  }
+  .col-side {
+    grid-template-columns: 1fr 1fr;
+  }
+  .header { grid-template-columns: auto 1fr auto; }
+  .hero-image { display: none; }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   RESPONSIVE  ·  Mobile (Trading212-style)
+   ───────────────────────────────────────────────────────────────────────── */
+@media (max-width: 760px) {
+  .app {
+    padding: 12px;
+    gap: 12px;
+  }
+  .col-side {
+    grid-template-columns: 1fr;
+  }
+  .header {
+    grid-template-columns: auto 1fr;
+    padding: 12px 14px;
+  }
+  .header-controls { grid-column: 1 / -1; justify-content: flex-end; }
+  .title-block h1 { font-size: 18px; }
+  .title-block .sub { font-size: 12px; }
+  .brand-mark { width: 44px; height: 44px; font-size: 18px; }
+  .brand-meta { display: none; }
+
+  .kpi-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .kpi-value { font-size: 24px; }
+  .kpi { min-height: 110px; padding: 12px 14px; }
+  .kpi-sparkline, .kpi-icon-wrap, .kpi-target-ring { display: none; }
+
+  .chart-row { grid-template-columns: 1fr; }
+  #priceChart { height: 280px; }
+
+  .mid-row { grid-template-columns: 1fr; }
+  .catalyst-row { grid-template-columns: 1fr; }
+
+  .analyst-grid { grid-template-columns: 1fr; gap: 10px; }
+  .analyst-cell { border-right: none; border-bottom: 1px solid var(--border-soft); padding-right: 0; padding-bottom: 10px; }
+  .analyst-cell:last-child { border-bottom: none; padding-bottom: 0; }
+
+  .gauges { gap: 6px; }
+  .gauge-ring { width: 54px; height: 54px; }
+
+  .btn-icon { width: 40px; height: 40px; }  /* touch targets */
+  .range-pill { padding: 7px 12px; min-height: 32px; }
+
+  .foot { flex-direction: column; gap: 6px; text-align: center; }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   COUNTER ANIMATION HELPERS
+   ───────────────────────────────────────────────────────────────────────── */
+.num-flash {
+  animation: numFlash 600ms ease;
+}
+@keyframes numFlash {
+  0%, 100% { background-color: transparent; }
+  50% { background-color: color-mix(in srgb, var(--blue) 18%, transparent); }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   ACCESSIBILITY  ·  Reduced motion
+   ───────────────────────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus rings */
+button:focus-visible, a:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+</style>
+</head>
+
+<body data-theme="light">
+
+<!-- ─────────────────────────────────────────────────────────────────────
+     APP LAYOUT
+     ───────────────────────────────────────────────────────────────────── -->
+<div class="app" id="app">
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">
+        <span class="t">T</span><span class="two">2</span>
+      </div>
+      <div class="brand-meta">
+        <span class="name">TAKE-TWO</span>
+        <span class="full">INTERACTIVE</span>
+      </div>
+    </div>
+
+    <div class="title-block">
+      <h1>TAKE-TWO INTERACTIVE (TTWO)</h1>
+      <div class="sub">INVESTMENT DASHBOARD</div>
+      <div class="meta">
+        <span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+            <line x1="16" y1="2" x2="16" y2="6"/>
+            <line x1="8" y1="2" x2="8" y2="6"/>
+            <line x1="3" y1="10" x2="21" y2="10"/>
+          </svg>
+          <span id="headerDate">—</span>
+        </span>
+        <span class="dot">·</span>
+        <span id="headerMarket">Market Close · <span id="lastUpdate">—</span></span>
+        <span class="dot">·</span>
+        <span id="dataSource" style="opacity:0.7">—</span>
+      </div>
+    </div>
+
+    <div class="hero-image" role="img" aria-label="Grand Theft Auto VI cover art">
+      <img class="hero-img" src="assets/gta_cover.jpg" alt=""
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+      <div class="hero-fallback" aria-hidden="true">GTA VI</div>
+      <div class="hero-glass" aria-hidden="true"></div>
+    </div>
+
+    <div class="header-controls">
+      <button class="btn btn-icon" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+        <svg class="icon" id="iconMoon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+      <button class="btn btn-icon" id="emailExport" aria-label="Email snapshot" title="Email snapshot to your inbox">
+        <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+          <polyline points="22,6 12,13 2,6"/>
+        </svg>
+      </button>
+      <button class="btn btn-primary" id="refreshBtn">
+        <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="23 4 23 10 17 10"/>
+          <polyline points="1 20 1 14 7 14"/>
+          <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+        </svg>
+        Update
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN COLUMN -->
+  <div class="col-main">
+
+    <!-- KPI ROW -->
+    <section class="kpi-row">
+
+      <!-- Profit/Loss -->
+      <div class="kpi" id="kpi-pl">
+        <div class="kpi-label">
+          <span style="color: var(--green);">Current Profit / Loss</span>
+          <span class="info" title="Mark-to-market gain or loss on your TTWO position">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          </span>
+        </div>
+        <div class="kpi-value pos" id="plValue">—</div>
+        <div class="kpi-sub pos" id="plPct">—</div>
+        <div class="kpi-foot">Since Purchase</div>
+        <svg class="kpi-sparkline" id="plSpark" viewBox="0 0 100 36" preserveAspectRatio="none"></svg>
+      </div>
+
+      <!-- Portfolio Value -->
+      <div class="kpi" id="kpi-value">
+        <div class="kpi-label">
+          <span style="color: var(--blue);">Portfolio Value</span>
+          <span class="info" title="Shares × current price">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          </span>
+        </div>
+        <div class="kpi-value neutral" id="valValue">—</div>
+        <div class="kpi-sub">Invested: <span id="invValue">—</span></div>
+        <div class="kpi-icon-wrap">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/>
+            <path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/>
+            <path d="M18 12a2 2 0 0 0 0 4h4v-4z"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Distance to target -->
+      <div class="kpi" id="kpi-target">
+        <div class="kpi-label">
+          <span style="color: var(--orange);">Distance to +500 € Target</span>
+          <span class="info" title="How much more your portfolio needs to gain to hit your +500 € profit target">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          </span>
+        </div>
+        <div class="kpi-value target" id="tgtValue">—</div>
+        <div class="kpi-sub">Target: <span id="tgtTotal">—</span></div>
+        <svg class="kpi-target-ring" id="tgtRing" viewBox="0 0 64 64"></svg>
+      </div>
+
+      <!-- Current Price -->
+      <div class="kpi" id="kpi-price">
+        <div class="kpi-label">
+          <span style="color: var(--blue);">Current Price</span>
+          <span class="info" title="Last close, converted USD→EUR at today's FX rate">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          </span>
+        </div>
+        <div class="kpi-value neutral" id="priceValue">—</div>
+        <div class="kpi-sub" style="font-size: 11px;">
+          Day Change: <span id="dayChange" class="pos">—</span>
+        </div>
+        <div class="kpi-sub" style="font-size: 11px;">
+          52W Range: <span id="range52" style="color: var(--text-primary); font-weight: 500;">—</span>
+        </div>
+        <div class="range-bar" id="rangeBar"></div>
+      </div>
+    </section>
+
+    <!-- CHART + POSITION ROW -->
+    <section class="chart-row">
+      <div class="card chart-card">
+        <div class="chart-head">
+          <h2>TTWO PRICE CHART (EUR)</h2>
+          <div class="range-pills" role="tablist" aria-label="Time range">
+            <button class="range-pill" data-range="1D">1D</button>
+            <button class="range-pill" data-range="5D">5D</button>
+            <button class="range-pill" data-range="1M">1M</button>
+            <button class="range-pill" data-range="3M">3M</button>
+            <button class="range-pill" data-range="6M">6M</button>
+            <button class="range-pill" data-range="YTD">YTD</button>
+            <button class="range-pill" data-range="1Y">1Y</button>
+            <button class="range-pill active" data-range="MAX">MAX</button>
+          </div>
+          <div class="chart-change">
+            <div class="pct pos" id="chartChangePct">—</div>
+            <div class="lbl" id="chartChangeLbl">— Change</div>
+          </div>
+        </div>
+        <div id="priceChart"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">
+          Position Summary
+          <span class="info" title="Snapshot of your TTWO holding">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          </span>
+        </div>
+        <div class="position-list" id="positionList"></div>
+      </div>
+    </section>
+
+    <!-- HEALTH + SENTIMENT + METRICS ROW -->
+    <section class="mid-row">
+
+      <!-- Portfolio Health -->
+      <div class="card">
+        <div class="card-title">Portfolio Health</div>
+        <div class="health">
+          <div class="health-shield" id="healthShield">
+            <svg viewBox="0 0 80 90" aria-hidden="true">
+              <path d="M40 6 L74 18 L74 50 Q74 76 40 86 Q6 76 6 50 L6 18 Z"
+                    fill="var(--green)"
+                    stroke="var(--green)"
+                    stroke-width="2"/>
+            </svg>
+            <span class="label">LOW</span>
+          </div>
+          <div class="health-stats">
+            <div class="health-stat">
+              <span class="lbl">Concentration</span>
+              <span class="val high" id="healthConc">HIGH</span>
+            </div>
+            <div class="health-stat">
+              <span class="lbl">Cash Available</span>
+              <span class="val" id="healthCash">—</span>
+            </div>
+            <div class="health-stat">
+              <span class="lbl">Max Loss Tolerance</span>
+              <span class="val" style="color: var(--red);" id="healthLoss">—</span>
+            </div>
+            <div class="health-stat">
+              <span class="lbl">Target Profit</span>
+              <span class="val pos" id="healthTarget">—</span>
+            </div>
+            <div class="health-stat" style="flex-direction: column; align-items: stretch; gap: 4px; margin-top: 4px;">
+              <div style="display:flex;justify-content:space-between;">
+                <span class="lbl">Progress to Target</span>
+                <span class="val" id="healthProgress">—</span>
+              </div>
+              <div class="health-progress"><div id="healthProgressBar" style="width:0%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hype & Sentiment -->
+      <div class="card">
+        <div class="card-title">
+          Hype & Sentiment
+          <span class="info" title="Derived from recent news sentiment and time-to-launch signals">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          </span>
+        </div>
+        <div class="gauges" id="gauges"></div>
+      </div>
+
+      <!-- Key Game Metrics -->
+      <div class="card">
+        <div class="card-title">
+          Key Game Metrics
+          <span class="info" title="Updated automatically as new figures appear in news">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          </span>
+        </div>
+        <div class="kgm-list" id="kgmList"></div>
+      </div>
+    </section>
+
+    <!-- COUNTDOWNS STRIP -->
+    <section class="countdowns-row">
+      <div class="card" style="padding: 12px 16px;">
+        <div class="card-title" style="margin-bottom: 10px;">
+          Countdowns
+          <span class="info" title="Live countdowns to the next major GTA VI events. Dynamic items (Trailer 3, Reviews, Online Mode) stay TBD until detected from news.">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          </span>
+        </div>
+        <div class="countdowns" id="countdownsStrip">
+          <!-- populated by renderCountdowns() and live-ticked every minute -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CATALYST + ANALYST ROW -->
+    <section class="catalyst-row">
+      <div class="card">
+        <div class="catalyst" id="catalystBlock">
+          <div class="catalyst-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+              <circle cx="12" cy="16" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="catalyst-body">
+            <div class="catalyst-eyebrow">Next Major Catalyst</div>
+            <div class="catalyst-date" id="catalystDate">—</div>
+            <div class="catalyst-title" id="catalystTitle">—</div>
+            <div class="catalyst-note" id="catalystNote">—</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title" style="color: var(--blue);">
+          Analyst Outlook (USD)
+          <span class="info" title="Aggregate Wall-Street estimates · pricing in USD">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          </span>
+        </div>
+        <div class="analyst-grid">
+          <div class="analyst-cell target">
+            <div class="lbl">Price Target</div>
+            <div class="big" id="anTarget">—</div>
+            <div class="note">Average Target</div>
+          </div>
+          <div class="analyst-cell rating">
+            <div class="lbl">Rating</div>
+            <div class="big" id="anRating">—</div>
+            <div class="note" id="anCount">—</div>
+          </div>
+          <div class="analyst-cell upside">
+            <div class="lbl">Upside Potential</div>
+            <div class="big" id="anUpside">—</div>
+            <div class="note">From Current Price</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS ROW -->
+    <section class="news-row">
+      <div class="card">
+        <div class="card-title" style="color: var(--blue);">
+          Latest GTA VI News
+          <span class="info" title="Top 5 by impact score · aggregated from Yahoo Finance, Google News, Reddit r/GTA6, plus optional industry feeds">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                 stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/>
+              <line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          </span>
+        </div>
+        <div class="news-grid" id="newsList">
+          <div class="news-empty">Loading news…</div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- DECISION PANEL SIDEBAR -->
+  <aside class="col-side">
+
+    <!-- Strategy + Confidence + Actions -->
+    <div class="card card-warm">
+      <div class="decision-head">
+        <h2>Decision Panel</h2>
+        <span class="info" title="Updated each refresh based on price, time-to-launch, and news">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/>
+            <line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+        </span>
+      </div>
+
+      <div class="strategy-block">
+        <div>
+          <div class="label">Current Strategy</div>
+          <div class="verdict" id="primaryVerdict">—</div>
+          <div class="reason" id="primaryReason">—</div>
+        </div>
+        <div class="confidence-ring">
+          <svg viewBox="0 0 78 78">
+            <circle cx="39" cy="39" r="32" fill="none" stroke="var(--border-soft)" stroke-width="7"/>
+            <circle id="confArc" cx="39" cy="39" r="32" fill="none" stroke="var(--orange)"
+                    stroke-width="7" stroke-linecap="round" stroke-dasharray="0 999"/>
+          </svg>
+          <div class="text">
+            <span class="pct" id="confPct">—</span>
+            <span class="sub">Confidence</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="action-pills" id="actionPills"></div>
+    </div>
+
+    <!-- Why not invest today -->
+    <div class="card">
+      <div class="card-title" style="color: var(--blue);">Why Not Invest Today?</div>
+      <div class="why-list" id="whyList"></div>
+    </div>
+
+    <!-- Plan -->
+    <div class="card">
+      <div class="card-title" style="color: var(--blue);">Plan for Extra 500 € (After 25 June)</div>
+      <div class="plan-list" id="planList"></div>
+    </div>
+
+    <!-- Alerts -->
+    <div class="card">
+      <div class="card-title">
+        <span style="color: var(--text-primary);">Alerts & Triggers</span>
+        <span class="alert-count zero" id="alertCount">0</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left:auto;">
+          <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/>
+          <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>
+        </svg>
+      </div>
+      <div class="alerts-list" id="alertsList"></div>
+    </div>
+
+    <div class="card" style="padding: 10px 14px; background: transparent; border: none; box-shadow: none;">
+      <div style="font-size: 10px; color: var(--text-muted); line-height: 1.5;">
+        All prices in EUR · Data delayed · Auto-refresh every 5 min when this tab is open.
+      </div>
+    </div>
+  </aside>
+
+  <!-- DATA QUALITY STRIP -->
+  <section class="quality-row">
+    <div class="card">
+      <div class="quality-head">
+        <span class="title">Data Sources</span>
+        <div class="summary">
+          <span id="qualityLastRun" class="meta">Last run: —</span>
+          <span class="pill" id="qualityDetected">0 events detected</span>
+          <span class="pill" id="qualityFresh" style="display:none;">0 fresh</span>
+          <span class="pill" id="qualityArchive" style="display:none;">0 days archived</span>
+        </div>
+      </div>
+      <div class="quality-chips" id="qualityChips">
+        <!-- populated by renderDataQuality() -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="foot">
+    <div>
+      <span id="footUpdated">Loading…</span>
+    </div>
+    <div class="right">
+      <label style="display:flex;align-items:center;gap:6px;cursor:pointer;">
+        <input type="checkbox" id="autoRefresh" />
+        Auto-refresh
+      </label>
+      <span>·</span>
+      <span id="footStatus">Ready</span>
+    </div>
+  </footer>
+</div>
+
+<div class="toast-wrap" id="toastWrap"></div>
+
+<!-- ─────────────────────────────────────────────────────────────────────
+     SCRIPTS  ·  Data + Renderers + Chart + Theme + Refresh
+     ───────────────────────────────────────────────────────────────────── -->
+<script>
+/* eslint-disable */
+
+// ── Embedded fallback snapshot ───────────────────────────────────────────
+// Mirrors data/snapshot.json so the dashboard renders even when opened
+// locally via file:// before GitHub Actions runs.
+const FALLBACK_SNAPSHOT = {"updated_at":"2026-06-22T22:18:50Z","updated_at_local":"22 Jun 2026, 22:18","stock":{"ticker":"TTWO","currency":"EUR","price_eur":215.05,"price_usd":231.24,"usd_to_eur":0.93,"day_change_abs":-16.79,"day_change_pct":-7.24,"week52_high":268.43,"week52_low":141.06,"history":[{"date":"2025-05-19","close":147.43},{"date":"2025-05-20","close":147.25},{"date":"2025-05-21","close":148.87},{"date":"2025-05-22","close":148.65},{"date":"2025-05-23","close":142.41},{"date":"2025-05-26","close":142.3},{"date":"2025-05-27","close":142.62},{"date":"2025-05-28","close":143.19},{"date":"2025-05-29","close":145.77},{"date":"2025-05-30","close":147.27},{"date":"2025-06-02","close":143.87},{"date":"2025-06-03","close":144.48},{"date":"2025-06-04","close":147.39},{"date":"2025-06-05","close":147.56},{"date":"2025-06-06","close":147.39},{"date":"2025-06-09","close":144.86},{"date":"2025-06-10","close":146.0},{"date":"2025-06-11","close":147.99},{"date":"2025-06-12","close":147.52},{"date":"2025-06-13","close":148.43},{"date":"2025-06-16","close":148.42},{"date":"2025-06-17","close":149.76},{"date":"2025-06-18","close":146.43},{"date":"2025-06-19","close":140.75},{"date":"2025-06-20","close":139.55},{"date":"2025-06-23","close":141.08},{"date":"2025-06-24","close":138.58},{"date":"2025-06-25","close":140.43},{"date":"2025-06-26","close":138.4},{"date":"2025-06-27","close":138.31},{"date":"2025-06-30","close":139.89},{"date":"2025-07-01","close":141.31},{"date":"2025-07-02","close":142.14},{"date":"2025-07-03","close":143.6},{"date":"2025-07-04","close":144.72},{"date":"2025-07-07","close":141.06},{"date":"2025-07-08","close":142.2},{"date":"2025-07-09","close":141.75},{"date":"2025-07-10","close":146.8},{"date":"2025-07-11","close":145.07},{"date":"2025-07-14","close":147.66},{"date":"2025-07-15","close":148.85},{"date":"2025-07-16","close":150.8},{"date":"2025-07-17","close":154.1},{"date":"2025-07-18","close":153.95},{"date":"2025-07-21","close":151.83},{"date":"2025-07-22","close":148.62},{"date":"2025-07-23","close":148.77},{"date":"2025-07-24","close":149.42},{"date":"2025-07-25","close":148.79},{"date":"2025-07-28","close":157.24},{"date":"2025-07-29","close":158.77},{"date":"2025-07-30","close":157.39},{"date":"2025-07-31","close":156.13},{"date":"2025-08-01","close":154.26},{"date":"2025-08-04","close":155.19},{"date":"2025-08-05","close":157.01},{"date":"2025-08-06","close":155.38},{"date":"2025-08-07","close":154.77},{"date":"2025-08-08","close":150.57},{"date":"2025-08-11","close":148.03},{"date":"2025-08-12","close":150.76},{"date":"2025-08-13","close":150.8},{"date":"2025-08-14","close":151.48},{"date":"2025-08-15","close":151.94},{"date":"2025-08-18","close":157.36},{"date":"2025-08-19","close":155.05},{"date":"2025-08-20","close":157.23},{"date":"2025-08-21","close":158.21},{"date":"2025-08-22","close":161.19},{"date":"2025-08-25","close":165.16},{"date":"2025-08-26","close":175.77},{"date":"2025-08-27","close":176.13},{"date":"2025-08-28","close":174.82},{"date":"2025-08-29","close":171.91},{"date":"2025-09-01","close":177.51},{"date":"2025-09-02","close":179.39},{"date":"2025-09-03","close":173.05},{"date":"2025-09-04","close":174.95},{"date":"2025-09-05","close":176.46},{"date":"2025-09-08","close":173.52},{"date":"2025-09-09","close":178.07},{"date":"2025-09-10","close":175.3},{"date":"2025-09-11","close":174.23},{"date":"2025-09-12","close":177.85},{"date":"2025-09-15","close":176.12},{"date":"2025-09-16","close":172.89},{"date":"2025-09-17","close":173.52},{"date":"2025-09-18","close":170.43},{"date":"2025-09-19","close":172.76},{"date":"2025-09-22","close":179.62},{"date":"2025-09-23","close":183.35},{"date":"2025-09-24","close":179.81},{"date":"2025-09-25","close":179.54},{"date":"2025-09-26","close":180.46},{"date":"2025-09-29","close":183.35},{"date":"2025-09-30","close":185.02},{"date":"2025-10-01","close":189.32},{"date":"2025-10-02","close":191.38},{"date":"2025-10-03","close":191.57},{"date":"2025-10-06","close":187.18},{"date":"2025-10-07","close":186.68},{"date":"2025-10-08","close":192.38},{"date":"2025-10-09","close":190.65},{"date":"2025-10-10","close":191.61},{"date":"2025-10-13","close":186.84},{"date":"2025-10-14","close":189.2},{"date":"2025-10-15","close":193.35},{"date":"2025-10-16","close":193.26},{"date":"2025-10-17","close":190.05},{"date":"2025-10-20","close":194.38},{"date":"2025-10-21","close":192.37},{"date":"2025-10-22","close":195.68},{"date":"2025-10-23","close":195.97},{"date":"2025-10-24","close":198.06},{"date":"2025-10-27","close":204.63},{"date":"2025-10-28","close":211.26},{"date":"2025-10-29","close":212.04},{"date":"2025-10-30","close":211.1},{"date":"2025-10-31","close":211.46},{"date":"2025-11-03","close":218.24},{"date":"2025-11-04","close":222.15},{"date":"2025-11-05","close":220.43},{"date":"2025-11-06","close":214.71},{"date":"2025-11-07","close":215.67},{"date":"2025-11-10","close":217.24},{"date":"2025-11-11","close":219.22},{"date":"2025-11-12","close":215.94},{"date":"2025-11-13","close":217.61},{"date":"2025-11-14","close":216.97},{"date":"2025-11-17","close":213.44},{"date":"2025-11-18","close":211.06},{"date":"2025-11-19","close":212.72},{"date":"2025-11-20","close":214.28},{"date":"2025-11-21","close":212.43},{"date":"2025-11-24","close":214.64},{"date":"2025-11-25","close":215.87},{"date":"2025-11-26","close":215.88},{"date":"2025-11-27","close":223.21},{"date":"2025-11-28","close":216.96},{"date":"2025-12-01","close":217.87},{"date":"2025-12-02","close":224.08},{"date":"2025-12-03","close":224.03},{"date":"2025-12-04","close":238.27},{"date":"2025-12-05","close":236.64},{"date":"2025-12-08","close":233.56},{"date":"2025-12-09","close":233.74},{"date":"2025-12-10","close":232.71},{"date":"2025-12-11","close":233.38},{"date":"2025-12-12","close":225.97},{"date":"2025-12-15","close":238.15},{"date":"2025-12-16","close":234.5},{"date":"2025-12-17","close":235.49},{"date":"2025-12-18","close":246.62},{"date":"2025-12-19","close":243.34},{"date":"2025-12-22","close":237.44},{"date":"2025-12-23","close":239.86},{"date":"2025-12-24","close":244.45},{"date":"2025-12-25","close":243.44},{"date":"2025-12-26","close":237.53},{"date":"2025-12-29","close":241.89},{"date":"2025-12-30","close":234.73},{"date":"2025-12-31","close":234.56},{"date":"2026-01-01","close":239.43},{"date":"2026-01-02","close":247.01},{"date":"2026-01-05","close":245.36},{"date":"2026-01-06","close":242.18},{"date":"2026-01-07","close":242.28},{"date":"2026-01-08","close":244.05},{"date":"2026-01-09","close":246.1},{"date":"2026-01-12","close":237.1},{"date":"2026-01-13","close":232.93},{"date":"2026-01-14","close":235.14},{"date":"2026-01-15","close":226.93},{"date":"2026-01-16","close":225.77},{"date":"2026-01-19","close":232.62},{"date":"2026-01-20","close":236.07},{"date":"2026-01-21","close":234.6},{"date":"2026-01-22","close":231.93},{"date":"2026-01-23","close":229.54},{"date":"2026-01-26","close":239.88},{"date":"2026-01-27","close":251.8},{"date":"2026-01-28","close":251.57},{"date":"2026-01-29","close":253.81},{"date":"2026-01-30","close":254.88},{"date":"2026-02-02","close":268.43},{"date":"2026-02-03","close":262.64},{"date":"2026-02-04","close":260.92},{"date":"2026-02-05","close":262.47},{"date":"2026-02-06","close":265.41},{"date":"2026-02-09","close":243.68},{"date":"2026-02-10","close":243.33},{"date":"2026-02-11","close":242.87},{"date":"2026-02-12","close":244.04},{"date":"2026-02-13","close":241.14},{"date":"2026-02-16","close":230.46},{"date":"2026-02-17","close":231.69},{"date":"2026-02-18","close":235.09},{"date":"2026-02-19","close":237.81},{"date":"2026-02-20","close":237.06},{"date":"2026-02-23","close":226.79},{"date":"2026-02-24","close":224.98},{"date":"2026-02-25","close":222.97},{"date":"2026-02-26","close":215.7},{"date":"2026-02-27","close":216.21},{"date":"2026-03-02","close":213.51},{"date":"2026-03-03","close":214.71},{"date":"2026-03-04","close":220.24},{"date":"2026-03-05","close":220.35},{"date":"2026-03-06","close":218.65},{"date":"2026-03-09","close":212.35},{"date":"2026-03-10","close":211.96},{"date":"2026-03-11","close":212.17},{"date":"2026-03-12","close":218.05},{"date":"2026-03-13","close":221.12},{"date":"2026-03-16","close":224.29},{"date":"2026-03-17","close":220.42},{"date":"2026-03-18","close":221.43},{"date":"2026-03-19","close":222.79},{"date":"2026-03-20","close":220.2},{"date":"2026-03-23","close":222.07},{"date":"2026-03-24","close":223.88},{"date":"2026-03-25","close":222.47},{"date":"2026-03-26","close":222.44},{"date":"2026-03-27","close":223.96},{"date":"2026-03-30","close":214.49},{"date":"2026-03-31","close":216.98},{"date":"2026-04-01","close":221.2},{"date":"2026-04-02","close":227.49},{"date":"2026-04-03","close":233.58},{"date":"2026-04-06","close":222.19},{"date":"2026-04-07","close":227.52},{"date":"2026-04-08","close":228.32},{"date":"2026-04-09","close":224.34},{"date":"2026-04-10","close":231.05},{"date":"2026-04-13","close":227.41},{"date":"2026-04-14","close":224.85},{"date":"2026-04-15","close":225.16},{"date":"2026-04-16","close":223.53},{"date":"2026-04-17","close":228.08},{"date":"2026-04-20","close":230.19},{"date":"2026-04-21","close":227.23},{"date":"2026-04-22","close":227.87},{"date":"2026-04-23","close":242.15},{"date":"2026-04-24","close":239.46},{"date":"2026-04-27","close":238.17},{"date":"2026-04-28","close":244.3},{"date":"2026-04-29","close":246.98},{"date":"2026-04-30","close":246.12},{"date":"2026-05-01","close":243.53},{"date":"2026-05-04","close":243.9},{"date":"2026-05-05","close":245.34},{"date":"2026-05-06","close":244.4},{"date":"2026-05-07","close":246.4},{"date":"2026-05-08","close":245.7},{"date":"2026-05-11","close":250.01},{"date":"2026-05-12","close":252.19},{"date":"2026-05-13","close":251.38},{"date":"2026-05-14","close":247.76},{"date":"2026-05-15","close":243.92},{"date":"2026-05-18","close":239.88},{"date":"2026-05-19","close":239.42},{"date":"2026-05-20","close":244.76},{"date":"2026-05-21","close":252.76},{"date":"2026-05-22","close":252.36},{"date":"2026-05-25","close":243.48},{"date":"2026-05-26","close":237.62},{"date":"2026-05-27","close":236.38},{"date":"2026-05-28","close":237.06},{"date":"2026-05-29","close":235.05},{"date":"2026-06-01","close":234.92},{"date":"2026-06-02","close":233.96},{"date":"2026-06-03","close":230.64},{"date":"2026-06-04","close":229.01},{"date":"2026-06-05","close":231.96},{"date":"2026-06-08","close":237.11},{"date":"2026-06-09","close":239.1},{"date":"2026-06-10","close":243.31},{"date":"2026-06-11","close":240.27},{"date":"2026-06-12","close":243.35},{"date":"2026-06-15","close":239.57},{"date":"2026-06-16","close":240.89},{"date":"2026-06-17","close":238.83},{"date":"2026-06-18","close":232.17},{"date":"2026-06-19","close":231.84},{"date":"2026-06-22","close":215.05}],"data_source":"sample"},"portfolio":{"shares":7.52397999,"avg_price":214.65,"invested":1615.0,"extra_cash":500.0,"max_loss":400.0,"profit_target":500.0,"current_value":1618.03,"pl_abs":3.03,"pl_pct":0.19,"target_value":2115.0,"distance_to_target":496.97,"progress_pct":0.61,"break_even_price":214.65},"strategy":{"primary":"WAIT","primary_confidence":80,"reasoning":["Preorder event in 3 days — high volatility window.","Price is near your average cost (214.65 €).","Risk/reward is not attractive right now.","High 'buy the rumor, sell the news' risk before launch."],"actions":{"hold_shares":{"verdict":"HOLD","confidence":85},"invest_extra":{"verdict":"WAIT","confidence":80},"sell_all":{"verdict":"NO","confidence":90}},"metrics":{"days_to_preorder":3,"days_to_launch":150,"above_avg_pct":0.19,"bearish_signals":1,"bullish_signals":4}},"events":[{"date":"2023-12-04","title":"Trailer 1","short":"TRAILER 1","icon":"▶","type":"trailer","color":"#a855f7","impact":"Set franchise hype record; TTWO closed +1.8% next session.","source":"Rockstar Newswire"},{"date":"2025-05-06","title":"Trailer 2","short":"TRAILER 2","icon":"▶","type":"trailer","color":"#a855f7","impact":"Confirmed Vice City setting; TTWO +3.2% week-over-week.","source":"Rockstar Newswire"},{"date":"2026-06-18","title":"Cover Art","short":"COVER ART","icon":"🖼","type":"media","color":"#16a34a","impact":"Marketing kickoff. Generally bullish for pre-release positioning.","source":"Rockstar Newswire"},{"date":"2026-06-25","title":"Preorders Open","short":"PREORDERS OPEN","icon":"🛒","type":"commerce","color":"#f97316","impact":"First hard demand signal. Historically high-volatility event.","source":"Take-Two IR"},{"date":"2026-11-19","title":"Launch","short":"LAUNCH","icon":"🚀","type":"release","color":"#a855f7","impact":"Global release. Classic 'sell the news' risk window.","source":"Take-Two IR"}],"detected_events":[],"fresh_detections":[],"next_catalyst":{"date":"2026-06-25","title":"Preorders Open","short":"PREORDERS OPEN","icon":"🛒","type":"commerce","color":"#f97316","impact":"First hard demand signal. Historically high-volatility event.","source":"Take-Two IR"},"news":[{"headline":"Take-Two Interactive shares hit fresh 52-week high ahead of GTA VI preorder window","date":"2026-06-21","url":"https://example.com/1","source":"Yahoo Finance","importance":9,"sentiment":"bullish"},{"headline":"Rockstar confirms GTA VI preorders open June 25 across PS5 and Xbox Series X|S","date":"2026-06-20","url":"https://example.com/2","source":"Google News","importance":10,"sentiment":"bullish"},{"headline":"Analyst raises Take-Two price target to $300 citing GTA VI launch momentum","date":"2026-06-19","url":"https://example.com/3","source":"Yahoo Finance","importance":8,"sentiment":"bullish"},{"headline":"Cover art reveal drives r/GTA6 subscriber growth past 3 million milestone","date":"2026-06-18","url":"https://example.com/4","source":"r/GTA6","importance":6,"sentiment":"bullish"},{"headline":"Take-Two CFO signals 'measured' guidance update at next earnings call","date":"2026-06-17","url":"https://example.com/5","source":"Yahoo Finance","importance":6,"sentiment":"neutral"},{"headline":"Industry watchers warn of typical 'sell the news' pattern around AAA launches","date":"2026-06-16","url":"https://example.com/6","source":"Google News","importance":7,"sentiment":"bearish"}],"sentiment":{"fan_excitement":9,"release_confidence":8,"short_term_risk":6,"long_term_upside":8},"game_metrics":{"franchise_sales":"400M+","copies_sold":"N/A","copies_sold_note":"Not Released","launch_estimate":"45M+","launch_estimate_note":"First Weeks (Est.)","preorder_numbers":"N/A","preorder_note":"Waiting","platforms":"PS5, XSX|S"},"analyst":{"price_target_low":280,"price_target_high":300,"currency":"USD","rating":"STRONG BUY","analysts_count":32,"upside_low":15,"upside_high":25},"countdowns":[{"key":"preorders","label":"Preorders","icon":"🛒","date":"2026-06-25","known":true},{"key":"trailer-3","label":"Trailer 3","icon":"🎥","date":null,"known":false},{"key":"review-embargo","label":"Reviews","icon":"📰","date":null,"known":false},{"key":"launch","label":"Launch","icon":"🚀","date":"2026-11-19","known":true},{"key":"online-mode","label":"Online Mode","icon":"🌐","date":null,"known":false}],"data_quality":{"stock":{"source":"yfinance","status":"sample","elapsed_sec":0.0,"category":"stock","last_fetched":"2026-06-22T22:18:50Z"},"feeds":[{"label":"Yahoo Finance","status":"sample","items_raw":0,"elapsed_sec":0.0,"category":"financial","last_fetched":"2026-06-22T22:18:50Z"},{"label":"Reuters","status":"sample","items_raw":0,"elapsed_sec":0.0,"category":"financial","last_fetched":"2026-06-22T22:18:50Z"},{"label":"Google News","status":"sample","items_raw":0,"elapsed_sec":0.0,"category":"aggregator","last_fetched":"2026-06-22T22:18:50Z"},{"label":"PlayStation Blog","status":"sample","items_raw":0,"elapsed_sec":0.0,"category":"platform","last_fetched":"2026-06-22T22:18:50Z"},{"label":"Xbox Wire","status":"sample","items_raw":0,"elapsed_sec":0.0,"category":"platform","last_fetched":"2026-06-22T22:18:50Z"},{"label":"IGN","status":"sample","items_raw":0,"elapsed_sec":0.0,"category":"gaming","last_fetched":"2026-06-22T22:18:50Z"},{"label":"GamesRadar","status":"sample","items_raw":0,"elapsed_sec":0.0,"category":"gaming","last_fetched":"2026-06-22T22:18:50Z"},{"label":"r/GTA6","status":"sample","items_raw":0,"elapsed_sec":0.0,"category":"community","last_fetched":"2026-06-22T22:18:50Z"}],"summary":{"events_detected_total":0,"fresh_this_run":0,"news_items":6,"archive_count":0,"last_run_utc":"2026-06-22T22:18:50Z"}},"alerts":[{"label":"Profit exceeds +500 €","status":"Watching","active":false,"tone":"blue","category":"portfolio","key":"profit-target","fresh":false},{"label":"Stop Loss (−400 € from total capital)","status":"Watching","active":false,"tone":"blue","category":"portfolio","key":"stop-loss","fresh":false},{"label":"TTWO falls 10% after preorder event","status":"BUY 500 €","active":false,"tone":"blue","category":"portfolio","key":"post-preorder-dip","fresh":false},{"label":"Trailer 3 released","status":"Watching","active":false,"tone":"blue","category":"event","key":"trailer-3","fresh":false},{"label":"GTA VI delayed","status":"Watching","active":false,"tone":"blue","category":"event","key":"delay-announced","fresh":false},{"label":"Gameplay reveal","status":"Watching","active":false,"tone":"blue","category":"event","key":"gameplay-reveal","fresh":false},{"label":"Collector Edition announced","status":"Watching","active":false,"tone":"blue","category":"event","key":"collector-edition","fresh":false},{"label":"Review embargo lifted","status":"Watching","active":false,"tone":"blue","category":"event","key":"review-embargo","fresh":false},{"label":"Metacritic score available","status":"Watching","active":false,"tone":"blue","category":"event","key":"metacritic","fresh":false},{"label":"PC version announced","status":"Watching","active":false,"tone":"blue","category":"event","key":"pc-version","fresh":false},{"label":"Online mode announced","status":"Watching","active":false,"tone":"blue","category":"event","key":"online-mode","fresh":false},{"label":"Launch trailer dropped","status":"Watching","active":false,"tone":"blue","category":"event","key":"launch-trailer","fresh":false},{"label":"Copies sold milestone","status":"Watching","active":false,"tone":"blue","category":"event","key":"sales-milestone","fresh":false},{"label":"Preorder record set","status":"Watching","active":false,"tone":"blue","category":"event","key":"preorder-record","fresh":false},{"label":"Wishlist ranking spike","status":"Watching","active":false,"tone":"blue","category":"event","key":"wishlist-rank","fresh":false},{"label":"Award / nomination","status":"Watching","active":false,"tone":"blue","category":"event","key":"award-nomination","fresh":false},{"label":"Price revealed","status":"Watching","active":false,"tone":"blue","category":"event","key":"price-reveal","fresh":false}]};
+
+// ── State ────────────────────────────────────────────────────────────────
+const STATE = {
+  data: null,
+  currentRange: "MAX",
+  theme: localStorage.getItem("ttwo-theme") || "light",
+  autoRefresh: false,
+  autoRefreshTimer: null,
+  refreshing: false,
+};
+
+// ── Utilities ────────────────────────────────────────────────────────────
+const $  = (sel, root = document) => root.querySelector(sel);
+const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+
+function fmtEUR(n, sign = false) {
+  if (n == null || isNaN(n)) return "—";
+  const abs = Math.abs(n).toLocaleString("en-US", {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
+  });
+  const s = sign && n > 0 ? "+" : (n < 0 ? "−" : "");
+  return `${s}${abs} €`;
+}
+function fmtPct(n, sign = true, decimals = 2) {
+  if (n == null || isNaN(n)) return "—";
+  const s = sign && n > 0 ? "+" : (n < 0 ? "−" : "");
+  return `${s}${Math.abs(n).toFixed(decimals)}%`;
+}
+function fmtNum(n) {
+  if (n == null || isNaN(n)) return "—";
+  return n.toLocaleString("en-US", {
+    maximumFractionDigits: 8,
+  });
+}
+function fmtDate(iso) {
+  if (!iso) return "—";
+  try {
+    const d = new Date(iso);
+    return d.toLocaleDateString("en-GB", {
+      day: "numeric", month: "short", year: "numeric"
+    });
+  } catch { return iso; }
+}
+function relTime(iso) {
+  if (!iso) return "—";
+  try {
+    const d = new Date(iso);
+    const diff = (Date.now() - d.getTime()) / 1000;
+    if (diff < 60) return "just now";
+    if (diff < 3600) return `${Math.floor(diff/60)} min ago`;
+    if (diff < 86400) return `${Math.floor(diff/3600)} h ago`;
+    return `${Math.floor(diff/86400)} d ago`;
+  } catch { return iso; }
+}
+function toast(msg, type = "info") {
+  const wrap = $("#toastWrap");
+  const el = document.createElement("div");
+  el.className = `toast ${type}`;
+  el.innerHTML = `<span class="dot"></span><span>${msg}</span>`;
+  wrap.appendChild(el);
+  requestAnimationFrame(() => el.classList.add("show"));
+  setTimeout(() => {
+    el.classList.remove("show");
+    setTimeout(() => el.remove(), 250);
+  }, 2800);
+}
+
+// Animated number counter on element with optional decimals + suffix
+function animateNumber(el, from, to, opts = {}) {
+  if (!el) return;
+  const { duration = 700, decimals = 2, prefix = "", suffix = " €", sign = true } = opts;
+  const start = performance.now();
+  const fromN = isFinite(from) ? from : to;
+  const delta = to - fromN;
+  function step(now) {
+    const t = Math.min(1, (now - start) / duration);
+    const eased = 1 - Math.pow(1 - t, 3);
+    const v = fromN + delta * eased;
+    const s = sign && v > 0 ? "+" : (v < 0 ? "−" : "");
+    el.textContent = `${prefix}${s}${Math.abs(v).toLocaleString("en-US", {
+      minimumFractionDigits: decimals, maximumFractionDigits: decimals
+    })}${suffix}`;
+    if (t < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+// ── Theme ────────────────────────────────────────────────────────────────
+function applyTheme(theme) {
+  document.body.dataset.theme = theme;
+  STATE.theme = theme;
+  localStorage.setItem("ttwo-theme", theme);
+  // Update theme-color meta for status bar tint on iOS/Android
+  const t = theme === "dark" ? "#07090d" : "#f9faf8";
+  $$('meta[name="theme-color"]').forEach(m => m.setAttribute("content", t));
+  // Re-render chart with new colors
+  if (STATE.data) renderChart(STATE.data);
+}
+$("#themeToggle").addEventListener("click", () => {
+  applyTheme(STATE.theme === "dark" ? "light" : "dark");
+});
+
+// ── Data loading ─────────────────────────────────────────────────────────
+async function loadData(showStatus = true) {
+  if (STATE.refreshing) return;
+  STATE.refreshing = true;
+  const btn = $("#refreshBtn");
+  btn.classList.add("btn-spinning");
+  $("#footStatus").textContent = "Refreshing…";
+
+  let data = null;
+  try {
+    const r = await fetch(`data/snapshot.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    data = await r.json();
+    $("#dataSource").textContent = data.stock.data_source === "yfinance"
+      ? "Live · yfinance"
+      : "Demo data";
+  } catch (e) {
+    console.warn("[ttwo] Falling back to embedded data:", e.message);
+    data = FALLBACK_SNAPSHOT;
+    $("#dataSource").textContent = "Demo data (no snapshot.json yet)";
+    if (showStatus) toast("Using bundled demo data — deploy the Action for live updates", "info");
+  }
+
+  const prev = STATE.data;
+  STATE.data = data;
+  renderAll(data, prev);
+  btn.classList.remove("btn-spinning");
+  $("#footStatus").textContent = "Ready";
+  $("#footUpdated").textContent = `Last updated: ${data.updated_at_local || data.updated_at}`;
+  STATE.refreshing = false;
+  if (showStatus) toast("Dashboard updated", "success");
+}
+
+// ── Renderers ────────────────────────────────────────────────────────────
+function renderAll(d, prev) {
+  renderHeader(d);
+  renderKpis(d, prev);
+  renderChart(d);
+  renderPosition(d);
+  renderHealth(d);
+  renderSentiment(d);
+  renderKgm(d);
+  renderCatalyst(d);
+  renderCountdowns(d);
+  renderAnalyst(d);
+  renderDecision(d);
+  renderAlerts(d);
+  renderNews(d);
+  renderDataQuality(d);
+}
+
+function renderHeader(d) {
+  $("#headerDate").textContent = fmtDate(d.updated_at);
+  $("#lastUpdate").textContent = `Updated ${relTime(d.updated_at)}`;
+}
+
+function renderKpis(d, prev) {
+  const p = d.portfolio;
+  const s = d.stock;
+
+  // P/L
+  const plEl = $("#plValue");
+  plEl.classList.toggle("pos", p.pl_abs >= 0);
+  plEl.classList.toggle("neg", p.pl_abs < 0);
+  animateNumber(plEl, prev ? prev.portfolio.pl_abs : 0, p.pl_abs, { decimals: 2, suffix: " €", sign: true });
+  const plPctEl = $("#plPct");
+  plPctEl.classList.toggle("pos", p.pl_pct >= 0);
+  plPctEl.classList.toggle("neg", p.pl_pct < 0);
+  plPctEl.textContent = fmtPct(p.pl_pct);
+
+  // Sparkline: last 60 days of stock close
+  drawSparkline("#plSpark", s.history.slice(-60), p.pl_abs >= 0 ? "var(--green)" : "var(--red)");
+
+  // Portfolio value
+  animateNumber($("#valValue"), prev ? prev.portfolio.current_value : 0, p.current_value, { decimals: 2, suffix: " €", sign: false });
+  $("#invValue").textContent = fmtEUR(p.invested);
+
+  // Distance to target
+  const tgtEl = $("#tgtValue");
+  animateNumber(tgtEl, prev ? prev.portfolio.distance_to_target : 0, p.distance_to_target, { decimals: 2, suffix: " €", sign: true });
+  $("#tgtTotal").textContent = fmtEUR(p.target_value);
+  drawTargetRing("#tgtRing", p.progress_pct);
+
+  // Current price
+  animateNumber($("#priceValue"), prev ? prev.stock.price_eur : 0, s.price_eur, { decimals: 2, suffix: " €", sign: false });
+  const dcEl = $("#dayChange");
+  dcEl.className = s.day_change_pct >= 0 ? "pos" : "neg";
+  dcEl.innerHTML = `${fmtPct(s.day_change_pct)} ${s.day_change_pct >= 0 ? "▲" : "▼"}`;
+  $("#range52").textContent = `${fmtEUR(s.week52_low)} – ${fmtEUR(s.week52_high)}`;
+  const pos = ((s.price_eur - s.week52_low) / (s.week52_high - s.week52_low)) * 100;
+  $("#rangeBar").style.setProperty("--pos", `${Math.max(2, Math.min(98, pos))}%`);
+}
+
+function drawSparkline(sel, history, color) {
+  const svg = $(sel);
+  if (!svg || !history.length) return;
+  const vals = history.map(h => h.close);
+  const min = Math.min(...vals), max = Math.max(...vals);
+  const range = max - min || 1;
+  const W = 100, H = 36;
+  const pts = vals.map((v, i) => {
+    const x = (i / (vals.length - 1)) * W;
+    const y = H - ((v - min) / range) * (H - 4) - 2;
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  });
+  svg.innerHTML = `
+    <defs><linearGradient id="sg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="${color}" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="${color}" stop-opacity="0"/>
+    </linearGradient></defs>
+    <polygon points="${pts.join(" ")} ${W},${H} 0,${H}" fill="url(#sg)"/>
+    <polyline points="${pts.join(" ")}" fill="none" stroke="${color}" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+  `;
+}
+
+function drawTargetRing(sel, pct) {
+  const svg = $(sel);
+  if (!svg) return;
+  const r = 24;
+  const C = 2 * Math.PI * r;
+  const filled = (Math.max(0, Math.min(100, pct)) / 100) * C;
+  svg.innerHTML = `
+    <circle cx="32" cy="32" r="${r}" fill="none" stroke="var(--border-soft)" stroke-width="5"/>
+    <circle cx="32" cy="32" r="${r}" fill="none" stroke="var(--orange)" stroke-width="5"
+            stroke-linecap="round" stroke-dasharray="${filled} ${C}"
+            transform="rotate(-90 32 32)"/>
+    <text x="32" y="32" text-anchor="middle" dominant-baseline="middle"
+          font-family="var(--font-num)" font-size="13" font-weight="700"
+          fill="var(--orange)">${pct.toFixed(1)}%</text>
+    <text x="32" y="44" text-anchor="middle" dominant-baseline="middle"
+          font-size="6" font-weight="600" fill="var(--text-muted)" letter-spacing="0.05em">OF TARGET</text>
+  `;
+}
+
+// ── Plotly chart ─────────────────────────────────────────────────────────
+function renderChart(d) {
+  const hist = filterHistory(d.stock.history, STATE.currentRange);
+  const dates = hist.map(h => h.date);
+  const closes = hist.map(h => h.close);
+
+  const isDark = STATE.theme === "dark";
+  const styles = getComputedStyle(document.body);
+  const lineColor = styles.getPropertyValue("--chart-line").trim() || "#2563eb";
+  const fillColor = styles.getPropertyValue("--chart-fill").trim() || "rgba(59,130,246,0.10)";
+  const gridColor = styles.getPropertyValue("--chart-grid").trim() || "#e5e7eb";
+  const axisColor = styles.getPropertyValue("--chart-axis").trim() || "#9ca3af";
+  const textColor = styles.getPropertyValue("--text-primary").trim();
+  const cardBg = styles.getPropertyValue("--bg-card").trim();
+  const avgPriceColor = styles.getPropertyValue("--chart-avg").trim();
+
+  const traces = [
+    {
+      x: dates,
+      y: closes,
+      type: "scatter",
+      mode: "lines",
+      name: "TTWO",
+      line: { color: lineColor, width: 2.2, shape: "spline", smoothing: 0.7 },
+      fill: "tozeroy",
+      fillcolor: fillColor,
+      hovertemplate: "<b>%{x|%d %b %Y}</b><br>%{y:.2f} €<extra></extra>",
+      hoverlabel: { bgcolor: cardBg, bordercolor: lineColor, font: { color: textColor } },
+    },
+  ];
+
+  // Event markers — colored circles with vertical dashed lines + labels above
+  const shapes = [];
+  const annotations = [];
+
+  // Avg price horizontal line
+  const avgPrice = d.portfolio.avg_price;
+  shapes.push({
+    type: "line",
+    xref: "paper", x0: 0, x1: 1,
+    yref: "y", y0: avgPrice, y1: avgPrice,
+    line: { color: avgPriceColor, width: 1.4, dash: "dash" },
+  });
+  annotations.push({
+    xref: "paper", x: 1, xanchor: "right",
+    yref: "y", y: avgPrice, yanchor: "bottom",
+    text: `Avg Price ${avgPrice.toFixed(2)} €`,
+    showarrow: false,
+    font: { color: avgPriceColor, size: 11, family: styles.getPropertyValue("--font-num") },
+    bgcolor: cardBg,
+    bordercolor: avgPriceColor,
+    borderwidth: 1, borderpad: 3,
+  });
+
+  // Current price tag (right edge)
+  const lastDate = dates[dates.length - 1];
+  const lastClose = closes[closes.length - 1];
+  annotations.push({
+    x: lastDate, y: lastClose,
+    xanchor: "left", yanchor: "middle",
+    text: `${lastClose.toFixed(2)}`,
+    showarrow: false,
+    bgcolor: lineColor,
+    bordercolor: lineColor,
+    font: { color: "white", size: 11, family: styles.getPropertyValue("--font-num") },
+    borderpad: 4,
+  });
+
+  // GTA VI event markers
+  const minY = Math.min(...closes);
+  const maxY = Math.max(...closes);
+  const padY = (maxY - minY) * 0.08;
+  const yMin = minY - padY;
+  const yMax = maxY + padY * 2;
+
+  d.events.forEach(ev => {
+    if (!dates.length) return;
+    const evDate = ev.date;
+    const inRange = evDate >= dates[0] && evDate <= dates[dates.length - 1];
+    if (!inRange) return;
+
+    // Vertical dashed line
+    shapes.push({
+      type: "line",
+      x0: evDate, x1: evDate,
+      y0: yMin, y1: yMax,
+      line: { color: ev.color, width: 1, dash: "dot" },
+      opacity: 0.5,
+    });
+    // Label above
+    annotations.push({
+      x: evDate, y: yMax,
+      yanchor: "bottom",
+      text: `<b>${ev.short}</b><br><span style="font-size:9px;color:${axisColor}">${formatEventDate(evDate)}</span>`,
+      showarrow: false,
+      font: { size: 10, color: textColor, family: styles.getPropertyValue("--font-ui") },
+      bgcolor: "rgba(0,0,0,0)",
+      align: "center",
+      yshift: 28,
+    });
+  });
+
+  // Event markers themselves as a scatter trace (circles with emoji)
+  const markerTrace = {
+    x: d.events.filter(ev => ev.date >= (dates[0] || "0000") && ev.date <= (dates[dates.length-1] || "9999")).map(ev => ev.date),
+    y: d.events.filter(ev => ev.date >= (dates[0] || "0000") && ev.date <= (dates[dates.length-1] || "9999")).map(ev => yMax),
+    text: d.events.filter(ev => ev.date >= (dates[0] || "0000") && ev.date <= (dates[dates.length-1] || "9999")).map(ev => ev.icon),
+    customdata: d.events.filter(ev => ev.date >= (dates[0] || "0000") && ev.date <= (dates[dates.length-1] || "9999")).map(ev => [ev.title, ev.impact, ev.source]),
+    mode: "markers+text",
+    type: "scatter",
+    marker: {
+      size: 22,
+      color: cardBg,
+      line: { color: d.events.filter(ev => ev.date >= (dates[0] || "0000") && ev.date <= (dates[dates.length-1] || "9999")).map(ev => ev.color), width: 2 },
+    },
+    textfont: { size: 11 },
+    textposition: "middle center",
+    hovertemplate:
+      "<b>%{customdata[0]}</b><br>" +
+      "%{x|%d %b %Y}<br><br>" +
+      "%{customdata[1]}<br>" +
+      "<span style='color:#94a3b8'>Source: %{customdata[2]}</span><extra></extra>",
+    hoverlabel: { bgcolor: cardBg, bordercolor: axisColor, font: { color: textColor, size: 11 } },
+    showlegend: false,
+    name: "",
+  };
+  if (markerTrace.x.length) traces.push(markerTrace);
+
+  const layout = {
+    margin: { l: 44, r: 64, t: 40, b: 32 },
+    paper_bgcolor: "transparent",
+    plot_bgcolor: "transparent",
+    showlegend: false,
+    hovermode: "x unified",
+    xaxis: {
+      showgrid: false,
+      showline: false,
+      tickfont: { color: axisColor, size: 10, family: styles.getPropertyValue("--font-ui") },
+      type: "date",
+      tickformat: "%b '%y",
+    },
+    yaxis: {
+      showgrid: true,
+      gridcolor: gridColor,
+      gridwidth: 1,
+      showline: false,
+      zeroline: false,
+      tickfont: { color: axisColor, size: 10, family: styles.getPropertyValue("--font-num") },
+      side: "left",
+      tickformat: ".0f",
+      range: [yMin - padY * 0.5, yMax + padY * 1.2],
+    },
+    shapes,
+    annotations,
+  };
+
+  const config = {
+    displayModeBar: false,
+    responsive: true,
+  };
+
+  Plotly.react("priceChart", traces, layout, config);
+
+  // Update header change badge
+  const first = closes[0], last = closes[closes.length - 1];
+  const pct = ((last - first) / first) * 100;
+  const el = $("#chartChangePct");
+  el.classList.toggle("pos", pct >= 0);
+  el.classList.toggle("neg", pct < 0);
+  el.textContent = fmtPct(pct);
+  $("#chartChangeLbl").textContent = `${STATE.currentRange} Change`;
+}
+
+function filterHistory(history, range) {
+  if (!history?.length) return [];
+  if (range === "MAX") return history;
+  const lastDate = new Date(history[history.length - 1].date);
+  let cutoff;
+  switch (range) {
+    case "1D":  cutoff = new Date(lastDate.getTime() - 1 * 86400000); break;
+    case "5D":  cutoff = new Date(lastDate.getTime() - 7 * 86400000); break;
+    case "1M":  cutoff = new Date(lastDate.getTime() - 30 * 86400000); break;
+    case "3M":  cutoff = new Date(lastDate.getTime() - 90 * 86400000); break;
+    case "6M":  cutoff = new Date(lastDate.getTime() - 180 * 86400000); break;
+    case "1Y":  cutoff = new Date(lastDate.getTime() - 365 * 86400000); break;
+    case "YTD": cutoff = new Date(lastDate.getFullYear(), 0, 1); break;
+    default:    return history;
+  }
+  return history.filter(h => new Date(h.date) >= cutoff);
+}
+
+function formatEventDate(iso) {
+  const d = new Date(iso);
+  const opts = { day: "numeric", month: "short", year: "numeric" };
+  return d.toLocaleDateString("en-US", opts);
+}
+
+// Wire up range pills
+$$(".range-pill").forEach(btn => {
+  btn.addEventListener("click", () => {
+    $$(".range-pill").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    STATE.currentRange = btn.dataset.range;
+    if (STATE.data) renderChart(STATE.data);
+  });
+});
+
+// ── Position summary ─────────────────────────────────────────────────────
+function renderPosition(d) {
+  const p = d.portfolio, s = d.stock;
+  const rows = [
+    { label: "Shares Owned",     val: fmtNum(p.shares),                            icon: shareIcon() },
+    { label: "Average Price",    val: fmtEUR(p.avg_price),                         icon: tagIcon("var(--blue)") },
+    { label: "Current Price",    val: fmtEUR(s.price_eur),                         icon: tagIcon("var(--green)") },
+    { label: "Market Value",     val: fmtEUR(p.current_value),                     icon: walletIcon("var(--orange)") },
+    { label: "Invested Capital", val: fmtEUR(p.invested),                          icon: bankIcon("var(--orange)") },
+    { label: "Unrealized P/L",   val: fmtEUR(p.pl_abs, true), cls: p.pl_abs >= 0 ? "pos" : "neg",
+      icon: arrowIcon(p.pl_abs >= 0, p.pl_abs >= 0 ? "var(--green)" : "var(--red)") },
+    { label: "Unrealized P/L %", val: fmtPct(p.pl_pct), cls: p.pl_pct >= 0 ? "pos" : "neg",
+      icon: arrowIcon(p.pl_pct >= 0, p.pl_pct >= 0 ? "var(--green)" : "var(--red)") },
+    { label: "Break-even Price", val: fmtEUR(p.break_even_price),                  icon: circleIcon("var(--purple)") },
+  ];
+  $("#positionList").innerHTML = rows.map(r => `
+    <div class="position-row">
+      <div class="position-icon">${r.icon}</div>
+      <div class="position-label">${r.label}</div>
+      <div class="position-value ${r.cls || ''}">${r.val}</div>
+    </div>
+  `).join("");
+}
+
+// ── Health ───────────────────────────────────────────────────────────────
+function renderHealth(d) {
+  const p = d.portfolio;
+  $("#healthCash").textContent = fmtEUR(p.extra_cash);
+  $("#healthLoss").textContent = "−" + fmtEUR(p.max_loss);
+  $("#healthTarget").textContent = "+" + fmtEUR(p.profit_target);
+  $("#healthProgress").textContent = fmtPct(p.progress_pct, false, 1);
+  const bar = $("#healthProgressBar");
+  setTimeout(() => bar.style.width = `${Math.max(0, Math.min(100, p.progress_pct))}%`, 50);
+
+  // Shield color: green if low concentration, otherwise yellow/red. Currently single position = HIGH concentration.
+  const shield = $("#healthShield svg path");
+  shield.setAttribute("fill", "var(--green)");
+  shield.setAttribute("stroke", "var(--green)");
+  $("#healthShield .label").textContent = "LOW";
+}
+
+// ── Sentiment gauges ─────────────────────────────────────────────────────
+function renderSentiment(d) {
+  const s = d.sentiment;
+  const items = [
+    { key: "fan_excitement",     label: "Fan Excitement",      color: "var(--purple)" },
+    { key: "release_confidence", label: "Release Confidence",  color: "var(--blue)" },
+    { key: "short_term_risk",    label: "Short-term Risk",     color: "var(--orange)" },
+    { key: "long_term_upside",   label: "Long-term Upside",    color: "var(--green)" },
+  ];
+  $("#gauges").innerHTML = items.map(it => {
+    const v = s[it.key] || 0;
+    const r = 28;
+    const C = 2 * Math.PI * r;
+    const filled = (v / 10) * C;
+    return `
+      <div class="gauge">
+        <div class="gauge-ring">
+          <svg viewBox="0 0 64 64">
+            <circle class="ring-bg" cx="32" cy="32" r="${r}"/>
+            <circle class="ring-fg" cx="32" cy="32" r="${r}"
+                    stroke="${it.color}"
+                    stroke-dasharray="${filled} ${C}"/>
+          </svg>
+          <div class="ring-text" style="color:${it.color}">
+            ${v}<span class="max">/10</span>
+          </div>
+        </div>
+        <div class="gauge-label">${it.label.split(" ").map(w => w).join("<br>")}</div>
+      </div>
+    `;
+  }).join("");
+}
+
+// ── Key game metrics ─────────────────────────────────────────────────────
+function renderKgm(d) {
+  const g = d.game_metrics;
+  const rows = [
+    { lbl: "GTA Franchise Sales", val: g.franchise_sales,             note: "", icon: trophyIcon() },
+    { lbl: "GTA VI Copies Sold",  val: g.copies_sold, valCls: "muted", note: g.copies_sold_note, icon: chartIcon() },
+    { lbl: "Est. Launch Sales",   val: g.launch_estimate,             note: g.launch_estimate_note, icon: rocketIcon() },
+    { lbl: "Preorder Numbers",    val: g.preorder_numbers, valCls: "muted", note: g.preorder_note, icon: cartIcon() },
+    { lbl: "Platforms at Launch", val: g.platforms,                    note: "", icon: consoleIcon() },
+  ];
+  $("#kgmList").innerHTML = rows.map(r => `
+    <div class="kgm-row">
+      <div class="kgm-icon">${r.icon}</div>
+      <div class="kgm-label">${r.lbl}</div>
+      <div class="kgm-val ${r.valCls || ''}">${r.val}</div>
+      <div class="kgm-note">${r.note || ''}</div>
+    </div>
+  `).join("");
+}
+
+// ── Catalyst ─────────────────────────────────────────────────────────────
+function renderCatalyst(d) {
+  const c = d.next_catalyst;
+  if (!c) {
+    $("#catalystDate").textContent = "—";
+    $("#catalystTitle").textContent = "No upcoming catalysts";
+    $("#catalystNote").textContent = "";
+    return;
+  }
+  const dt = new Date(c.date);
+  $("#catalystDate").textContent = dt.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }).toUpperCase();
+  $("#catalystTitle").textContent = `GTA VI ${c.title.toUpperCase()}`;
+  $("#catalystNote").innerHTML = `We will reassess after this event.<br>High impact event – may create volatility.`;
+}
+
+// ── Countdowns ───────────────────────────────────────────────────────────
+// Renders the 5 chips and starts the live ticker. Ticker re-computes
+// human-readable values every 60 s without re-fetching any data.
+
+function formatCountdown(dateStr) {
+  if (!dateStr) return { text: "TBD", state: "unknown" };
+  const target = new Date(dateStr).getTime();
+  if (isNaN(target)) return { text: "TBD", state: "unknown" };
+  const diffMs = target - Date.now();
+
+  if (diffMs <= -86400000) return { text: "Past",  state: "past" };
+  if (diffMs <= 0)         return { text: "Today", state: "very-urgent" };
+
+  const days  = Math.floor(diffMs / 86400000);
+  const hours = Math.floor((diffMs % 86400000) / 3600000);
+  const mins  = Math.floor((diffMs % 3600000) / 60000);
+
+  let state = "";
+  if (days < 2) state = "very-urgent";
+  else if (days < 14) state = "urgent";
+
+  if (days < 1) {
+    return { text: `${hours}<span class="unit">h</span> ${mins}<span class="unit">m</span>`, state };
+  }
+  if (days < 14) {
+    return { text: `${days}<span class="unit">d</span> ${hours}<span class="unit">h</span>`, state };
+  }
+  return { text: `${days}<span class="unit">d</span>`, state };
+}
+
+function renderCountdowns(d) {
+  const wrap = $("#countdownsStrip");
+  if (!wrap) return;
+  const items = d.countdowns || [];
+  if (!items.length) {
+    wrap.innerHTML = '<div style="color: var(--text-muted); font-size: 12px; padding: 8px 0; grid-column: 1 / -1;">No countdowns configured.</div>';
+    return;
+  }
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  wrap.innerHTML = items.map(c => {
+    const known = !!c.date;
+    const { text, state } = formatCountdown(c.date);
+    const stateClass = known ? state : "unknown";
+    const titleAttr = known
+      ? `${esc(c.label)} · ${new Date(c.date).toLocaleDateString("en-GB", { day:"numeric", month:"short", year:"numeric" })}`
+      : `${esc(c.label)} · waiting for detector`;
+    return `
+      <div class="cd-chip ${stateClass}" data-date="${esc(c.date || "")}" data-key="${esc(c.key)}" title="${titleAttr}">
+        <span class="cd-icon" aria-hidden="true">${esc(c.icon)}</span>
+        <div class="cd-body">
+          <span class="cd-label">${esc(c.label)}</span>
+          <span class="cd-value">${text}</span>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+// Live ticker — runs every minute, mutates only the value text + state class.
+// Started once at module load; safe to run even when the chips don't exist.
+function tickCountdowns() {
+  document.querySelectorAll(".cd-chip").forEach(chip => {
+    const date = chip.dataset.date;
+    if (!date) return;       // unknown chips stay TBD
+    const { text, state } = formatCountdown(date);
+    const valEl = chip.querySelector(".cd-value");
+    if (valEl) valEl.innerHTML = text;
+    // Refresh the urgency class without disturbing the "unknown" state
+    chip.classList.remove("urgent", "very-urgent", "past");
+    if (state) chip.classList.add(state);
+  });
+}
+setInterval(tickCountdowns, 60 * 1000);
+
+// ── Analyst ──────────────────────────────────────────────────────────────
+function renderAnalyst(d) {
+  const a = d.analyst;
+  $("#anTarget").textContent = `${a.price_target_low} – ${a.price_target_high}`;
+  $("#anRating").textContent = a.rating;
+  $("#anCount").textContent = `Based on ${a.analysts_count} Analysts`;
+  $("#anUpside").textContent = `+${a.upside_low}% to +${a.upside_high}%`;
+}
+
+// ── Decision panel ───────────────────────────────────────────────────────
+function renderDecision(d) {
+  const s = d.strategy;
+
+  const verdictKey = s.primary.replace(/[\s€]/g, "").toUpperCase();
+  const vEl = $("#primaryVerdict");
+  vEl.textContent = s.primary;
+  vEl.className = `verdict ${verdictKey}`;
+
+  // Confidence ring
+  const arc = $("#confArc");
+  const r = 32;
+  const C = 2 * Math.PI * r;
+  const filled = (s.primary_confidence / 100) * C;
+  arc.setAttribute("stroke-dasharray", `${filled} ${C}`);
+  $("#confPct").textContent = `${s.primary_confidence}%`;
+
+  // Primary reason short blurb
+  const reasonMap = {
+    WAIT: "Do not invest the extra 500 € today.",
+    "BUY500€": "Strong entry signal — invest the extra 500 € now.",
+    HOLDCASH: "Hold the cash for now — no clear edge.",
+    HOLD: "Maintain your existing position.",
+    REVIEW: "Position needs review against your max-loss line.",
+    TAKEPROFIT: "Consider taking profit — target reached.",
+  };
+  $("#primaryReason").textContent = reasonMap[verdictKey] || "Re-evaluate after the next catalyst.";
+
+  // Action pills
+  const actions = [
+    {
+      label: `Existing Shares (${d.portfolio.shares.toFixed(8)})`,
+      sub: "Maintain current position",
+      verdict: s.actions.hold_shares.verdict,
+      conf: s.actions.hold_shares.confidence,
+      tone: verdictTone(s.actions.hold_shares.verdict),
+    },
+    {
+      label: "Invest Extra 500 €",
+      sub: "Deploy or reserve dry powder",
+      verdict: s.actions.invest_extra.verdict,
+      conf: s.actions.invest_extra.confidence,
+      tone: verdictTone(s.actions.invest_extra.verdict),
+    },
+    {
+      label: "Sell Entire Position",
+      sub: "Exit and book result",
+      verdict: s.actions.sell_all.verdict,
+      conf: s.actions.sell_all.confidence,
+      tone: verdictTone(s.actions.sell_all.verdict),
+    },
+  ];
+  $("#actionPills").innerHTML = actions.map(a => `
+    <div class="action-pill">
+      <div class="ap-label">${a.label}<span class="ap-sub">${a.sub}</span></div>
+      <span class="ap-verdict ${a.tone}">${a.verdict}</span>
+      <span class="ap-conf">${a.conf}%</span>
+    </div>
+  `).join("");
+
+  // Why list
+  const whyIcons = [
+    `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`,
+    `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>`,
+    `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 12l4-4 4 4 5-5"/></svg>`,
+    `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`,
+  ];
+  $("#whyList").innerHTML = (s.reasoning || []).map((r, i) => `
+    <div class="why-item">
+      <div class="icn">${whyIcons[i % whyIcons.length]}</div>
+      <div>${r}</div>
+    </div>
+  `).join("");
+
+  // Plan list (static — depends on extra 500€ scenarios)
+  const plan = [
+    { cond: "If stock drops 5–10% after preorders",            verdict: "BUY 500 €",      tone: "green" },
+    { cond: "If preorder numbers are exceptional<br>and stock reaction is neutral", verdict: "HOLD", tone: "orange" },
+    { cond: "If stock spikes excessively",                      verdict: "DO NOT BUY",    tone: "red" },
+    { cond: "If profit reaches +500 €",                         verdict: "SELL CANDIDATE", tone: "purple" },
+  ];
+  $("#planList").innerHTML = plan.map(p => `
+    <div class="plan-item">
+      <div class="pl-cond">${p.cond}</div>
+      <span class="arrow">→</span>
+      <span class="ap-verdict ${p.tone}">${p.verdict}</span>
+    </div>
+  `).join("");
+}
+
+function verdictTone(v) {
+  const k = v.replace(/[\s€]/g, "").toUpperCase();
+  if (k === "HOLD") return "green";
+  if (k === "WAIT" || k === "HOLDCASH") return "orange";
+  if (k === "NO" || k === "REVIEW" || k === "REDUCE") return "red";
+  if (k === "BUY500" || k === "BUY") return "green";
+  if (k === "TRIM") return "orange";
+  if (k === "TAKEPROFIT") return "purple";
+  return "blue";
+}
+
+// ── Alerts ───────────────────────────────────────────────────────────────
+function renderAlerts(d) {
+  const alerts = d.alerts || [];
+  const activeCount = alerts.filter(a => a.active).length;
+
+  // Title count badge
+  const countEl = $("#alertCount");
+  if (countEl) {
+    countEl.textContent = String(activeCount);
+    countEl.classList.toggle("zero", activeCount === 0);
+  }
+
+  // Reuse the same escape pattern as renderNews — alert metadata may include
+  // strings that ultimately trace back to an RSS headline.
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  const buildMeta = (a) => {
+    const bits = [];
+    if (a.source)        bits.push(`<span class="src">${esc(a.source)}</span>`);
+    if (a.triggered_at)  bits.push(`fired ${esc(relTime(a.triggered_at))}`);
+    if (a.fresh)         bits.push(`<span style="color: var(--orange); font-weight: 700;">NEW</span>`);
+    let html = bits.join(" · ");
+    if (a.headline) html += `<span class="head">"${esc(a.headline)}…"</span>`;
+    return html;
+  };
+
+  $("#alertsList").innerHTML = alerts.map(a => {
+    const tone = a.tone || "blue";
+    const safeTone = ["purple", "red", "green", "blue", "orange"].includes(tone) ? tone : "blue";
+    const cls = [
+      "alert-row",
+      a.active ? "active" : "",
+      a.active ? `tone-${safeTone}` : "",
+      a.fresh  ? "fresh"          : "",
+    ].filter(Boolean).join(" ");
+
+    return `
+      <div class="${cls}" data-key="${esc(a.key || '')}">
+        <div class="a-label">${esc(a.label)}</div>
+        <div class="a-status ${safeTone}">${esc(a.status)}</div>
+        ${a.active ? `<div class="a-meta">${buildMeta(a)}</div>` : ''}
+      </div>
+    `;
+  }).join("");
+}
+
+// ── News  ────────────────────────────────────────────────────────────────
+// All content here comes from external RSS feeds — sanitize aggressively.
+function renderNews(d) {
+  const wrap = $("#newsList");
+  const items = (d.news || []).slice(0, 5);
+  if (!items.length) {
+    wrap.innerHTML = '<div class="news-empty">No recent news matched our filters.</div>';
+    return;
+  }
+
+  // HTML escape — never inject raw RSS content
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  // Only allow http(s) URLs; anything else collapses to "#"
+  const safeUrl = (u) => {
+    if (!u) return "#";
+    try {
+      const p = new URL(u).protocol;
+      return (p === "http:" || p === "https:") ? u : "#";
+    } catch { return "#"; }
+  };
+
+  const SENT_ICON  = { bullish: "▲", bearish: "▼", neutral: "◆" };
+  const SENT_LABEL = { bullish: "Bullish", bearish: "Bearish", neutral: "Neutral" };
+  const SENT_VAR   = { bullish: "green", bearish: "red", neutral: "yellow" };
+
+  wrap.innerHTML = items.map(n => {
+    const sent = (n.sentiment || "neutral").toLowerCase();
+    const sentSafe = ["bullish", "bearish", "neutral"].includes(sent) ? sent : "neutral";
+    const imp = Math.max(0, Math.min(10, Number(n.importance) || 0));
+    const impPct = (imp / 10) * 100;
+    const cv = SENT_VAR[sentSafe];
+
+    return `
+      <a class="news-card sent-${sentSafe}"
+         href="${esc(safeUrl(n.url))}"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="${esc(n.headline)}">
+        <div class="news-head">
+          <span class="news-source">${esc(n.source)}</span>
+          <span class="news-date">${esc(relTime(n.date))}</span>
+        </div>
+        <div class="news-headline">${esc(n.headline)}</div>
+        <div class="news-foot">
+          <span class="news-imp" title="Impact score">
+            <span class="imp-bar"><span style="width:${impPct.toFixed(0)}%; background: var(--${cv});"></span></span>
+            <span class="imp-num">${imp}/10</span>
+          </span>
+          <span class="news-sent ${sentSafe}">${SENT_ICON[sentSafe]} ${SENT_LABEL[sentSafe]}</span>
+        </div>
+        <svg class="news-link" width="12" height="12" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+          <polyline points="15 3 21 3 21 9"/>
+          <line x1="10" y1="14" x2="21" y2="3"/>
+        </svg>
+      </a>
+    `;
+  }).join("");
+}
+
+// ── Data quality strip ──────────────────────────────────────────────────
+// Renders the per-source health chips at the bottom of the dashboard.
+// Pulls from snapshot.data_quality (populated by update.py via STOCK_STATUS
+// and FEED_STATS). Status states: ok · empty · error · sample · unknown.
+function renderDataQuality(d) {
+  const dq = d.data_quality;
+  if (!dq) return;
+
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  // Header summary line
+  const summary = dq.summary || {};
+  const lastRunEl = $("#qualityLastRun");
+  if (lastRunEl) {
+    const stamp = summary.last_run_utc
+      ? `Last run: ${esc(relTime(summary.last_run_utc))}`
+      : "Last run: —";
+    lastRunEl.textContent = stamp;
+  }
+  const detEl = $("#qualityDetected");
+  if (detEl) {
+    const n = summary.events_detected_total || 0;
+    detEl.textContent = `${n} event${n === 1 ? "" : "s"} detected`;
+    detEl.classList.toggle("bullish", n > 0);
+  }
+  const freshEl = $("#qualityFresh");
+  if (freshEl) {
+    const n = summary.fresh_this_run || 0;
+    if (n > 0) {
+      freshEl.textContent = `${n} fresh`;
+      freshEl.style.display = "";
+      freshEl.classList.add("bullish");
+    } else {
+      freshEl.style.display = "none";
+    }
+  }
+  const archEl = $("#qualityArchive");
+  if (archEl) {
+    const n = summary.archive_count || 0;
+    if (n > 0) {
+      archEl.textContent = `${n} day${n === 1 ? "" : "s"} archived`;
+      archEl.style.display = "";
+    } else {
+      archEl.style.display = "none";
+    }
+  }
+
+  // Chip builder — single source for both stock and feed chips
+  const chip = (src) => {
+    const status = (src.status || "unknown").toLowerCase();
+    const safeStatus = ["ok","empty","error","sample","unknown"].includes(status) ? status : "unknown";
+    // Tooltip text — appears on hover, gives full detail without cluttering chip
+    const tipParts = [esc(src.label || src.source || "—")];
+    if (src.elapsed_sec != null)   tipParts.push(`fetched in ${src.elapsed_sec}s`);
+    if (src.items_raw != null)     tipParts.push(`${src.items_raw} raw items`);
+    if (safeStatus === "error" && src.error) tipParts.push(`error: ${esc(src.error)}`);
+    if (safeStatus === "sample")   tipParts.push("demo data — deploy Action for live");
+    if (src.last_fetched)          tipParts.push(`refreshed ${esc(relTime(src.last_fetched))}`);
+    const tip = tipParts.join(" · ");
+    // Meta — what we show inline next to label
+    let meta = "";
+    if (src.category === "stock") {
+      meta = src.elapsed_sec ? `${src.elapsed_sec}s` : "";
+    } else {
+      meta = src.items_raw != null ? `${src.items_raw}` : "";
+    }
+    return `
+      <span class="q-chip ${safeStatus}" title="${tip}">
+        <span class="dot ${safeStatus}" aria-hidden="true"></span>
+        <span class="label">${esc(src.label || src.source || "—")}</span>
+        ${meta ? `<span class="meta">${esc(meta)}</span>` : ""}
+      </span>
+    `;
+  };
+
+  const wrap = $("#qualityChips");
+  if (!wrap) return;
+
+  const stockChip = dq.stock ? chip(dq.stock) : "";
+  const divider = `<span class="q-chip-divider" aria-hidden="true"></span>`;
+  const feedChips = (dq.feeds || []).map(chip).join("");
+
+  wrap.innerHTML = stockChip + (stockChip && feedChips ? divider : "") + feedChips;
+}
+
+// ── Icons (inline SVG helpers) ───────────────────────────────────────────
+function shareIcon() {
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+    <circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`;
+}
+function tagIcon(c) {
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/>
+    <line x1="7" y1="7" x2="7.01" y2="7"/></svg>`;
+}
+function walletIcon(c) {
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/>
+    <path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/>
+    <path d="M18 12a2 2 0 0 0 0 4h4v-4z"/></svg>`;
+}
+function bankIcon(c) {
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+    <line x1="12" y1="1" x2="12" y2="23"/>
+    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>`;
+}
+function arrowIcon(up, c) {
+  return up
+    ? `<svg width="14" height="14" viewBox="0 0 24 24" fill="${c}" stroke="${c}" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round"><polygon points="12 4 4 16 20 16"/></svg>`
+    : `<svg width="14" height="14" viewBox="0 0 24 24" fill="${c}" stroke="${c}" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round"><polygon points="12 20 4 8 20 8"/></svg>`;
+}
+function circleIcon(c) {
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/></svg>`;
+}
+function trophyIcon() {
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+    <line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+    <path d="M7 4h10v7a5 5 0 0 1-10 0V4z"/>
+    <path d="M17 7h2a2 2 0 0 1 2 2v0a3 3 0 0 1-3 3h-1"/>
+    <path d="M7 7H5a2 2 0 0 0-2 2v0a3 3 0 0 0 3 3h1"/></svg>`;
+}
+function chartIcon() {
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+    <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/>
+    <line x1="6" y1="20" x2="6" y2="14"/></svg>`;
+}
+function rocketIcon() {
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+    <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+    <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/></svg>`;
+}
+function cartIcon() {
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>`;
+}
+function consoleIcon() {
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="6" width="20" height="12" rx="2"/>
+    <line x1="6" y1="12" x2="10" y2="12"/><line x1="8" y1="10" x2="8" y2="14"/>
+    <circle cx="16" cy="12" r="1"/><circle cx="18" cy="10" r="1"/></svg>`;
+}
+
+// ── Email export ─────────────────────────────────────────────────────────
+$("#emailExport").addEventListener("click", async () => {
+  toast("Rendering snapshot…");
+  try {
+    const node = $("#app");
+    const canvas = await html2canvas(node, {
+      backgroundColor: getComputedStyle(document.body).getPropertyValue("--bg-page").trim(),
+      scale: 2,
+      useCORS: true,
+      logging: false,
+    });
+    const url = canvas.toDataURL("image/png");
+
+    // Try to download AND open mail client
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `TTWO_Dashboard_${new Date().toISOString().slice(0, 10)}.png`;
+    link.click();
+
+    const subject = encodeURIComponent("TTWO Dashboard Snapshot · " + new Date().toLocaleDateString());
+    const body = encodeURIComponent(
+      `TTWO Investment Dashboard snapshot attached (downloaded separately).\n\n` +
+      `Current price: ${STATE.data.stock.price_eur} €\n` +
+      `Portfolio value: ${STATE.data.portfolio.current_value} €\n` +
+      `P/L: ${STATE.data.portfolio.pl_abs >= 0 ? "+" : ""}${STATE.data.portfolio.pl_abs} €\n` +
+      `Strategy: ${STATE.data.strategy.primary} (${STATE.data.strategy.primary_confidence}% confidence)`
+    );
+    window.location.href = `mailto:akshaythakur1604@gmail.com?subject=${subject}&body=${body}`;
+    toast("Snapshot downloaded · mail client opened", "success");
+  } catch (e) {
+    console.error(e);
+    toast("Couldn't generate snapshot — see console", "error");
+  }
+});
+
+// ── Refresh + Auto-refresh ───────────────────────────────────────────────
+$("#refreshBtn").addEventListener("click", () => loadData(true));
+
+$("#autoRefresh").addEventListener("change", (e) => {
+  STATE.autoRefresh = e.target.checked;
+  if (STATE.autoRefresh) {
+    STATE.autoRefreshTimer = setInterval(() => loadData(false), 5 * 60 * 1000);
+    toast("Auto-refresh on · every 5 min", "success");
+  } else {
+    clearInterval(STATE.autoRefreshTimer);
+    STATE.autoRefreshTimer = null;
+    toast("Auto-refresh off");
+  }
+});
+
+// ── Boot ─────────────────────────────────────────────────────────────────
+applyTheme(STATE.theme);
+loadData(false);
+</script>
+</body>
+</html>

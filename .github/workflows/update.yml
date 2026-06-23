@@ -1,0 +1,85 @@
+name: Update TTWO snapshot
+
+on:
+  schedule:
+    # Hourly at minute 5 (small offset avoids GitHub's xx:00 congestion)
+    - cron: '5 * * * *'
+  workflow_dispatch:    # allow manual triggering from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update.py'   # rerun when the fetcher itself changes
+
+permissions:
+  contents: write   # required so the action can commit data/snapshot.json back
+
+concurrency:
+  group: ttwo-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Fetch fresh data
+        run: |
+          python scripts/update.py
+          echo "--- snapshot summary ---"
+          python -c "import json; d=json.load(open('data/snapshot.json')); \
+            print(f\"  updated: {d['updated_at']}\"); \
+            print(f\"  price:   {d['stock']['price_eur']} EUR ({d['stock']['data_source']})\"); \
+            print(f\"  P/L:     {d['portfolio']['pl_abs']:+.2f} EUR\"); \
+            print(f\"  strategy: {d['strategy']['primary']} ({d['strategy']['primary_confidence']}%)\"); \
+            print(f\"  news:    {len(d['news'])} items\")"
+
+      - name: Daily archive  (first run of new UTC day only)
+        # Captures the early-morning snapshot — at 00:05 UTC this holds the
+        # previous trading day's closing data, which is exactly what we want
+        # for a daily archive. Subsequent same-day runs skip silently so the
+        # archive is stable for the rest of the day.
+        run: |
+          TODAY=$(date -u +"%Y-%m-%d")
+          ARCHIVE_DIR="data/archives"
+          ARCHIVE_FILE="${ARCHIVE_DIR}/snapshot_${TODAY}.json"
+          mkdir -p "$ARCHIVE_DIR"
+          if [ -f "$ARCHIVE_FILE" ]; then
+            echo "  · Archive for $TODAY already exists — skipping."
+          else
+            cp data/snapshot.json "$ARCHIVE_FILE"
+            COUNT=$(find "$ARCHIVE_DIR" -name 'snapshot_*.json' -type f | wc -l)
+            echo "  ✓ Created daily archive: $ARCHIVE_FILE"
+            echo "  · Total archives in repo: $COUNT"
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name  "ttwo-dashboard-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/snapshot.json data/archives/
+          if git diff --staged --quiet; then
+            echo "No changes — skipping commit."
+          else
+            STAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "chore(data): hourly snapshot · $STAMP" -m "[skip ci]"
+            git push
+            echo "✓ Committed and pushed snapshot for $STAMP"
+          fi
