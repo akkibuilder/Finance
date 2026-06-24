@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-24T10:59:13Z",
-  "updated_at_local": "24 Jun 2026, 10:59",
+  "updated_at": "2026-06-24T18:14:44Z",
+  "updated_at_local": "24 Jun 2026, 18:14",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 219.2,
+    "price_eur": 208.8,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 3.2,
-    "day_change_pct": 1.48,
+    "day_change_abs": -7.2,
+    "day_change_pct": -3.33,
     "week52_high": 223.3,
     "week52_low": 142.32,
     "history": [
@@ -650,7 +650,7 @@
       },
       {
         "date": "2026-06-24",
-        "close": 219.2
+        "close": 208.8
       }
     ],
     "data_source": "yfinance"
@@ -662,12 +662,12 @@
     "extra_cash": 500.0,
     "max_loss": 400.0,
     "profit_target": 500.0,
-    "current_value": 1649.26,
-    "pl_abs": 34.26,
-    "pl_pct": 2.12,
+    "current_value": 1571.01,
+    "pl_abs": -43.99,
+    "pl_pct": -2.72,
     "target_value": 2115.0,
-    "distance_to_target": 465.74,
-    "progress_pct": 6.85,
+    "distance_to_target": 543.99,
+    "progress_pct": 0,
     "break_even_price": 214.65
   },
   "strategy": {
@@ -695,9 +695,9 @@
     "metrics": {
       "days_to_preorder": 1,
       "days_to_launch": 148,
-      "above_avg_pct": 2.12,
+      "above_avg_pct": -2.73,
       "bearish_signals": 0,
-      "bullish_signals": 3
+      "bullish_signals": 4
     }
   },
   "events": [
@@ -748,6 +748,22 @@
       "impact": "Auto-detected from 1 source: If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot…"
     },
     {
+      "key": "price-reveal",
+      "date": "2026-06-24",
+      "title": "Price Revealed",
+      "short": "PRICING",
+      "icon": "💰",
+      "color": "#16a34a",
+      "type": "commerce",
+      "auto_detected": true,
+      "detected_at": "2026-06-24T18:14:44Z",
+      "confirmations": 1,
+      "source": "Yahoo Finance",
+      "trigger_headline": "GTA VI Price Set at $80 as Preorders Open",
+      "trigger_url": "https://finance.yahoo.com/media-advertising/articles/gta-vi-price-set-80-173822958.html?.tsrc=rss",
+      "impact": "Auto-detected from 1 source: GTA VI Price Set at $80 as Preorders Open…"
+    },
+    {
       "date": "2026-06-25",
       "title": "Preorders Open",
       "short": "PREORDERS OPEN",
@@ -784,10 +800,26 @@
       "trigger_headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
       "trigger_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFcl9jX19kTUZKNm8xaGJST2U2NUstRUltbFU2aHdUUldQOVV3OGppNFF5bWFtdW92TDNPOWcyNy1ZTU1nNFY1Und3azhmOS1Va2hVXzFFd0JYQnpZRXYxRVFhV2dHbUN1XzY3VlVSYXhSc3hwUTN3OE1lYjQ3VXEzX2dCd3VpR21TX0hZOW9QZEUxYTdaZWtxUGpmOC1sUXItQ09XTWhHV0FBRnQ0?oc=5",
       "impact": "Auto-detected from 1 source: If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot…"
+    },
+    {
+      "key": "price-reveal",
+      "date": "2026-06-24",
+      "title": "Price Revealed",
+      "short": "PRICING",
+      "icon": "💰",
+      "color": "#16a34a",
+      "type": "commerce",
+      "auto_detected": true,
+      "detected_at": "2026-06-24T18:14:44Z",
+      "confirmations": 1,
+      "source": "Yahoo Finance",
+      "trigger_headline": "GTA VI Price Set at $80 as Preorders Open",
+      "trigger_url": "https://finance.yahoo.com/media-advertising/articles/gta-vi-price-set-80-173822958.html?.tsrc=rss",
+      "impact": "Auto-detected from 1 source: GTA VI Price Set at $80 as Preorders Open…"
     }
   ],
   "fresh_detections": [
-    "trailer-3"
+    "price-reveal"
   ],
   "next_catalyst": {
     "key": "trailer-3",
@@ -807,15 +839,79 @@
   },
   "news": [
     {
-      "headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
-      "date": "Wed, 24 Jun 2026 10:48:22 GMT",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFcl9jX19kTUZKNm8xaGJST2U2NUstRUltbFU2aHdUUldQOVV3OGppNFF5bWFtdW92TDNPOWcyNy1ZTU1nNFY1Und3azhmOS1Va2hVXzFFd0JYQnpZRXYxRVFhV2dHbUN1XzY3VlVSYXhSc3hwUTN3OE1lYjQ3VXEzX2dCd3VpR21TX0hZOW9QZEUxYTdaZWtxUGpmOC1sUXItQ09XTWhHV0FBRnQ0?oc=5",
+      "headline": "Take-Two Stock Nabs Fresh Buy Rating Ahead Of Big Game Preorders",
+      "date": "Wed, 24 Jun 2026 17:40:18 +0000",
+      "url": "https://finance.yahoo.com/m/17f93ef8-87dd-38e1-ba14-b10c9ff9c6c5/take-two-stock-nabs-fresh-buy.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "GTA VI Price Set at $80 as Preorders Open",
+      "date": "Wed, 24 Jun 2026 17:38:22 +0000",
+      "url": "https://finance.yahoo.com/media-advertising/articles/gta-vi-price-set-80-173822958.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "GTA VI to catalyze a multi-year improvement in earnings power for TTWO, BTIG says",
+      "date": "Wed, 24 Jun 2026 14:27:51 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gta-vi-catalyze-multi-improvement-142751764.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "BlackBerry, Take-Two initiations among today's top calls on Wall Street",
+      "date": "Wed, 24 Jun 2026 13:31:45 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blackberry-two-initiations-among-todays-133145307.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Take-Two Gains After Confirming GTA VI Release Date and Premium Pricing (TTWO) - Yahoo Finance",
+      "date": "Wed, 24 Jun 2026 12:54:56 GMT",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONFNyd3FTVzZONVFySDRHajdqVHVyb3VIdE03X0NONThjVjllYnMtNFJoMU9PaktsOHZ4b3NrNE5TaXhUczcwM1JGVWdkemJMM2JhUVNSUmJ3RHFjUnhyX251OXNvYUE0OU50OUduVDlPaGRPMm5NTlJGN1ZUSGp5X2NGNWJfY1dHWm95Nlk0dHlhczZlclNOTFhGOA?oc=5",
       "source": "Google News",
       "importance": 10,
       "sentiment": "bullish"
     },
     {
-      "headline": "Rockstar Reveals GTA 6’s Price Is $80, Confirms Preorder Time, Bonuses - Forbes",
+      "headline": "Take-Two Gains After Confirming GTA VI Release Date and Premium Pricing (TTWO)",
+      "date": "Wed, 24 Jun 2026 12:54:56 +0000",
+      "url": "https://investorshub.advfn.com/market-news/article/31001/take-two-gains-after-confirming-gta-vi-release-date-and-premium-pricing-ttwo?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two rises as GTA VI priced at $79.99, November release date confirmed",
+      "date": "Wed, 24 Jun 2026 12:17:56 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-rises-gta-vi-priced-121756373.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Here Are Wednesday’s Best Wall Street Analyst Research Calls: Devon Energy, Flowserve, Klaviyo, Macerich, Merck, Nucor, Take-Two Interactive Software, Twilio, and More",
+      "date": "Wed, 24 Jun 2026 12:15:12 +0000",
+      "url": "https://247wallst.com/investing/2026/06/24/here-are-wednesdays-best-wall-street-analyst-research-calls-devon-energy-flowserve-klaviyo-macerich-merck-nucor-take-two-interactive-software-twilio-and-more/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "TTWO Stock Edges Higher After GTA 6 Pricing Reveal By Rockstar – Retail Sees Another Cash Cow",
+      "date": "Wed, 24 Jun 2026 11:40:47 +0000",
+      "url": "https://stocktwits.com/news-articles/markets/equity/ttwo-stock-edges-higher-after-gta-6-pricing-reveal-by-rockstar-retail-sees-another-cash-cow/cZKyesYR7fe?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Rockstar Confirms ‘GTA 6’ $80 Price, Preorder Time And Bonuses - Forbes",
       "date": "Wed, 24 Jun 2026 10:42:26 GMT",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaC1YajRXMnFnV2ltWTNuc2dBQ01wMWJpNWxOc1ItS2o3YjRCTnAtN1E0aGtUNlJfS2lIbURpS1E2QVJYUmdHTFVySTF5WnQzVC1BZWg1UXBrWElCeHpacFhITEZSWGdPWm5mS1BTMEZPR1luT0djTnpyVGU2ek5Db2I5VV9uWHFZcmxKVlFaTTFiaGhMYW1sN2FaUVdtZlVIMXF0VXNlX0d3OGV0YnNSVGlPdEZTdjlH?oc=5",
       "source": "Google News",
@@ -823,90 +919,26 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Rockstar Games Announces Pre-Orders for Grand Theft Auto VI",
-      "date": "Wed, 24 Jun 2026 10:15:00 +0000",
-      "url": "https://finance.yahoo.com/media-advertising/articles/rockstar-games-announces-pre-orders-101500360.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - Reuters",
-      "date": "Wed, 08 Nov 2023 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEdHd0NqM1gwaENTcU40SUtIZ2pTSllybTVXUW5EY3FBTXJLZE1kTG9MZzdjcDd5MGVyeHdyeWJOR0c1Nm9adVFtb0E1S2xVeWk2X1VSbHI3QUNEVzhDTVNuamx3T0Fzbk1xS2ZVVUtlTDBSMFBFcnV1bzFtb1dhUUxJcml3ZHU1UEJOQnlsNHd6NG0yMWo1REZJYVVHeF9sYzRKczdjVWJoc0pIV3NvWWNuWkpMbU94?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two Interactive (TTWO) Ascends While Market Falls: Some Facts to Note",
-      "date": "Tue, 23 Jun 2026 21:50:06 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-ttwo-ascends-while-215006907.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two Interactive target raised by Bank of America on GTA franchise upside",
-      "date": "Tue, 23 Jun 2026 16:57:00 +0000",
-      "url": "https://www.proactiveinvestors.com/companies/news/1094358/take-two-interactive-target-raised-by-bank-of-america-on-gta-franchise-upside-1094358.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Why Take-Two Interactive Software (TTWO) Is Up 10.8% After Locking In GTA VI Preorder Date - simplywall.st",
-      "date": "Tue, 23 Jun 2026 11:37:17 GMT",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOU0hZaWFEVUtGVXlVcXhoV2lTWmFuY1BmSzZrZ2dIVmVxTnRBU1pTYnZXR2s3bVI3NldERWNNMUhRd2tBUFdIeE9zN3pQX1FfcHVINUpQYnBtNU1mMlhIdFBPTTIxS3NlQk1tWVpQUVBLdWw4d242TS1xdXNjZy15N0ZRcEt4Rk1wLVlQLWtzR3dPdjUyN0JXM3ZsU0R3QVJ2Z1c0MUZ5REp4dFdXekVXeEVUTl9PRk9KMTNrbGlIZGVjU2pKSi14VEduOHA3M0UtcEFWVkJOeThGSk1QbUHSAeMBQVVfeXFMUFV5NzBUZENTSEdiZ3d0WUhEMUd4cnRPRThOeEpZOWwxVnlZenMwdUpGbnpfSGZxTGNBaDZLdzZ5Y0lsYzlQeHlyVnc2R2d0ck5jLXJkMGE2bk5oeV9GcUlCMWVEY255a3BMWW9JY1Brb21UNENyc0dfNUg3bFM4OWxVdjNUaGg5am92MFZKT2x0QjZaRG5EdlFtbzJVbU5nZkRwa1BTRDJ3U0JWMmJ1X0dpYVU3Z0JWa1JyRFhUMEtjRGFPRWpfakpqNENqdm1ueE90VlFoOE9ubGZ4d3R2WjZKREU?oc=5",
+      "headline": "Rockstar Games Announces Pre-Orders for Grand Theft Auto VI - Take-Two Interactive Software, Inc.",
+      "date": "Wed, 24 Jun 2026 10:32:42 GMT",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUklVd3JBNlA2MjdzNFdla3dKX0dMWHUxb0tYYmcxVWtSbXdXNGhCajMtM0REUTI1ay1Sd0xfT3RoeDZ2NG1KUktPWVJkR1hEb29DeGt1ak5DcXFjODUxaVpoR054US1rZTVLakZTbWNjN182WlBKZ2lnQVNVRnN6TU04OTl1TXNYTWlHZHNWb0EyazJk?oc=5",
       "source": "Google News",
       "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two confirms GTA VI leak, says game development unaffected - Reuters",
-      "date": "Tue, 20 Sep 2022 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2pXXzJmNEJrZldpQkFYeEI4U3NCUGZvVkhjcVFlcVo1NV92QVhDcnhrWThqQzcybnJFQmp4cGF6bFZSb2F1V2RSVVlxaVZLN2p1RUJJMjI4XzYzRkxhcXA0LXNPUEFuQlh2a2xGMHpZZXNDQ3VZWUhiYXdYdVgwUXRaRXVJMEM4ME9uSlBhcGtHdEFTTS16bWRScnA4NE04a0JwQ3RRUExWZXpwYTVuT1Y3SDU?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bearish"
-    },
-    {
-      "headline": "'GTA VI' delay weighs on global videogame market growth, data shows - Reuters",
-      "date": "Tue, 17 Jun 2025 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOWtfMkV6MkNkaVFkaVNndWhKOTk2cGNXci1tMjNYcXdtSHNXUDVQbFNmenBkVFdJaWlHbTM5bUltcXJXVVgwVGRaWUUteDNVbUcxMTBMMFNzZFhtV1VvMDJnaXhyVm1YdVJ2WUxQSXFHY0JaU3MzWVE1bGlwZnJwMEUxc2YzcnBEOGJ0ZUtyajk2Z0lTWmdMYXZPRUw4NUlVU1NQUUtSVnRWeF9DTWtScElhRnBVYmg1T0ktVQ?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bearish"
-    },
-    {
-      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
-      "date": "Tue, 16 Apr 2024 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
-      "source": "Reuters",
-      "importance": 10,
       "sentiment": "neutral"
     },
     {
-      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
-      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two raises annual bookings forecast, sticks with 'GTA VI' November launch - Reuters",
-      "date": "Tue, 03 Feb 2026 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV1VKdDhNZ1ZOQlQtVU5JZkVUOWJvWjk5Tk5QMTZKd2ZOWlVYblE1TWlENkh3Q2NJVTB3cVpaSXZvWTBSUmVXVGNSc2FPZjI4VldIUkpyY2VTSVJvMTJfMjBYdnVVRWxkMVR5ZEkwUWtBUzNIdmU0T0hhQmtQQlNTejZ5RU9nTFFPQlphbzE4V1h0dEwxdElGcEIxVTlBZFZf?oc=5",
-      "source": "Reuters",
+      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch",
+      "date": "Wed, 24 Jun 2026 10:25:56 +0000",
+      "url": "https://finance.yahoo.com/media-advertising/articles/two-prices-grand-theft-auto-102556580.html?.tsrc=rss",
+      "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "bullish"
     }
   ],
   "sentiment": {
     "fan_excitement": 10,
-    "release_confidence": 7,
-    "short_term_risk": 7,
+    "release_confidence": 9,
+    "short_term_risk": 5,
     "long_term_upside": 9
   },
   "game_metrics": {
@@ -969,85 +1001,98 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 2.25,
+      "elapsed_sec": 1.26,
       "category": "stock",
-      "last_fetched": "2026-06-24T10:59:10Z"
+      "last_fetched": "2026-06-24T18:14:42Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.39,
+        "elapsed_sec": 0.22,
         "category": "financial",
-        "last_fetched": "2026-06-24T10:59:12Z"
+        "last_fetched": "2026-06-24T18:14:43Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.57,
+        "elapsed_sec": 0.67,
         "category": "financial",
-        "last_fetched": "2026-06-24T10:59:12Z"
+        "last_fetched": "2026-06-24T18:14:43Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.54,
+        "elapsed_sec": 0.63,
         "category": "aggregator",
-        "last_fetched": "2026-06-24T10:59:12Z"
+        "last_fetched": "2026-06-24T18:14:43Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.64,
+        "elapsed_sec": 0.28,
         "category": "platform",
-        "last_fetched": "2026-06-24T10:59:12Z"
+        "last_fetched": "2026-06-24T18:14:43Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.28,
+        "elapsed_sec": 0.25,
         "category": "platform",
-        "last_fetched": "2026-06-24T10:59:12Z"
+        "last_fetched": "2026-06-24T18:14:43Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.72,
+        "elapsed_sec": 0.97,
         "category": "gaming",
-        "last_fetched": "2026-06-24T10:59:12Z"
+        "last_fetched": "2026-06-24T18:14:43Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.34,
+        "elapsed_sec": 0.45,
         "category": "gaming",
-        "last_fetched": "2026-06-24T10:59:12Z"
+        "last_fetched": "2026-06-24T18:14:43Z"
       },
       {
         "label": "r/GTA6",
-        "status": "empty",
-        "items_raw": 0,
-        "elapsed_sec": 0.19,
+        "status": "ok",
+        "items_raw": 25,
+        "elapsed_sec": 0.81,
         "category": "community",
-        "last_fetched": "2026-06-24T10:59:12Z"
+        "last_fetched": "2026-06-24T18:14:43Z"
       }
     ],
     "summary": {
-      "events_detected_total": 1,
+      "events_detected_total": 2,
       "fresh_this_run": 1,
       "news_items": 12,
       "archive_count": 2,
-      "last_run_utc": "2026-06-24T10:59:10Z"
+      "last_run_utc": "2026-06-24T18:14:42Z"
     }
   },
   "alerts": [
+    {
+      "label": "Price revealed",
+      "status": "ASSESS",
+      "active": true,
+      "tone": "green",
+      "category": "event",
+      "key": "price-reveal",
+      "fresh": true,
+      "source": "Yahoo Finance",
+      "headline": "GTA VI Price Set at $80 as Preorders Open",
+      "triggered_at": "2026-06-24T18:14:44Z",
+      "url": "https://finance.yahoo.com/media-advertising/articles/gta-vi-price-set-80-173822958.html?.tsrc=rss"
+    },
     {
       "label": "Trailer 3 released",
       "status": "RE-EVALUATE",
@@ -1055,7 +1100,7 @@
       "tone": "purple",
       "category": "event",
       "key": "trailer-3",
-      "fresh": true,
+      "fresh": false,
       "source": "Google News",
       "headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
       "triggered_at": "2026-06-24T10:59:13Z",
@@ -1194,15 +1239,6 @@
       "tone": "blue",
       "category": "event",
       "key": "award-nomination",
-      "fresh": false
-    },
-    {
-      "label": "Price revealed",
-      "status": "Watching",
-      "active": false,
-      "tone": "blue",
-      "category": "event",
-      "key": "price-reveal",
       "fresh": false
     }
   ]
