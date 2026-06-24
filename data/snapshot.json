@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-24T10:28:53Z",
-  "updated_at_local": "24 Jun 2026, 10:28",
+  "updated_at": "2026-06-24T10:59:13Z",
+  "updated_at_local": "24 Jun 2026, 10:59",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 218.0,
+    "price_eur": 219.2,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 2.0,
-    "day_change_pct": 0.93,
+    "day_change_abs": 3.2,
+    "day_change_pct": 1.48,
     "week52_high": 223.3,
     "week52_low": 142.32,
     "history": [
@@ -650,7 +650,7 @@
       },
       {
         "date": "2026-06-24",
-        "close": 218.0
+        "close": 219.2
       }
     ],
     "data_source": "yfinance"
@@ -662,12 +662,12 @@
     "extra_cash": 500.0,
     "max_loss": 400.0,
     "profit_target": 500.0,
-    "current_value": 1640.23,
-    "pl_abs": 25.23,
-    "pl_pct": 1.56,
+    "current_value": 1649.26,
+    "pl_abs": 34.26,
+    "pl_pct": 2.12,
     "target_value": 2115.0,
-    "distance_to_target": 474.77,
-    "progress_pct": 5.05,
+    "distance_to_target": 465.74,
+    "progress_pct": 6.85,
     "break_even_price": 214.65
   },
   "strategy": {
@@ -695,9 +695,9 @@
     "metrics": {
       "days_to_preorder": 1,
       "days_to_launch": 148,
-      "above_avg_pct": 1.56,
-      "bearish_signals": 1,
-      "bullish_signals": 2
+      "above_avg_pct": 2.12,
+      "bearish_signals": 0,
+      "bullish_signals": 3
     }
   },
   "events": [
@@ -732,6 +732,22 @@
       "source": "Rockstar Newswire"
     },
     {
+      "key": "trailer-3",
+      "date": "2026-06-24",
+      "title": "Trailer 3",
+      "short": "TRAILER 3",
+      "icon": "🎥",
+      "color": "#a855f7",
+      "type": "trailer",
+      "auto_detected": true,
+      "detected_at": "2026-06-24T10:59:13Z",
+      "confirmations": 1,
+      "source": "Google News",
+      "trigger_headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
+      "trigger_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFcl9jX19kTUZKNm8xaGJST2U2NUstRUltbFU2aHdUUldQOVV3OGppNFF5bWFtdW92TDNPOWcyNy1ZTU1nNFY1Und3azhmOS1Va2hVXzFFd0JYQnpZRXYxRVFhV2dHbUN1XzY3VlVSYXhSc3hwUTN3OE1lYjQ3VXEzX2dCd3VpR21TX0hZOW9QZEUxYTdaZWtxUGpmOC1sUXItQ09XTWhHV0FBRnQ0?oc=5",
+      "impact": "Auto-detected from 1 source: If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot…"
+    },
+    {
       "date": "2026-06-25",
       "title": "Preorders Open",
       "short": "PREORDERS OPEN",
@@ -752,19 +768,60 @@
       "source": "Take-Two IR"
     }
   ],
-  "detected_events": [],
-  "fresh_detections": [],
+  "detected_events": [
+    {
+      "key": "trailer-3",
+      "date": "2026-06-24",
+      "title": "Trailer 3",
+      "short": "TRAILER 3",
+      "icon": "🎥",
+      "color": "#a855f7",
+      "type": "trailer",
+      "auto_detected": true,
+      "detected_at": "2026-06-24T10:59:13Z",
+      "confirmations": 1,
+      "source": "Google News",
+      "trigger_headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
+      "trigger_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFcl9jX19kTUZKNm8xaGJST2U2NUstRUltbFU2aHdUUldQOVV3OGppNFF5bWFtdW92TDNPOWcyNy1ZTU1nNFY1Und3azhmOS1Va2hVXzFFd0JYQnpZRXYxRVFhV2dHbUN1XzY3VlVSYXhSc3hwUTN3OE1lYjQ3VXEzX2dCd3VpR21TX0hZOW9QZEUxYTdaZWtxUGpmOC1sUXItQ09XTWhHV0FBRnQ0?oc=5",
+      "impact": "Auto-detected from 1 source: If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot…"
+    }
+  ],
+  "fresh_detections": [
+    "trailer-3"
+  ],
   "next_catalyst": {
-    "date": "2026-06-25",
-    "title": "Preorders Open",
-    "short": "PREORDERS OPEN",
-    "icon": "🛒",
-    "type": "commerce",
-    "color": "#f97316",
-    "impact": "First hard demand signal. Historically high-volatility event.",
-    "source": "Take-Two IR"
+    "key": "trailer-3",
+    "date": "2026-06-24",
+    "title": "Trailer 3",
+    "short": "TRAILER 3",
+    "icon": "🎥",
+    "color": "#a855f7",
+    "type": "trailer",
+    "auto_detected": true,
+    "detected_at": "2026-06-24T10:59:13Z",
+    "confirmations": 1,
+    "source": "Google News",
+    "trigger_headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
+    "trigger_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFcl9jX19kTUZKNm8xaGJST2U2NUstRUltbFU2aHdUUldQOVV3OGppNFF5bWFtdW92TDNPOWcyNy1ZTU1nNFY1Und3azhmOS1Va2hVXzFFd0JYQnpZRXYxRVFhV2dHbUN1XzY3VlVSYXhSc3hwUTN3OE1lYjQ3VXEzX2dCd3VpR21TX0hZOW9QZEUxYTdaZWtxUGpmOC1sUXItQ09XTWhHV0FBRnQ0?oc=5",
+    "impact": "Auto-detected from 1 source: If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot…"
   },
   "news": [
+    {
+      "headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
+      "date": "Wed, 24 Jun 2026 10:48:22 GMT",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFcl9jX19kTUZKNm8xaGJST2U2NUstRUltbFU2aHdUUldQOVV3OGppNFF5bWFtdW92TDNPOWcyNy1ZTU1nNFY1Und3azhmOS1Va2hVXzFFd0JYQnpZRXYxRVFhV2dHbUN1XzY3VlVSYXhSc3hwUTN3OE1lYjQ3VXEzX2dCd3VpR21TX0hZOW9QZEUxYTdaZWtxUGpmOC1sUXItQ09XTWhHV0FBRnQ0?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Rockstar Reveals GTA 6’s Price Is $80, Confirms Preorder Time, Bonuses - Forbes",
+      "date": "Wed, 24 Jun 2026 10:42:26 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaC1YajRXMnFnV2ltWTNuc2dBQ01wMWJpNWxOc1ItS2o3YjRCTnAtN1E0aGtUNlJfS2lIbURpS1E2QVJYUmdHTFVySTF5WnQzVC1BZWg1UXBrWElCeHpacFhITEZSWGdPWm5mS1BTMEZPR1luT0djTnpyVGU2ek5Db2I5VV9uWHFZcmxKVlFaTTFiaGhMYW1sN2FaUVdtZlVIMXF0VXNlX0d3OGV0YnNSVGlPdEZTdjlH?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
     {
       "headline": "Rockstar Games Announces Pre-Orders for Grand Theft Auto VI",
       "date": "Wed, 24 Jun 2026 10:15:00 +0000",
@@ -844,22 +901,6 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two stock jumps on \"GTA IV\" release date - Reuters",
-      "date": "Thu, 24 Jan 2008 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbk5ubmhVcG9ISngwNjZQd3gxeEZSRC1icUU5SWsyTFdLWi1CVF9tRkNVUnF6RU9fUFlSMkFwMzVxdkVreEhqRzUtREt1YnZmSEg4Y05GSlY5YlpKdS1MUHBDM1UyZVBRWXRCWWJQQy1TbkpwT0xOTnlIRnVJRUtfYWpzTEdhQnlDRmpFaUtlX21zbVpadENMQXl2b1FKMndxZlJz?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two sticks with 'GTA VI' launch timeline, forecasts annual bookings below estimates - Reuters",
-      "date": "Thu, 21 May 2026 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2dBdUEzSks5MlZadVAzQlhEUXBnaGxkRnN2Tk9TekZqSjdDRzNYMkRBUGFLRG1HYTNsYW9HVXNvalc1Z2Z4UzZhdnJoSmZwUXN1TGFzS2JoWk9wejJ2MmdJcE4tVzhjU2RUNFFsdFZQTjlPMjNqUUdtOFVpX2lFZmp3QmRBb3FrU3ZrUG8tZ1lNeEJOWlcxNnVmLUNwRHJTUjRVWGFQVy13ZnAxNXkzajNDWDA2bFJxb1A3Vk9B?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
     }
   ],
   "sentiment": {
@@ -899,8 +940,8 @@
       "key": "trailer-3",
       "label": "Trailer 3",
       "icon": "🎥",
-      "date": null,
-      "known": false
+      "date": "2026-06-24",
+      "known": true
     },
     {
       "key": "review-embargo",
@@ -928,18 +969,18 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.81,
+      "elapsed_sec": 2.25,
       "category": "stock",
-      "last_fetched": "2026-06-24T10:28:51Z"
+      "last_fetched": "2026-06-24T10:59:10Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.22,
+        "elapsed_sec": 0.39,
         "category": "financial",
-        "last_fetched": "2026-06-24T10:28:53Z"
+        "last_fetched": "2026-06-24T10:59:12Z"
       },
       {
         "label": "Reuters",
@@ -947,66 +988,79 @@
         "items_raw": 100,
         "elapsed_sec": 0.57,
         "category": "financial",
-        "last_fetched": "2026-06-24T10:28:53Z"
+        "last_fetched": "2026-06-24T10:59:12Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.61,
+        "elapsed_sec": 0.54,
         "category": "aggregator",
-        "last_fetched": "2026-06-24T10:28:53Z"
+        "last_fetched": "2026-06-24T10:59:12Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.28,
+        "elapsed_sec": 0.64,
         "category": "platform",
-        "last_fetched": "2026-06-24T10:28:53Z"
+        "last_fetched": "2026-06-24T10:59:12Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.25,
+        "elapsed_sec": 0.28,
         "category": "platform",
-        "last_fetched": "2026-06-24T10:28:53Z"
+        "last_fetched": "2026-06-24T10:59:12Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.26,
+        "elapsed_sec": 0.72,
         "category": "gaming",
-        "last_fetched": "2026-06-24T10:28:53Z"
+        "last_fetched": "2026-06-24T10:59:12Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.21,
+        "elapsed_sec": 0.34,
         "category": "gaming",
-        "last_fetched": "2026-06-24T10:28:53Z"
+        "last_fetched": "2026-06-24T10:59:12Z"
       },
       {
         "label": "r/GTA6",
-        "status": "ok",
-        "items_raw": 25,
-        "elapsed_sec": 0.76,
+        "status": "empty",
+        "items_raw": 0,
+        "elapsed_sec": 0.19,
         "category": "community",
-        "last_fetched": "2026-06-24T10:28:53Z"
+        "last_fetched": "2026-06-24T10:59:12Z"
       }
     ],
     "summary": {
-      "events_detected_total": 0,
-      "fresh_this_run": 0,
+      "events_detected_total": 1,
+      "fresh_this_run": 1,
       "news_items": 12,
-      "archive_count": 1,
-      "last_run_utc": "2026-06-24T10:28:51Z"
+      "archive_count": 2,
+      "last_run_utc": "2026-06-24T10:59:10Z"
     }
   },
   "alerts": [
+    {
+      "label": "Trailer 3 released",
+      "status": "RE-EVALUATE",
+      "active": true,
+      "tone": "purple",
+      "category": "event",
+      "key": "trailer-3",
+      "fresh": true,
+      "source": "Google News",
+      "headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
+      "triggered_at": "2026-06-24T10:59:13Z",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFcl9jX19kTUZKNm8xaGJST2U2NUstRUltbFU2aHdUUldQOVV3OGppNFF5bWFtdW92TDNPOWcyNy1ZTU1nNFY1Und3azhmOS1Va2hVXzFFd0JYQnpZRXYxRVFhV2dHbUN1XzY3VlVSYXhSc3hwUTN3OE1lYjQ3VXEzX2dCd3VpR21TX0hZOW9QZEUxYTdaZWtxUGpmOC1sUXItQ09XTWhHV0FBRnQ0?oc=5"
+    },
     {
       "label": "Profit exceeds +500 €",
       "status": "Watching",
@@ -1032,15 +1086,6 @@
       "tone": "blue",
       "category": "portfolio",
       "key": "post-preorder-dip",
-      "fresh": false
-    },
-    {
-      "label": "Trailer 3 released",
-      "status": "Watching",
-      "active": false,
-      "tone": "blue",
-      "category": "event",
-      "key": "trailer-3",
       "fresh": false
     },
     {
