@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-24T20:44:57Z",
-  "updated_at_local": "24 Jun 2026, 20:44",
+  "updated_at": "2026-06-24T22:15:12Z",
+  "updated_at_local": "24 Jun 2026, 22:15",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -837,6 +837,14 @@
   },
   "news": [
     {
+      "headline": "Take-Two’s real GTA 6 jackpot may not be the game itself",
+      "date": "Wed, 24 Jun 2026 21:33:00 +0000",
+      "url": "https://www.thestreet.com/investing/take-two-gta-6-jackpot-not-game-but-online-repeat-spending?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
       "headline": "Rockstar Games Reveals ‘GTA 6’s Price & Preorder Bonuses - 103weup.com",
       "date": "Wed, 24 Jun 2026 19:59:21 GMT",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaFF3Y3FqVEJDNnhsLTZ3S3FBN2hJS19VNUNlQllkQWZPXzM4elBlTmMyTkU5S1pXQjVOSWFBVDgzVHVOVDB3MmFINWt5bG9wYXBfczlIYVBuaWhsNHpGNmNOSFdIRmZEUEI3TUdIeEZ4TGV0bTZMbjlHMGdGY0RsUmo5V25ZS0EwZkFGUA?oc=5",
@@ -885,18 +893,18 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two Gains After Confirming GTA VI Release Date and Premium Pricing (TTWO)",
-      "date": "Wed, 24 Jun 2026 12:54:56 +0000",
-      "url": "https://investorshub.advfn.com/market-news/article/31001/take-two-gains-after-confirming-gta-vi-release-date-and-premium-pricing-ttwo?.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "Take-Two Gains After Confirming GTA VI Release Date and Premium Pricing (TTWO) - Yahoo Finance",
+      "date": "Wed, 24 Jun 2026 12:54:56 GMT",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONFNyd3FTVzZONVFySDRHajdqVHVyb3VIdE03X0NONThjVjllYnMtNFJoMU9PaktsOHZ4b3NrNE5TaXhUczcwM1JGVWdkemJMM2JhUVNSUmJ3RHFjUnhyX251OXNvYUE0OU50OUduVDlPaGRPMm5NTlJGN1ZUSGp5X2NGNWJfY1dHWm95Nlk0dHlhczZlclNOTFhGOA?oc=5",
+      "source": "Google News",
       "importance": 10,
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - Reuters",
-      "date": "Wed, 24 Jun 2026 12:52:14 GMT",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTIyaUktTHJkNkcwQm1KVTdZdk1EcWliQlFKb0ZOOUxUR21vZjA2bDVVSUpXQmdTaFhWMzVINW81bHc1anlmQzZ5RmQ0Z0ZoSDJfakYzeVNqQUljX3RORnNBN0s3TXFoVWEtNjZQZnBuZGtGR3hPZkZlbFE4aXd5UmxWal80RzRab1llekRRWE8?oc=5",
-      "source": "Reuters",
+      "headline": "Take-Two Gains After Confirming GTA VI Release Date and Premium Pricing (TTWO)",
+      "date": "Wed, 24 Jun 2026 12:54:56 +0000",
+      "url": "https://investorshub.advfn.com/market-news/article/31001/take-two-gains-after-confirming-gta-vi-release-date-and-premium-pricing-ttwo?.tsrc=rss",
+      "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "bullish"
     },
@@ -921,14 +929,6 @@
       "date": "Wed, 24 Jun 2026 11:40:47 +0000",
       "url": "https://stocktwits.com/news-articles/markets/equity/ttwo-stock-edges-higher-after-gta-6-pricing-reveal-by-rockstar-retail-sees-another-cash-cow/cZKyesYR7fe?.tsrc=rss",
       "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "Rockstar Confirms ‘GTA 6’ $80 Price, Preorder Time And Bonuses - Forbes",
-      "date": "Wed, 24 Jun 2026 10:42:26 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaC1YajRXMnFnV2ltWTNuc2dBQ01wMWJpNWxOc1ItS2o3YjRCTnAtN1E0aGtUNlJfS2lIbURpS1E2QVJYUmdHTFVySTF5WnQzVC1BZWg1UXBrWElCeHpacFhITEZSWGdPWm5mS1BTMEZPR1luT0djTnpyVGU2ek5Db2I5VV9uWHFZcmxKVlFaTTFiaGhMYW1sN2FaUVdtZlVIMXF0VXNlX0d3OGV0YnNSVGlPdEZTdjlH?oc=5",
-      "source": "Google News",
       "importance": 10,
       "sentiment": "bullish"
     }
@@ -999,74 +999,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 2.74,
+      "elapsed_sec": 2.22,
       "category": "stock",
-      "last_fetched": "2026-06-24T20:44:53Z"
+      "last_fetched": "2026-06-24T22:15:09Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.42,
+        "elapsed_sec": 0.26,
         "category": "financial",
-        "last_fetched": "2026-06-24T20:44:56Z"
+        "last_fetched": "2026-06-24T22:15:11Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.65,
+        "elapsed_sec": 0.73,
         "category": "financial",
-        "last_fetched": "2026-06-24T20:44:56Z"
+        "last_fetched": "2026-06-24T22:15:11Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.7,
+        "elapsed_sec": 0.62,
         "category": "aggregator",
-        "last_fetched": "2026-06-24T20:44:56Z"
+        "last_fetched": "2026-06-24T22:15:11Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.67,
+        "elapsed_sec": 0.27,
         "category": "platform",
-        "last_fetched": "2026-06-24T20:44:56Z"
+        "last_fetched": "2026-06-24T22:15:11Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.44,
+        "elapsed_sec": 0.26,
         "category": "platform",
-        "last_fetched": "2026-06-24T20:44:56Z"
+        "last_fetched": "2026-06-24T22:15:11Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.45,
+        "elapsed_sec": 0.27,
         "category": "gaming",
-        "last_fetched": "2026-06-24T20:44:56Z"
+        "last_fetched": "2026-06-24T22:15:11Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.36,
+        "elapsed_sec": 0.32,
         "category": "gaming",
-        "last_fetched": "2026-06-24T20:44:56Z"
+        "last_fetched": "2026-06-24T22:15:11Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 1.27,
+        "elapsed_sec": 0.83,
         "category": "community",
-        "last_fetched": "2026-06-24T20:44:56Z"
+        "last_fetched": "2026-06-24T22:15:11Z"
       }
     ],
     "summary": {
@@ -1074,7 +1074,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 2,
-      "last_run_utc": "2026-06-24T20:44:53Z"
+      "last_run_utc": "2026-06-24T22:15:09Z"
     }
   },
   "alerts": [
