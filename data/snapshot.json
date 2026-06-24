@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-24T22:15:12Z",
-  "updated_at_local": "24 Jun 2026, 22:15",
+  "updated_at": "2026-06-24T22:56:48Z",
+  "updated_at_local": "24 Jun 2026, 22:56",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -837,6 +837,14 @@
   },
   "news": [
     {
+      "headline": "Take-Two Stock Nabs Fresh Buy Rating Ahead Of Big Game Preorders",
+      "date": "Wed, 24 Jun 2026 22:19:03 +0000",
+      "url": "https://finance.yahoo.com/m/17f93ef8-87dd-38e1-ba14-b10c9ff9c6c5/take-two-stock-nabs-fresh-buy.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
       "headline": "Take-Two’s real GTA 6 jackpot may not be the game itself",
       "date": "Wed, 24 Jun 2026 21:33:00 +0000",
       "url": "https://www.thestreet.com/investing/take-two-gta-6-jackpot-not-game-but-online-repeat-spending?.tsrc=rss",
@@ -859,14 +867,6 @@
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two Stock Nabs Fresh Buy Rating Ahead Of Big Game Preorders",
-      "date": "Wed, 24 Jun 2026 17:40:18 +0000",
-      "url": "https://finance.yahoo.com/m/17f93ef8-87dd-38e1-ba14-b10c9ff9c6c5/take-two-stock-nabs-fresh-buy.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "bullish"
     },
     {
       "headline": "GTA VI Price Set at $80 as Preorders Open",
@@ -909,6 +909,14 @@
       "sentiment": "bullish"
     },
     {
+      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - Reuters",
+      "date": "Wed, 24 Jun 2026 12:52:14 GMT",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTIyaUktTHJkNkcwQm1KVTdZdk1EcWliQlFKb0ZOOUxUR21vZjA2bDVVSUpXQmdTaFhWMzVINW81bHc1anlmQzZ5RmQ0Z0ZoSDJfakYzeVNqQUljX3RORnNBN0s3TXFoVWEtNjZQZnBuZGtGR3hPZkZlbFE4aXd5UmxWal80RzRab1llekRRWE8?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
       "headline": "Take-Two rises as GTA VI priced at $79.99, November release date confirmed",
       "date": "Wed, 24 Jun 2026 12:17:56 +0000",
       "url": "https://finance.yahoo.com/markets/stocks/articles/two-rises-gta-vi-priced-121756373.html?.tsrc=rss",
@@ -923,14 +931,6 @@
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "neutral"
-    },
-    {
-      "headline": "TTWO Stock Edges Higher After GTA 6 Pricing Reveal By Rockstar – Retail Sees Another Cash Cow",
-      "date": "Wed, 24 Jun 2026 11:40:47 +0000",
-      "url": "https://stocktwits.com/news-articles/markets/equity/ttwo-stock-edges-higher-after-gta-6-pricing-reveal-by-rockstar-retail-sees-another-cash-cow/cZKyesYR7fe?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "bullish"
     }
   ],
   "sentiment": {
@@ -999,74 +999,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 2.22,
+      "elapsed_sec": 1.46,
       "category": "stock",
-      "last_fetched": "2026-06-24T22:15:09Z"
+      "last_fetched": "2026-06-24T22:56:45Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.26,
+        "elapsed_sec": 0.24,
         "category": "financial",
-        "last_fetched": "2026-06-24T22:15:11Z"
+        "last_fetched": "2026-06-24T22:56:47Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.73,
+        "elapsed_sec": 0.53,
         "category": "financial",
-        "last_fetched": "2026-06-24T22:15:11Z"
+        "last_fetched": "2026-06-24T22:56:47Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.62,
+        "elapsed_sec": 0.85,
         "category": "aggregator",
-        "last_fetched": "2026-06-24T22:15:11Z"
+        "last_fetched": "2026-06-24T22:56:47Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.27,
+        "elapsed_sec": 0.86,
         "category": "platform",
-        "last_fetched": "2026-06-24T22:15:11Z"
+        "last_fetched": "2026-06-24T22:56:47Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.26,
+        "elapsed_sec": 0.3,
         "category": "platform",
-        "last_fetched": "2026-06-24T22:15:11Z"
+        "last_fetched": "2026-06-24T22:56:47Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.27,
+        "elapsed_sec": 0.26,
         "category": "gaming",
-        "last_fetched": "2026-06-24T22:15:11Z"
+        "last_fetched": "2026-06-24T22:56:47Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.32,
+        "elapsed_sec": 0.24,
         "category": "gaming",
-        "last_fetched": "2026-06-24T22:15:11Z"
+        "last_fetched": "2026-06-24T22:56:47Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.83,
+        "elapsed_sec": 1.37,
         "category": "community",
-        "last_fetched": "2026-06-24T22:15:11Z"
+        "last_fetched": "2026-06-24T22:56:47Z"
       }
     ],
     "summary": {
@@ -1074,7 +1074,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 2,
-      "last_run_utc": "2026-06-24T22:15:09Z"
+      "last_run_utc": "2026-06-24T22:56:45Z"
     }
   },
   "alerts": [
