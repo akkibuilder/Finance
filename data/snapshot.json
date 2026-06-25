@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-25T10:25:23Z",
-  "updated_at_local": "25 Jun 2026, 10:25",
+  "updated_at": "2026-06-25T18:37:13Z",
+  "updated_at_local": "25 Jun 2026, 18:37",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 212.4,
+    "price_eur": 206.6,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 3.6,
-    "day_change_pct": 1.72,
+    "day_change_abs": -2.2,
+    "day_change_pct": -1.05,
     "week52_high": 223.3,
     "week52_low": 142.32,
     "history": [
@@ -654,7 +654,7 @@
       },
       {
         "date": "2026-06-25",
-        "close": 212.4
+        "close": 206.6
       }
     ],
     "data_source": "yfinance"
@@ -666,11 +666,11 @@
     "extra_cash": 500.0,
     "max_loss": 400.0,
     "profit_target": 500.0,
-    "current_value": 1598.09,
-    "pl_abs": -16.91,
-    "pl_pct": -1.05,
+    "current_value": 1554.45,
+    "pl_abs": -60.55,
+    "pl_pct": -3.75,
     "target_value": 2115.0,
-    "distance_to_target": 516.91,
+    "distance_to_target": 560.55,
     "progress_pct": 0,
     "break_even_price": 214.65
   },
@@ -699,7 +699,7 @@
     "metrics": {
       "days_to_preorder": 0,
       "days_to_launch": 147,
-      "above_avg_pct": -1.05,
+      "above_avg_pct": -3.75,
       "bearish_signals": 0,
       "bullish_signals": 2
     }
@@ -923,12 +923,12 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Rockstar Confirms ‘GTA 6’ $80 Price, Preorder Time And Bonuses - Forbes",
-      "date": "Wed, 24 Jun 2026 10:42:26 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaC1YajRXMnFnV2ltWTNuc2dBQ01wMWJpNWxOc1ItS2o3YjRCTnAtN1E0aGtUNlJfS2lIbURpS1E2QVJYUmdHTFVySTF5WnQzVC1BZWg1UXBrWElCeHpacFhITEZSWGdPWm5mS1BTMEZPR1luT0djTnpyVGU2ek5Db2I5VV9uWHFZcmxKVlFaTTFiaGhMYW1sN2FaUVdtZlVIMXF0VXNlX0d3OGV0YnNSVGlPdEZTdjlH?oc=5",
+      "headline": "Rockstar Games Announces Pre-Orders for Grand Theft Auto VI - Take-Two Interactive Software, Inc.",
+      "date": "Wed, 24 Jun 2026 10:32:42 GMT",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUklVd3JBNlA2MjdzNFdla3dKX0dMWHUxb0tYYmcxVWtSbXdXNGhCajMtM0REUTI1ay1Sd0xfT3RoeDZ2NG1KUktPWVJkR1hEb29DeGt1ak5DcXFjODUxaVpoR054US1rZTVLakZTbWNjN182WlBKZ2lnQVNVRnN6TU04OTl1TXNYTWlHZHNWb0EyazJk?oc=5",
       "source": "Google News",
       "importance": 10,
-      "sentiment": "bullish"
+      "sentiment": "neutral"
     }
   ],
   "sentiment": {
@@ -997,74 +997,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 2.02,
+      "elapsed_sec": 2.72,
       "category": "stock",
-      "last_fetched": "2026-06-25T10:25:20Z"
+      "last_fetched": "2026-06-25T18:37:09Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.32,
+        "elapsed_sec": 0.23,
         "category": "financial",
-        "last_fetched": "2026-06-25T10:25:22Z"
+        "last_fetched": "2026-06-25T18:37:12Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.55,
+        "elapsed_sec": 0.53,
         "category": "financial",
-        "last_fetched": "2026-06-25T10:25:22Z"
+        "last_fetched": "2026-06-25T18:37:12Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.61,
+        "elapsed_sec": 0.59,
         "category": "aggregator",
-        "last_fetched": "2026-06-25T10:25:22Z"
+        "last_fetched": "2026-06-25T18:37:12Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.55,
+        "elapsed_sec": 0.33,
         "category": "platform",
-        "last_fetched": "2026-06-25T10:25:22Z"
+        "last_fetched": "2026-06-25T18:37:12Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.19,
+        "elapsed_sec": 0.18,
         "category": "platform",
-        "last_fetched": "2026-06-25T10:25:22Z"
+        "last_fetched": "2026-06-25T18:37:12Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.51,
+        "elapsed_sec": 0.37,
         "category": "gaming",
-        "last_fetched": "2026-06-25T10:25:22Z"
+        "last_fetched": "2026-06-25T18:37:12Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 1.12,
+        "elapsed_sec": 0.26,
         "category": "gaming",
-        "last_fetched": "2026-06-25T10:25:22Z"
+        "last_fetched": "2026-06-25T18:37:12Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.94,
+        "elapsed_sec": 0.89,
         "category": "community",
-        "last_fetched": "2026-06-25T10:25:22Z"
+        "last_fetched": "2026-06-25T18:37:12Z"
       }
     ],
     "summary": {
@@ -1072,7 +1072,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 3,
-      "last_run_utc": "2026-06-25T10:25:20Z"
+      "last_run_utc": "2026-06-25T18:37:09Z"
     }
   },
   "alerts": [
