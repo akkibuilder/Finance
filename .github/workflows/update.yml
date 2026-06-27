@@ -3,7 +3,7 @@ name: Update TTWO snapshot
 on:
   schedule:
     # Hourly at minute 5 (small offset avoids GitHub's xx:00 congestion)
-    - cron: '5 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:    # allow manual triggering from the Actions tab
   push:
     branches: [main]
