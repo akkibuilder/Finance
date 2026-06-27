@@ -35,9 +35,10 @@ from pathlib import Path
 SHARES = 10.17859464
 AVG_PRICE_EUR = 213.49
 INVESTED_EUR = 2172.90
-EXTRA_CASH_EUR = 200.00
-MAX_LOSS_EUR = 400.00
+
+EXTRA_CASH_EUR = 250.00
 PROFIT_TARGET_EUR = 600.00
+MAX_LOSS_EUR = 400.00
 
 TICKER = "TKE.DE"
 USD_TO_EUR_FALLBACK = 0.93  # If FX fetch fails
@@ -1186,26 +1187,26 @@ def build_alerts(portfolio, strategy, news, detected_events=None, fresh_keys=Non
     alerts = [
         # ── Portfolio thresholds ─────────────────────────────────────────
         {
-            "label": "Profit exceeds +500 €",
-            "status": "Consider SELL" if pl >= 500 else "Watching",
-            "active": pl >= 500,
-            "tone": "purple" if pl >= 500 else "blue",
+            "label": f"Profit exceeds +{PROFIT_TARGET_EUR:.0f} €",
+            "status": "Consider SELL" if pl >= PROFIT_TARGET_EUR else "Watching",
+            "active": pl >= PROFIT_TARGET_EUR,
+            "tone": "purple" if pl >= PROFIT_TARGET_EUR else "blue",
             "category": "portfolio",
             "key": "profit-target",
             "fresh": False,
         },
         {
-            "label": "Stop Loss (−400 € from total capital)",
-            "status": "REVIEW POSITION" if pl <= -400 else "Watching",
-            "active": pl <= -400,
-            "tone": "red" if pl <= -400 else "blue",
+            "label": "TTWO falls 10% after preorder event",
+            "status": f"BUY {EXTRA_CASH_EUR:.0f} €",
+            "active": False,
+            "tone": "blue",
             "category": "portfolio",
-            "key": "stop-loss",
+            "key": "post-preorder-dip",
             "fresh": False,
         },
         {
             "label": "TTWO falls 10% after preorder event",
-            "status": "BUY 500 €",
+            "f"BUY {EXTRA_CASH_EUR:.0f} €"
             "active": False,    # requires price-window logic — left as watcher
             "tone": "blue",
             "category": "portfolio",
