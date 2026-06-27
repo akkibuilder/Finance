@@ -689,7 +689,7 @@ def compute_strategy(stock, news, today):
     """
     Determines BUY / HOLD / WAIT / SELL verdict for:
     - existing shares (hold/sell)
-    - extra 500€ cash (buy/wait)
+    - extra cash (buy/wait)
     - whole position (sell/hold)
 
     Based on: P/L, days-to-preorder, days-to-launch, recent news sentiment.
@@ -728,7 +728,7 @@ def compute_strategy(stock, news, today):
     else:
         hold_verdict, hold_conf = "HOLD", 85
 
-    # Invest extra 500€
+    # Invest extra cash
     reasons = []
     if days_to_preorder >= 0 and days_to_preorder <= 7:
         invest_verdict, invest_conf = "WAIT", 80
