@@ -182,6 +182,13 @@ EVENT_DETECTORS = [
             r"\brumou?r",
             r"\bspeculation\b",
             r"\bleak",
+            r"\bexpected\b",
+            r"\bexpecting\b",
+            r"\bexpects\b",
+            r"\bdon'?t\s+expect\b",
+            r"\bdo\s+not\s+expect\b",
+            r"\bif\s+rockstar\b",
+          
         ],
         "title": "Trailer 3", "short": "TRAILER 3",
         "icon": "🎥", "color": "#a855f7", "type": "trailer",
