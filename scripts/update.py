@@ -740,7 +740,7 @@ def compute_strategy(stock, news, today):
         invest_verdict, invest_conf = "WAIT", 70
         reasons.append(f"Price is {above_avg:.1f}% above your avg cost.")
     elif above_avg < -10:
-        invest_verdict, invest_conf = "BUY 500€", 75
+        invest_verdict, invest_conf = f"BUY {EXTRA_CASH_EUR:.0f} €", 75
         reasons.append(f"Price is {abs(above_avg):.1f}% below your avg — better entry.")
     elif bearish_count > bullish_count + 1:
         invest_verdict, invest_conf = "WAIT", 65
