@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-27T20:45:35Z",
-  "updated_at_local": "27 Jun 2026, 20:45",
+  "updated_at": "2026-06-27T21:04:35Z",
+  "updated_at_local": "27 Jun 2026, 21:04",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -664,19 +664,19 @@
     "data_source": "yfinance"
   },
   "portfolio": {
-    "shares": 7.52397999,
-    "avg_price": 214.65,
-    "invested": 1615.0,
+    "shares": 10.17859464,
+    "avg_price": 213.49,
+    "invested": 2172.9,
     "extra_cash": 500.0,
     "max_loss": 400.0,
-    "profit_target": 500.0,
-    "current_value": 1561.98,
-    "pl_abs": -53.02,
-    "pl_pct": -3.28,
-    "target_value": 2115.0,
-    "distance_to_target": 553.02,
+    "profit_target": 600.0,
+    "current_value": 2113.08,
+    "pl_abs": -59.82,
+    "pl_pct": -2.75,
+    "target_value": 2772.9,
+    "distance_to_target": 659.82,
     "progress_pct": 0,
-    "break_even_price": 214.65
+    "break_even_price": 213.49
   },
   "strategy": {
     "primary": "HOLD CASH",
@@ -703,7 +703,7 @@
     "metrics": {
       "days_to_preorder": -2,
       "days_to_launch": 145,
-      "above_avg_pct": -3.28,
+      "above_avg_pct": -2.76,
       "bearish_signals": 0,
       "bullish_signals": 2
     }
@@ -1001,74 +1001,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.48,
+      "elapsed_sec": 1.75,
       "category": "stock",
-      "last_fetched": "2026-06-27T20:45:32Z"
+      "last_fetched": "2026-06-27T21:04:32Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.25,
+        "elapsed_sec": 0.3,
         "category": "financial",
-        "last_fetched": "2026-06-27T20:45:33Z"
+        "last_fetched": "2026-06-27T21:04:34Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.58,
+        "elapsed_sec": 0.71,
         "category": "financial",
-        "last_fetched": "2026-06-27T20:45:33Z"
+        "last_fetched": "2026-06-27T21:04:34Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.64,
+        "elapsed_sec": 0.72,
         "category": "aggregator",
-        "last_fetched": "2026-06-27T20:45:33Z"
+        "last_fetched": "2026-06-27T21:04:34Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.53,
+        "elapsed_sec": 0.71,
         "category": "platform",
-        "last_fetched": "2026-06-27T20:45:33Z"
+        "last_fetched": "2026-06-27T21:04:34Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.19,
+        "elapsed_sec": 0.25,
         "category": "platform",
-        "last_fetched": "2026-06-27T20:45:33Z"
+        "last_fetched": "2026-06-27T21:04:34Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.61,
+        "elapsed_sec": 0.58,
         "category": "gaming",
-        "last_fetched": "2026-06-27T20:45:33Z"
+        "last_fetched": "2026-06-27T21:04:34Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.34,
+        "elapsed_sec": 0.39,
         "category": "gaming",
-        "last_fetched": "2026-06-27T20:45:33Z"
+        "last_fetched": "2026-06-27T21:04:34Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 1.5,
+        "elapsed_sec": 0.97,
         "category": "community",
-        "last_fetched": "2026-06-27T20:45:33Z"
+        "last_fetched": "2026-06-27T21:04:34Z"
       }
     ],
     "summary": {
@@ -1076,7 +1076,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 5,
-      "last_run_utc": "2026-06-27T20:45:32Z"
+      "last_run_utc": "2026-06-27T21:04:32Z"
     }
   },
   "alerts": [
