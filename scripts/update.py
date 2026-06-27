@@ -1041,7 +1041,12 @@ def build_snapshot(sample=False):
     pl_pct = (pl_abs / INVESTED_EUR) * 100
     target_value = INVESTED_EUR + PROFIT_TARGET_EUR
     distance_to_target = target_value - current_value
-    progress_pct = max(0, min(100, (pl_abs / PROFIT_TARGET_EUR) * 100))
+    # Progress towards the profit target (0% → 100%)
+    progress_pct = (pl_abs / PROFIT_TARGET_EUR) * 100
+
+    # Keep the value between 0 and 100
+    progress_pct = max(0, min(progress_pct, 100))  
+
 
     portfolio = {
         "shares": SHARES,
