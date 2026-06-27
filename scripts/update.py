@@ -1204,15 +1204,7 @@ def build_alerts(portfolio, strategy, news, detected_events=None, fresh_keys=Non
             "key": "post-preorder-dip",
             "fresh": False,
         },
-        {
-            "label": "TTWO falls 10% after preorder event",
-            "f"BUY {EXTRA_CASH_EUR:.0f} €"
-            "active": False,    # requires price-window logic — left as watcher
-            "tone": "blue",
-            "category": "portfolio",
-            "key": "post-preorder-dip",
-            "fresh": False,
-        },
+      
 
         # ── Event watchers (one per dynamic-event detector) ──────────────
         event_alert("trailer-3",         "Trailer 3 released",          "RE-EVALUATE",      tone_active="purple"),
