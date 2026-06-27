@@ -32,12 +32,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 # ── Portfolio constants (Akki's actual holdings) ─────────────────────────────
-SHARES = 7.52397999
-AVG_PRICE_EUR = 214.65
-INVESTED_EUR = 1615.00
+SHARES = 10.17859464
+AVG_PRICE_EUR = 213.49
+INVESTED_EUR = 2172.90
 EXTRA_CASH_EUR = 500.00
 MAX_LOSS_EUR = 400.00
-PROFIT_TARGET_EUR = 500.00
+PROFIT_TARGET_EUR = 600.00
 
 TICKER = "TKE.DE"
 USD_TO_EUR_FALLBACK = 0.93  # If FX fetch fails
