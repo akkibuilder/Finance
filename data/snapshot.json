@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-29T14:41:08Z",
-  "updated_at_local": "29 Jun 2026, 14:41",
+  "updated_at": "2026-06-29T20:59:49Z",
+  "updated_at_local": "29 Jun 2026, 20:59",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 216.4,
+    "price_eur": 214.4,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 8.8,
-    "day_change_pct": 4.24,
+    "day_change_abs": 6.8,
+    "day_change_pct": 3.28,
     "week52_high": 223.3,
     "week52_low": 142.32,
     "history": [
@@ -662,7 +662,7 @@
       },
       {
         "date": "2026-06-29",
-        "close": 216.4
+        "close": 214.4
       }
     ],
     "data_source": "yfinance"
@@ -674,12 +674,12 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2202.65,
-    "pl_abs": 29.75,
-    "pl_pct": 1.37,
+    "current_value": 2182.29,
+    "pl_abs": 9.39,
+    "pl_pct": 0.43,
     "target_value": 2772.9,
-    "distance_to_target": 570.25,
-    "progress_pct": 4.96,
+    "distance_to_target": 590.61,
+    "progress_pct": 1.57,
     "break_even_price": 213.49
   },
   "strategy": {
@@ -687,6 +687,7 @@
     "primary_confidence": 60,
     "reasoning": [
       "No clear edge right now — keep dry powder.",
+      "Price is near your average cost (213.49 €).",
       "Risk/reward is not attractive right now.",
       "High 'buy the rumor, sell the news' risk before launch."
     ],
@@ -707,7 +708,7 @@
     "metrics": {
       "days_to_preorder": -4,
       "days_to_launch": 143,
-      "above_avg_pct": 1.36,
+      "above_avg_pct": 0.43,
       "bearish_signals": 0,
       "bullish_signals": 2
     }
@@ -899,14 +900,6 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - Reuters",
-      "date": "Wed, 24 Jun 2026 12:52:14 GMT",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTIyaUktTHJkNkcwQm1KVTdZdk1EcWliQlFKb0ZOOUxUR21vZjA2bDVVSUpXQmdTaFhWMzVINW81bHc1anlmQzZ5RmQ0Z0ZoSDJfakYzeVNqQUljX3RORnNBN0s3TXFoVWEtNjZQZnBuZGtGR3hPZkZlbFE4aXd5UmxWal80RzRab1llekRRWE8?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
       "headline": "Take-Two rises as GTA VI priced at $79.99, November release date confirmed",
       "date": "Wed, 24 Jun 2026 12:17:56 +0000",
       "url": "https://finance.yahoo.com/markets/stocks/articles/two-rises-gta-vi-priced-121756373.html?.tsrc=rss",
@@ -937,13 +930,21 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two confirms GTA VI leak, says game development unaffected - Reuters",
+      "date": "Tue, 20 Sep 2022 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2pXXzJmNEJrZldpQkFYeEI4U3NCUGZvVkhjcVFlcVo1NV92QVhDcnhrWThqQzcybnJFQmp4cGF6bFZSb2F1V2RSVVlxaVZLN2p1RUJJMjI4XzYzRkxhcXA0LXNPUEFuQlh2a2xGMHpZZXNDQ3VZWUhiYXdYdVgwUXRaRXVJMEM4ME9uSlBhcGtHdEFTTS16bWRScnA4NE04a0JwQ3RRUExWZXpwYTVuT1Y3SDU?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bearish"
     }
   ],
   "sentiment": {
-    "fan_excitement": 10,
-    "release_confidence": 9,
-    "short_term_risk": 5,
-    "long_term_upside": 9
+    "fan_excitement": 9,
+    "release_confidence": 8,
+    "short_term_risk": 6,
+    "long_term_upside": 8
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1005,82 +1006,82 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.81,
+      "elapsed_sec": 1.91,
       "category": "stock",
-      "last_fetched": "2026-06-29T14:41:06Z"
+      "last_fetched": "2026-06-29T20:59:47Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.29,
+        "elapsed_sec": 0.23,
         "category": "financial",
-        "last_fetched": "2026-06-29T14:41:08Z"
+        "last_fetched": "2026-06-29T20:59:49Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.51,
+        "elapsed_sec": 0.56,
         "category": "financial",
-        "last_fetched": "2026-06-29T14:41:08Z"
+        "last_fetched": "2026-06-29T20:59:49Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.55,
         "category": "aggregator",
-        "last_fetched": "2026-06-29T14:41:08Z"
+        "last_fetched": "2026-06-29T20:59:49Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.49,
+        "elapsed_sec": 0.29,
         "category": "platform",
-        "last_fetched": "2026-06-29T14:41:08Z"
+        "last_fetched": "2026-06-29T20:59:49Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.57,
         "category": "platform",
-        "last_fetched": "2026-06-29T14:41:08Z"
+        "last_fetched": "2026-06-29T20:59:49Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.45,
+        "elapsed_sec": 0.25,
         "category": "gaming",
-        "last_fetched": "2026-06-29T14:41:08Z"
+        "last_fetched": "2026-06-29T20:59:49Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.16,
+        "elapsed_sec": 0.26,
         "category": "gaming",
-        "last_fetched": "2026-06-29T14:41:08Z"
+        "last_fetched": "2026-06-29T20:59:49Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.96,
+        "elapsed_sec": 0.85,
         "category": "community",
-        "last_fetched": "2026-06-29T14:41:08Z"
+        "last_fetched": "2026-06-29T20:59:49Z"
       }
     ],
     "summary": {
       "events_detected_total": 2,
       "fresh_this_run": 0,
       "news_items": 12,
-      "archive_count": 6,
-      "last_run_utc": "2026-06-29T14:41:06Z"
+      "archive_count": 7,
+      "last_run_utc": "2026-06-29T20:59:47Z"
     }
   },
   "alerts": [
