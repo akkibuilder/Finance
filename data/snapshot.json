@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-08T13:17:31Z",
-  "updated_at_local": "08 Jul 2026, 13:17",
+  "updated_at": "2026-07-08T18:53:34Z",
+  "updated_at_local": "08 Jul 2026, 18:53",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 224.6,
+    "price_eur": 221.6,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": -1.8,
-    "day_change_pct": -0.8,
+    "day_change_abs": -4.8,
+    "day_change_pct": -2.12,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -690,7 +690,7 @@
       },
       {
         "date": "2026-07-08",
-        "close": 224.6
+        "close": 221.6
       }
     ],
     "data_source": "yfinance"
@@ -702,19 +702,19 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2286.11,
-    "pl_abs": 113.21,
-    "pl_pct": 5.21,
+    "current_value": 2255.58,
+    "pl_abs": 82.68,
+    "pl_pct": 3.8,
     "target_value": 2772.9,
-    "distance_to_target": 486.79,
-    "progress_pct": 18.87,
+    "distance_to_target": 517.32,
+    "progress_pct": 13.78,
     "break_even_price": 213.49
   },
   "strategy": {
-    "primary": "WAIT",
-    "primary_confidence": 70,
+    "primary": "HOLD CASH",
+    "primary_confidence": 60,
     "reasoning": [
-      "Price is 5.2% above your avg cost.",
+      "No clear edge right now — keep dry powder.",
       "High 'buy the rumor, sell the news' risk before launch."
     ],
     "actions": {
@@ -723,8 +723,8 @@
         "confidence": 85
       },
       "invest_extra": {
-        "verdict": "WAIT",
-        "confidence": 70
+        "verdict": "HOLD CASH",
+        "confidence": 60
       },
       "sell_all": {
         "verdict": "NO",
@@ -734,7 +734,7 @@
     "metrics": {
       "days_to_preorder": -13,
       "days_to_launch": 134,
-      "above_avg_pct": 5.2,
+      "above_avg_pct": 3.8,
       "bearish_signals": 0,
       "bullish_signals": 3
     }
@@ -1032,74 +1032,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.31,
+      "elapsed_sec": 1.08,
       "category": "stock",
-      "last_fetched": "2026-07-08T13:17:29Z"
+      "last_fetched": "2026-07-08T18:53:32Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.22,
         "category": "financial",
-        "last_fetched": "2026-07-08T13:17:30Z"
+        "last_fetched": "2026-07-08T18:53:33Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.52,
+        "elapsed_sec": 0.64,
         "category": "financial",
-        "last_fetched": "2026-07-08T13:17:30Z"
+        "last_fetched": "2026-07-08T18:53:33Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.58,
+        "elapsed_sec": 0.56,
         "category": "aggregator",
-        "last_fetched": "2026-07-08T13:17:30Z"
+        "last_fetched": "2026-07-08T18:53:33Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.24,
         "category": "platform",
-        "last_fetched": "2026-07-08T13:17:30Z"
+        "last_fetched": "2026-07-08T18:53:33Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.23,
         "category": "platform",
-        "last_fetched": "2026-07-08T13:17:30Z"
+        "last_fetched": "2026-07-08T18:53:33Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.19,
+        "elapsed_sec": 0.2,
         "category": "gaming",
-        "last_fetched": "2026-07-08T13:17:30Z"
+        "last_fetched": "2026-07-08T18:53:33Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.34,
+        "elapsed_sec": 0.21,
         "category": "gaming",
-        "last_fetched": "2026-07-08T13:17:30Z"
+        "last_fetched": "2026-07-08T18:53:33Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.67,
+        "elapsed_sec": 0.9,
         "category": "community",
-        "last_fetched": "2026-07-08T13:17:30Z"
+        "last_fetched": "2026-07-08T18:53:33Z"
       }
     ],
     "summary": {
@@ -1107,7 +1107,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 16,
-      "last_run_utc": "2026-07-08T13:17:29Z"
+      "last_run_utc": "2026-07-08T18:53:32Z"
     }
   },
   "alerts": [
