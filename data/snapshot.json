@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-08T18:53:34Z",
-  "updated_at_local": "08 Jul 2026, 18:53",
+  "updated_at": "2026-07-08T22:40:09Z",
+  "updated_at_local": "08 Jul 2026, 22:40",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -886,6 +886,22 @@
       "sentiment": "bullish"
     },
     {
+      "headline": "Take-Two Interactive Software (TTWO) Recast Beyond Value Indexes As GTA VI Keeps Valuation In Focus",
+      "date": "Wed, 08 Jul 2026 21:16:17 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-software-ttwo-recast-211617942.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Take Two Interactive Software (TTWO) Stock Could Be Fully Priced Following GTA VI Pre Order Buzz",
+      "date": "Wed, 08 Jul 2026 20:14:08 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-software-ttwo-stock-201408890.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
       "headline": "'GTA 6' Preload Date: Rockstar Reveals Early Download Schedule, Editions, Preorder Bonuses - player.one",
       "date": "Wed, 08 Jul 2026 03:25:09 GMT",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHQyVTNiRzVkZWJBMmh6cnhHLURlUkQxV1pIeUJTcW9LdERrQXk2NlhQQ0pqNG5DTlRBSWJwbm1JOEpYMlRTbjc1ZnFlZDRaNzl4UWQtQkR5OEdFX3RhN0QzTnNyRE9sR2wyWmpqaEpWdG9jTWRiNzVtWkZGekZSLXU3TW9Ca1pfWjdTdkZvM2NobkFkdEJDcWpkNFJIM1FOdmY5a19QbGRiYU0tZHFfX0ZiX29GZw?oc=5",
@@ -948,29 +964,13 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two raises annual bookings forecast, sticks with 'GTA VI' November launch - Reuters",
-      "date": "Tue, 03 Feb 2026 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV1VKdDhNZ1ZOQlQtVU5JZkVUOWJvWjk5Tk5QMTZKd2ZOWlVYblE1TWlENkh3Q2NJVTB3cVpaSXZvWTBSUmVXVGNSc2FPZjI4VldIUkpyY2VTSVJvMTJfMjBYdnVVRWxkMVR5ZEkwUWtBUzNIdmU0T0hhQmtQQlNTejZ5RU9nTFFPQlphbzE4V1h0dEwxdElGcEIxVTlBZFZf?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "GTA 6 Pre-Orders Send Take-Two Stock Down as Price and Launch Details Disappoint",
-      "date": "Thu, 25 Jun 2026 21:24:04 +0000",
-      "url": "https://beincrypto.com/gta-6-preorders-take-two-stock-drop/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "bullish"
     }
   ],
   "sentiment": {
-    "fan_excitement": 10,
+    "fan_excitement": 9,
     "release_confidence": 7,
     "short_term_risk": 7,
-    "long_term_upside": 9
+    "long_term_upside": 8
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1032,9 +1032,9 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.08,
+      "elapsed_sec": 1.74,
       "category": "stock",
-      "last_fetched": "2026-07-08T18:53:32Z"
+      "last_fetched": "2026-07-08T22:40:07Z"
     },
     "feeds": [
       {
@@ -1043,63 +1043,63 @@
         "items_raw": 20,
         "elapsed_sec": 0.22,
         "category": "financial",
-        "last_fetched": "2026-07-08T18:53:33Z"
+        "last_fetched": "2026-07-08T22:40:08Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.64,
+        "elapsed_sec": 0.6,
         "category": "financial",
-        "last_fetched": "2026-07-08T18:53:33Z"
+        "last_fetched": "2026-07-08T22:40:08Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.62,
         "category": "aggregator",
-        "last_fetched": "2026-07-08T18:53:33Z"
+        "last_fetched": "2026-07-08T22:40:08Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.37,
         "category": "platform",
-        "last_fetched": "2026-07-08T18:53:33Z"
+        "last_fetched": "2026-07-08T22:40:08Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.23,
+        "elapsed_sec": 0.39,
         "category": "platform",
-        "last_fetched": "2026-07-08T18:53:33Z"
+        "last_fetched": "2026-07-08T22:40:08Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.16,
         "category": "gaming",
-        "last_fetched": "2026-07-08T18:53:33Z"
+        "last_fetched": "2026-07-08T22:40:08Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.21,
+        "elapsed_sec": 0.28,
         "category": "gaming",
-        "last_fetched": "2026-07-08T18:53:33Z"
+        "last_fetched": "2026-07-08T22:40:08Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.9,
+        "elapsed_sec": 0.74,
         "category": "community",
-        "last_fetched": "2026-07-08T18:53:33Z"
+        "last_fetched": "2026-07-08T22:40:08Z"
       }
     ],
     "summary": {
@@ -1107,7 +1107,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 16,
-      "last_run_utc": "2026-07-08T18:53:32Z"
+      "last_run_utc": "2026-07-08T22:40:07Z"
     }
   },
   "alerts": [
