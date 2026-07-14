@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-14T07:22:20Z",
-  "updated_at_local": "14 Jul 2026, 07:22",
+  "updated_at": "2026-07-14T12:02:37Z",
+  "updated_at_local": "14 Jul 2026, 12:02",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 214.8,
+    "price_eur": 208.2,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": -0.4,
-    "day_change_pct": -0.19,
+    "day_change_abs": -7.2,
+    "day_change_pct": -3.34,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -702,11 +702,11 @@
       },
       {
         "date": "2026-07-13",
-        "close": 215.2
+        "close": 215.4
       },
       {
         "date": "2026-07-14",
-        "close": 214.8
+        "close": 208.2
       }
     ],
     "data_source": "yfinance"
@@ -718,12 +718,12 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2186.36,
-    "pl_abs": 13.46,
-    "pl_pct": 0.62,
+    "current_value": 2119.18,
+    "pl_abs": -53.72,
+    "pl_pct": -2.47,
     "target_value": 2772.9,
-    "distance_to_target": 586.54,
-    "progress_pct": 2.24,
+    "distance_to_target": 653.72,
+    "progress_pct": 0,
     "break_even_price": 213.49
   },
   "strategy": {
@@ -731,7 +731,6 @@
     "primary_confidence": 60,
     "reasoning": [
       "No clear edge right now — keep dry powder.",
-      "Price is near your average cost (213.49 €).",
       "Risk/reward is not attractive right now.",
       "High 'buy the rumor, sell the news' risk before launch."
     ],
@@ -752,9 +751,9 @@
     "metrics": {
       "days_to_preorder": -19,
       "days_to_launch": 128,
-      "above_avg_pct": 0.61,
+      "above_avg_pct": -2.48,
       "bearish_signals": 0,
-      "bullish_signals": 2
+      "bullish_signals": 1
     }
   },
   "events": [
@@ -907,9 +906,7 @@
       "impact": "Auto-detected from 1 source: GTA 6 PC release date: Why Rockstar is delaying the launch, explained - The Economic Times…"
     }
   ],
-  "fresh_detections": [
-    "pc-version"
-  ],
+  "fresh_detections": [],
   "next_catalyst": {
     "key": "pc-version",
     "date": "2026-07-14",
@@ -927,14 +924,6 @@
     "impact": "Auto-detected from 1 source: GTA 6 PC release date: Why Rockstar is delaying the launch, explained - The Economic Times…"
   },
   "news": [
-    {
-      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - Reuters",
-      "date": "Wed, 24 Jun 2026 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTIyaUktTHJkNkcwQm1KVTdZdk1EcWliQlFKb0ZOOUxUR21vZjA2bDVVSUpXQmdTaFhWMzVINW81bHc1anlmQzZ5RmQ0Z0ZoSDJfakYzeVNqQUljX3RORnNBN0s3TXFoVWEtNjZQZnBuZGtGR3hPZkZlbFE4aXd5UmxWal80RzRab1llekRRWE8?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
     {
       "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - Reuters",
       "date": "Wed, 08 Nov 2023 08:00:00 GMT",
@@ -1022,6 +1011,14 @@
       "source": "Google News",
       "importance": 10,
       "sentiment": "bearish"
+    },
+    {
+      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
+      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bullish"
     }
   ],
   "sentiment": {
@@ -1090,18 +1087,18 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.78,
+      "elapsed_sec": 1.29,
       "category": "stock",
-      "last_fetched": "2026-07-14T07:22:18Z"
+      "last_fetched": "2026-07-14T12:02:35Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.28,
+        "elapsed_sec": 0.18,
         "category": "financial",
-        "last_fetched": "2026-07-14T07:22:19Z"
+        "last_fetched": "2026-07-14T12:02:36Z"
       },
       {
         "label": "Reuters",
@@ -1109,79 +1106,66 @@
         "items_raw": 100,
         "elapsed_sec": 0.58,
         "category": "financial",
-        "last_fetched": "2026-07-14T07:22:19Z"
+        "last_fetched": "2026-07-14T12:02:36Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.58,
         "category": "aggregator",
-        "last_fetched": "2026-07-14T07:22:19Z"
+        "last_fetched": "2026-07-14T12:02:36Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.35,
         "category": "platform",
-        "last_fetched": "2026-07-14T07:22:19Z"
+        "last_fetched": "2026-07-14T12:02:36Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.25,
+        "elapsed_sec": 0.24,
         "category": "platform",
-        "last_fetched": "2026-07-14T07:22:19Z"
+        "last_fetched": "2026-07-14T12:02:36Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.34,
         "category": "gaming",
-        "last_fetched": "2026-07-14T07:22:19Z"
+        "last_fetched": "2026-07-14T12:02:36Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.16,
+        "elapsed_sec": 0.28,
         "category": "gaming",
-        "last_fetched": "2026-07-14T07:22:19Z"
+        "last_fetched": "2026-07-14T12:02:36Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.94,
+        "elapsed_sec": 0.85,
         "category": "community",
-        "last_fetched": "2026-07-14T07:22:19Z"
+        "last_fetched": "2026-07-14T12:02:36Z"
       }
     ],
     "summary": {
       "events_detected_total": 3,
-      "fresh_this_run": 1,
+      "fresh_this_run": 0,
       "news_items": 12,
-      "archive_count": 21,
-      "last_run_utc": "2026-07-14T07:22:18Z"
+      "archive_count": 22,
+      "last_run_utc": "2026-07-14T12:02:35Z"
     }
   },
   "alerts": [
-    {
-      "label": "PC version announced",
-      "status": "BULLISH",
-      "active": true,
-      "tone": "green",
-      "category": "event",
-      "key": "pc-version",
-      "fresh": true,
-      "source": "Google News",
-      "headline": "GTA 6 PC release date: Why Rockstar is delaying the launch, explained - The Economic Times",
-      "triggered_at": "2026-07-14T07:22:20Z",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYXhGLXliZzRud0h3NVRkSGdSNW9HYVBGYU9BcmNjcUkyNVU5Uk1lMU0xWm5zZ0Z5MUVPVEtrVzJfVlhkRFRLYzBWM2VIZDYtajR1Ri1EX1FqdnF0SkZpS3loc1V1bEt2azVYanI5MVpJMXpTZDlqUi15eU83ZDBvYS1nWmJzQVJ5M1czN2ViazVfbkZudFpubUJMT0FYWlZTWlprTzRHa3d4X1ZCZWZGbThxbkxsVnV2bmx6SEZEVF9JVExJaXpubGUwTEF5UXlWTnhFbdIB2gFBVV95cUxNNnl3Y2kydkJsSG5hdm5QSmdSZmV2eVotcC15M2tXZ2g0NGdlMDJva1RZMVY0SURuWS1hc2ZXWlFHbWYtWWhjZ2VSeXluYnVsSGlJb0FKOFEybHdONldnVG5kSFl6VTdCcVNVREFEc25zT3Zjb1lnRU5RNUx6MW5qOFVsWFZ0ampwUGpBdkZHdTFsa1E2RkJvSTByWmYtaDJ0V1h5ck9YV1B0NmpnanVOb1ZNNUV6TnFwSVB2OUxsc2dQRXZhSEwxTk9jUDdKeVFFN01iSzFycDN0QQ?oc=5"
-    },
     {
       "label": "Trailer 3 released",
       "status": "RE-EVALUATE",
@@ -1194,6 +1178,19 @@
       "headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
       "triggered_at": "2026-06-24T10:59:13Z",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFcl9jX19kTUZKNm8xaGJST2U2NUstRUltbFU2aHdUUldQOVV3OGppNFF5bWFtdW92TDNPOWcyNy1ZTU1nNFY1Und3azhmOS1Va2hVXzFFd0JYQnpZRXYxRVFhV2dHbUN1XzY3VlVSYXhSc3hwUTN3OE1lYjQ3VXEzX2dCd3VpR21TX0hZOW9QZEUxYTdaZWtxUGpmOC1sUXItQ09XTWhHV0FBRnQ0?oc=5"
+    },
+    {
+      "label": "PC version announced",
+      "status": "BULLISH",
+      "active": true,
+      "tone": "green",
+      "category": "event",
+      "key": "pc-version",
+      "fresh": false,
+      "source": "Google News",
+      "headline": "GTA 6 PC release date: Why Rockstar is delaying the launch, explained - The Economic Times",
+      "triggered_at": "2026-07-14T07:22:20Z",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYXhGLXliZzRud0h3NVRkSGdSNW9HYVBGYU9BcmNjcUkyNVU5Uk1lMU0xWm5zZ0Z5MUVPVEtrVzJfVlhkRFRLYzBWM2VIZDYtajR1Ri1EX1FqdnF0SkZpS3loc1V1bEt2azVYanI5MVpJMXpTZDlqUi15eU83ZDBvYS1nWmJzQVJ5M1czN2ViazVfbkZudFpubUJMT0FYWlZTWlprTzRHa3d4X1ZCZWZGbThxbkxsVnV2bmx6SEZEVF9JVExJaXpubGUwTEF5UXlWTnhFbdIB2gFBVV95cUxNNnl3Y2kydkJsSG5hdm5QSmdSZmV2eVotcC15M2tXZ2g0NGdlMDJva1RZMVY0SURuWS1hc2ZXWlFHbWYtWWhjZ2VSeXluYnVsSGlJb0FKOFEybHdONldnVG5kSFl6VTdCcVNVREFEc25zT3Zjb1lnRU5RNUx6MW5qOFVsWFZ0ampwUGpBdkZHdTFsa1E2RkJvSTByWmYtaDJ0V1h5ck9YV1B0NmpnanVOb1ZNNUV6TnFwSVB2OUxsc2dQRXZhSEwxTk9jUDdKeVFFN01iSzFycDN0QQ?oc=5"
     },
     {
       "label": "Price revealed",
