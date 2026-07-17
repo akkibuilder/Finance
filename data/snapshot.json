@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-17T12:00:00Z",
-  "updated_at_local": "17 Jul 2026, 12:00",
+  "updated_at": "2026-07-17T16:37:48Z",
+  "updated_at_local": "17 Jul 2026, 16:37",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 209.2,
+    "price_eur": 207.4,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": -3.2,
-    "day_change_pct": -1.51,
+    "day_change_abs": -5.0,
+    "day_change_pct": -2.35,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -718,7 +718,7 @@
       },
       {
         "date": "2026-07-17",
-        "close": 209.2
+        "close": 207.4
       }
     ],
     "data_source": "yfinance"
@@ -730,11 +730,11 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2129.36,
-    "pl_abs": -43.54,
-    "pl_pct": -2.0,
+    "current_value": 2111.04,
+    "pl_abs": -61.86,
+    "pl_pct": -2.85,
     "target_value": 2772.9,
-    "distance_to_target": 643.54,
+    "distance_to_target": 661.86,
     "progress_pct": 0,
     "break_even_price": 213.49
   },
@@ -763,7 +763,7 @@
     "metrics": {
       "days_to_preorder": -22,
       "days_to_launch": 125,
-      "above_avg_pct": -2.01,
+      "above_avg_pct": -2.85,
       "bearish_signals": 0,
       "bullish_signals": 2
     }
@@ -963,14 +963,6 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "'Grand Theft Auto' publisher Take-Two ups full-year profit forecast - Reuters",
-      "date": "Wed, 04 Feb 2015 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONGhJWnR6LTNMbHlITlE5TUlrRGpCN0h4NE5WX3pTMlU0aGxzeVdTbHR5dWxBdVhFWkNlWjdGVS1nTXlReGh3RXNkWG5NV1pMaklrWjhDbWRxWHgzOXNkcDNKZENHNVIzS0FxeXJwSUVXUEpkTFJkdi1yZER2U0VfdmFFSXlxSXlFQlRJakkxVU1iei1YV2piUjZEeGc3Zw?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
       "headline": "An Investment Perspective on Take-Two Interactive Software (TTWO) Amid Market Speculation",
       "date": "Wed, 01 Jul 2026 12:32:45 +0000",
       "url": "https://finance.yahoo.com/markets/stocks/articles/investment-perspective-two-interactive-software-123245277.html?.tsrc=rss",
@@ -1025,13 +1017,21 @@
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "neutral"
+    },
+    {
+      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
+      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bullish"
     }
   ],
   "sentiment": {
     "fan_excitement": 8,
     "release_confidence": 7,
     "short_term_risk": 7,
-    "long_term_upside": 7
+    "long_term_upside": 8
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1093,9 +1093,9 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.82,
+      "elapsed_sec": 1.66,
       "category": "stock",
-      "last_fetched": "2026-07-17T11:59:57Z"
+      "last_fetched": "2026-07-17T16:37:46Z"
     },
     "feeds": [
       {
@@ -1104,63 +1104,63 @@
         "items_raw": 20,
         "elapsed_sec": 0.24,
         "category": "financial",
-        "last_fetched": "2026-07-17T11:59:59Z"
+        "last_fetched": "2026-07-17T16:37:48Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.63,
+        "elapsed_sec": 0.76,
         "category": "financial",
-        "last_fetched": "2026-07-17T11:59:59Z"
+        "last_fetched": "2026-07-17T16:37:48Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.54,
+        "elapsed_sec": 0.83,
         "category": "aggregator",
-        "last_fetched": "2026-07-17T11:59:59Z"
+        "last_fetched": "2026-07-17T16:37:48Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.78,
+        "elapsed_sec": 0.28,
         "category": "platform",
-        "last_fetched": "2026-07-17T11:59:59Z"
+        "last_fetched": "2026-07-17T16:37:48Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.19,
+        "elapsed_sec": 0.51,
         "category": "platform",
-        "last_fetched": "2026-07-17T11:59:59Z"
+        "last_fetched": "2026-07-17T16:37:48Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.74,
+        "elapsed_sec": 0.27,
         "category": "gaming",
-        "last_fetched": "2026-07-17T11:59:59Z"
+        "last_fetched": "2026-07-17T16:37:48Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.23,
+        "elapsed_sec": 0.42,
         "category": "gaming",
-        "last_fetched": "2026-07-17T11:59:59Z"
+        "last_fetched": "2026-07-17T16:37:48Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.83,
+        "elapsed_sec": 0.77,
         "category": "community",
-        "last_fetched": "2026-07-17T11:59:59Z"
+        "last_fetched": "2026-07-17T16:37:48Z"
       }
     ],
     "summary": {
@@ -1168,7 +1168,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 25,
-      "last_run_utc": "2026-07-17T11:59:57Z"
+      "last_run_utc": "2026-07-17T16:37:46Z"
     }
   },
   "alerts": [
