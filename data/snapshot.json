@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-21T09:39:22Z",
-  "updated_at_local": "21 Jul 2026, 09:39",
+  "updated_at": "2026-07-21T15:53:51Z",
+  "updated_at_local": "21 Jul 2026, 15:53",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 209.2,
+    "price_eur": 207.4,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": -2.6,
-    "day_change_pct": -1.23,
+    "day_change_abs": -4.4,
+    "day_change_pct": -2.08,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -726,7 +726,7 @@
       },
       {
         "date": "2026-07-21",
-        "close": 209.2
+        "close": 207.4
       }
     ],
     "data_source": "yfinance"
@@ -738,11 +738,11 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2129.36,
-    "pl_abs": -43.54,
-    "pl_pct": -2.0,
+    "current_value": 2111.04,
+    "pl_abs": -61.86,
+    "pl_pct": -2.85,
     "target_value": 2772.9,
-    "distance_to_target": 643.54,
+    "distance_to_target": 661.86,
     "progress_pct": 0,
     "break_even_price": 213.49
   },
@@ -771,7 +771,7 @@
     "metrics": {
       "days_to_preorder": -26,
       "days_to_launch": 121,
-      "above_avg_pct": -2.01,
+      "above_avg_pct": -2.85,
       "bearish_signals": 0,
       "bullish_signals": 2
     }
@@ -995,6 +995,14 @@
       "sentiment": "neutral"
     },
     {
+      "headline": "GTA 6 Trailer 3 Update: Has Rockstar Games announced next Grand Theft Auto 6 trailer? Here's what we know - The Economic Times",
+      "date": "Tue, 21 Jul 2026 15:16:08 GMT",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTXRkS1pkanU3cmJGcU9GY2NFN0I4cWNGVGRGYlFEME1VbXFlOUUwcHl0ZDhWOWt5by12cnRwX1ZHaTFjd0dSSjJ4SjBLS2NIMm9DelVUMWZQZ3FiUXl3RWxTZklnZ3VkT1ZnNHJPYXBnYjdOQ3VEWjVOTlk4Nm5GX1VEMHNwcW1HZWEtTDBjc2lGTWdJS0hBdUQ1dEt1QTBUVkl3a0NBZGxGeV85cnVzNmdCbVhTYUZZdlloTDR0eUpBLXRZSTZyeG9QU1I2d1VkcGJ3S0Q4TGw2NTBSUFdsWWFRUU8wbDZVay16b0g2Nkl3dzZycHhVSzh4T2dEWEpKejdrRkR1MmJONXZvbUFQRUZ0SnNUXzFF0gGeAkFVX3lxTFBMOTNjRjFpb1lUM284VUxzSnhlTmswSHozM1VEdi1lTDVSVUpQNDNWajU4X1pIZWRHakJsZjNiVGZiZ3lna1c0SEFCSTRBR3gxdDN0b3NTS2EyTDlMV0dKenMzRnpEbjh3TEtVRjQ0NnpYX1dsaFotOUQ3SEVoS2VNVjVLS3dwOHV3VjVLWEJOX21yTGU3UFFmWUZvUVpXRXZlcG5Pb2ZSUWd4cWV1aXhjSlVXSU5OZ1JFVFhMOGhLUWRuWVJTSmVMTjhGR1R0WDR4Nl8yU2pBUkRBX0NCNnkyZldKalpPbmJtY0J3cE9wdlp3SnJPQjBfbWx6SWlBMVlXM3h6WVVLVllOVkNhZWdydFpwS3ZVcXlMQV84QXc?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
       "headline": "Take-Two confirms GTA VI leak, says game development unaffected - Reuters",
       "date": "Tue, 20 Sep 2022 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2pXXzJmNEJrZldpQkFYeEI4U3NCUGZvVkhjcVFlcVo1NV92QVhDcnhrWThqQzcybnJFQmp4cGF6bFZSb2F1V2RSVVlxaVZLN2p1RUJJMjI4XzYzRkxhcXA0LXNPUEFuQlh2a2xGMHpZZXNDQ3VZWUhiYXdYdVgwUXRaRXVJMEM4ME9uSlBhcGtHdEFTTS16bWRScnA4NE04a0JwQ3RRUExWZXpwYTVuT1Y3SDU?oc=5",
@@ -1025,14 +1033,6 @@
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "neutral"
-    },
-    {
-      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
-      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
     }
   ],
   "sentiment": {
@@ -1101,74 +1101,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.32,
+      "elapsed_sec": 1.26,
       "category": "stock",
-      "last_fetched": "2026-07-21T09:39:20Z"
+      "last_fetched": "2026-07-21T15:53:49Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.22,
+        "elapsed_sec": 0.19,
         "category": "financial",
-        "last_fetched": "2026-07-21T09:39:22Z"
+        "last_fetched": "2026-07-21T15:53:50Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.67,
+        "elapsed_sec": 0.57,
         "category": "financial",
-        "last_fetched": "2026-07-21T09:39:22Z"
+        "last_fetched": "2026-07-21T15:53:50Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.64,
+        "elapsed_sec": 0.57,
         "category": "aggregator",
-        "last_fetched": "2026-07-21T09:39:22Z"
+        "last_fetched": "2026-07-21T15:53:50Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.14,
         "category": "platform",
-        "last_fetched": "2026-07-21T09:39:22Z"
+        "last_fetched": "2026-07-21T15:53:50Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.31,
+        "elapsed_sec": 0.28,
         "category": "platform",
-        "last_fetched": "2026-07-21T09:39:22Z"
+        "last_fetched": "2026-07-21T15:53:50Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.27,
         "category": "gaming",
-        "last_fetched": "2026-07-21T09:39:22Z"
+        "last_fetched": "2026-07-21T15:53:50Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.27,
+        "elapsed_sec": 0.33,
         "category": "gaming",
-        "last_fetched": "2026-07-21T09:39:22Z"
+        "last_fetched": "2026-07-21T15:53:50Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.77,
+        "elapsed_sec": 0.66,
         "category": "community",
-        "last_fetched": "2026-07-21T09:39:22Z"
+        "last_fetched": "2026-07-21T15:53:50Z"
       }
     ],
     "summary": {
@@ -1176,7 +1176,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 29,
-      "last_run_utc": "2026-07-21T09:39:20Z"
+      "last_run_utc": "2026-07-21T15:53:49Z"
     }
   },
   "alerts": [
