@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-21T00:14:52Z",
-  "updated_at_local": "21 Jul 2026, 00:14",
+  "updated_at": "2026-07-21T09:39:22Z",
+  "updated_at_local": "21 Jul 2026, 09:39",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 211.8,
+    "price_eur": 209.2,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 4.4,
-    "day_change_pct": 2.12,
+    "day_change_abs": -2.6,
+    "day_change_pct": -1.23,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -723,6 +723,10 @@
       {
         "date": "2026-07-20",
         "close": 211.8
+      },
+      {
+        "date": "2026-07-21",
+        "close": 209.2
       }
     ],
     "data_source": "yfinance"
@@ -734,11 +738,11 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2155.83,
-    "pl_abs": -17.07,
-    "pl_pct": -0.79,
+    "current_value": 2129.36,
+    "pl_abs": -43.54,
+    "pl_pct": -2.0,
     "target_value": 2772.9,
-    "distance_to_target": 617.07,
+    "distance_to_target": 643.54,
     "progress_pct": 0,
     "break_even_price": 213.49
   },
@@ -747,7 +751,6 @@
     "primary_confidence": 60,
     "reasoning": [
       "No clear edge right now — keep dry powder.",
-      "Price is near your average cost (213.49 €).",
       "Risk/reward is not attractive right now.",
       "High 'buy the rumor, sell the news' risk before launch."
     ],
@@ -768,7 +771,7 @@
     "metrics": {
       "days_to_preorder": -26,
       "days_to_launch": 121,
-      "above_avg_pct": -0.79,
+      "above_avg_pct": -2.01,
       "bearish_signals": 0,
       "bullish_signals": 2
     }
@@ -1098,9 +1101,9 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.87,
+      "elapsed_sec": 1.32,
       "category": "stock",
-      "last_fetched": "2026-07-21T00:14:49Z"
+      "last_fetched": "2026-07-21T09:39:20Z"
     },
     "feeds": [
       {
@@ -1109,71 +1112,71 @@
         "items_raw": 20,
         "elapsed_sec": 0.22,
         "category": "financial",
-        "last_fetched": "2026-07-21T00:14:51Z"
+        "last_fetched": "2026-07-21T09:39:22Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.52,
+        "elapsed_sec": 0.67,
         "category": "financial",
-        "last_fetched": "2026-07-21T00:14:51Z"
+        "last_fetched": "2026-07-21T09:39:22Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.64,
         "category": "aggregator",
-        "last_fetched": "2026-07-21T00:14:51Z"
+        "last_fetched": "2026-07-21T09:39:22Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.62,
+        "elapsed_sec": 0.33,
         "category": "platform",
-        "last_fetched": "2026-07-21T00:14:51Z"
+        "last_fetched": "2026-07-21T09:39:22Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.31,
         "category": "platform",
-        "last_fetched": "2026-07-21T00:14:51Z"
+        "last_fetched": "2026-07-21T09:39:22Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.68,
+        "elapsed_sec": 0.33,
         "category": "gaming",
-        "last_fetched": "2026-07-21T00:14:51Z"
+        "last_fetched": "2026-07-21T09:39:22Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.37,
+        "elapsed_sec": 0.27,
         "category": "gaming",
-        "last_fetched": "2026-07-21T00:14:51Z"
+        "last_fetched": "2026-07-21T09:39:22Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.83,
+        "elapsed_sec": 0.77,
         "category": "community",
-        "last_fetched": "2026-07-21T00:14:51Z"
+        "last_fetched": "2026-07-21T09:39:22Z"
       }
     ],
     "summary": {
       "events_detected_total": 3,
       "fresh_this_run": 0,
       "news_items": 12,
-      "archive_count": 28,
-      "last_run_utc": "2026-07-21T00:14:49Z"
+      "archive_count": 29,
+      "last_run_utc": "2026-07-21T09:39:20Z"
     }
   },
   "alerts": [
