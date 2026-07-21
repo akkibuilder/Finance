@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-21T20:39:06Z",
-  "updated_at_local": "21 Jul 2026, 20:39",
+  "updated_at": "2026-07-21T23:43:40Z",
+  "updated_at_local": "21 Jul 2026, 23:43",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -995,9 +995,25 @@
       "sentiment": "neutral"
     },
     {
+      "headline": "Take-Two Interactive (TTWO) Stock Declines While Market Improves: Some Information for Investors",
+      "date": "Tue, 21 Jul 2026 21:50:03 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-ttwo-stock-declines-215003711.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
       "headline": "GTA 6 Trailer 3 Update: Has Rockstar Games announced next Grand Theft Auto 6 trailer? Here's what we know - The Economic Times",
       "date": "Tue, 21 Jul 2026 15:16:08 GMT",
       "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPTXRkS1pkanU3cmJGcU9GY2NFN0I4cWNGVGRGYlFEME1VbXFlOUUwcHl0ZDhWOWt5by12cnRwX1ZHaTFjd0dSSjJ4SjBLS2NIMm9DelVUMWZQZ3FiUXl3RWxTZklnZ3VkT1ZnNHJPYXBnYjdOQ3VEWjVOTlk4Nm5GX1VEMHNwcW1HZWEtTDBjc2lGTWdJS0hBdUQ1dEt1QTBUVkl3a0NBZGxGeV85cnVzNmdCbVhTYUZZdlloTDR0eUpBLXRZSTZyeG9QU1I2d1VkcGJ3S0Q4TGw2NTBSUFdsWWFRUU8wbDZVay16b0g2Nkl3dzZycHhVSzh4T2dEWEpKejdrRkR1MmJONXZvbUFQRUZ0SnNUXzFF0gGeAkFVX3lxTFBMOTNjRjFpb1lUM284VUxzSnhlTmswSHozM1VEdi1lTDVSVUpQNDNWajU4X1pIZWRHakJsZjNiVGZiZ3lna1c0SEFCSTRBR3gxdDN0b3NTS2EyTDlMV0dKenMzRnpEbjh3TEtVRjQ0NnpYX1dsaFotOUQ3SEVoS2VNVjVLS3dwOHV3VjVLWEJOX21yTGU3UFFmWUZvUVpXRXZlcG5Pb2ZSUWd4cWV1aXhjSlVXSU5OZ1JFVFhMOGhLUWRuWVJTSmVMTjhGR1R0WDR4Nl8yU2pBUkRBX0NCNnkyZldKalpPbmJtY0J3cE9wdlp3SnJPQjBfbWx6SWlBMVlXM3h6WVVLVllOVkNhZWdydFpwS3ZVcXlMQV84QXc?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Rockstar's silence over 'GTA 6' Trailer 3 may be its boldest marketing strategy yet - EasternEye",
+      "date": "Tue, 21 Jul 2026 14:12:57 GMT",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9MWWF2eDJGZ3NmWG5vV203QWo2ZWRtUkI2ekx3d29DaGIxb1RiUnlqY1RseWZrbXZkSTJ6TWpFeF9jT3ZaM3dJQjhEblVFcFlkU1N0SGZTOHQya3RLS1N4ZVg0Y2tMMnA3X2hmSkVuYkJrZWlkUWl3QnU2NA?oc=5",
       "source": "Google News",
       "importance": 10,
       "sentiment": "bullish"
@@ -1017,26 +1033,10 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bearish"
-    },
-    {
-      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
-      "date": "Tue, 16 Apr 2024 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two Interactive (TTWO) Stock Slides as Market Rises: Facts to Know Before You Trade",
-      "date": "Tue, 14 Jul 2026 21:50:04 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-ttwo-stock-slides-215004438.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
     }
   ],
   "sentiment": {
-    "fan_excitement": 8,
+    "fan_excitement": 9,
     "release_confidence": 7,
     "short_term_risk": 7,
     "long_term_upside": 8
@@ -1101,74 +1101,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 2.03,
+      "elapsed_sec": 2.18,
       "category": "stock",
-      "last_fetched": "2026-07-21T20:39:01Z"
+      "last_fetched": "2026-07-21T23:43:36Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.34,
+        "elapsed_sec": 0.3,
         "category": "financial",
-        "last_fetched": "2026-07-21T20:39:03Z"
+        "last_fetched": "2026-07-21T23:43:39Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.72,
+        "elapsed_sec": 0.67,
         "category": "financial",
-        "last_fetched": "2026-07-21T20:39:03Z"
+        "last_fetched": "2026-07-21T23:43:39Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.68,
+        "elapsed_sec": 0.66,
         "category": "aggregator",
-        "last_fetched": "2026-07-21T20:39:03Z"
+        "last_fetched": "2026-07-21T23:43:39Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 2.48,
+        "elapsed_sec": 0.56,
         "category": "platform",
-        "last_fetched": "2026-07-21T20:39:03Z"
+        "last_fetched": "2026-07-21T23:43:39Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.3,
+        "elapsed_sec": 0.24,
         "category": "platform",
-        "last_fetched": "2026-07-21T20:39:03Z"
+        "last_fetched": "2026-07-21T23:43:39Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.51,
         "category": "gaming",
-        "last_fetched": "2026-07-21T20:39:03Z"
+        "last_fetched": "2026-07-21T23:43:39Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.36,
+        "elapsed_sec": 0.27,
         "category": "gaming",
-        "last_fetched": "2026-07-21T20:39:03Z"
+        "last_fetched": "2026-07-21T23:43:39Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.92,
+        "elapsed_sec": 0.88,
         "category": "community",
-        "last_fetched": "2026-07-21T20:39:03Z"
+        "last_fetched": "2026-07-21T23:43:39Z"
       }
     ],
     "summary": {
@@ -1176,7 +1176,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 29,
-      "last_run_utc": "2026-07-21T20:39:01Z"
+      "last_run_utc": "2026-07-21T23:43:36Z"
     }
   },
   "alerts": [
