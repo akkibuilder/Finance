@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-24T12:55:46Z",
-  "updated_at_local": "24 Jul 2026, 12:55",
+  "updated_at": "2026-07-24T14:51:59Z",
+  "updated_at_local": "24 Jul 2026, 14:51",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 203.2,
+    "price_eur": 204.0,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 1.6,
-    "day_change_pct": 0.79,
+    "day_change_abs": 2.4,
+    "day_change_pct": 1.19,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -738,7 +738,7 @@
       },
       {
         "date": "2026-07-24",
-        "close": 203.2
+        "close": 204.0
       }
     ],
     "data_source": "yfinance"
@@ -750,11 +750,11 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2068.29,
-    "pl_abs": -104.61,
-    "pl_pct": -4.81,
+    "current_value": 2076.43,
+    "pl_abs": -96.47,
+    "pl_pct": -4.44,
     "target_value": 2772.9,
-    "distance_to_target": 704.61,
+    "distance_to_target": 696.47,
     "progress_pct": 0,
     "break_even_price": 213.49
   },
@@ -783,9 +783,9 @@
     "metrics": {
       "days_to_preorder": -29,
       "days_to_launch": 118,
-      "above_avg_pct": -4.82,
+      "above_avg_pct": -4.45,
       "bearish_signals": 0,
-      "bullish_signals": 4
+      "bullish_signals": 3
     }
   },
   "events": [
@@ -967,14 +967,6 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "GTA 6 fans pin trailer 3 hopes on Take-Two's August 7 earnings call—but will it actually drop? - Geo News",
-      "date": "Wed, 22 Jul 2026 14:11:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWGViSjAtckdxMXhhWXJzNHJFQ1N6dHlTa2ZXVEp3Zi00dWJrdE5nX3BRVHIxdUN5d0xTZFVhcHhZNmJ2b3ctWlE1TWRwTnFZZjhhRkxvcDdxVGNJNWJRcHF0MjBrM3Z5RVUzeTdzSFVZNzMxYm9xZkFHb0NnaW4zM0V2OTlCMkZ6ZU9JeW9Ic19ERFdqUDhPNVpidWF6OGsw?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
       "headline": "What to Expect From Take-Two Interactive’s Q1 2027 Earnings Report",
       "date": "Wed, 22 Jul 2026 10:18:32 +0000",
       "url": "https://www.barchart.com/story/news/3399266/what-to-expect-from-take-two-interactives-q1-2027-earnings-report?.tsrc=rss",
@@ -1045,10 +1037,18 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "neutral"
+    },
+    {
+      "headline": "Take-Two Interactive (TTWO) Stock Slides as Market Rises: Facts to Know Before You Trade",
+      "date": "Tue, 14 Jul 2026 21:50:04 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-ttwo-stock-slides-215004438.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
     }
   ],
   "sentiment": {
-    "fan_excitement": 9,
+    "fan_excitement": 8,
     "release_confidence": 7,
     "short_term_risk": 7,
     "long_term_upside": 8
@@ -1113,74 +1113,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.92,
+      "elapsed_sec": 1.4,
       "category": "stock",
-      "last_fetched": "2026-07-24T12:55:43Z"
+      "last_fetched": "2026-07-24T14:51:57Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.36,
+        "elapsed_sec": 0.25,
         "category": "financial",
-        "last_fetched": "2026-07-24T12:55:45Z"
+        "last_fetched": "2026-07-24T14:51:59Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.6,
+        "elapsed_sec": 0.55,
         "category": "financial",
-        "last_fetched": "2026-07-24T12:55:45Z"
+        "last_fetched": "2026-07-24T14:51:59Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.73,
+        "elapsed_sec": 0.62,
         "category": "aggregator",
-        "last_fetched": "2026-07-24T12:55:45Z"
+        "last_fetched": "2026-07-24T14:51:59Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.53,
+        "elapsed_sec": 0.26,
         "category": "platform",
-        "last_fetched": "2026-07-24T12:55:45Z"
+        "last_fetched": "2026-07-24T14:51:59Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.4,
+        "elapsed_sec": 0.28,
         "category": "platform",
-        "last_fetched": "2026-07-24T12:55:45Z"
+        "last_fetched": "2026-07-24T14:51:59Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.42,
+        "elapsed_sec": 0.32,
         "category": "gaming",
-        "last_fetched": "2026-07-24T12:55:45Z"
+        "last_fetched": "2026-07-24T14:51:59Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.44,
+        "elapsed_sec": 0.27,
         "category": "gaming",
-        "last_fetched": "2026-07-24T12:55:45Z"
+        "last_fetched": "2026-07-24T14:51:59Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.91,
+        "elapsed_sec": 0.81,
         "category": "community",
-        "last_fetched": "2026-07-24T12:55:45Z"
+        "last_fetched": "2026-07-24T14:51:59Z"
       }
     ],
     "summary": {
@@ -1188,7 +1188,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 32,
-      "last_run_utc": "2026-07-24T12:55:43Z"
+      "last_run_utc": "2026-07-24T14:51:57Z"
     }
   },
   "alerts": [
