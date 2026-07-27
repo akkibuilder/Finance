@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-27T06:48:03Z",
-  "updated_at_local": "27 Jul 2026, 06:48",
+  "updated_at": "2026-07-27T10:38:41Z",
+  "updated_at_local": "27 Jul 2026, 10:38",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 203.6,
+    "price_eur": 207.2,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 2.0,
-    "day_change_pct": 0.99,
+    "day_change_abs": 3.6,
+    "day_change_pct": 1.77,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -739,6 +739,10 @@
       {
         "date": "2026-07-24",
         "close": 203.6
+      },
+      {
+        "date": "2026-07-27",
+        "close": 207.2
       }
     ],
     "data_source": "yfinance"
@@ -750,11 +754,11 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2072.36,
-    "pl_abs": -100.54,
-    "pl_pct": -4.63,
+    "current_value": 2109.0,
+    "pl_abs": -63.9,
+    "pl_pct": -2.94,
     "target_value": 2772.9,
-    "distance_to_target": 700.54,
+    "distance_to_target": 663.9,
     "progress_pct": 0,
     "break_even_price": 213.49
   },
@@ -783,7 +787,7 @@
     "metrics": {
       "days_to_preorder": -32,
       "days_to_launch": 115,
-      "above_avg_pct": -4.63,
+      "above_avg_pct": -2.95,
       "bearish_signals": 0,
       "bullish_signals": 2
     }
@@ -1113,74 +1117,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.59,
+      "elapsed_sec": 1.5,
       "category": "stock",
-      "last_fetched": "2026-07-27T06:48:00Z"
+      "last_fetched": "2026-07-27T10:38:39Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.17,
+        "elapsed_sec": 0.21,
         "category": "financial",
-        "last_fetched": "2026-07-27T06:48:02Z"
+        "last_fetched": "2026-07-27T10:38:41Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.5,
+        "elapsed_sec": 0.56,
         "category": "financial",
-        "last_fetched": "2026-07-27T06:48:02Z"
+        "last_fetched": "2026-07-27T10:38:41Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.53,
         "category": "aggregator",
-        "last_fetched": "2026-07-27T06:48:02Z"
+        "last_fetched": "2026-07-27T10:38:41Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.82,
+        "elapsed_sec": 0.29,
         "category": "platform",
-        "last_fetched": "2026-07-27T06:48:02Z"
+        "last_fetched": "2026-07-27T10:38:41Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.22,
+        "elapsed_sec": 0.28,
         "category": "platform",
-        "last_fetched": "2026-07-27T06:48:02Z"
+        "last_fetched": "2026-07-27T10:38:41Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.32,
         "category": "gaming",
-        "last_fetched": "2026-07-27T06:48:02Z"
+        "last_fetched": "2026-07-27T10:38:41Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.17,
+        "elapsed_sec": 0.35,
         "category": "gaming",
-        "last_fetched": "2026-07-27T06:48:02Z"
+        "last_fetched": "2026-07-27T10:38:41Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.67,
+        "elapsed_sec": 0.83,
         "category": "community",
-        "last_fetched": "2026-07-27T06:48:02Z"
+        "last_fetched": "2026-07-27T10:38:41Z"
       }
     ],
     "summary": {
@@ -1188,7 +1192,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 35,
-      "last_run_utc": "2026-07-27T06:48:00Z"
+      "last_run_utc": "2026-07-27T10:38:39Z"
     }
   },
   "alerts": [
