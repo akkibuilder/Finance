@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-28T13:18:27Z",
-  "updated_at_local": "28 Jul 2026, 13:18",
+  "updated_at": "2026-07-28T15:41:48Z",
+  "updated_at_local": "28 Jul 2026, 15:41",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 216.2,
+    "price_eur": 214.8,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 4.8,
-    "day_change_pct": 2.27,
+    "day_change_abs": 3.4,
+    "day_change_pct": 1.61,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -746,7 +746,7 @@
       },
       {
         "date": "2026-07-28",
-        "close": 216.2
+        "close": 214.8
       }
     ],
     "data_source": "yfinance"
@@ -758,12 +758,12 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2200.61,
-    "pl_abs": 27.71,
-    "pl_pct": 1.28,
+    "current_value": 2186.36,
+    "pl_abs": 13.46,
+    "pl_pct": 0.62,
     "target_value": 2772.9,
-    "distance_to_target": 572.29,
-    "progress_pct": 4.62,
+    "distance_to_target": 586.54,
+    "progress_pct": 2.24,
     "break_even_price": 213.49
   },
   "strategy": {
@@ -771,6 +771,7 @@
     "primary_confidence": 60,
     "reasoning": [
       "No clear edge right now — keep dry powder.",
+      "Price is near your average cost (213.49 €).",
       "Risk/reward is not attractive right now.",
       "High 'buy the rumor, sell the news' risk before launch."
     ],
@@ -791,8 +792,8 @@
     "metrics": {
       "days_to_preorder": -33,
       "days_to_launch": 114,
-      "above_avg_pct": 1.27,
-      "bearish_signals": 1,
+      "above_avg_pct": 0.61,
+      "bearish_signals": 0,
       "bullish_signals": 2
     }
   },
@@ -999,6 +1000,14 @@
       "sentiment": "neutral"
     },
     {
+      "headline": "Is Take-Two (TTWO) a Buy as Wall Street Analysts Look Optimistic?",
+      "date": "Tue, 28 Jul 2026 13:30:02 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-ttwo-buy-wall-street-133002030.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
       "headline": "Take-Two doubles down on GTA 6 release date, expects net bookings to increase by 22% - TweakTown",
       "date": "Tue, 28 Jul 2026 06:05:09 GMT",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOc1VIT3ZpS0ZodThXZG1kMm1qcGZpUVR6RGJRY043VUJRQWttODk1Rl9ZcmNrTkpiSGpsN1BORWpleHo1QmJyY0pBNXdQZGVTVVdKLXZYMG9IOW5VVzd6b1ZJcThMWVlpdzJKYzB1SGR3NWRrMk50amhLdlRXREVpRlYtM05fb3lSMVlualk2UksyZDhXeW9UX0k2R3hrUk04OFo3M2Y4SWtDcVRuYi1ZZGJfRWx4N0N1UjNTbzBIa2g4UHNfdFFRWm1Dc2hVbG04MWdXS093?oc=5",
@@ -1045,21 +1054,13 @@
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "neutral"
-    },
-    {
-      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
-      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
     }
   ],
   "sentiment": {
     "fan_excitement": 8,
     "release_confidence": 6,
     "short_term_risk": 8,
-    "long_term_upside": 8
+    "long_term_upside": 7
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1121,74 +1122,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.24,
+      "elapsed_sec": 1.18,
       "category": "stock",
-      "last_fetched": "2026-07-28T13:18:25Z"
+      "last_fetched": "2026-07-28T15:41:45Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.21,
         "category": "financial",
-        "last_fetched": "2026-07-28T13:18:26Z"
+        "last_fetched": "2026-07-28T15:41:46Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.65,
         "category": "financial",
-        "last_fetched": "2026-07-28T13:18:26Z"
+        "last_fetched": "2026-07-28T15:41:46Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.6,
+        "elapsed_sec": 0.63,
         "category": "aggregator",
-        "last_fetched": "2026-07-28T13:18:26Z"
+        "last_fetched": "2026-07-28T15:41:46Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.31,
+        "elapsed_sec": 2.12,
         "category": "platform",
-        "last_fetched": "2026-07-28T13:18:26Z"
+        "last_fetched": "2026-07-28T15:41:46Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.23,
+        "elapsed_sec": 0.24,
         "category": "platform",
-        "last_fetched": "2026-07-28T13:18:26Z"
+        "last_fetched": "2026-07-28T15:41:46Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.27,
+        "elapsed_sec": 0.18,
         "category": "gaming",
-        "last_fetched": "2026-07-28T13:18:26Z"
+        "last_fetched": "2026-07-28T15:41:46Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.34,
+        "elapsed_sec": 0.19,
         "category": "gaming",
-        "last_fetched": "2026-07-28T13:18:26Z"
+        "last_fetched": "2026-07-28T15:41:46Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.64,
+        "elapsed_sec": 0.7,
         "category": "community",
-        "last_fetched": "2026-07-28T13:18:26Z"
+        "last_fetched": "2026-07-28T15:41:46Z"
       }
     ],
     "summary": {
@@ -1196,7 +1197,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 36,
-      "last_run_utc": "2026-07-28T13:18:25Z"
+      "last_run_utc": "2026-07-28T15:41:45Z"
     }
   },
   "alerts": [
