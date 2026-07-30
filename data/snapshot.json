@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-30T03:29:22Z",
-  "updated_at_local": "30 Jul 2026, 03:29",
+  "updated_at": "2026-07-30T06:08:30Z",
+  "updated_at_local": "30 Jul 2026, 06:08",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -797,7 +797,7 @@
       "days_to_launch": 112,
       "above_avg_pct": 2.49,
       "bearish_signals": 0,
-      "bullish_signals": 2
+      "bullish_signals": 3
     }
   },
   "events": [
@@ -971,6 +971,14 @@
       "sentiment": "neutral"
     },
     {
+      "headline": "GTA 6 Australia Update: Will Grand Theft Auto VI Launch Without Casino Gambling Features? Rockstar Faces New Restrictions After GTA Online Ban – Full List of Restricted Countries - The Sunday Guardian",
+      "date": "Wed, 29 Jul 2026 13:26:37 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOMDRRMlVLNnVtbS1RcFQtUlFnTTNXbWxQVnNTNlhxaU5BRjNLbnY1dUh6bE1qSVY4b09hR2txN2N4d3pXRHRDSDVyNHQxQ3lpMnlkRzdUNXRleGhhUk4yWmJkQlZud2xwM1lkX1puOGE1RzBBenZiSTZSOERHVU5sOFZrdU1hUkIxWVl3SkdTVF9YMW1uVFZhbFR4NHBtQTNOLTZNZEUxS1BmTFFHRklKeFV2Wk4ySHN3WkpmY0Zia1dZakVfcWI0ZlkxYlVucWE3YmNjckFrbnJUSEZIaTdNRkhLZnFIZk1DZFR0bnpLUGtWTVdDbHl0aHVjTjgyenZNcldUaDBpNmowNnZPaUQ1S3JRS2xDZVJwMWVqdmRRYnlldGI2dzRqWFctYVRtaENiaWtKLXBCYVFENjY4eDVHUG8zQjNSTENBeVp30gHQAkFVX3lxTE9QVEZNM2VURjc3ZzVCM1ZuVWphelhDbzZVVUtiRjVVNmhtNUFSUlE3UGVtMWxVOWhra0hraFBQYUVVV21oMDhpN1lQR3RGYjcwaElyVGZRUk14M0hhZ3lRSWJrUkhZWVVORGp5MmEwTzQ5MC1tYUY2aDRab2NIWVZhbUE5Ry1MN1I3S2FQa2MzSERBcVBQNzU4U0gyaXVrQ0pnVkVTYnhKMGJIQXBZM1REVWdycWRiVkdmQWtDRUdEWVFhcUt5TmJDM3JyaV93SnUydjRrQmNCUDRrb09KNHppWUVEZVlYbG1JQ2VvSXVvZWVySDl1M05QM0NaSDRseTJoTGxSVHM3UE1ueHNXMGlkYUpxdHhYYmNjZ1Rsb2FHVE5yYzJybVFOU2FoLURlOE9vLXNXRHNqdU5QVUJURWtQUUQxX3RhTlpldnhkdHd6aQ?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
       "headline": "Sony poised for 'GTA VI' boost as memory prices bite",
       "date": "Wed, 29 Jul 2026 07:33:36 +0000",
       "url": "https://finance.yahoo.com/technology/articles/sony-poised-gta-vi-boost-073336735.html?.tsrc=rss",
@@ -1049,21 +1057,13 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bearish"
-    },
-    {
-      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
-      "date": "Tue, 16 Apr 2024 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "neutral"
     }
   ],
   "sentiment": {
     "fan_excitement": 8,
     "release_confidence": 6,
     "short_term_risk": 8,
-    "long_term_upside": 7
+    "long_term_upside": 8
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1125,74 +1125,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 2.63,
+      "elapsed_sec": 2.36,
       "category": "stock",
-      "last_fetched": "2026-07-30T03:29:18Z"
+      "last_fetched": "2026-07-30T06:08:27Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.29,
+        "elapsed_sec": 0.26,
         "category": "financial",
-        "last_fetched": "2026-07-30T03:29:21Z"
+        "last_fetched": "2026-07-30T06:08:29Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.5,
         "category": "financial",
-        "last_fetched": "2026-07-30T03:29:21Z"
+        "last_fetched": "2026-07-30T06:08:29Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.62,
+        "elapsed_sec": 0.56,
         "category": "aggregator",
-        "last_fetched": "2026-07-30T03:29:21Z"
+        "last_fetched": "2026-07-30T06:08:29Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.8,
+        "elapsed_sec": 0.6,
         "category": "platform",
-        "last_fetched": "2026-07-30T03:29:21Z"
+        "last_fetched": "2026-07-30T06:08:29Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.22,
+        "elapsed_sec": 0.27,
         "category": "platform",
-        "last_fetched": "2026-07-30T03:29:21Z"
+        "last_fetched": "2026-07-30T06:08:29Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.69,
+        "elapsed_sec": 0.68,
         "category": "gaming",
-        "last_fetched": "2026-07-30T03:29:21Z"
+        "last_fetched": "2026-07-30T06:08:29Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.17,
         "category": "gaming",
-        "last_fetched": "2026-07-30T03:29:21Z"
+        "last_fetched": "2026-07-30T06:08:29Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.96,
+        "elapsed_sec": 0.82,
         "category": "community",
-        "last_fetched": "2026-07-30T03:29:21Z"
+        "last_fetched": "2026-07-30T06:08:29Z"
       }
     ],
     "summary": {
@@ -1200,7 +1200,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 38,
-      "last_run_utc": "2026-07-30T03:29:18Z"
+      "last_run_utc": "2026-07-30T06:08:27Z"
     }
   },
   "alerts": [
