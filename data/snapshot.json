@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-04T17:11:45Z",
-  "updated_at_local": "04 Aug 2026, 17:11",
+  "updated_at": "2026-08-04T18:51:43Z",
+  "updated_at_local": "04 Aug 2026, 18:51",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1067,7 +1067,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "GTA 6: Former Rockstar Games dev 'would not be shocked' by another release date delay - indy100.com",
+      "headline": "GTA 6: Former Rockstar Games dev 'would not be shocked' by another release date delay - Indy100",
       "date": "Tue, 04 Aug 2026 10:54:28 GMT",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTcm5ORnUyRnFkQVdxdi15cEF6NXpYMFZ1S3o1YlpTOWFHWGdTM0Nxc0M4UlZoN0k0ejBuajlBRUlBQzI3c3cxeTRDdU41Yi0zLVUxaG95aE43UlBMYVJ3TVdWT050UTAxX0FzU3M2QzMxWlll?oc=5",
       "source": "Google News",
@@ -1141,74 +1141,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 2.27,
+      "elapsed_sec": 1.66,
       "category": "stock",
-      "last_fetched": "2026-08-04T17:11:42Z"
+      "last_fetched": "2026-08-04T18:51:41Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.39,
+        "elapsed_sec": 0.3,
         "category": "financial",
-        "last_fetched": "2026-08-04T17:11:44Z"
+        "last_fetched": "2026-08-04T18:51:43Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.6,
+        "elapsed_sec": 0.74,
         "category": "financial",
-        "last_fetched": "2026-08-04T17:11:44Z"
+        "last_fetched": "2026-08-04T18:51:43Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.72,
+        "elapsed_sec": 0.81,
         "category": "aggregator",
-        "last_fetched": "2026-08-04T17:11:44Z"
+        "last_fetched": "2026-08-04T18:51:43Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.67,
+        "elapsed_sec": 0.47,
         "category": "platform",
-        "last_fetched": "2026-08-04T17:11:44Z"
+        "last_fetched": "2026-08-04T18:51:43Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.31,
+        "elapsed_sec": 0.29,
         "category": "platform",
-        "last_fetched": "2026-08-04T17:11:44Z"
+        "last_fetched": "2026-08-04T18:51:43Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.7,
+        "elapsed_sec": 0.42,
         "category": "gaming",
-        "last_fetched": "2026-08-04T17:11:44Z"
+        "last_fetched": "2026-08-04T18:51:43Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.42,
+        "elapsed_sec": 0.44,
         "category": "gaming",
-        "last_fetched": "2026-08-04T17:11:44Z"
+        "last_fetched": "2026-08-04T18:51:43Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.97,
+        "elapsed_sec": 0.82,
         "category": "community",
-        "last_fetched": "2026-08-04T17:11:44Z"
+        "last_fetched": "2026-08-04T18:51:43Z"
       }
     ],
     "summary": {
@@ -1216,7 +1216,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 43,
-      "last_run_utc": "2026-08-04T17:11:42Z"
+      "last_run_utc": "2026-08-04T18:51:41Z"
     }
   },
   "alerts": [
