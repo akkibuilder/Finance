@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-05T22:43:47Z",
-  "updated_at_local": "05 Aug 2026, 22:43",
+  "updated_at": "2026-08-05T23:39:58Z",
+  "updated_at_local": "05 Aug 2026, 23:39",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1007,20 +1007,20 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "What to Expect From Take-Two Interactive’s Q1 2027 Earnings Report",
-      "date": "Wed, 22 Jul 2026 10:18:32 +0000",
-      "url": "https://www.barchart.com/story/news/3399266/what-to-expect-from-take-two-interactives-q1-2027-earnings-report?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
       "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - Reuters",
       "date": "Wed, 08 Nov 2023 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEdHd0NqM1gwaENTcU40SUtIZ2pTSllybTVXUW5EY3FBTXJLZE1kTG9MZzdjcDd5MGVyeHdyeWJOR0c1Nm9adVFtb0E1S2xVeWk2X1VSbHI3QUNEVzhDTVNuamx3T0Fzbk1xS2ZVVUtlTDBSMFBFcnV1bzFtb1dhUUxJcml3ZHU1UEJOQnlsNHd6NG0yMWo1REZJYVVHeF9sYzRKczdjVWJoc0pIV3NvWWNuWkpMbU94?oc=5",
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
+    },
+    {
+      "headline": "Grand Theft Auto 6 publisher is holding an investors call at a very unusual time this week",
+      "date": "Wed, 05 Aug 2026 19:20:04 +0000",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-publisher-is-holding-an-investors-call-at-a-very-unusual-time-this-week/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
     },
     {
       "headline": "Ex-Rockstar dev says GTA 6 release date delay of 6+ months possible despite pre-orders - Notebookcheck",
@@ -1055,7 +1055,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "As GTA 6 Trailer 3 looms, Ex-Rockstar dev explains why studios still can't 'catch up' to the 'king' - GAMINGbible",
+      "headline": "As GTA 6 Trailer 3 looms, Ex-Rockstar dev explains why studios still can't 'catch up' to the 'king' - gamingbible.com",
       "date": "Wed, 05 Aug 2026 14:44:33 GMT",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVXVnNFQyQXd1RklRcWpDdXpTVEpSRG9uNGpmT19GOFowX2EzZmhRRjdNU0FOTU9mSkt3OUlOZzBOajNPLWxQOC1xYzBOZks3YkRObGhFSmJxMDFWOGlsdmtTQVVrQ25xMG5wcm5lZU5NczhaM0xmcXJOOUV1MWJESm11MFhUZw?oc=5",
       "source": "Google News",
@@ -1145,74 +1145,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.69,
+      "elapsed_sec": 2.15,
       "category": "stock",
-      "last_fetched": "2026-08-05T22:43:45Z"
+      "last_fetched": "2026-08-05T23:39:55Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 20,
-        "elapsed_sec": 0.26,
+        "items_raw": 14,
+        "elapsed_sec": 0.59,
         "category": "financial",
-        "last_fetched": "2026-08-05T22:43:46Z"
+        "last_fetched": "2026-08-05T23:39:58Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.55,
+        "elapsed_sec": 0.72,
         "category": "financial",
-        "last_fetched": "2026-08-05T22:43:46Z"
+        "last_fetched": "2026-08-05T23:39:58Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.54,
+        "elapsed_sec": 0.65,
         "category": "aggregator",
-        "last_fetched": "2026-08-05T22:43:46Z"
+        "last_fetched": "2026-08-05T23:39:58Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.72,
+        "elapsed_sec": 0.57,
         "category": "platform",
-        "last_fetched": "2026-08-05T22:43:46Z"
+        "last_fetched": "2026-08-05T23:39:58Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.18,
+        "elapsed_sec": 0.55,
         "category": "platform",
-        "last_fetched": "2026-08-05T22:43:46Z"
+        "last_fetched": "2026-08-05T23:39:58Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.58,
+        "elapsed_sec": 0.65,
         "category": "gaming",
-        "last_fetched": "2026-08-05T22:43:46Z"
+        "last_fetched": "2026-08-05T23:39:58Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.48,
+        "elapsed_sec": 0.53,
         "category": "gaming",
-        "last_fetched": "2026-08-05T22:43:46Z"
+        "last_fetched": "2026-08-05T23:39:58Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.9,
+        "elapsed_sec": 0.84,
         "category": "community",
-        "last_fetched": "2026-08-05T22:43:46Z"
+        "last_fetched": "2026-08-05T23:39:58Z"
       }
     ],
     "summary": {
@@ -1220,7 +1220,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 44,
-      "last_run_utc": "2026-08-05T22:43:45Z"
+      "last_run_utc": "2026-08-05T23:39:55Z"
     }
   },
   "alerts": [
