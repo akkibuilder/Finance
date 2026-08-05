@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-05T13:12:05Z",
-  "updated_at_local": "05 Aug 2026, 13:12",
+  "updated_at": "2026-08-05T15:27:38Z",
+  "updated_at_local": "05 Aug 2026, 15:27",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 210.4,
+    "price_eur": 203.8,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 1.2,
-    "day_change_pct": 0.57,
+    "day_change_abs": -5.4,
+    "day_change_pct": -2.58,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -770,7 +770,7 @@
       },
       {
         "date": "2026-08-05",
-        "close": 210.4
+        "close": 203.8
       }
     ],
     "data_source": "yfinance"
@@ -782,11 +782,11 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2141.58,
-    "pl_abs": -31.32,
-    "pl_pct": -1.44,
+    "current_value": 2074.4,
+    "pl_abs": -98.5,
+    "pl_pct": -4.53,
     "target_value": 2772.9,
-    "distance_to_target": 631.32,
+    "distance_to_target": 698.5,
     "progress_pct": 0,
     "break_even_price": 213.49
   },
@@ -815,9 +815,9 @@
     "metrics": {
       "days_to_preorder": -41,
       "days_to_launch": 106,
-      "above_avg_pct": -1.45,
+      "above_avg_pct": -4.54,
       "bearish_signals": 0,
-      "bullish_signals": 3
+      "bullish_signals": 2
     }
   },
   "events": [
@@ -1023,6 +1023,14 @@
       "sentiment": "bullish"
     },
     {
+      "headline": "NateTheHate Promises August GTA 6 Update as Take-Two Breaks Earnings Call Tradition - Tech Times",
+      "date": "Wed, 05 Aug 2026 13:56:10 GMT",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSDNRYUhNWm9iLS1ZcGh5bHVxeGxTdHN4eTk5VmNET01yQTR0ZmU1MlRpV2FtdUoyTE1zR0M5eGpRRHgza0w0V3ZKbExWcWhHY2NxZk8wRVAwbm9EcjNUMUZfcmpaNFp3MDBoT0dySkpQMkhWQnFyWWd0MFZaenBYZ1A5am5LVXdRSEFFYXAyMzZDdUhpTTdCb1JZa3RmeTN6NGtsem1tRTNjb3doaXphOV9kRm4wR2h6ci1rNEIwYjNVdkRTYmYxZXZLdENmeE1o?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
       "headline": "As GTA 6 Trailer 3 looms, Ex-Rockstar dev explains why studios still can't 'catch up' to the 'king' - GAMINGbible",
       "date": "Wed, 05 Aug 2026 12:00:01 GMT",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVXVnNFQyQXd1RklRcWpDdXpTVEpSRG9uNGpmT19GOFowX2EzZmhRRjdNU0FOTU9mSkt3OUlOZzBOajNPLWxQOC1xYzBOZks3YkRObGhFSmJxMDFWOGlsdmtTQVVrQ25xMG5wcm5lZU5NczhaM0xmcXJOOUV1MWJESm11MFhUZw?oc=5",
@@ -1069,18 +1077,10 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "neutral"
-    },
-    {
-      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
-      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
     }
   ],
   "sentiment": {
-    "fan_excitement": 9,
+    "fan_excitement": 8,
     "release_confidence": 7,
     "short_term_risk": 7,
     "long_term_upside": 8
@@ -1145,74 +1145,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 2.11,
+      "elapsed_sec": 2.0,
       "category": "stock",
-      "last_fetched": "2026-08-05T13:12:02Z"
+      "last_fetched": "2026-08-05T15:27:35Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.22,
+        "elapsed_sec": 0.26,
         "category": "financial",
-        "last_fetched": "2026-08-05T13:12:04Z"
+        "last_fetched": "2026-08-05T15:27:37Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.48,
+        "elapsed_sec": 0.56,
         "category": "financial",
-        "last_fetched": "2026-08-05T13:12:04Z"
+        "last_fetched": "2026-08-05T15:27:37Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.51,
+        "elapsed_sec": 0.53,
         "category": "aggregator",
-        "last_fetched": "2026-08-05T13:12:04Z"
+        "last_fetched": "2026-08-05T15:27:37Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 1.39,
+        "elapsed_sec": 0.75,
         "category": "platform",
-        "last_fetched": "2026-08-05T13:12:04Z"
+        "last_fetched": "2026-08-05T15:27:37Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.18,
+        "elapsed_sec": 0.45,
         "category": "platform",
-        "last_fetched": "2026-08-05T13:12:04Z"
+        "last_fetched": "2026-08-05T15:27:37Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.6,
+        "elapsed_sec": 0.78,
         "category": "gaming",
-        "last_fetched": "2026-08-05T13:12:04Z"
+        "last_fetched": "2026-08-05T15:27:37Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.27,
+        "elapsed_sec": 0.23,
         "category": "gaming",
-        "last_fetched": "2026-08-05T13:12:04Z"
+        "last_fetched": "2026-08-05T15:27:37Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.85,
+        "elapsed_sec": 0.91,
         "category": "community",
-        "last_fetched": "2026-08-05T13:12:04Z"
+        "last_fetched": "2026-08-05T15:27:37Z"
       }
     ],
     "summary": {
@@ -1220,7 +1220,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 44,
-      "last_run_utc": "2026-08-05T13:12:02Z"
+      "last_run_utc": "2026-08-05T15:27:35Z"
     }
   },
   "alerts": [
