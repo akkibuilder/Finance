@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-05T20:22:24Z",
-  "updated_at_local": "05 Aug 2026, 20:22",
+  "updated_at": "2026-08-05T21:44:13Z",
+  "updated_at_local": "05 Aug 2026, 21:44",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -999,7 +999,7 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - reuters.com",
+      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - Reuters",
       "date": "Wed, 24 Jun 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTIyaUktTHJkNkcwQm1KVTdZdk1EcWliQlFKb0ZOOUxUR21vZjA2bDVVSUpXQmdTaFhWMzVINW81bHc1anlmQzZ5RmQ0Z0ZoSDJfakYzeVNqQUljX3RORnNBN0s3TXFoVWEtNjZQZnBuZGtGR3hPZkZlbFE4aXd5UmxWal80RzRab1llekRRWE8?oc=5",
       "source": "Reuters",
@@ -1007,20 +1007,20 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "What to Expect From Take-Two Interactive’s Q1 2027 Earnings Report",
-      "date": "Wed, 22 Jul 2026 10:18:32 +0000",
-      "url": "https://www.barchart.com/story/news/3399266/what-to-expect-from-take-two-interactives-q1-2027-earnings-report?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - reuters.com",
+      "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - Reuters",
       "date": "Wed, 08 Nov 2023 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEdHd0NqM1gwaENTcU40SUtIZ2pTSllybTVXUW5EY3FBTXJLZE1kTG9MZzdjcDd5MGVyeHdyeWJOR0c1Nm9adVFtb0E1S2xVeWk2X1VSbHI3QUNEVzhDTVNuamx3T0Fzbk1xS2ZVVUtlTDBSMFBFcnV1bzFtb1dhUUxJcml3ZHU1UEJOQnlsNHd6NG0yMWo1REZJYVVHeF9sYzRKczdjVWJoc0pIV3NvWWNuWkpMbU94?oc=5",
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
+    },
+    {
+      "headline": "Grand Theft Auto 6 publisher is holding an investors call at a very unusual time this week",
+      "date": "Wed, 05 Aug 2026 19:20:04 +0000",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-publisher-is-holding-an-investors-call-at-a-very-unusual-time-this-week/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
     },
     {
       "headline": "Ex-Rockstar dev says GTA 6 release date delay of 6+ months possible despite pre-orders - Notebookcheck",
@@ -1145,74 +1145,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.77,
+      "elapsed_sec": 1.3,
       "category": "stock",
-      "last_fetched": "2026-08-05T20:22:21Z"
+      "last_fetched": "2026-08-05T21:44:11Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 20,
-        "elapsed_sec": 0.25,
+        "items_raw": 14,
+        "elapsed_sec": 0.36,
         "category": "financial",
-        "last_fetched": "2026-08-05T20:22:23Z"
+        "last_fetched": "2026-08-05T21:44:12Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.53,
+        "elapsed_sec": 0.54,
         "category": "financial",
-        "last_fetched": "2026-08-05T20:22:23Z"
+        "last_fetched": "2026-08-05T21:44:12Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.54,
+        "elapsed_sec": 0.59,
         "category": "aggregator",
-        "last_fetched": "2026-08-05T20:22:23Z"
+        "last_fetched": "2026-08-05T21:44:12Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.71,
+        "elapsed_sec": 0.3,
         "category": "platform",
-        "last_fetched": "2026-08-05T20:22:23Z"
+        "last_fetched": "2026-08-05T21:44:12Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.43,
         "category": "platform",
-        "last_fetched": "2026-08-05T20:22:23Z"
+        "last_fetched": "2026-08-05T21:44:12Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.65,
+        "elapsed_sec": 0.25,
         "category": "gaming",
-        "last_fetched": "2026-08-05T20:22:23Z"
+        "last_fetched": "2026-08-05T21:44:12Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.12,
+        "elapsed_sec": 0.27,
         "category": "gaming",
-        "last_fetched": "2026-08-05T20:22:23Z"
+        "last_fetched": "2026-08-05T21:44:12Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.77,
+        "elapsed_sec": 0.67,
         "category": "community",
-        "last_fetched": "2026-08-05T20:22:23Z"
+        "last_fetched": "2026-08-05T21:44:12Z"
       }
     ],
     "summary": {
@@ -1220,7 +1220,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 44,
-      "last_run_utc": "2026-08-05T20:22:21Z"
+      "last_run_utc": "2026-08-05T21:44:11Z"
     }
   },
   "alerts": [
