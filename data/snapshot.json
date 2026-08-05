@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-05T11:28:21Z",
-  "updated_at_local": "05 Aug 2026, 11:28",
+  "updated_at": "2026-08-05T13:12:05Z",
+  "updated_at_local": "05 Aug 2026, 13:12",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 210.0,
+    "price_eur": 210.4,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 0.8,
-    "day_change_pct": 0.38,
+    "day_change_abs": 1.2,
+    "day_change_pct": 0.57,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -770,7 +770,7 @@
       },
       {
         "date": "2026-08-05",
-        "close": 210.0
+        "close": 210.4
       }
     ],
     "data_source": "yfinance"
@@ -782,11 +782,11 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2137.5,
-    "pl_abs": -35.4,
-    "pl_pct": -1.63,
+    "current_value": 2141.58,
+    "pl_abs": -31.32,
+    "pl_pct": -1.44,
     "target_value": 2772.9,
-    "distance_to_target": 635.4,
+    "distance_to_target": 631.32,
     "progress_pct": 0,
     "break_even_price": 213.49
   },
@@ -815,9 +815,9 @@
     "metrics": {
       "days_to_preorder": -41,
       "days_to_launch": 106,
-      "above_avg_pct": -1.63,
+      "above_avg_pct": -1.45,
       "bearish_signals": 0,
-      "bullish_signals": 2
+      "bullish_signals": 3
     }
   },
   "events": [
@@ -1023,6 +1023,14 @@
       "sentiment": "bullish"
     },
     {
+      "headline": "As GTA 6 Trailer 3 looms, Ex-Rockstar dev explains why studios still can't 'catch up' to the 'king' - GAMINGbible",
+      "date": "Wed, 05 Aug 2026 12:00:01 GMT",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVXVnNFQyQXd1RklRcWpDdXpTVEpSRG9uNGpmT19GOFowX2EzZmhRRjdNU0FOTU9mSkt3OUlOZzBOajNPLWxQOC1xYzBOZks3YkRObGhFSmJxMDFWOGlsdmtTQVVrQ25xMG5wcm5lZU5NczhaM0xmcXJOOUV1MWJESm11MFhUZw?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
       "headline": "Take-Two Interactive (TTWO) Laps the Stock Market: Here's Why",
       "date": "Tue, 28 Jul 2026 21:50:04 +0000",
       "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-ttwo-laps-stock-215004311.html?.tsrc=rss",
@@ -1069,20 +1077,12 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
-    },
-    {
-      "headline": "GTA 6: Former Rockstar Games dev 'would not be shocked' by another release date delay - Indy100",
-      "date": "Tue, 04 Aug 2026 10:54:28 GMT",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTcm5ORnUyRnFkQVdxdi15cEF6NXpYMFZ1S3o1YlpTOWFHWGdTM0Nxc0M4UlZoN0k0ejBuajlBRUlBQzI3c3cxeTRDdU41Yi0zLVUxaG95aE43UlBMYVJ3TVdWT050UTAxX0FzU3M2QzMxWlll?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "bearish"
     }
   ],
   "sentiment": {
-    "fan_excitement": 8,
-    "release_confidence": 6,
-    "short_term_risk": 8,
+    "fan_excitement": 9,
+    "release_confidence": 7,
+    "short_term_risk": 7,
     "long_term_upside": 8
   },
   "game_metrics": {
@@ -1145,74 +1145,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.42,
+      "elapsed_sec": 2.11,
       "category": "stock",
-      "last_fetched": "2026-08-05T11:28:19Z"
+      "last_fetched": "2026-08-05T13:12:02Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.21,
+        "elapsed_sec": 0.22,
         "category": "financial",
-        "last_fetched": "2026-08-05T11:28:20Z"
+        "last_fetched": "2026-08-05T13:12:04Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.48,
         "category": "financial",
-        "last_fetched": "2026-08-05T11:28:20Z"
+        "last_fetched": "2026-08-05T13:12:04Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.58,
+        "elapsed_sec": 0.51,
         "category": "aggregator",
-        "last_fetched": "2026-08-05T11:28:20Z"
+        "last_fetched": "2026-08-05T13:12:04Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.29,
+        "elapsed_sec": 1.39,
         "category": "platform",
-        "last_fetched": "2026-08-05T11:28:20Z"
+        "last_fetched": "2026-08-05T13:12:04Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.28,
+        "elapsed_sec": 0.18,
         "category": "platform",
-        "last_fetched": "2026-08-05T11:28:20Z"
+        "last_fetched": "2026-08-05T13:12:04Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.6,
         "category": "gaming",
-        "last_fetched": "2026-08-05T11:28:20Z"
+        "last_fetched": "2026-08-05T13:12:04Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.27,
         "category": "gaming",
-        "last_fetched": "2026-08-05T11:28:20Z"
+        "last_fetched": "2026-08-05T13:12:04Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.71,
+        "elapsed_sec": 0.85,
         "category": "community",
-        "last_fetched": "2026-08-05T11:28:20Z"
+        "last_fetched": "2026-08-05T13:12:04Z"
       }
     ],
     "summary": {
@@ -1220,7 +1220,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 44,
-      "last_run_utc": "2026-08-05T11:28:19Z"
+      "last_run_utc": "2026-08-05T13:12:02Z"
     }
   },
   "alerts": [
