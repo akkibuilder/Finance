@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-07T21:54:37Z",
-  "updated_at_local": "07 Aug 2026, 21:54",
+  "updated_at": "2026-08-07T22:29:55Z",
+  "updated_at_local": "07 Aug 2026, 22:29",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1149,10 +1149,10 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Videogame publishers rush to seize fall launch window after 'GTA VI' delay - Reuters",
-      "date": "Mon, 12 May 2025 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcFhkNGtjb2Y1MU8ydndIcFUxZG1UdWN0SjJUVUhETHYzelRaVmwzV1VDenN2OENmRWFaTE1JU05xMU1rYldpRllUMExXZWZtNUVfTm1USGdOV0h1TWk1amZmTjBsUUlNbjlIZTZpVThzOGZ3UVJ6NURKaW01ZmI4V0VLclZURlFNZHVPdFN1RG8zZXNnZ3MyUDRlNTdHT19kTEVJcHdkbm51OWdpMzZERjBmdVdsb3pjUkNvMzM3aHllN3RwS0VN?oc=5",
-      "source": "Reuters",
+      "headline": "Is GTA 6 delayed again? What to know about November release date - El Paso Times",
+      "date": "Thu, 06 Aug 2026 15:02:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQUI2bDJjVWx4eVJqVzRYSTBhLVBuak5LVDBDWW4zd3VjUHRpakdLWk9BNGVYaDRfeEQ0dmhDaVQwNDlZT2dYcnlKWTlyaWVZY1pzTWpOLXNGZkhsSEhGcnFJUUxCRElaeWs3TU5BZlVlWXRiOWlrd2xEUkxwX3c5bDJQOXZrR1dqNXhHYU5ZcERLTGFtSy1nMXF4TW1hdzlXYVcxdS1OSzN6SVFZbDBWS25n?oc=5",
+      "source": "Google News",
       "importance": 10,
       "sentiment": "bearish"
     }
@@ -1223,26 +1223,26 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.09,
+      "elapsed_sec": 1.9,
       "category": "stock",
-      "last_fetched": "2026-08-07T21:54:35Z"
+      "last_fetched": "2026-08-07T22:29:53Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.32,
         "category": "financial",
-        "last_fetched": "2026-08-07T21:54:36Z"
+        "last_fetched": "2026-08-07T22:29:55Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.64,
+        "elapsed_sec": 0.53,
         "category": "financial",
-        "last_fetched": "2026-08-07T21:54:36Z"
+        "last_fetched": "2026-08-07T22:29:55Z"
       },
       {
         "label": "Google News",
@@ -1250,39 +1250,39 @@
         "items_raw": 100,
         "elapsed_sec": 0.6,
         "category": "aggregator",
-        "last_fetched": "2026-08-07T21:54:36Z"
+        "last_fetched": "2026-08-07T22:29:55Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.35,
+        "elapsed_sec": 0.3,
         "category": "platform",
-        "last_fetched": "2026-08-07T21:54:36Z"
+        "last_fetched": "2026-08-07T22:29:55Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.36,
+        "elapsed_sec": 0.3,
         "category": "platform",
-        "last_fetched": "2026-08-07T21:54:36Z"
+        "last_fetched": "2026-08-07T22:29:55Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.35,
         "category": "gaming",
-        "last_fetched": "2026-08-07T21:54:36Z"
+        "last_fetched": "2026-08-07T22:29:55Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.27,
         "category": "gaming",
-        "last_fetched": "2026-08-07T21:54:36Z"
+        "last_fetched": "2026-08-07T22:29:55Z"
       },
       {
         "label": "r/GTA6",
@@ -1290,7 +1290,7 @@
         "items_raw": 25,
         "elapsed_sec": 0.71,
         "category": "community",
-        "last_fetched": "2026-08-07T21:54:36Z"
+        "last_fetched": "2026-08-07T22:29:55Z"
       }
     ],
     "summary": {
@@ -1298,7 +1298,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 46,
-      "last_run_utc": "2026-08-07T21:54:35Z"
+      "last_run_utc": "2026-08-07T22:29:53Z"
     }
   },
   "alerts": [
