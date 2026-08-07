@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-07T13:50:12Z",
-  "updated_at_local": "07 Aug 2026, 13:50",
+  "updated_at": "2026-08-07T14:49:11Z",
+  "updated_at_local": "07 Aug 2026, 14:49",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 203.6,
+    "price_eur": 206.2,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 0.0,
-    "day_change_pct": 0.0,
+    "day_change_abs": 2.6,
+    "day_change_pct": 1.28,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -778,7 +778,7 @@
       },
       {
         "date": "2026-08-07",
-        "close": 203.6
+        "close": 206.2
       }
     ],
     "data_source": "yfinance"
@@ -790,11 +790,11 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2072.36,
-    "pl_abs": -100.54,
-    "pl_pct": -4.63,
+    "current_value": 2098.83,
+    "pl_abs": -74.07,
+    "pl_pct": -3.41,
     "target_value": 2772.9,
-    "distance_to_target": 700.54,
+    "distance_to_target": 674.07,
     "progress_pct": 0,
     "break_even_price": 213.49
   },
@@ -823,9 +823,9 @@
     "metrics": {
       "days_to_preorder": -43,
       "days_to_launch": 104,
-      "above_avg_pct": -4.63,
+      "above_avg_pct": -3.41,
       "bearish_signals": 0,
-      "bullish_signals": 3
+      "bullish_signals": 4
     }
   },
   "events": [
@@ -1010,9 +1010,7 @@
       "impact": "Auto-detected from 1 source: Is GTA 6 delayed again? What to know about November release date - El Paso Times…"
     }
   ],
-  "fresh_detections": [
-    "delay-announced"
-  ],
+  "fresh_detections": [],
   "next_catalyst": {
     "date": "2026-11-19",
     "title": "Launch",
@@ -1025,7 +1023,7 @@
   },
   "news": [
     {
-      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - reuters.com",
+      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - Reuters",
       "date": "Wed, 24 Jun 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTIyaUktTHJkNkcwQm1KVTdZdk1EcWliQlFKb0ZOOUxUR21vZjA2bDVVSUpXQmdTaFhWMzVINW81bHc1anlmQzZ5RmQ0Z0ZoSDJfakYzeVNqQUljX3RORnNBN0s3TXFoVWEtNjZQZnBuZGtGR3hPZkZlbFE4aXd5UmxWal80RzRab1llekRRWE8?oc=5",
       "source": "Reuters",
@@ -1033,20 +1031,12 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - reuters.com",
+      "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - Reuters",
       "date": "Wed, 08 Nov 2023 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEdHd0NqM1gwaENTcU40SUtIZ2pTSllybTVXUW5EY3FBTXJLZE1kTG9MZzdjcDd5MGVyeHdyeWJOR0c1Nm9adVFtb0E1S2xVeWk2X1VSbHI3QUNEVzhDTVNuamx3T0Fzbk1xS2ZVVUtlTDBSMFBFcnV1bzFtb1dhUUxJcml3ZHU1UEJOQnlsNHd6NG0yMWo1REZJYVVHeF9sYzRKczdjVWJoc0pIV3NvWWNuWkpMbU94?oc=5",
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
-    },
-    {
-      "headline": "Grand Theft Auto 6 publisher is holding an investors call at a very unusual time this week",
-      "date": "Wed, 05 Aug 2026 19:20:04 +0000",
-      "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-publisher-is-holding-an-investors-call-at-a-very-unusual-time-this-week/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
     },
     {
       "headline": "Take-Two Set to Report Q1 Earnings: What's in the Cards for the Stock?",
@@ -1057,7 +1047,7 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - reuters.com",
+      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
       "date": "Tue, 16 Apr 2024 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
       "source": "Reuters",
@@ -1065,7 +1055,7 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - reuters.com",
+      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
       "date": "Tue, 05 Dec 2023 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
       "source": "Reuters",
@@ -1073,7 +1063,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two raises annual bookings forecast, sticks with 'GTA VI' November launch - reuters.com",
+      "headline": "Take-Two raises annual bookings forecast, sticks with 'GTA VI' November launch - Reuters",
       "date": "Tue, 03 Feb 2026 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV1VKdDhNZ1ZOQlQtVU5JZkVUOWJvWjk5Tk5QMTZKd2ZOWlVYblE1TWlENkh3Q2NJVTB3cVpaSXZvWTBSUmVXVGNSc2FPZjI4VldIUkpyY2VTSVJvMTJfMjBYdnVVRWxkMVR5ZEkwUWtBUzNIdmU0T0hhQmtQQlNTejZ5RU9nTFFPQlphbzE4V1h0dEwxdElGcEIxVTlBZFZf?oc=5",
       "source": "Reuters",
@@ -1081,7 +1071,15 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two sticks with 'GTA VI' launch timeline, forecasts annual bookings below estimates - reuters.com",
+      "headline": "Take-Two stock jumps on \"GTA IV\" release date - Reuters",
+      "date": "Thu, 24 Jan 2008 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbk5ubmhVcG9ISngwNjZQd3gxeEZSRC1icUU5SWsyTFdLWi1CVF9tRkNVUnF6RU9fUFlSMkFwMzVxdkVreEhqRzUtREt1YnZmSEg4Y05GSlY5YlpKdS1MUHBDM1UyZVBRWXRCWWJQQy1TbkpwT0xOTnlIRnVJRUtfYWpzTEdhQnlDRmpFaUtlX21zbVpadENMQXl2b1FKMndxZlJz?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two sticks with 'GTA VI' launch timeline, forecasts annual bookings below estimates - Reuters",
       "date": "Thu, 21 May 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2dBdUEzSks5MlZadVAzQlhEUXBnaGxkRnN2Tk9TekZqSjdDRzNYMkRBUGFLRG1HYTNsYW9HVXNvalc1Z2Z4UzZhdnJoSmZwUXN1TGFzS2JoWk9wejJ2MmdJcE4tVzhjU2RUNFFsdFZQTjlPMjNqUUdtOFVpX2lFZmp3QmRBb3FrU3ZrUG8tZ1lNeEJOWlcxNnVmLUNwRHJTUjRVWGFQVy13ZnAxNXkzajNDWDA2bFJxb1A3Vk9B?oc=5",
       "source": "Reuters",
@@ -1089,7 +1087,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two's Rockstar Games says 'GTA VI' pre-orders to begin on June 25 - reuters.com",
+      "headline": "Take-Two's Rockstar Games says 'GTA VI' pre-orders to begin on June 25 - Reuters",
       "date": "Thu, 18 Jun 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaVh3OUpTZ0I0TEM3b3JQaEFFNkdOdTFzN0R1UEVOYnRUeVJaRDByNHhoV0doWWc4U0Q1N3VKeUUwUGpVU1BscUJHZGd3SE9VSTdrNEw1QXZYbmVhQU5hMnNEWTk1SzBoS2wzMmF0QTcxTTZ1OUgyOVFZVWNlVTcyNnVfcDV1VEk4azZwWEpaVnNoTmxTcVV4X2RXSURJMlVKeDZwcnBiVlZwUQ?oc=5",
       "source": "Reuters",
@@ -1097,7 +1095,7 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two sees annual bookings below revised estimates as 'GTA VI' delay weighs - reuters.com",
+      "headline": "Take-Two sees annual bookings below revised estimates as 'GTA VI' delay weighs - Reuters",
       "date": "Thu, 15 May 2025 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb09IeHhfU29ZZzZZaVhhdU9qb0ZNS0VaSzl4MGpMNVVpdTlVWGQtbi1GdFpYME14aWRrMlUtb2JVbDZZZEtEdWJuV3lRd3ZpVmEydjBMTUNxOW9Wa0pLWUh2VkJveFVJM1JRMUtOcEpZVG5RbUdtQV9jeGJrc05Cd1AwVUV0emxjY0pmVXFUMFlRVTd6aUFkMjd3T05qYVRJVUxDZHFzOTNnNExYZDMySkJBU3dydw?oc=5",
       "source": "Reuters",
@@ -1105,7 +1103,7 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "Take-Two delays 'GTA VI' for second time to November next year - reuters.com",
+      "headline": "Take-Two delays 'GTA VI' for second time to November next year - Reuters",
       "date": "Thu, 06 Nov 2025 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeUg2V0JyS1JLMzJIR1hpLUI5cjI4aWVUUExzVGl6Ty1Qa2ZuTzhYVTMwb080bW9TVS1QSXlYdXVNNl9wN0xPenEzNGhMenQwNEVjUzYzU21Tc3pqVkVlVEpVcEc3MUFXVE9oaVptUVFYQjFHQ3NWOF9LQzdJZFpIZE00dGRNVjcyaHZabHdSSHNKbUt3R096aUx1TkFoVkJJZEowV1U5SnZNU1pseUstRnMwaWFwZGFoQlhlYg?oc=5",
       "source": "Reuters",
@@ -1113,19 +1111,19 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "Is GTA 6 delayed again? What to know about November release date - El Paso Times",
-      "date": "Thu, 06 Aug 2026 15:02:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQUI2bDJjVWx4eVJqVzRYSTBhLVBuak5LVDBDWW4zd3VjUHRpakdLWk9BNGVYaDRfeEQ0dmhDaVQwNDlZT2dYcnlKWTlyaWVZY1pzTWpOLXNGZkhsSEhGcnFJUUxCRElaeWs3TU5BZlVlWXRiOWlrd2xEUkxwX3c5bDJQOXZrR1dqNXhHYU5ZcERLTGFtSy1nMXF4TW1hdzlXYVcxdS1OSzN6SVFZbDBWS25n?oc=5",
-      "source": "Google News",
+      "headline": "Take-Two forecasts downbeat Q4 bookings, reiterates 'GTA VI' launch in fall - Reuters",
+      "date": "Thu, 06 Feb 2025 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObzhqTUh0RzlGUko5WnZsZ3NCcUgyWVBVcFNFSTlUaXkxMElkb2t4NHBrRjI4QjJKMl9hUkZ0azYxbmhmUkpwaVFzZC1nR0d5NTZYUFIyT3BXQXZLcGFjdTNMcGdlZ0lzUlJxNTM2bWRPV3hlTnUzbWZWYkZ1LUMyOUxlbkV1eEZLOEpxWktSeF9KTUozZmtNaF9IQ0FpeEZ2OGUzWXJ3S0t0MTRSck85VXBDNEVVcXQt?oc=5",
+      "source": "Reuters",
       "importance": 10,
-      "sentiment": "bearish"
+      "sentiment": "bullish"
     }
   ],
   "sentiment": {
-    "fan_excitement": 9,
-    "release_confidence": 6,
-    "short_term_risk": 8,
-    "long_term_upside": 8
+    "fan_excitement": 10,
+    "release_confidence": 7,
+    "short_term_risk": 7,
+    "long_term_upside": 9
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1187,98 +1185,85 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 2.03,
+      "elapsed_sec": 1.46,
       "category": "stock",
-      "last_fetched": "2026-08-07T13:50:09Z"
+      "last_fetched": "2026-08-07T14:49:09Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 16,
-        "elapsed_sec": 0.34,
+        "items_raw": 20,
+        "elapsed_sec": 0.2,
         "category": "financial",
-        "last_fetched": "2026-08-07T13:50:11Z"
+        "last_fetched": "2026-08-07T14:49:10Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.54,
+        "elapsed_sec": 0.56,
         "category": "financial",
-        "last_fetched": "2026-08-07T13:50:11Z"
+        "last_fetched": "2026-08-07T14:49:10Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.53,
+        "elapsed_sec": 0.57,
         "category": "aggregator",
-        "last_fetched": "2026-08-07T13:50:11Z"
+        "last_fetched": "2026-08-07T14:49:10Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.68,
+        "elapsed_sec": 0.36,
         "category": "platform",
-        "last_fetched": "2026-08-07T13:50:11Z"
+        "last_fetched": "2026-08-07T14:49:10Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.24,
         "category": "platform",
-        "last_fetched": "2026-08-07T13:50:11Z"
+        "last_fetched": "2026-08-07T14:49:10Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.37,
+        "elapsed_sec": 0.25,
         "category": "gaming",
-        "last_fetched": "2026-08-07T13:50:11Z"
+        "last_fetched": "2026-08-07T14:49:10Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.41,
+        "elapsed_sec": 0.31,
         "category": "gaming",
-        "last_fetched": "2026-08-07T13:50:11Z"
+        "last_fetched": "2026-08-07T14:49:10Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.82,
+        "elapsed_sec": 0.71,
         "category": "community",
-        "last_fetched": "2026-08-07T13:50:11Z"
+        "last_fetched": "2026-08-07T14:49:10Z"
       }
     ],
     "summary": {
       "events_detected_total": 4,
-      "fresh_this_run": 1,
+      "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 46,
-      "last_run_utc": "2026-08-07T13:50:09Z"
+      "last_run_utc": "2026-08-07T14:49:09Z"
     }
   },
   "alerts": [
-    {
-      "label": "GTA VI delayed",
-      "status": "REDUCE EXPOSURE",
-      "active": true,
-      "tone": "red",
-      "category": "event",
-      "key": "delay-announced",
-      "fresh": true,
-      "source": "Google News",
-      "headline": "Is GTA 6 delayed again? What to know about November release date - El Paso Times",
-      "triggered_at": "2026-08-07T13:50:12Z",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQUI2bDJjVWx4eVJqVzRYSTBhLVBuak5LVDBDWW4zd3VjUHRpakdLWk9BNGVYaDRfeEQ0dmhDaVQwNDlZT2dYcnlKWTlyaWVZY1pzTWpOLXNGZkhsSEhGcnFJUUxCRElaeWs3TU5BZlVlWXRiOWlrd2xEUkxwX3c5bDJQOXZrR1dqNXhHYU5ZcERLTGFtSy1nMXF4TW1hdzlXYVcxdS1OSzN6SVFZbDBWS25n?oc=5"
-    },
     {
       "label": "Trailer 3 released",
       "status": "RE-EVALUATE",
@@ -1291,6 +1276,19 @@
       "headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
       "triggered_at": "2026-06-24T10:59:13Z",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFcl9jX19kTUZKNm8xaGJST2U2NUstRUltbFU2aHdUUldQOVV3OGppNFF5bWFtdW92TDNPOWcyNy1ZTU1nNFY1Und3azhmOS1Va2hVXzFFd0JYQnpZRXYxRVFhV2dHbUN1XzY3VlVSYXhSc3hwUTN3OE1lYjQ3VXEzX2dCd3VpR21TX0hZOW9QZEUxYTdaZWtxUGpmOC1sUXItQ09XTWhHV0FBRnQ0?oc=5"
+    },
+    {
+      "label": "GTA VI delayed",
+      "status": "REDUCE EXPOSURE",
+      "active": true,
+      "tone": "red",
+      "category": "event",
+      "key": "delay-announced",
+      "fresh": false,
+      "source": "Google News",
+      "headline": "Is GTA 6 delayed again? What to know about November release date - El Paso Times",
+      "triggered_at": "2026-08-07T13:50:12Z",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQUI2bDJjVWx4eVJqVzRYSTBhLVBuak5LVDBDWW4zd3VjUHRpakdLWk9BNGVYaDRfeEQ0dmhDaVQwNDlZT2dYcnlKWTlyaWVZY1pzTWpOLXNGZkhsSEhGcnFJUUxCRElaeWs3TU5BZlVlWXRiOWlrd2xEUkxwX3c5bDJQOXZrR1dqNXhHYU5ZcERLTGFtSy1nMXF4TW1hdzlXYVcxdS1OSzN6SVFZbDBWS25n?oc=5"
     },
     {
       "label": "PC version announced",
