@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-07T10:52:09Z",
-  "updated_at_local": "07 Aug 2026, 10:52",
+  "updated_at": "2026-08-07T11:41:43Z",
+  "updated_at_local": "07 Aug 2026, 11:41",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 202.4,
+    "price_eur": 202.8,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": -1.2,
-    "day_change_pct": -0.59,
+    "day_change_abs": -0.8,
+    "day_change_pct": -0.39,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -778,7 +778,7 @@
       },
       {
         "date": "2026-08-07",
-        "close": 202.4
+        "close": 202.8
       }
     ],
     "data_source": "yfinance"
@@ -790,11 +790,11 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2060.15,
-    "pl_abs": -112.75,
-    "pl_pct": -5.19,
+    "current_value": 2064.22,
+    "pl_abs": -108.68,
+    "pl_pct": -5.0,
     "target_value": 2772.9,
-    "distance_to_target": 712.75,
+    "distance_to_target": 708.68,
     "progress_pct": 0,
     "break_even_price": 213.49
   },
@@ -823,7 +823,7 @@
     "metrics": {
       "days_to_preorder": -43,
       "days_to_launch": 104,
-      "above_avg_pct": -5.19,
+      "above_avg_pct": -5.01,
       "bearish_signals": 0,
       "bullish_signals": 2
     }
@@ -1153,9 +1153,9 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 2.21,
+      "elapsed_sec": 1.91,
       "category": "stock",
-      "last_fetched": "2026-08-07T10:52:06Z"
+      "last_fetched": "2026-08-07T11:41:41Z"
     },
     "feeds": [
       {
@@ -1164,7 +1164,7 @@
         "items_raw": 20,
         "elapsed_sec": 0.23,
         "category": "financial",
-        "last_fetched": "2026-08-07T10:52:08Z"
+        "last_fetched": "2026-08-07T11:41:43Z"
       },
       {
         "label": "Reuters",
@@ -1172,55 +1172,55 @@
         "items_raw": 100,
         "elapsed_sec": 0.53,
         "category": "financial",
-        "last_fetched": "2026-08-07T10:52:08Z"
+        "last_fetched": "2026-08-07T11:41:43Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.53,
+        "elapsed_sec": 0.56,
         "category": "aggregator",
-        "last_fetched": "2026-08-07T10:52:08Z"
+        "last_fetched": "2026-08-07T11:41:43Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.5,
+        "elapsed_sec": 0.7,
         "category": "platform",
-        "last_fetched": "2026-08-07T10:52:08Z"
+        "last_fetched": "2026-08-07T11:41:43Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.18,
+        "elapsed_sec": 0.2,
         "category": "platform",
-        "last_fetched": "2026-08-07T10:52:08Z"
+        "last_fetched": "2026-08-07T11:41:43Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.52,
+        "elapsed_sec": 0.1,
         "category": "gaming",
-        "last_fetched": "2026-08-07T10:52:08Z"
+        "last_fetched": "2026-08-07T11:41:43Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.19,
+        "elapsed_sec": 0.16,
         "category": "gaming",
-        "last_fetched": "2026-08-07T10:52:08Z"
+        "last_fetched": "2026-08-07T11:41:43Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.83,
+        "elapsed_sec": 0.8,
         "category": "community",
-        "last_fetched": "2026-08-07T10:52:08Z"
+        "last_fetched": "2026-08-07T11:41:43Z"
       }
     ],
     "summary": {
@@ -1228,7 +1228,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 46,
-      "last_run_utc": "2026-08-07T10:52:06Z"
+      "last_run_utc": "2026-08-07T11:41:41Z"
     }
   },
   "alerts": [
