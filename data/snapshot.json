@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-07T16:49:20Z",
-  "updated_at_local": "07 Aug 2026, 16:49",
+  "updated_at": "2026-08-07T17:44:38Z",
+  "updated_at_local": "07 Aug 2026, 17:44",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1111,19 +1111,19 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "Is GTA 6 delayed again? What to know about November release date - El Paso Times",
-      "date": "Thu, 06 Aug 2026 15:02:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQUI2bDJjVWx4eVJqVzRYSTBhLVBuak5LVDBDWW4zd3VjUHRpakdLWk9BNGVYaDRfeEQ0dmhDaVQwNDlZT2dYcnlKWTlyaWVZY1pzTWpOLXNGZkhsSEhGcnFJUUxCRElaeWs3TU5BZlVlWXRiOWlrd2xEUkxwX3c5bDJQOXZrR1dqNXhHYU5ZcERLTGFtSy1nMXF4TW1hdzlXYVcxdS1OSzN6SVFZbDBWS25n?oc=5",
-      "source": "Google News",
+      "headline": "Take-Two forecasts downbeat Q4 bookings, reiterates 'GTA VI' launch in fall - Reuters",
+      "date": "Thu, 06 Feb 2025 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObzhqTUh0RzlGUko5WnZsZ3NCcUgyWVBVcFNFSTlUaXkxMElkb2t4NHBrRjI4QjJKMl9hUkZ0azYxbmhmUkpwaVFzZC1nR0d5NTZYUFIyT3BXQXZLcGFjdTNMcGdlZ0lzUlJxNTM2bWRPV3hlTnUzbWZWYkZ1LUMyOUxlbkV1eEZLOEpxWktSeF9KTUozZmtNaF9IQ0FpeEZ2OGUzWXJ3S0t0MTRSck85VXBDNEVVcXQt?oc=5",
+      "source": "Reuters",
       "importance": 10,
-      "sentiment": "bearish"
+      "sentiment": "bullish"
     }
   ],
   "sentiment": {
-    "fan_excitement": 9,
-    "release_confidence": 5,
-    "short_term_risk": 9,
-    "long_term_upside": 8
+    "fan_excitement": 10,
+    "release_confidence": 6,
+    "short_term_risk": 8,
+    "long_term_upside": 9
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1185,74 +1185,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.83,
+      "elapsed_sec": 1.61,
       "category": "stock",
-      "last_fetched": "2026-08-07T16:49:18Z"
+      "last_fetched": "2026-08-07T17:44:36Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.29,
+        "elapsed_sec": 0.35,
         "category": "financial",
-        "last_fetched": "2026-08-07T16:49:20Z"
+        "last_fetched": "2026-08-07T17:44:37Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.72,
         "category": "financial",
-        "last_fetched": "2026-08-07T16:49:20Z"
+        "last_fetched": "2026-08-07T17:44:37Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.54,
+        "elapsed_sec": 0.69,
         "category": "aggregator",
-        "last_fetched": "2026-08-07T16:49:20Z"
+        "last_fetched": "2026-08-07T17:44:37Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.66,
+        "elapsed_sec": 0.43,
         "category": "platform",
-        "last_fetched": "2026-08-07T16:49:20Z"
+        "last_fetched": "2026-08-07T17:44:37Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.21,
+        "elapsed_sec": 0.51,
         "category": "platform",
-        "last_fetched": "2026-08-07T16:49:20Z"
+        "last_fetched": "2026-08-07T17:44:37Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.5,
         "category": "gaming",
-        "last_fetched": "2026-08-07T16:49:20Z"
+        "last_fetched": "2026-08-07T17:44:37Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.3,
+        "elapsed_sec": 0.44,
         "category": "gaming",
-        "last_fetched": "2026-08-07T16:49:20Z"
+        "last_fetched": "2026-08-07T17:44:37Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.79,
+        "elapsed_sec": 0.74,
         "category": "community",
-        "last_fetched": "2026-08-07T16:49:20Z"
+        "last_fetched": "2026-08-07T17:44:37Z"
       }
     ],
     "summary": {
@@ -1260,7 +1260,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 46,
-      "last_run_utc": "2026-08-07T16:49:18Z"
+      "last_run_utc": "2026-08-07T17:44:36Z"
     }
   },
   "alerts": [
