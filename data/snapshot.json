@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-07T08:53:46Z",
-  "updated_at_local": "07 Aug 2026, 08:53",
+  "updated_at": "2026-08-07T09:57:04Z",
+  "updated_at_local": "07 Aug 2026, 09:57",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 206.2,
+    "price_eur": 207.0,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 2.6,
-    "day_change_pct": 1.28,
+    "day_change_abs": 3.4,
+    "day_change_pct": 1.67,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -778,7 +778,7 @@
       },
       {
         "date": "2026-08-07",
-        "close": 206.2
+        "close": 207.0
       }
     ],
     "data_source": "yfinance"
@@ -790,11 +790,11 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2098.83,
-    "pl_abs": -74.07,
-    "pl_pct": -3.41,
+    "current_value": 2106.97,
+    "pl_abs": -65.93,
+    "pl_pct": -3.03,
     "target_value": 2772.9,
-    "distance_to_target": 674.07,
+    "distance_to_target": 665.93,
     "progress_pct": 0,
     "break_even_price": 213.49
   },
@@ -823,7 +823,7 @@
     "metrics": {
       "days_to_preorder": -43,
       "days_to_launch": 104,
-      "above_avg_pct": -3.41,
+      "above_avg_pct": -3.04,
       "bearish_signals": 0,
       "bullish_signals": 2
     }
@@ -1153,74 +1153,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.86,
+      "elapsed_sec": 1.5,
       "category": "stock",
-      "last_fetched": "2026-08-07T08:53:43Z"
+      "last_fetched": "2026-08-07T09:57:01Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.22,
+        "elapsed_sec": 0.39,
         "category": "financial",
-        "last_fetched": "2026-08-07T08:53:45Z"
+        "last_fetched": "2026-08-07T09:57:03Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.55,
+        "elapsed_sec": 0.52,
         "category": "financial",
-        "last_fetched": "2026-08-07T08:53:45Z"
+        "last_fetched": "2026-08-07T09:57:03Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.51,
+        "elapsed_sec": 0.54,
         "category": "aggregator",
-        "last_fetched": "2026-08-07T08:53:45Z"
+        "last_fetched": "2026-08-07T09:57:03Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.67,
+        "elapsed_sec": 0.4,
         "category": "platform",
-        "last_fetched": "2026-08-07T08:53:45Z"
+        "last_fetched": "2026-08-07T09:57:03Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.18,
+        "elapsed_sec": 0.22,
         "category": "platform",
-        "last_fetched": "2026-08-07T08:53:45Z"
+        "last_fetched": "2026-08-07T09:57:03Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.61,
+        "elapsed_sec": 0.37,
         "category": "gaming",
-        "last_fetched": "2026-08-07T08:53:45Z"
+        "last_fetched": "2026-08-07T09:57:03Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.28,
         "category": "gaming",
-        "last_fetched": "2026-08-07T08:53:45Z"
+        "last_fetched": "2026-08-07T09:57:03Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.83,
+        "elapsed_sec": 0.79,
         "category": "community",
-        "last_fetched": "2026-08-07T08:53:45Z"
+        "last_fetched": "2026-08-07T09:57:03Z"
       }
     ],
     "summary": {
@@ -1228,7 +1228,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 46,
-      "last_run_utc": "2026-08-07T08:53:43Z"
+      "last_run_utc": "2026-08-07T09:57:01Z"
     }
   },
   "alerts": [
