@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-09T12:03:49Z",
-  "updated_at_local": "09 Aug 2026, 12:03",
+  "updated_at": "2026-08-09T13:14:23Z",
+  "updated_at_local": "09 Aug 2026, 13:14",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1143,18 +1143,18 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "What Does Take Two Interactive Software (TTWO) Confirming GTA VI Mean Now?",
-      "date": "Sun, 09 Aug 2026 02:07:10 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/does-two-interactive-software-ttwo-020710440.html?.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "Will Grand Theft Auto VI be delayed again until 2027? Rockstar Games’ owners give fans the answer they were waiting for - levelup.com",
+      "date": "Sun, 09 Aug 2026 13:04:50 GMT",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNaWFBRVRld0c5SnUyYUIxZVpZLXJNZF9PMjRuOHVwTF9IalJEZmUxVEpGTzhKWGd0aThVYzd1eVhxQnpsWHY4b1dKVUxQUGdpWXV0ellrbm9jaHR2c2psZmE2OE9sWWd0RG52Ymd6anh0X0pvMFhWRUY1dzM2QS1kNWFhWHZfVERiX1NTd1dHQTdXUXBnLXdPYTYwR0NaLWlPeHlfbVNQWTNxTWlBSXJjbTc0V3d3MW9DVE5ndUhIam5Na25KSHpBcXRsbUZ3SVUyWFAwamtTaFQwS1N5alVRVXdzbEc?oc=5",
+      "source": "Google News",
       "importance": 10,
-      "sentiment": "neutral"
+      "sentiment": "bearish"
     }
   ],
   "sentiment": {
     "fan_excitement": 9,
-    "release_confidence": 5,
-    "short_term_risk": 9,
+    "release_confidence": 4,
+    "short_term_risk": 10,
     "long_term_upside": 8
   },
   "game_metrics": {
@@ -1217,74 +1217,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.81,
+      "elapsed_sec": 1.53,
       "category": "stock",
-      "last_fetched": "2026-08-09T12:03:46Z"
+      "last_fetched": "2026-08-09T13:14:21Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 19,
-        "elapsed_sec": 0.67,
+        "items_raw": 20,
+        "elapsed_sec": 0.27,
         "category": "financial",
-        "last_fetched": "2026-08-09T12:03:48Z"
+        "last_fetched": "2026-08-09T13:14:22Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.58,
+        "elapsed_sec": 0.51,
         "category": "financial",
-        "last_fetched": "2026-08-09T12:03:48Z"
+        "last_fetched": "2026-08-09T13:14:22Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.54,
         "category": "aggregator",
-        "last_fetched": "2026-08-09T12:03:48Z"
+        "last_fetched": "2026-08-09T13:14:22Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.24,
         "category": "platform",
-        "last_fetched": "2026-08-09T12:03:48Z"
+        "last_fetched": "2026-08-09T13:14:22Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.32,
+        "elapsed_sec": 0.28,
         "category": "platform",
-        "last_fetched": "2026-08-09T12:03:48Z"
+        "last_fetched": "2026-08-09T13:14:22Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.66,
+        "elapsed_sec": 0.3,
         "category": "gaming",
-        "last_fetched": "2026-08-09T12:03:48Z"
+        "last_fetched": "2026-08-09T13:14:22Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.26,
         "category": "gaming",
-        "last_fetched": "2026-08-09T12:03:48Z"
+        "last_fetched": "2026-08-09T13:14:22Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.89,
+        "elapsed_sec": 0.82,
         "category": "community",
-        "last_fetched": "2026-08-09T12:03:48Z"
+        "last_fetched": "2026-08-09T13:14:22Z"
       }
     ],
     "summary": {
@@ -1292,7 +1292,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 48,
-      "last_run_utc": "2026-08-09T12:03:46Z"
+      "last_run_utc": "2026-08-09T13:14:21Z"
     }
   },
   "alerts": [
