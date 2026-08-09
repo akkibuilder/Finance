@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-09T07:33:33Z",
-  "updated_at_local": "09 Aug 2026, 07:33",
+  "updated_at": "2026-08-09T08:22:46Z",
+  "updated_at_local": "09 Aug 2026, 08:22",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1143,19 +1143,19 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "What Does Take Two Interactive Software (TTWO) Confirming GTA VI Mean Now?",
-      "date": "Sun, 09 Aug 2026 02:07:10 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/does-two-interactive-software-ttwo-020710440.html?.tsrc=rss",
+      "headline": "Take Two Interactive Software (TTWO) Stock May Be 9% Stretched Following GTA VI Launch Confirmation",
+      "date": "Sun, 09 Aug 2026 07:17:34 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-software-ttwo-stock-071734578.html?.tsrc=rss",
       "source": "Yahoo Finance",
       "importance": 10,
-      "sentiment": "neutral"
+      "sentiment": "bullish"
     }
   ],
   "sentiment": {
-    "fan_excitement": 9,
+    "fan_excitement": 10,
     "release_confidence": 5,
     "short_term_risk": 9,
-    "long_term_upside": 8
+    "long_term_upside": 9
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1217,74 +1217,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.68,
+      "elapsed_sec": 1.91,
       "category": "stock",
-      "last_fetched": "2026-08-09T07:33:31Z"
+      "last_fetched": "2026-08-09T08:22:43Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 19,
-        "elapsed_sec": 0.44,
+        "items_raw": 20,
+        "elapsed_sec": 0.21,
         "category": "financial",
-        "last_fetched": "2026-08-09T07:33:33Z"
+        "last_fetched": "2026-08-09T08:22:45Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.74,
+        "elapsed_sec": 0.55,
         "category": "financial",
-        "last_fetched": "2026-08-09T07:33:33Z"
+        "last_fetched": "2026-08-09T08:22:45Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.73,
+        "elapsed_sec": 0.51,
         "category": "aggregator",
-        "last_fetched": "2026-08-09T07:33:33Z"
+        "last_fetched": "2026-08-09T08:22:45Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.53,
+        "elapsed_sec": 0.67,
         "category": "platform",
-        "last_fetched": "2026-08-09T07:33:33Z"
+        "last_fetched": "2026-08-09T08:22:45Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.19,
         "category": "platform",
-        "last_fetched": "2026-08-09T07:33:33Z"
+        "last_fetched": "2026-08-09T08:22:45Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.53,
+        "elapsed_sec": 0.37,
         "category": "gaming",
-        "last_fetched": "2026-08-09T07:33:33Z"
+        "last_fetched": "2026-08-09T08:22:45Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.35,
         "category": "gaming",
-        "last_fetched": "2026-08-09T07:33:33Z"
+        "last_fetched": "2026-08-09T08:22:45Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.84,
+        "elapsed_sec": 0.83,
         "category": "community",
-        "last_fetched": "2026-08-09T07:33:33Z"
+        "last_fetched": "2026-08-09T08:22:45Z"
       }
     ],
     "summary": {
@@ -1292,7 +1292,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 48,
-      "last_run_utc": "2026-08-09T07:33:31Z"
+      "last_run_utc": "2026-08-09T08:22:43Z"
     }
   },
   "alerts": [
