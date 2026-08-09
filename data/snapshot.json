@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-09T15:47:00Z",
-  "updated_at_local": "09 Aug 2026, 15:47",
+  "updated_at": "2026-08-09T16:29:16Z",
+  "updated_at_local": "09 Aug 2026, 16:29",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1143,7 +1143,7 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "Take-Two CEO Calls GTA VI Preorders \"unprecedented and astonishing\" - Men's Journal",
+      "headline": "Take-Two CEO Calls GTA VI Preorders \"unprecedented and astonishing\" - mensjournal.com",
       "date": "Sun, 09 Aug 2026 15:27:19 GMT",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMW16YzFOY3hxVDBqS2JfZGR3ZThIWV84dmF5NFc2bHd3NGd6M3lndkcyeURaWEVKWmtMdEV5VEI0aUV4Mlg1eENhM3VxZEtPcUpiRm13LUdIOGttT2prZ0VjcnNBUF9KUVp5ZWxxZDJwc3E2ZzlzVmFTM05KMFVtVVlyU3dyajdVdFk1WE95WWN3VEtGMFZkRTdwVTFIQXFaWG8xYnFZNVdyUlk?oc=5",
       "source": "Google News",
@@ -1217,74 +1217,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 2.19,
+      "elapsed_sec": 2.04,
       "category": "stock",
-      "last_fetched": "2026-08-09T15:46:55Z"
+      "last_fetched": "2026-08-09T16:29:12Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.22,
         "category": "financial",
-        "last_fetched": "2026-08-09T15:46:57Z"
+        "last_fetched": "2026-08-09T16:29:14Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.61,
+        "elapsed_sec": 0.53,
         "category": "financial",
-        "last_fetched": "2026-08-09T15:46:57Z"
+        "last_fetched": "2026-08-09T16:29:14Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.64,
+        "elapsed_sec": 0.57,
         "category": "aggregator",
-        "last_fetched": "2026-08-09T15:46:57Z"
+        "last_fetched": "2026-08-09T16:29:14Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 2.45,
+        "elapsed_sec": 0.39,
         "category": "platform",
-        "last_fetched": "2026-08-09T15:46:57Z"
+        "last_fetched": "2026-08-09T16:29:14Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.35,
+        "elapsed_sec": 0.19,
         "category": "platform",
-        "last_fetched": "2026-08-09T15:46:57Z"
+        "last_fetched": "2026-08-09T16:29:14Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.69,
+        "elapsed_sec": 0.48,
         "category": "gaming",
-        "last_fetched": "2026-08-09T15:46:57Z"
+        "last_fetched": "2026-08-09T16:29:14Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.42,
+        "elapsed_sec": 0.22,
         "category": "gaming",
-        "last_fetched": "2026-08-09T15:46:57Z"
+        "last_fetched": "2026-08-09T16:29:14Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.99,
+        "elapsed_sec": 1.26,
         "category": "community",
-        "last_fetched": "2026-08-09T15:46:57Z"
+        "last_fetched": "2026-08-09T16:29:14Z"
       }
     ],
     "summary": {
@@ -1292,7 +1292,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 48,
-      "last_run_utc": "2026-08-09T15:46:55Z"
+      "last_run_utc": "2026-08-09T16:29:12Z"
     }
   },
   "alerts": [
