@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-09T21:02:58Z",
-  "updated_at_local": "09 Aug 2026, 21:02",
+  "updated_at": "2026-08-09T21:46:45Z",
+  "updated_at_local": "09 Aug 2026, 21:46",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1181,9 +1181,9 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - aol.com",
-      "date": "Sun, 09 Aug 2026 19:33:13 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObFM3OFV2M0E4a1hEZ1R3YktrU0ZUUXFaSHpybFBuWllmRl8xOUt2bEdYRHJyZzlqLWlZdVpZdTJFRU1GcURab3I4TmlaZWE5aVZubjRhbDBwM0gzYUR0dV9mMDJnZlZrbzVXa2xrZk5GSFlfMWQ0RzU4ZEFrTkRDb0hB?oc=5",
+      "headline": "Take-Two CEO Calls GTA VI Preorders \"unprecedented and astonishing\" - Men's Journal",
+      "date": "Sun, 09 Aug 2026 15:27:19 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMW16YzFOY3hxVDBqS2JfZGR3ZThIWV84dmF5NFc2bHd3NGd6M3lndkcyeURaWEVKWmtMdEV5VEI0aUV4Mlg1eENhM3VxZEtPcUpiRm13LUdIOGttT2prZ0VjcnNBUF9KUVp5ZWxxZDJwc3E2ZzlzVmFTM05KMFVtVVlyU3dyajdVdFk1WE95WWN3VEtGMFZkRTdwVTFIQXFaWG8xYnFZNVdyUlk?oc=5",
       "source": "Google News",
       "importance": 10,
       "sentiment": "bullish"
@@ -1255,74 +1255,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.46,
+      "elapsed_sec": 1.81,
       "category": "stock",
-      "last_fetched": "2026-08-09T21:02:55Z"
+      "last_fetched": "2026-08-09T21:46:42Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.22,
+        "elapsed_sec": 0.27,
         "category": "financial",
-        "last_fetched": "2026-08-09T21:02:57Z"
+        "last_fetched": "2026-08-09T21:46:44Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.55,
+        "elapsed_sec": 0.65,
         "category": "financial",
-        "last_fetched": "2026-08-09T21:02:57Z"
+        "last_fetched": "2026-08-09T21:46:44Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.56,
         "category": "aggregator",
-        "last_fetched": "2026-08-09T21:02:57Z"
+        "last_fetched": "2026-08-09T21:46:44Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.76,
         "category": "platform",
-        "last_fetched": "2026-08-09T21:02:57Z"
+        "last_fetched": "2026-08-09T21:46:44Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.45,
+        "elapsed_sec": 0.2,
         "category": "platform",
-        "last_fetched": "2026-08-09T21:02:57Z"
+        "last_fetched": "2026-08-09T21:46:44Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.28,
+        "elapsed_sec": 0.17,
         "category": "gaming",
-        "last_fetched": "2026-08-09T21:02:57Z"
+        "last_fetched": "2026-08-09T21:46:44Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.22,
+        "elapsed_sec": 0.18,
         "category": "gaming",
-        "last_fetched": "2026-08-09T21:02:57Z"
+        "last_fetched": "2026-08-09T21:46:44Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.73,
+        "elapsed_sec": 0.89,
         "category": "community",
-        "last_fetched": "2026-08-09T21:02:57Z"
+        "last_fetched": "2026-08-09T21:46:44Z"
       }
     ],
     "summary": {
@@ -1330,7 +1330,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 48,
-      "last_run_utc": "2026-08-09T21:02:55Z"
+      "last_run_utc": "2026-08-09T21:46:42Z"
     }
   },
   "alerts": [
