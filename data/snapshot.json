@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-09T19:55:59Z",
-  "updated_at_local": "09 Aug 2026, 19:55",
+  "updated_at": "2026-08-09T20:28:07Z",
+  "updated_at_local": "09 Aug 2026, 20:28",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -824,8 +824,8 @@
       "days_to_preorder": -45,
       "days_to_launch": 102,
       "above_avg_pct": -2.01,
-      "bearish_signals": 2,
-      "bullish_signals": 3
+      "bearish_signals": 1,
+      "bullish_signals": 4
     }
   },
   "events": [
@@ -950,6 +950,22 @@
       "impact": "Auto-detected from 1 source: 'Pricing Has Not Kept Pace With Inflation' — Take-Two Boss Insists Rockstar Got GTA 6 Stan…"
     },
     {
+      "key": "preorder-record",
+      "date": "2026-08-09",
+      "title": "Preorder Numbers",
+      "short": "PREORDERS",
+      "icon": "📊",
+      "color": "#16a34a",
+      "type": "commerce",
+      "auto_detected": true,
+      "detected_at": "2026-08-09T20:28:07Z",
+      "confirmations": 1,
+      "source": "Google News",
+      "trigger_headline": "Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com",
+      "trigger_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObFM3OFV2M0E4a1hEZ1R3YktrU0ZUUXFaSHpybFBuWllmRl8xOUt2bEdYRHJyZzlqLWlZdVpZdTJFRU1GcURab3I4TmlaZWE5aVZubjRhbDBwM0gzYUR0dV9mMDJnZlZrbzVXa2xrZk5GSFlfMWQ0RzU4ZEFrTkRDb0hB?oc=5",
+      "impact": "Auto-detected from 1 source: Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com…"
+    },
+    {
       "date": "2026-11-19",
       "title": "Launch",
       "short": "LAUNCH",
@@ -1040,22 +1056,46 @@
       "trigger_headline": "'Pricing Has Not Kept Pace With Inflation' — Take-Two Boss Insists Rockstar Got GTA 6 Standard and Ultimate Edition Price Points Right",
       "trigger_url": "https://www.ign.com/articles/pricing-has-not-kept-pace-with-inflation-take-two-boss-insists-rockstar-got-gta-6-standard-and-ultimate-edition-price-points-right",
       "impact": "Auto-detected from 1 source: 'Pricing Has Not Kept Pace With Inflation' — Take-Two Boss Insists Rockstar Got GTA 6 Stan…"
+    },
+    {
+      "key": "preorder-record",
+      "date": "2026-08-09",
+      "title": "Preorder Numbers",
+      "short": "PREORDERS",
+      "icon": "📊",
+      "color": "#16a34a",
+      "type": "commerce",
+      "auto_detected": true,
+      "detected_at": "2026-08-09T20:28:07Z",
+      "confirmations": 1,
+      "source": "Google News",
+      "trigger_headline": "Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com",
+      "trigger_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObFM3OFV2M0E4a1hEZ1R3YktrU0ZUUXFaSHpybFBuWllmRl8xOUt2bEdYRHJyZzlqLWlZdVpZdTJFRU1GcURab3I4TmlaZWE5aVZubjRhbDBwM0gzYUR0dV9mMDJnZlZrbzVXa2xrZk5GSFlfMWQ0RzU4ZEFrTkRDb0hB?oc=5",
+      "impact": "Auto-detected from 1 source: Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com…"
     }
   ],
-  "fresh_detections": [],
+  "fresh_detections": [
+    "preorder-record"
+  ],
   "next_catalyst": {
-    "date": "2026-11-19",
-    "title": "Launch",
-    "short": "LAUNCH",
-    "icon": "🚀",
-    "type": "release",
-    "color": "#a855f7",
-    "impact": "Global release. Classic 'sell the news' risk window.",
-    "source": "Take-Two IR"
+    "key": "preorder-record",
+    "date": "2026-08-09",
+    "title": "Preorder Numbers",
+    "short": "PREORDERS",
+    "icon": "📊",
+    "color": "#16a34a",
+    "type": "commerce",
+    "auto_detected": true,
+    "detected_at": "2026-08-09T20:28:07Z",
+    "confirmations": 1,
+    "source": "Google News",
+    "trigger_headline": "Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com",
+    "trigger_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObFM3OFV2M0E4a1hEZ1R3YktrU0ZUUXFaSHpybFBuWllmRl8xOUt2bEdYRHJyZzlqLWlZdVpZdTJFRU1GcURab3I4TmlaZWE5aVZubjRhbDBwM0gzYUR0dV9mMDJnZlZrbzVXa2xrZk5GSFlfMWQ0RzU4ZEFrTkRDb0hB?oc=5",
+    "impact": "Auto-detected from 1 source: Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com…"
   },
   "news": [
     {
-      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - Reuters",
+      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - reuters.com",
       "date": "Wed, 24 Jun 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTIyaUktTHJkNkcwQm1KVTdZdk1EcWliQlFKb0ZOOUxUR21vZjA2bDVVSUpXQmdTaFhWMzVINW81bHc1anlmQzZ5RmQ0Z0ZoSDJfakYzeVNqQUljX3RORnNBN0s3TXFoVWEtNjZQZnBuZGtGR3hPZkZlbFE4aXd5UmxWal80RzRab1llekRRWE8?oc=5",
       "source": "Reuters",
@@ -1063,7 +1103,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - Reuters",
+      "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - reuters.com",
       "date": "Wed, 08 Nov 2023 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEdHd0NqM1gwaENTcU40SUtIZ2pTSllybTVXUW5EY3FBTXJLZE1kTG9MZzdjcDd5MGVyeHdyeWJOR0c1Nm9adVFtb0E1S2xVeWk2X1VSbHI3QUNEVzhDTVNuamx3T0Fzbk1xS2ZVVUtlTDBSMFBFcnV1bzFtb1dhUUxJcml3ZHU1UEJOQnlsNHd6NG0yMWo1REZJYVVHeF9sYzRKczdjVWJoc0pIV3NvWWNuWkpMbU94?oc=5",
       "source": "Reuters",
@@ -1071,7 +1111,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two confirms GTA VI leak, says game development unaffected - Reuters",
+      "headline": "Take-Two confirms GTA VI leak, says game development unaffected - reuters.com",
       "date": "Tue, 20 Sep 2022 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2pXXzJmNEJrZldpQkFYeEI4U3NCUGZvVkhjcVFlcVo1NV92QVhDcnhrWThqQzcybnJFQmp4cGF6bFZSb2F1V2RSVVlxaVZLN2p1RUJJMjI4XzYzRkxhcXA0LXNPUEFuQlh2a2xGMHpZZXNDQ3VZWUhiYXdYdVgwUXRaRXVJMEM4ME9uSlBhcGtHdEFTTS16bWRScnA4NE04a0JwQ3RRUExWZXpwYTVuT1Y3SDU?oc=5",
       "source": "Reuters",
@@ -1079,15 +1119,7 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "'GTA VI' delay weighs on global videogame market growth, data shows - Reuters",
-      "date": "Tue, 17 Jun 2025 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOWtfMkV6MkNkaVFkaVNndWhKOTk2cGNXci1tMjNYcXdtSHNXUDVQbFNmenBkVFdJaWlHbTM5bUltcXJXVVgwVGRaWUUteDNVbUcxMTBMMFNzZFhtV1VvMDJnaXhyVm1YdVJ2WUxQSXFHY0JaU3MzWVE1bGlwZnJwMEUxc2YzcnBEOGJ0ZUtyajk2Z0lTWmdMYXZPRUw4NUlVU1NQUUtSVnRWeF9DTWtScElhRnBVYmg1T0ktVQ?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bearish"
-    },
-    {
-      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
+      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - reuters.com",
       "date": "Tue, 16 Apr 2024 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
       "source": "Reuters",
@@ -1095,7 +1127,7 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
+      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - reuters.com",
       "date": "Tue, 05 Dec 2023 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
       "source": "Reuters",
@@ -1103,7 +1135,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two raises annual bookings forecast, sticks with 'GTA VI' November launch - Reuters",
+      "headline": "Take-Two raises annual bookings forecast, sticks with 'GTA VI' November launch - reuters.com",
       "date": "Tue, 03 Feb 2026 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV1VKdDhNZ1ZOQlQtVU5JZkVUOWJvWjk5Tk5QMTZKd2ZOWlVYblE1TWlENkh3Q2NJVTB3cVpaSXZvWTBSUmVXVGNSc2FPZjI4VldIUkpyY2VTSVJvMTJfMjBYdnVVRWxkMVR5ZEkwUWtBUzNIdmU0T0hhQmtQQlNTejZ5RU9nTFFPQlphbzE4V1h0dEwxdElGcEIxVTlBZFZf?oc=5",
       "source": "Reuters",
@@ -1111,7 +1143,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two sticks with 'GTA VI' launch timeline, forecasts annual bookings below estimates - Reuters",
+      "headline": "Take-Two sticks with 'GTA VI' launch timeline, forecasts annual bookings below estimates - reuters.com",
       "date": "Thu, 21 May 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2dBdUEzSks5MlZadVAzQlhEUXBnaGxkRnN2Tk9TekZqSjdDRzNYMkRBUGFLRG1HYTNsYW9HVXNvalc1Z2Z4UzZhdnJoSmZwUXN1TGFzS2JoWk9wejJ2MmdJcE4tVzhjU2RUNFFsdFZQTjlPMjNqUUdtOFVpX2lFZmp3QmRBb3FrU3ZrUG8tZ1lNeEJOWlcxNnVmLUNwRHJTUjRVWGFQVy13ZnAxNXkzajNDWDA2bFJxb1A3Vk9B?oc=5",
       "source": "Reuters",
@@ -1119,7 +1151,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two's Rockstar Games says 'GTA VI' pre-orders to begin on June 25 - Reuters",
+      "headline": "Take-Two's Rockstar Games says 'GTA VI' pre-orders to begin on June 25 - reuters.com",
       "date": "Thu, 18 Jun 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaVh3OUpTZ0I0TEM3b3JQaEFFNkdOdTFzN0R1UEVOYnRUeVJaRDByNHhoV0doWWc4U0Q1N3VKeUUwUGpVU1BscUJHZGd3SE9VSTdrNEw1QXZYbmVhQU5hMnNEWTk1SzBoS2wzMmF0QTcxTTZ1OUgyOVFZVWNlVTcyNnVfcDV1VEk4azZwWEpaVnNoTmxTcVV4X2RXSURJMlVKeDZwcnBiVlZwUQ?oc=5",
       "source": "Reuters",
@@ -1127,7 +1159,7 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two sees annual bookings below revised estimates as 'GTA VI' delay weighs - Reuters",
+      "headline": "Take-Two sees annual bookings below revised estimates as 'GTA VI' delay weighs - reuters.com",
       "date": "Thu, 15 May 2025 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb09IeHhfU29ZZzZZaVhhdU9qb0ZNS0VaSzl4MGpMNVVpdTlVWGQtbi1GdFpYME14aWRrMlUtb2JVbDZZZEtEdWJuV3lRd3ZpVmEydjBMTUNxOW9Wa0pLWUh2VkJveFVJM1JRMUtOcEpZVG5RbUdtQV9jeGJrc05Cd1AwVUV0emxjY0pmVXFUMFlRVTd6aUFkMjd3T05qYVRJVUxDZHFzOTNnNExYZDMySkJBU3dydw?oc=5",
       "source": "Reuters",
@@ -1135,7 +1167,7 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "Take-Two delays 'GTA VI' for second time to November next year - Reuters",
+      "headline": "Take-Two delays 'GTA VI' for second time to November next year - reuters.com",
       "date": "Thu, 06 Nov 2025 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeUg2V0JyS1JLMzJIR1hpLUI5cjI4aWVUUExzVGl6Ty1Qa2ZuTzhYVTMwb080bW9TVS1QSXlYdXVNNl9wN0xPenEzNGhMenQwNEVjUzYzU21Tc3pqVkVlVEpVcEc3MUFXVE9oaVptUVFYQjFHQ3NWOF9LQzdJZFpIZE00dGRNVjcyaHZabHdSSHNKbUt3R096aUx1TkFoVkJJZEowV1U5SnZNU1pseUstRnMwaWFwZGFoQlhlYg?oc=5",
       "source": "Reuters",
@@ -1149,13 +1181,21 @@
       "source": "Google News",
       "importance": 10,
       "sentiment": "bearish"
+    },
+    {
+      "headline": "Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com",
+      "date": "Sun, 09 Aug 2026 19:33:13 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObFM3OFV2M0E4a1hEZ1R3YktrU0ZUUXFaSHpybFBuWllmRl8xOUt2bEdYRHJyZzlqLWlZdVpZdTJFRU1GcURab3I4TmlaZWE5aVZubjRhbDBwM0gzYUR0dV9mMDJnZlZrbzVXa2xrZk5GSFlfMWQ0RzU4ZEFrTkRDb0hB?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
     }
   ],
   "sentiment": {
-    "fan_excitement": 9,
-    "release_confidence": 4,
-    "short_term_risk": 10,
-    "long_term_upside": 8
+    "fan_excitement": 10,
+    "release_confidence": 5,
+    "short_term_risk": 9,
+    "long_term_upside": 9
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1217,85 +1257,98 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.01,
+      "elapsed_sec": 1.81,
       "category": "stock",
-      "last_fetched": "2026-08-09T19:55:57Z"
+      "last_fetched": "2026-08-09T20:28:04Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.22,
+        "elapsed_sec": 0.29,
         "category": "financial",
-        "last_fetched": "2026-08-09T19:55:58Z"
+        "last_fetched": "2026-08-09T20:28:06Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.55,
+        "elapsed_sec": 0.58,
         "category": "financial",
-        "last_fetched": "2026-08-09T19:55:58Z"
+        "last_fetched": "2026-08-09T20:28:06Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.53,
+        "elapsed_sec": 0.6,
         "category": "aggregator",
-        "last_fetched": "2026-08-09T19:55:58Z"
+        "last_fetched": "2026-08-09T20:28:06Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.13,
+        "elapsed_sec": 0.72,
         "category": "platform",
-        "last_fetched": "2026-08-09T19:55:58Z"
+        "last_fetched": "2026-08-09T20:28:06Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.19,
+        "elapsed_sec": 0.22,
         "category": "platform",
-        "last_fetched": "2026-08-09T19:55:58Z"
+        "last_fetched": "2026-08-09T20:28:06Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.41,
         "category": "gaming",
-        "last_fetched": "2026-08-09T19:55:58Z"
+        "last_fetched": "2026-08-09T20:28:06Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.25,
+        "elapsed_sec": 0.21,
         "category": "gaming",
-        "last_fetched": "2026-08-09T19:55:58Z"
+        "last_fetched": "2026-08-09T20:28:06Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.65,
+        "elapsed_sec": 0.85,
         "category": "community",
-        "last_fetched": "2026-08-09T19:55:58Z"
+        "last_fetched": "2026-08-09T20:28:06Z"
       }
     ],
     "summary": {
-      "events_detected_total": 5,
-      "fresh_this_run": 0,
+      "events_detected_total": 6,
+      "fresh_this_run": 1,
       "news_items": 12,
       "archive_count": 48,
-      "last_run_utc": "2026-08-09T19:55:57Z"
+      "last_run_utc": "2026-08-09T20:28:04Z"
     }
   },
   "alerts": [
+    {
+      "label": "Preorder record set",
+      "status": "BULLISH",
+      "active": true,
+      "tone": "green",
+      "category": "event",
+      "key": "preorder-record",
+      "fresh": true,
+      "source": "Google News",
+      "headline": "Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com",
+      "triggered_at": "2026-08-09T20:28:07Z",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObFM3OFV2M0E4a1hEZ1R3YktrU0ZUUXFaSHpybFBuWllmRl8xOUt2bEdYRHJyZzlqLWlZdVpZdTJFRU1GcURab3I4TmlaZWE5aVZubjRhbDBwM0gzYUR0dV9mMDJnZlZrbzVXa2xrZk5GSFlfMWQ0RzU4ZEFrTkRDb0hB?oc=5"
+    },
     {
       "label": "Trailer 3 released",
       "status": "RE-EVALUATE",
@@ -1431,15 +1484,6 @@
       "tone": "blue",
       "category": "event",
       "key": "sales-milestone",
-      "fresh": false
-    },
-    {
-      "label": "Preorder record set",
-      "status": "Watching",
-      "active": false,
-      "tone": "blue",
-      "category": "event",
-      "key": "preorder-record",
       "fresh": false
     },
     {
