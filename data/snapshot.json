@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-10T10:14:56Z",
-  "updated_at_local": "10 Aug 2026, 10:14",
+  "updated_at": "2026-08-10T11:27:50Z",
+  "updated_at_local": "10 Aug 2026, 11:27",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 212.2,
+    "price_eur": 213.2,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 3.0,
-    "day_change_pct": 1.43,
+    "day_change_abs": 4.0,
+    "day_change_pct": 1.91,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -782,7 +782,7 @@
       },
       {
         "date": "2026-08-10",
-        "close": 212.2
+        "close": 213.2
       }
     ],
     "data_source": "yfinance"
@@ -794,11 +794,11 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2159.9,
-    "pl_abs": -13.0,
-    "pl_pct": -0.6,
+    "current_value": 2170.08,
+    "pl_abs": -2.82,
+    "pl_pct": -0.13,
     "target_value": 2772.9,
-    "distance_to_target": 613.0,
+    "distance_to_target": 602.82,
     "progress_pct": 0,
     "break_even_price": 213.49
   },
@@ -828,7 +828,7 @@
     "metrics": {
       "days_to_preorder": -46,
       "days_to_launch": 101,
-      "above_avg_pct": -0.6,
+      "above_avg_pct": -0.14,
       "bearish_signals": 1,
       "bullish_signals": 4
     }
@@ -1140,14 +1140,6 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Rockstar Games Announces Pre-Orders for Grand Theft Auto VI - Take-Two Interactive Software, Inc.",
-      "date": "Thu, 25 Jun 2026 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLWlWR0F6ZjlETERjNGZNc2ltYndGR0pBSTVPT1NibDllRzBxTDZOdWstZ2s1Rm5LUU1MVDNhVXoyTkhMdEZ2ZTljYzRZSDVLWFd3MnkwUUdLNkQtTEhZbnVYRUtycV9CMUNLeG5lUG5DZnhhU3dJQXZkamFKZlIzQUtHQVZ0SnZLbnJVM09zb1hPdkU?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
       "headline": "Take-Two sticks with 'GTA VI' launch timeline, forecasts annual bookings below estimates - Reuters",
       "date": "Thu, 21 May 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2dBdUEzSks5MlZadVAzQlhEUXBnaGxkRnN2Tk9TekZqSjdDRzNYMkRBUGFLRG1HYTNsYW9HVXNvalc1Z2Z4UzZhdnJoSmZwUXN1TGFzS2JoWk9wejJ2MmdJcE4tVzhjU2RUNFFsdFZQTjlPMjNqUUdtOFVpX2lFZmp3QmRBb3FrU3ZrUG8tZ1lNeEJOWlcxNnVmLUNwRHJTUjRVWGFQVy13ZnAxNXkzajNDWDA2bFJxb1A3Vk9B?oc=5",
@@ -1186,13 +1178,21 @@
       "source": "Google News",
       "importance": 10,
       "sentiment": "bearish"
+    },
+    {
+      "headline": "Take-Two CEO Calls GTA VI Preorders \"unprecedented and astonishing\" - Men's Journal",
+      "date": "Sun, 09 Aug 2026 15:27:19 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMW16YzFOY3hxVDBqS2JfZGR3ZThIWV84dmF5NFc2bHd3NGd6M3lndkcyeURaWEVKWmtMdEV5VEI0aUV4Mlg1eENhM3VxZEtPcUpiRm13LUdIOGttT2prZ0VjcnNBUF9KUVp5ZWxxZDJwc3E2ZzlzVmFTM05KMFVtVVlyU3dyajdVdFk1WE95WWN3VEtGMFZkRTdwVTFIQXFaWG8xYnFZNVdyUlk?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
     }
   ],
   "sentiment": {
-    "fan_excitement": 9,
+    "fan_excitement": 10,
     "release_confidence": 5,
     "short_term_risk": 9,
-    "long_term_upside": 8
+    "long_term_upside": 9
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1254,74 +1254,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.77,
+      "elapsed_sec": 1.5,
       "category": "stock",
-      "last_fetched": "2026-08-10T10:14:53Z"
+      "last_fetched": "2026-08-10T11:27:48Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 18,
-        "elapsed_sec": 0.37,
+        "items_raw": 20,
+        "elapsed_sec": 0.43,
         "category": "financial",
-        "last_fetched": "2026-08-10T10:14:55Z"
+        "last_fetched": "2026-08-10T11:27:50Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.65,
         "category": "financial",
-        "last_fetched": "2026-08-10T10:14:55Z"
+        "last_fetched": "2026-08-10T11:27:50Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.65,
         "category": "aggregator",
-        "last_fetched": "2026-08-10T10:14:55Z"
+        "last_fetched": "2026-08-10T11:27:50Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.46,
+        "elapsed_sec": 0.32,
         "category": "platform",
-        "last_fetched": "2026-08-10T10:14:55Z"
+        "last_fetched": "2026-08-10T11:27:50Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.29,
         "category": "platform",
-        "last_fetched": "2026-08-10T10:14:55Z"
+        "last_fetched": "2026-08-10T11:27:50Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.62,
+        "elapsed_sec": 0.36,
         "category": "gaming",
-        "last_fetched": "2026-08-10T10:14:55Z"
+        "last_fetched": "2026-08-10T11:27:50Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.31,
+        "elapsed_sec": 0.43,
         "category": "gaming",
-        "last_fetched": "2026-08-10T10:14:55Z"
+        "last_fetched": "2026-08-10T11:27:50Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.89,
+        "elapsed_sec": 0.74,
         "category": "community",
-        "last_fetched": "2026-08-10T10:14:55Z"
+        "last_fetched": "2026-08-10T11:27:50Z"
       }
     ],
     "summary": {
@@ -1329,7 +1329,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 49,
-      "last_run_utc": "2026-08-10T10:14:53Z"
+      "last_run_utc": "2026-08-10T11:27:48Z"
     }
   },
   "alerts": [
