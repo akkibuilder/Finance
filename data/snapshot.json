@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-10T07:22:31Z",
-  "updated_at_local": "10 Aug 2026, 07:22",
+  "updated_at": "2026-08-10T08:56:35Z",
+  "updated_at_local": "10 Aug 2026, 08:56",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 213.6,
+    "price_eur": 212.2,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 4.4,
-    "day_change_pct": 2.1,
+    "day_change_abs": 3.0,
+    "day_change_pct": 1.43,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -782,7 +782,7 @@
       },
       {
         "date": "2026-08-10",
-        "close": 213.6
+        "close": 212.2
       }
     ],
     "data_source": "yfinance"
@@ -794,12 +794,12 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2174.15,
-    "pl_abs": 1.25,
-    "pl_pct": 0.06,
+    "current_value": 2159.9,
+    "pl_abs": -13.0,
+    "pl_pct": -0.6,
     "target_value": 2772.9,
-    "distance_to_target": 598.75,
-    "progress_pct": 0.21,
+    "distance_to_target": 613.0,
+    "progress_pct": 0,
     "break_even_price": 213.49
   },
   "strategy": {
@@ -828,8 +828,8 @@
     "metrics": {
       "days_to_preorder": -46,
       "days_to_launch": 101,
-      "above_avg_pct": 0.05,
-      "bearish_signals": 0,
+      "above_avg_pct": -0.6,
+      "bearish_signals": 1,
       "bullish_signals": 4
     }
   },
@@ -1092,107 +1092,107 @@
   },
   "news": [
     {
-      "headline": "Take Two Interactive Software (TTWO) Stock May Be 9% Stretched Following GTA VI Launch Confirmation",
-      "date": "Sun, 09 Aug 2026 07:17:34 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-software-ttwo-stock-071734578.html?.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - Reuters",
+      "date": "Wed, 24 Jun 2026 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTIyaUktTHJkNkcwQm1KVTdZdk1EcWliQlFKb0ZOOUxUR21vZjA2bDVVSUpXQmdTaFhWMzVINW81bHc1anlmQzZ5RmQ0Z0ZoSDJfakYzeVNqQUljX3RORnNBN0s3TXFoVWEtNjZQZnBuZGtGR3hPZkZlbFE4aXd5UmxWal80RzRab1llekRRWE8?oc=5",
+      "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
     },
     {
-      "headline": "What Does Take Two Interactive Software (TTWO) Confirming GTA VI Mean Now?",
-      "date": "Sun, 09 Aug 2026 02:07:10 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/does-two-interactive-software-ttwo-020710440.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two Interactive Software, Inc. Q1 2027 Earnings Call Summary",
-      "date": "Fri, 07 Aug 2026 21:17:12 +0000",
-      "url": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-take-two-interactive-software-inc-q1-2027-earnings-call-summary?utm_source=yahoo_finance&amp;utm_medium=rss&amp;.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two Sticks To Its Guns On Full-Year Outlook. TTWO Stock Rises On 'GTA 6' Preorders.",
-      "date": "Fri, 07 Aug 2026 20:06:55 +0000",
-      "url": "https://finance.yahoo.com/m/c6cbf0a4-8cb7-3460-95ba-8e2a735ea6e6/take-two-sticks-to-its-guns.html?.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - Reuters",
+      "date": "Wed, 08 Nov 2023 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEdHd0NqM1gwaENTcU40SUtIZ2pTSllybTVXUW5EY3FBTXJLZE1kTG9MZzdjcDd5MGVyeHdyeWJOR0c1Nm9adVFtb0E1S2xVeWk2X1VSbHI3QUNEVzhDTVNuamx3T0Fzbk1xS2ZVVUtlTDBSMFBFcnV1bzFtb1dhUUxJcml3ZHU1UEJOQnlsNHd6NG0yMWo1REZJYVVHeF9sYzRKczdjVWJoc0pIV3NvWWNuWkpMbU94?oc=5",
+      "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two Interactive Software Inc (TTWO) (Q1 2027) Earnings Call Highlights: Record Net ...",
-      "date": "Fri, 07 Aug 2026 19:01:41 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-software-inc-ttwo-190141456.html?.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "Take-Two confirms GTA VI leak, says game development unaffected - Reuters",
+      "date": "Tue, 20 Sep 2022 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2pXXzJmNEJrZldpQkFYeEI4U3NCUGZvVkhjcVFlcVo1NV92QVhDcnhrWThqQzcybnJFQmp4cGF6bFZSb2F1V2RSVVlxaVZLN2p1RUJJMjI4XzYzRkxhcXA0LXNPUEFuQlh2a2xGMHpZZXNDQ3VZWUhiYXdYdVgwUXRaRXVJMEM4ME9uSlBhcGtHdEFTTS16bWRScnA4NE04a0JwQ3RRUExWZXpwYTVuT1Y3SDU?oc=5",
+      "source": "Reuters",
       "importance": 10,
-      "sentiment": "bullish"
+      "sentiment": "bearish"
     },
     {
-      "headline": "Why Take-Two Is Keeping Bookings Guidance Steady Even as ‘GTA VI’ Preorders Are ‘Unprecedented’",
-      "date": "Fri, 07 Aug 2026 18:15:00 +0000",
-      "url": "https://finance.yahoo.com/m/9a8dcdd5-8ed0-34ff-8f12-22ac62347509/why-take-two-is-keeping.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two Interactive Software Q1 Earnings Call Highlights",
-      "date": "Fri, 07 Aug 2026 18:04:24 +0000",
-      "url": "https://www.marketbeat.com/instant-alerts/take-two-interactive-software-q1-earnings-call-highlights-2026-08-07/?utm_source=yahoofinance&amp;utm_medium=yahoofinance&amp;.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
+      "date": "Tue, 16 Apr 2024 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
+      "source": "Reuters",
       "importance": 10,
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two Stock Rises 4.2% as GTA VI Outlook Holds",
-      "date": "Fri, 07 Aug 2026 16:44:37 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/two-stock-rises-4-2-164437477.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two Shares Slip as Conservative Outlook Overshadows Strong First-Quarter Results",
-      "date": "Fri, 07 Aug 2026 13:56:56 +0000",
-      "url": "https://investorshub.advfn.com/market-news/article/33757/take-two-shares-slip-as-conservative-outlook-overshadows-strong-first-quarter-results?.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
+      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
+      "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two Q1 earnings beat expectations ahead of GTA VI launch",
-      "date": "Fri, 07 Aug 2026 13:53:00 +0000",
-      "url": "https://www.proactiveinvestors.com/companies/news/1096734/take-two-q1-earnings-beat-expectations-ahead-of-gta-vi-launch-1096734.html?.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "Take-Two raises annual bookings forecast, sticks with 'GTA VI' November launch - Reuters",
+      "date": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV1VKdDhNZ1ZOQlQtVU5JZkVUOWJvWjk5Tk5QMTZKd2ZOWlVYblE1TWlENkh3Q2NJVTB3cVpaSXZvWTBSUmVXVGNSc2FPZjI4VldIUkpyY2VTSVJvMTJfMjBYdnVVRWxkMVR5ZEkwUWtBUzNIdmU0T0hhQmtQQlNTejZ5RU9nTFFPQlphbzE4V1h0dEwxdElGcEIxVTlBZFZf?oc=5",
+      "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two (TTWO) Q1 Earnings: Taking a Look at Key Metrics Versus Estimates",
-      "date": "Fri, 07 Aug 2026 13:30:04 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/two-ttwo-q1-earnings-taking-133004568.html?.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "Rockstar Games Announces Pre-Orders for Grand Theft Auto VI - Take-Two Interactive Software, Inc.",
+      "date": "Thu, 25 Jun 2026 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLWlWR0F6ZjlETERjNGZNc2ltYndGR0pBSTVPT1NibDllRzBxTDZOdWstZ2s1Rm5LUU1MVDNhVXoyTkhMdEZ2ZTljYzRZSDVLWFd3MnkwUUdLNkQtTEhZbnVYRUtycV9CMUNLeG5lUG5DZnhhU3dJQXZkamFKZlIzQUtHQVZ0SnZLbnJVM09zb1hPdkU?oc=5",
+      "source": "Google News",
       "importance": 10,
       "sentiment": "neutral"
     },
     {
-      "headline": "TTWO CEO Bets On 'Grand Theft Auto VI' To Keep $8.2B Net Bookings Target On Track",
-      "date": "Fri, 07 Aug 2026 13:26:34 +0000",
-      "url": "https://stocktwits.com/news-articles/markets/equity/ttwo-ceo-bets-on-grand-theft-auto-vi-to-keep-8-2-b-net-bookings-target-on-track/cZof39WRJBM?.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "Take-Two sticks with 'GTA VI' launch timeline, forecasts annual bookings below estimates - Reuters",
+      "date": "Thu, 21 May 2026 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2dBdUEzSks5MlZadVAzQlhEUXBnaGxkRnN2Tk9TekZqSjdDRzNYMkRBUGFLRG1HYTNsYW9HVXNvalc1Z2Z4UzZhdnJoSmZwUXN1TGFzS2JoWk9wejJ2MmdJcE4tVzhjU2RUNFFsdFZQTjlPMjNqUUdtOFVpX2lFZmp3QmRBb3FrU3ZrUG8tZ1lNeEJOWlcxNnVmLUNwRHJTUjRVWGFQVy13ZnAxNXkzajNDWDA2bFJxb1A3Vk9B?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two's Rockstar Games says 'GTA VI' pre-orders to begin on June 25 - Reuters",
+      "date": "Thu, 18 Jun 2026 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaVh3OUpTZ0I0TEM3b3JQaEFFNkdOdTFzN0R1UEVOYnRUeVJaRDByNHhoV0doWWc4U0Q1N3VKeUUwUGpVU1BscUJHZGd3SE9VSTdrNEw1QXZYbmVhQU5hMnNEWTk1SzBoS2wzMmF0QTcxTTZ1OUgyOVFZVWNlVTcyNnVfcDV1VEk4azZwWEpaVnNoTmxTcVV4X2RXSURJMlVKeDZwcnBiVlZwUQ?oc=5",
+      "source": "Reuters",
       "importance": 10,
       "sentiment": "neutral"
+    },
+    {
+      "headline": "Take-Two sees annual bookings below revised estimates as 'GTA VI' delay weighs - Reuters",
+      "date": "Thu, 15 May 2025 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb09IeHhfU29ZZzZZaVhhdU9qb0ZNS0VaSzl4MGpMNVVpdTlVWGQtbi1GdFpYME14aWRrMlUtb2JVbDZZZEtEdWJuV3lRd3ZpVmEydjBMTUNxOW9Wa0pLWUh2VkJveFVJM1JRMUtOcEpZVG5RbUdtQV9jeGJrc05Cd1AwVUV0emxjY0pmVXFUMFlRVTd6aUFkMjd3T05qYVRJVUxDZHFzOTNnNExYZDMySkJBU3dydw?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bearish"
+    },
+    {
+      "headline": "Take-Two delays 'GTA VI' for second time to November next year - Reuters",
+      "date": "Thu, 06 Nov 2025 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeUg2V0JyS1JLMzJIR1hpLUI5cjI4aWVUUExzVGl6Ty1Qa2ZuTzhYVTMwb080bW9TVS1QSXlYdXVNNl9wN0xPenEzNGhMenQwNEVjUzYzU21Tc3pqVkVlVEpVcEc3MUFXVE9oaVptUVFYQjFHQ3NWOF9LQzdJZFpIZE00dGRNVjcyaHZabHdSSHNKbUt3R096aUx1TkFoVkJJZEowV1U5SnZNU1pseUstRnMwaWFwZGFoQlhlYg?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bearish"
+    },
+    {
+      "headline": "Is GTA 6 delayed again? What to know about November release date - El Paso Times",
+      "date": "Thu, 06 Aug 2026 15:02:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQUI2bDJjVWx4eVJqVzRYSTBhLVBuak5LVDBDWW4zd3VjUHRpakdLWk9BNGVYaDRfeEQ0dmhDaVQwNDlZT2dYcnlKWTlyaWVZY1pzTWpOLXNGZkhsSEhGcnFJUUxCRElaeWs3TU5BZlVlWXRiOWlrd2xEUkxwX3c5bDJQOXZrR1dqNXhHYU5ZcERLTGFtSy1nMXF4TW1hdzlXYVcxdS1OSzN6SVFZbDBWS25n?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bearish"
     }
   ],
   "sentiment": {
-    "fan_excitement": 10,
-    "release_confidence": 9,
-    "short_term_risk": 5,
-    "long_term_upside": 9
+    "fan_excitement": 9,
+    "release_confidence": 5,
+    "short_term_risk": 9,
+    "long_term_upside": 8
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1254,74 +1254,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 3.1,
+      "elapsed_sec": 1.8,
       "category": "stock",
-      "last_fetched": "2026-08-10T07:22:17Z"
+      "last_fetched": "2026-08-10T08:56:32Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.32,
+        "elapsed_sec": 0.36,
         "category": "financial",
-        "last_fetched": "2026-08-10T07:22:21Z"
+        "last_fetched": "2026-08-10T08:56:34Z"
       },
       {
         "label": "Reuters",
-        "status": "empty",
-        "items_raw": 0,
-        "elapsed_sec": 9.94,
+        "status": "ok",
+        "items_raw": 100,
+        "elapsed_sec": 0.7,
         "category": "financial",
-        "last_fetched": "2026-08-10T07:22:21Z"
+        "last_fetched": "2026-08-10T08:56:34Z"
       },
       {
         "label": "Google News",
-        "status": "empty",
-        "items_raw": 0,
-        "elapsed_sec": 5.76,
+        "status": "ok",
+        "items_raw": 100,
+        "elapsed_sec": 0.65,
         "category": "aggregator",
-        "last_fetched": "2026-08-10T07:22:21Z"
+        "last_fetched": "2026-08-10T08:56:34Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.49,
+        "elapsed_sec": 0.47,
         "category": "platform",
-        "last_fetched": "2026-08-10T07:22:21Z"
+        "last_fetched": "2026-08-10T08:56:34Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.25,
         "category": "platform",
-        "last_fetched": "2026-08-10T07:22:21Z"
+        "last_fetched": "2026-08-10T08:56:34Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.57,
+        "elapsed_sec": 0.5,
         "category": "gaming",
-        "last_fetched": "2026-08-10T07:22:21Z"
+        "last_fetched": "2026-08-10T08:56:34Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.35,
+        "elapsed_sec": 0.41,
         "category": "gaming",
-        "last_fetched": "2026-08-10T07:22:21Z"
+        "last_fetched": "2026-08-10T08:56:34Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.79,
+        "elapsed_sec": 0.85,
         "category": "community",
-        "last_fetched": "2026-08-10T07:22:21Z"
+        "last_fetched": "2026-08-10T08:56:34Z"
       }
     ],
     "summary": {
@@ -1329,7 +1329,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 49,
-      "last_run_utc": "2026-08-10T07:22:17Z"
+      "last_run_utc": "2026-08-10T08:56:32Z"
     }
   },
   "alerts": [
