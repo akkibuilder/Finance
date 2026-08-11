@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-11T23:01:54Z",
-  "updated_at_local": "11 Aug 2026, 23:01",
+  "updated_at": "2026-08-11T23:58:24Z",
+  "updated_at_local": "11 Aug 2026, 23:58",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1143,7 +1143,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Has Rockstar been quietly revealing Grand Theft Auto 6's loading screens? GTA 6 fans seem to think so - TechRadar",
+      "headline": "Has Rockstar been quietly revealing Grand Theft Auto 6's loading screens? GTA 6 fans seem to think so - techradar.com",
       "date": "Tue, 11 Aug 2026 16:30:48 GMT",
       "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPRWJRRC10RTNrZ0lGSWdhOXFRdzJDVktEZnVEeXpzeVhXTTRmY2k2dWpMRDhVZDBweTNhOE1OeUsweUxGSkxXTlhpbjZSUzhRbjBhODlTN2VrZlN5LUZsN2pPd3JLVXZnQl9JamliNkF4NFBGRzczeUJiaWw3UjI5MmFuQ0FyNjVsQzFxT2JfMFNya0FGVXFPcHRKZWNjLS11NmdQR2xkTkNxdVRpT2pCekxIMU9YckpmbVh0LWVzX2VBdjZRbm9CUTJveUMwOFg0UTk4NHgzT3NTaWJ5SHdBV294TTNsZ25pbEV3ZjFsZk5HS1JRUVBVc1RJS2FfcG5YeTFMZUVKQ0VnNFM3dnIybmRNNHlXblYyMjNfdU1uako?oc=5",
       "source": "Google News",
@@ -1159,7 +1159,7 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "Take-Two says GTA 6's $80 price is a \"bargain\" because Rockstar delivers \"way more value\" than it charges - techspot.com",
+      "headline": "Take-Two says GTA 6's $80 price is a \"bargain\" because Rockstar delivers \"way more value\" than it charges - TechSpot",
       "date": "Tue, 11 Aug 2026 13:36:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeVV6LWs1OW41X0NvSTFUMTVfMTFlQkZIMlVTOUdHYWxJdmNyM2d5dnRFMzNrOEtLNEVCY2s5TjhRcjFzQnZFVDRybi1pNURFaGpONDh4Zjg4ZkNkTWI1NTJmWkV2RFp1SF9weVI4Zkw5OE15NWVNZXhHdDhxUVFjbmlTMDVVNmVZWENrYTFUQkh4eDlL?oc=5",
       "source": "Google News",
@@ -1175,7 +1175,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two CEO reveals most GTA 6 fans are pre-ordering the $100 Ultimate Edition over the Standard Edition — and now I worry that more games will follow Rockstar's lead by locking things we expect in a basic game behind a paywall - TechRadar",
+      "headline": "Take-Two CEO reveals most GTA 6 fans are pre-ordering the $100 Ultimate Edition over the Standard Edition — and now I worry that more games will follow Rockstar's lead by locking things we expect in a basic game behind a paywall - techradar.com",
       "date": "Tue, 11 Aug 2026 11:25:32 GMT",
       "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNVjJ4Tk4yR2lQaWo0cHk5YmJJTFZsa1N4b25KSDRJOHhNS0hGeU5JX0U2ZEI0QlZHemhtdTlXamFwcXFXX2xjYVA5RklNRUtKcnRBNVlfT2YtRGdyS2xnUFM3RlBTRVBqb0ZfN1BJVUVpbGZhR1dLbkFmaXVUcFJyTkFzd1k0cnJjY3VHUVNrOFpST014WlhZd1BUVkthVEs4ZG51U1UyRjFQYUpJYzA0UWc5TVhieWlBb3g0ckUzVWJmY3BMbVZ0TV83NFBFN1czZTdXWWkxa2tTV3ktN29PNDV3cEFIS2ZTZUhYdVBVVWtqX2JIYWd5WG9VbmNIdWFLMXFseUpxd3doVW9KZkVzVzFZNlNDZ3V2Ukg2T29YcUY?oc=5",
       "source": "Google News",
@@ -1257,74 +1257,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 3.92,
+      "elapsed_sec": 2.4,
       "category": "stock",
-      "last_fetched": "2026-08-11T23:01:49Z"
+      "last_fetched": "2026-08-11T23:58:20Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.47,
+        "elapsed_sec": 0.2,
         "category": "financial",
-        "last_fetched": "2026-08-11T23:01:53Z"
+        "last_fetched": "2026-08-11T23:58:23Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.76,
+        "elapsed_sec": 0.59,
         "category": "financial",
-        "last_fetched": "2026-08-11T23:01:53Z"
+        "last_fetched": "2026-08-11T23:58:23Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.76,
+        "elapsed_sec": 0.55,
         "category": "aggregator",
-        "last_fetched": "2026-08-11T23:01:53Z"
+        "last_fetched": "2026-08-11T23:58:23Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.57,
+        "elapsed_sec": 0.38,
         "category": "platform",
-        "last_fetched": "2026-08-11T23:01:53Z"
+        "last_fetched": "2026-08-11T23:58:23Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.47,
+        "elapsed_sec": 0.24,
         "category": "platform",
-        "last_fetched": "2026-08-11T23:01:53Z"
+        "last_fetched": "2026-08-11T23:58:23Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.64,
+        "elapsed_sec": 0.41,
         "category": "gaming",
-        "last_fetched": "2026-08-11T23:01:53Z"
+        "last_fetched": "2026-08-11T23:58:23Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.5,
+        "elapsed_sec": 0.3,
         "category": "gaming",
-        "last_fetched": "2026-08-11T23:01:53Z"
+        "last_fetched": "2026-08-11T23:58:23Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.92,
+        "elapsed_sec": 0.74,
         "category": "community",
-        "last_fetched": "2026-08-11T23:01:53Z"
+        "last_fetched": "2026-08-11T23:58:23Z"
       }
     ],
     "summary": {
@@ -1332,7 +1332,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 50,
-      "last_run_utc": "2026-08-11T23:01:49Z"
+      "last_run_utc": "2026-08-11T23:58:20Z"
     }
   },
   "alerts": [
