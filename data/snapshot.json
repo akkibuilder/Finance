@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-11T14:44:23Z",
-  "updated_at_local": "11 Aug 2026, 14:44",
+  "updated_at": "2026-08-11T15:41:57Z",
+  "updated_at_local": "11 Aug 2026, 15:41",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 220.4,
+    "price_eur": 220.6,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": 1.0,
-    "day_change_pct": 0.46,
+    "day_change_abs": 1.2,
+    "day_change_pct": 0.55,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -786,7 +786,7 @@
       },
       {
         "date": "2026-08-11",
-        "close": 220.4
+        "close": 220.6
       }
     ],
     "data_source": "yfinance"
@@ -798,12 +798,12 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2243.36,
-    "pl_abs": 70.46,
-    "pl_pct": 3.24,
+    "current_value": 2245.4,
+    "pl_abs": 72.5,
+    "pl_pct": 3.34,
     "target_value": 2772.9,
-    "distance_to_target": 529.54,
-    "progress_pct": 11.74,
+    "distance_to_target": 527.5,
+    "progress_pct": 12.08,
     "break_even_price": 213.49
   },
   "strategy": {
@@ -830,8 +830,8 @@
     "metrics": {
       "days_to_preorder": -47,
       "days_to_launch": 100,
-      "above_avg_pct": 3.24,
-      "bearish_signals": 2,
+      "above_avg_pct": 3.33,
+      "bearish_signals": 3,
       "bullish_signals": 2
     }
   },
@@ -1134,6 +1134,14 @@
       "sentiment": "neutral"
     },
     {
+      "headline": "‘GTA 6’ Delay Warning from Former Rockstar Animator - Yahoo Tech",
+      "date": "Tue, 11 Aug 2026 14:55:03 GMT",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTTVNcGxmc3lIWE9FWk1WenpnMjRXVHlfYTRDVF9lUzV6WEV2bm82NmxPVTBSWjh6N25RUWlQWVFFcnQxV1AxaHBZcEZXc2VjUEV5SHE5TjVLTkduMzEtUXBpbWZzLXlDZS1UcEhFdUJjNGxPYXNCd1FMYmFHeHBRRXRzV29DS1E?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bearish"
+    },
+    {
       "headline": "GTA 6's $80 price is a bargain because Rockstar delivers \"way more value\" than it charges, says Take-Two CEO - TechSpot",
       "date": "Tue, 11 Aug 2026 13:36:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeVV6LWs1OW41X0NvSTFUMTVfMTFlQkZIMlVTOUdHYWxJdmNyM2d5dnRFMzNrOEtLNEVCY2s5TjhRcjFzQnZFVDRybi1pNURFaGpONDh4Zjg4ZkNkTWI1NTJmWkV2RFp1SF9weVI4Zkw5OE15NWVNZXhHdDhxUVFjbmlTMDVVNmVZWENrYTFUQkh4eDlL?oc=5",
@@ -1180,20 +1188,12 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two sticks with 'GTA VI' launch timeline, forecasts annual bookings below estimates - Reuters",
-      "date": "Thu, 21 May 2026 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2dBdUEzSks5MlZadVAzQlhEUXBnaGxkRnN2Tk9TekZqSjdDRzNYMkRBUGFLRG1HYTNsYW9HVXNvalc1Z2Z4UzZhdnJoSmZwUXN1TGFzS2JoWk9wejJ2MmdJcE4tVzhjU2RUNFFsdFZQTjlPMjNqUUdtOFVpX2lFZmp3QmRBb3FrU3ZrUG8tZ1lNeEJOWlcxNnVmLUNwRHJTUjRVWGFQVy13ZnAxNXkzajNDWDA2bFJxb1A3Vk9B?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
     }
   ],
   "sentiment": {
     "fan_excitement": 10,
-    "release_confidence": 7,
-    "short_term_risk": 7,
+    "release_confidence": 6,
+    "short_term_risk": 8,
     "long_term_upside": 9
   },
   "game_metrics": {
@@ -1256,34 +1256,34 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.83,
+      "elapsed_sec": 1.77,
       "category": "stock",
-      "last_fetched": "2026-08-11T14:44:20Z"
+      "last_fetched": "2026-08-11T15:41:55Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.38,
         "category": "financial",
-        "last_fetched": "2026-08-11T14:44:22Z"
+        "last_fetched": "2026-08-11T15:41:56Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.56,
         "category": "financial",
-        "last_fetched": "2026-08-11T14:44:22Z"
+        "last_fetched": "2026-08-11T15:41:56Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.58,
+        "elapsed_sec": 0.57,
         "category": "aggregator",
-        "last_fetched": "2026-08-11T14:44:22Z"
+        "last_fetched": "2026-08-11T15:41:56Z"
       },
       {
         "label": "PlayStation Blog",
@@ -1291,39 +1291,39 @@
         "items_raw": 10,
         "elapsed_sec": 0.4,
         "category": "platform",
-        "last_fetched": "2026-08-11T14:44:22Z"
+        "last_fetched": "2026-08-11T15:41:56Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.28,
+        "elapsed_sec": 0.33,
         "category": "platform",
-        "last_fetched": "2026-08-11T14:44:22Z"
+        "last_fetched": "2026-08-11T15:41:56Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.41,
+        "elapsed_sec": 0.6,
         "category": "gaming",
-        "last_fetched": "2026-08-11T14:44:22Z"
+        "last_fetched": "2026-08-11T15:41:56Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.36,
+        "elapsed_sec": 0.21,
         "category": "gaming",
-        "last_fetched": "2026-08-11T14:44:22Z"
+        "last_fetched": "2026-08-11T15:41:56Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.91,
+        "elapsed_sec": 0.86,
         "category": "community",
-        "last_fetched": "2026-08-11T14:44:22Z"
+        "last_fetched": "2026-08-11T15:41:56Z"
       }
     ],
     "summary": {
@@ -1331,7 +1331,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 50,
-      "last_run_utc": "2026-08-11T14:44:20Z"
+      "last_run_utc": "2026-08-11T15:41:55Z"
     }
   },
   "alerts": [
