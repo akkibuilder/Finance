@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-12T08:45:59Z",
-  "updated_at_local": "12 Aug 2026, 08:45",
+  "updated_at": "2026-08-12T09:57:16Z",
+  "updated_at_local": "12 Aug 2026, 09:57",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1103,7 +1103,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two Says GTA 6 Preorders Are Skewing Toward the $100 Premium Edition - gHacks",
+      "headline": "Take-Two Says GTA 6 Preorders Are Skewing Toward the $100 Premium Edition - ghacks.net",
       "date": "Wed, 12 Aug 2026 07:36:54 GMT",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVklOc0MwempqQWZVV0o0cGF3dTU5cjZfcFdWeWxCUUFubWFPY05ZS3VGZURXbHNxakJFLUFhUmoyNlJIYWNaeTM1OG50ZExqWTlOM3p0SzI1bWZUWDRfOV9SUjFDYVgzYjljSFkzRl91c21scWtWSEZtanl2T25GdzdXcVZMNW40MmNBMjl0RE5pQ09PeFh0bnhUeTZfYWhBUHNnd3NjaW1UanM?oc=5",
       "source": "Google News",
@@ -1159,14 +1159,6 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "GTA 6 Owner Take-Two Is Not Interested In Selling To Netflix Or Anyone Right Now",
-      "date": "Tue, 11 Aug 2026 15:04:00 +0000",
-      "url": "https://www.gamespot.com/articles/gta-6-owner-take-two-is-not-interested-in-selling-to-netflix-or-anyone-right-now/#ftag=YHF6738a5f?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
       "headline": "‘GTA 6’ Delay Warning from Former Rockstar Animator - Yahoo Tech",
       "date": "Tue, 11 Aug 2026 14:55:03 GMT",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTTVNcGxmc3lIWE9FWk1WenpnMjRXVHlfYTRDVF9lUzV6WEV2bm82NmxPVTBSWjh6N25RUWlQWVFFcnQxV1AxaHBZcEZXc2VjUEV5SHE5TjVLTkduMzEtUXBpbWZzLXlDZS1UcEhFdUJjNGxPYXNCd1FMYmFHeHBRRXRzV29DS1E?oc=5",
@@ -1186,6 +1178,14 @@
       "headline": "Grand Theft Auto VI Ultimate Edition Is Taking More Preorders Than The Standard Edition, Says Take-Two CEO - PlayStation Universe",
       "date": "Tue, 11 Aug 2026 12:16:12 GMT",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORFFtMS1rTzVWZWZ1RjdFWHFhZDVBZThzUzRmRE1fdTRWcF9ubzRJNG14SXVMTWtPRHFmejlROUs1c0dQTWRWT3dNcUNIYXVKVDl1aENybk9hbGNITURqYnAxampkVGZqaFJJTFg2YlU3YzlnVS1xSVZ5SVlUank3Y2xPZzVSR0NDODZiR0ZCTHBVSUYwaXZrc3Q0TnVZa3puQkFoRTN2cndVMkVWN1RFcm5wV3FDU0dkV043MjJuSDFDWkVleGduLTJZQQ?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two CEO reveals most GTA 6 fans are pre-ordering the $100 Ultimate Edition over the Standard Edition — and now I worry that more games will follow Rockstar's lead by locking things we expect in a basic game behind a paywall - TechRadar",
+      "date": "Tue, 11 Aug 2026 11:25:32 GMT",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNVjJ4Tk4yR2lQaWo0cHk5YmJJTFZsa1N4b25KSDRJOHhNS0hGeU5JX0U2ZEI0QlZHemhtdTlXamFwcXFXX2xjYVA5RklNRUtKcnRBNVlfT2YtRGdyS2xnUFM3RlBTRVBqb0ZfN1BJVUVpbGZhR1dLbkFmaXVUcFJyTkFzd1k0cnJjY3VHUVNrOFpST014WlhZd1BUVkthVEs4ZG51U1UyRjFQYUpJYzA0UWc5TVhieWlBb3g0ckUzVWJmY3BMbVZ0TV83NFBFN1czZTdXWWkxa2tTV3ktN29PNDV3cEFIS2ZTZUhYdVBVVWtqX2JIYWd5WG9VbmNIdWFLMXFseUpxd3doVW9KZkVzVzFZNlNDZ3V2Ukg2T29YcUY?oc=5",
       "source": "Google News",
       "importance": 10,
       "sentiment": "bullish"
@@ -1257,50 +1257,50 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 2.59,
+      "elapsed_sec": 2.27,
       "category": "stock",
-      "last_fetched": "2026-08-12T08:45:55Z"
+      "last_fetched": "2026-08-12T09:57:13Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 19,
-        "elapsed_sec": 0.39,
+        "items_raw": 20,
+        "elapsed_sec": 0.55,
         "category": "financial",
-        "last_fetched": "2026-08-12T08:45:58Z"
+        "last_fetched": "2026-08-12T09:57:15Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.66,
+        "elapsed_sec": 0.67,
         "category": "financial",
-        "last_fetched": "2026-08-12T08:45:58Z"
+        "last_fetched": "2026-08-12T09:57:15Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.65,
+        "elapsed_sec": 0.7,
         "category": "aggregator",
-        "last_fetched": "2026-08-12T08:45:58Z"
+        "last_fetched": "2026-08-12T09:57:15Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.46,
+        "elapsed_sec": 0.45,
         "category": "platform",
-        "last_fetched": "2026-08-12T08:45:58Z"
+        "last_fetched": "2026-08-12T09:57:15Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.28,
         "category": "platform",
-        "last_fetched": "2026-08-12T08:45:58Z"
+        "last_fetched": "2026-08-12T09:57:15Z"
       },
       {
         "label": "IGN",
@@ -1308,23 +1308,23 @@
         "items_raw": 20,
         "elapsed_sec": 0.41,
         "category": "gaming",
-        "last_fetched": "2026-08-12T08:45:58Z"
+        "last_fetched": "2026-08-12T09:57:15Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.34,
+        "elapsed_sec": 0.47,
         "category": "gaming",
-        "last_fetched": "2026-08-12T08:45:58Z"
+        "last_fetched": "2026-08-12T09:57:15Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.83,
+        "elapsed_sec": 0.82,
         "category": "community",
-        "last_fetched": "2026-08-12T08:45:58Z"
+        "last_fetched": "2026-08-12T09:57:15Z"
       }
     ],
     "summary": {
@@ -1332,7 +1332,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 51,
-      "last_run_utc": "2026-08-12T08:45:55Z"
+      "last_run_utc": "2026-08-12T09:57:13Z"
     }
   },
   "alerts": [
