@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-12T15:28:34Z",
-  "updated_at_local": "12 Aug 2026, 15:28",
+  "updated_at": "2026-08-12T16:26:50Z",
+  "updated_at_local": "12 Aug 2026, 16:26",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
-    "price_eur": 210.0,
+    "price_eur": 210.8,
     "price_usd": null,
     "usd_to_eur": 1.0,
-    "day_change_abs": -8.2,
-    "day_change_pct": -3.76,
+    "day_change_abs": -7.4,
+    "day_change_pct": -3.39,
     "week52_high": 232.0,
     "week52_low": 142.32,
     "history": [
@@ -790,7 +790,7 @@
       },
       {
         "date": "2026-08-12",
-        "close": 210.0
+        "close": 210.8
       }
     ],
     "data_source": "yfinance"
@@ -802,11 +802,11 @@
     "extra_cash": 250.0,
     "max_loss": 400.0,
     "profit_target": 600.0,
-    "current_value": 2137.5,
-    "pl_abs": -35.4,
-    "pl_pct": -1.63,
+    "current_value": 2145.65,
+    "pl_abs": -27.25,
+    "pl_pct": -1.25,
     "target_value": 2772.9,
-    "distance_to_target": 635.4,
+    "distance_to_target": 627.25,
     "progress_pct": 0,
     "break_even_price": 213.49
   },
@@ -835,7 +835,7 @@
     "metrics": {
       "days_to_preorder": -48,
       "days_to_launch": 99,
-      "above_avg_pct": -1.63,
+      "above_avg_pct": -1.26,
       "bearish_signals": 2,
       "bullish_signals": 3
     }
@@ -1147,7 +1147,7 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two CEO Reveals GTA VI Preorders Are Favoring the $100 Ultimate Edition - finance.yahoo.com",
+      "headline": "Take-Two CEO Reveals GTA VI Preorders Are Favoring the $100 Ultimate Edition - Yahoo Finance",
       "date": "Tue, 11 Aug 2026 16:33:35 GMT",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQclg4WFJfVTl4T3ZKRHFueWx6TU1rM0lzcGFRN1gwNWVGd25YYTFRT2YtTDh3S1I4RDh4WEhkYnhGQmdvWlZfVlRhSmNlZXBZcUNOZFdFWDNqZTJzZ2M1bEdNcGR3TjFtZXc2QmtJSlB2ZWhqWEFYSzJFX0hIdmdvNVQtQnZjRTRVUHZpMGJheDlDa1hL?oc=5",
       "source": "Google News",
@@ -1161,6 +1161,14 @@
       "source": "Google News",
       "importance": 10,
       "sentiment": "bullish"
+    },
+    {
+      "headline": "GTA 6 Owner Take-Two Is Not Interested In Selling To Netflix Or Anyone Right Now",
+      "date": "Tue, 11 Aug 2026 15:04:00 +0000",
+      "url": "https://www.gamespot.com/articles/gta-6-owner-take-two-is-not-interested-in-selling-to-netflix-or-anyone-right-now/#ftag=YHF6738a5f?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
     },
     {
       "headline": "Most People Have Pre-Ordered The GTA 6 Ultimate Edition Say Take-Two - RockstarINTEL",
@@ -1185,14 +1193,6 @@
       "source": "Google News",
       "importance": 10,
       "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two CEO Admits GTA 6 Could Have Cost More Than $80, but Rockstar Chose Restraint and Overdelivered Value - Wccftech",
-      "date": "Tue, 11 Aug 2026 09:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BLThyczZoUjJqRmRCX04xbXNlOEEzei03OTVVQjJrZzVBLWNhY3RldDNEeVF1VkVETmU5VnhPZVlJTGJYYUVSSFlRYmlla3cyMVdwek1qcVhNcmhFbVlGNTFxRDEzZVgzMWd1X3dn0gFzQVVfeXFMUEVWQlIxc3E0ZE5yaVRJeHF6azAyWUY5MXN3S3ZVa0RaeW9JUFdlY3MtQW0wTE9JZ3JkaWFiTFphYi13aktrSm5yNmVtS0N0SHd0cVNocUdWTGlQSFRMVjRjMWxRZlhSVks5cWljTmJjQWk4dw?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "neutral"
     }
   ],
   "sentiment": {
@@ -1261,74 +1261,74 @@
     "stock": {
       "source": "yfinance",
       "status": "ok",
-      "elapsed_sec": 1.79,
+      "elapsed_sec": 1.64,
       "category": "stock",
-      "last_fetched": "2026-08-12T15:28:32Z"
+      "last_fetched": "2026-08-12T16:26:47Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 20,
-        "elapsed_sec": 0.25,
+        "items_raw": 19,
+        "elapsed_sec": 0.64,
         "category": "financial",
-        "last_fetched": "2026-08-12T15:28:34Z"
+        "last_fetched": "2026-08-12T16:26:49Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.54,
+        "elapsed_sec": 0.66,
         "category": "financial",
-        "last_fetched": "2026-08-12T15:28:34Z"
+        "last_fetched": "2026-08-12T16:26:49Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.57,
+        "elapsed_sec": 0.71,
         "category": "aggregator",
-        "last_fetched": "2026-08-12T15:28:34Z"
+        "last_fetched": "2026-08-12T16:26:49Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.37,
+        "elapsed_sec": 0.63,
         "category": "platform",
-        "last_fetched": "2026-08-12T15:28:34Z"
+        "last_fetched": "2026-08-12T16:26:49Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.21,
+        "elapsed_sec": 0.33,
         "category": "platform",
-        "last_fetched": "2026-08-12T15:28:34Z"
+        "last_fetched": "2026-08-12T16:26:49Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.65,
         "category": "gaming",
-        "last_fetched": "2026-08-12T15:28:34Z"
+        "last_fetched": "2026-08-12T16:26:49Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.31,
         "category": "gaming",
-        "last_fetched": "2026-08-12T15:28:34Z"
+        "last_fetched": "2026-08-12T16:26:49Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.61,
+        "elapsed_sec": 0.87,
         "category": "community",
-        "last_fetched": "2026-08-12T15:28:34Z"
+        "last_fetched": "2026-08-12T16:26:49Z"
       }
     ],
     "summary": {
@@ -1336,7 +1336,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 51,
-      "last_run_utc": "2026-08-12T15:28:32Z"
+      "last_run_utc": "2026-08-12T16:26:47Z"
     }
   },
   "alerts": [
