@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-14T12:08:43Z",
-  "updated_at_local": "14 Aug 2026, 12:08",
+  "updated_at": "2026-08-14T13:40:54Z",
+  "updated_at_local": "14 Aug 2026, 13:40",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1548,20 +1548,20 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "GTA 6 Owner Take-Two Is Not Interested In Selling To Netflix Or Anyone Right Now",
-      "date": "Tue, 11 Aug 2026 15:04:00 +0000",
-      "url": "https://www.gamespot.com/articles/gta-6-owner-take-two-is-not-interested-in-selling-to-netflix-or-anyone-right-now/#ftag=YHF6738a5f?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Most People Have Pre-Ordered The GTA 6 Ultimate Edition Say Take-Two - rockstarintel.com",
+      "headline": "Most People Have Pre-Ordered The GTA 6 Ultimate Edition Say Take-Two - RockstarINTEL",
       "date": "Tue, 11 Aug 2026 12:40:03 GMT",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZDFVcnBteUVzNE90Z3FPallRajBvcDQwMndMSTNuMlBULU1WSmc5YUdIdkZQSUdoc1hJNUVXOTlwZVpLNnVoWjhwSTZuZ2JlZ2lwdFBoOWtOd1A3Z0pUMEJFQURZRUF5Y25jYmVOUU12LUpyRlBwU0U5Nmk5TW84VTc2eXBTWFNOSTFBUkNpVGlZaUl6bjYydmRkdw?oc=5",
       "source": "Google News",
       "importance": 10,
       "sentiment": "neutral"
+    },
+    {
+      "headline": "Grand Theft Auto VI Ultimate Edition Is Taking More Preorders Than The Standard Edition, Says Take-Two CEO - PlayStation Universe",
+      "date": "Tue, 11 Aug 2026 12:16:12 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORFFtMS1rTzVWZWZ1RjdFWHFhZDVBZThzUzRmRE1fdTRWcF9ubzRJNG14SXVMTWtPRHFmejlROUs1c0dQTWRWT3dNcUNIYXVKVDl1aENybk9hbGNITURqYnAxampkVGZqaFJJTFg2YlU3YzlnVS1xSVZ5SVlUank3Y2xPZzVSR0NDODZiR0ZCTHBVSUYwaXZrc3Q0TnVZa3puQkFoRTN2cndVMkVWN1RFcm5wV3FDU0dkV043MjJuSDFDWkVleGduLTJZQQ?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
     }
   ],
   "sentiment": {
@@ -1631,74 +1631,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.56,
+      "elapsed_sec": 1.67,
       "category": "stock",
-      "last_fetched": "2026-08-14T12:08:41Z"
+      "last_fetched": "2026-08-14T13:40:52Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 18,
-        "elapsed_sec": 0.29,
+        "items_raw": 17,
+        "elapsed_sec": 0.67,
         "category": "financial",
-        "last_fetched": "2026-08-14T12:08:42Z"
+        "last_fetched": "2026-08-14T13:40:53Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.51,
+        "elapsed_sec": 0.6,
         "category": "financial",
-        "last_fetched": "2026-08-14T12:08:42Z"
+        "last_fetched": "2026-08-14T13:40:53Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.58,
+        "elapsed_sec": 0.64,
         "category": "aggregator",
-        "last_fetched": "2026-08-14T12:08:42Z"
+        "last_fetched": "2026-08-14T13:40:53Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.26,
+        "elapsed_sec": 0.56,
         "category": "platform",
-        "last_fetched": "2026-08-14T12:08:42Z"
+        "last_fetched": "2026-08-14T13:40:53Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.21,
+        "elapsed_sec": 0.33,
         "category": "platform",
-        "last_fetched": "2026-08-14T12:08:42Z"
+        "last_fetched": "2026-08-14T13:40:53Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.17,
+        "elapsed_sec": 0.48,
         "category": "gaming",
-        "last_fetched": "2026-08-14T12:08:42Z"
+        "last_fetched": "2026-08-14T13:40:53Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.48,
         "category": "gaming",
-        "last_fetched": "2026-08-14T12:08:42Z"
+        "last_fetched": "2026-08-14T13:40:53Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.65,
+        "elapsed_sec": 0.84,
         "category": "community",
-        "last_fetched": "2026-08-14T12:08:42Z"
+        "last_fetched": "2026-08-14T13:40:53Z"
       }
     ],
     "summary": {
@@ -1706,7 +1706,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 53,
-      "last_run_utc": "2026-08-14T12:08:41Z"
+      "last_run_utc": "2026-08-14T13:40:52Z"
     }
   },
   "alerts": [
