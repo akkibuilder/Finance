@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-14T14:38:52Z",
-  "updated_at_local": "14 Aug 2026, 14:38",
+  "updated_at": "2026-08-14T15:31:00Z",
+  "updated_at_local": "14 Aug 2026, 15:31",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1540,7 +1540,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Has Rockstar been quietly revealing Grand Theft Auto 6's loading screens? GTA 6 fans seem to think so - TechRadar",
+      "headline": "Has Rockstar been quietly revealing Grand Theft Auto 6's loading screens? GTA 6 fans seem to think so - techradar.com",
       "date": "Tue, 11 Aug 2026 16:30:48 GMT",
       "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPRWJRRC10RTNrZ0lGSWdhOXFRdzJDVktEZnVEeXpzeVhXTTRmY2k2dWpMRDhVZDBweTNhOE1OeUsweUxGSkxXTlhpbjZSUzhRbjBhODlTN2VrZlN5LUZsN2pPd3JLVXZnQl9JamliNkF4NFBGRzczeUJiaWw3UjI5MmFuQ0FyNjVsQzFxT2JfMFNya0FGVXFPcHRKZWNjLS11NmdQR2xkTkNxdVRpT2pCekxIMU9YckpmbVh0LWVzX2VBdjZRbm9CUTJveUMwOFg0UTk4NHgzT3NTaWJ5SHdBV294TTNsZ25pbEV3ZjFsZk5HS1JRUVBVc1RJS2FfcG5YeTFMZUVKQ0VnNFM3dnIybmRNNHlXblYyMjNfdU1uako?oc=5",
       "source": "Google News",
@@ -1631,74 +1631,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.52,
+      "elapsed_sec": 1.31,
       "category": "stock",
-      "last_fetched": "2026-08-14T14:38:50Z"
+      "last_fetched": "2026-08-14T15:30:57Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 17,
-        "elapsed_sec": 0.34,
+        "elapsed_sec": 0.27,
         "category": "financial",
-        "last_fetched": "2026-08-14T14:38:51Z"
+        "last_fetched": "2026-08-14T15:30:59Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.58,
         "category": "financial",
-        "last_fetched": "2026-08-14T14:38:51Z"
+        "last_fetched": "2026-08-14T15:30:59Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.66,
+        "elapsed_sec": 0.51,
         "category": "aggregator",
-        "last_fetched": "2026-08-14T14:38:51Z"
+        "last_fetched": "2026-08-14T15:30:59Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.42,
+        "elapsed_sec": 0.3,
         "category": "platform",
-        "last_fetched": "2026-08-14T14:38:51Z"
+        "last_fetched": "2026-08-14T15:30:59Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.36,
+        "elapsed_sec": 0.21,
         "category": "platform",
-        "last_fetched": "2026-08-14T14:38:51Z"
+        "last_fetched": "2026-08-14T15:30:59Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.21,
+        "elapsed_sec": 0.13,
         "category": "gaming",
-        "last_fetched": "2026-08-14T14:38:51Z"
+        "last_fetched": "2026-08-14T15:30:59Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.27,
+        "elapsed_sec": 0.37,
         "category": "gaming",
-        "last_fetched": "2026-08-14T14:38:51Z"
+        "last_fetched": "2026-08-14T15:30:59Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.74,
+        "elapsed_sec": 1.14,
         "category": "community",
-        "last_fetched": "2026-08-14T14:38:51Z"
+        "last_fetched": "2026-08-14T15:30:59Z"
       }
     ],
     "summary": {
@@ -1706,7 +1706,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 53,
-      "last_run_utc": "2026-08-14T14:38:50Z"
+      "last_run_utc": "2026-08-14T15:30:57Z"
     }
   },
   "alerts": [
