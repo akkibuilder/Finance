@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-15T03:06:06Z",
-  "updated_at_local": "15 Aug 2026, 03:06",
+  "updated_at": "2026-08-15T03:53:01Z",
+  "updated_at_local": "15 Aug 2026, 03:53",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1200,8 +1200,8 @@
       "days_to_preorder": -51,
       "days_to_launch": 96,
       "above_avg_pct": 2.41,
-      "bearish_signals": 2,
-      "bullish_signals": 4
+      "bearish_signals": 3,
+      "bullish_signals": 3
     }
   },
   "events": [
@@ -1463,7 +1463,7 @@
   },
   "news": [
     {
-      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - Reuters",
+      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - reuters.com",
       "date": "Wed, 24 Jun 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTIyaUktTHJkNkcwQm1KVTdZdk1EcWliQlFKb0ZOOUxUR21vZjA2bDVVSUpXQmdTaFhWMzVINW81bHc1anlmQzZ5RmQ0Z0ZoSDJfakYzeVNqQUljX3RORnNBN0s3TXFoVWEtNjZQZnBuZGtGR3hPZkZlbFE4aXd5UmxWal80RzRab1llekRRWE8?oc=5",
       "source": "Reuters",
@@ -1479,15 +1479,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two Says GTA 6 Preorders Are Skewing Toward the $100 Premium Edition - gHacks",
-      "date": "Wed, 12 Aug 2026 07:36:54 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVklOc0MwempqQWZVV0o0cGF3dTU5cjZfcFdWeWxCUUFubWFPY05ZS3VGZURXbHNxakJFLUFhUmoyNlJIYWNaeTM1OG50ZExqWTlOM3p0SzI1bWZUWDRfOV9SUjFDYVgzYjljSFkzRl91c21scWtWSEZtanl2T25GdzdXcVZMNW40MmNBMjl0RE5pQ09PeFh0bnhUeTZfYWhBUHNnd3NjaW1UanM?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - Reuters",
+      "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - reuters.com",
       "date": "Wed, 08 Nov 2023 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEdHd0NqM1gwaENTcU40SUtIZ2pTSllybTVXUW5EY3FBTXJLZE1kTG9MZzdjcDd5MGVyeHdyeWJOR0c1Nm9adVFtb0E1S2xVeWk2X1VSbHI3QUNEVzhDTVNuamx3T0Fzbk1xS2ZVVUtlTDBSMFBFcnV1bzFtb1dhUUxJcml3ZHU1UEJOQnlsNHd6NG0yMWo1REZJYVVHeF9sYzRKczdjVWJoc0pIV3NvWWNuWkpMbU94?oc=5",
       "source": "Reuters",
@@ -1503,7 +1495,7 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "Take-Two confirms GTA VI leak, says game development unaffected - Reuters",
+      "headline": "Take-Two confirms GTA VI leak, says game development unaffected - reuters.com",
       "date": "Tue, 20 Sep 2022 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2pXXzJmNEJrZldpQkFYeEI4U3NCUGZvVkhjcVFlcVo1NV92QVhDcnhrWThqQzcybnJFQmp4cGF6bFZSb2F1V2RSVVlxaVZLN2p1RUJJMjI4XzYzRkxhcXA0LXNPUEFuQlh2a2xGMHpZZXNDQ3VZWUhiYXdYdVgwUXRaRXVJMEM4ME9uSlBhcGtHdEFTTS16bWRScnA4NE04a0JwQ3RRUExWZXpwYTVuT1Y3SDU?oc=5",
       "source": "Reuters",
@@ -1511,7 +1503,7 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "'GTA VI' delay weighs on global videogame market growth, data shows - Reuters",
+      "headline": "'GTA VI' delay weighs on global videogame market growth, data shows - reuters.com",
       "date": "Tue, 17 Jun 2025 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOWtfMkV6MkNkaVFkaVNndWhKOTk2cGNXci1tMjNYcXdtSHNXUDVQbFNmenBkVFdJaWlHbTM5bUltcXJXVVgwVGRaWUUteDNVbUcxMTBMMFNzZFhtV1VvMDJnaXhyVm1YdVJ2WUxQSXFHY0JaU3MzWVE1bGlwZnJwMEUxc2YzcnBEOGJ0ZUtyajk2Z0lTWmdMYXZPRUw4NUlVU1NQUUtSVnRWeF9DTWtScElhRnBVYmg1T0ktVQ?oc=5",
       "source": "Reuters",
@@ -1519,7 +1511,7 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
+      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - reuters.com",
       "date": "Tue, 16 Apr 2024 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
       "source": "Reuters",
@@ -1543,20 +1535,28 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "GTA 6 Owner Take-Two Is Not Interested In Selling To Netflix Or Anyone Right Now",
-      "date": "Tue, 11 Aug 2026 15:04:00 +0000",
-      "url": "https://www.gamespot.com/articles/gta-6-owner-take-two-is-not-interested-in-selling-to-netflix-or-anyone-right-now/#ftag=YHF6738a5f?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Most People Have Pre-Ordered The GTA 6 Ultimate Edition Say Take-Two - RockstarINTEL",
+      "headline": "Most People Have Pre-Ordered The GTA 6 Ultimate Edition Say Take-Two - rockstarintel.com",
       "date": "Tue, 11 Aug 2026 12:40:03 GMT",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZDFVcnBteUVzNE90Z3FPallRajBvcDQwMndMSTNuMlBULU1WSmc5YUdIdkZQSUdoc1hJNUVXOTlwZVpLNnVoWjhwSTZuZ2JlZ2lwdFBoOWtOd1A3Z0pUMEJFQURZRUF5Y25jYmVOUU12LUpyRlBwU0U5Nmk5TW84VTc2eXBTWFNOSTFBUkNpVGlZaUl6bjYydmRkdw?oc=5",
       "source": "Google News",
       "importance": 10,
       "sentiment": "neutral"
+    },
+    {
+      "headline": "Grand Theft Auto VI Ultimate Edition Is Taking More Preorders Than The Standard Edition, Says Take-Two CEO - PlayStation Universe",
+      "date": "Tue, 11 Aug 2026 12:16:12 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORFFtMS1rTzVWZWZ1RjdFWHFhZDVBZThzUzRmRE1fdTRWcF9ubzRJNG14SXVMTWtPRHFmejlROUs1c0dQTWRWT3dNcUNIYXVKVDl1aENybk9hbGNITURqYnAxampkVGZqaFJJTFg2YlU3YzlnVS1xSVZ5SVlUank3Y2xPZzVSR0NDODZiR0ZCTHBVSUYwaXZrc3Q0TnVZa3puQkFoRTN2cndVMkVWN1RFcm5wV3FDU0dkV043MjJuSDFDWkVleGduLTJZQQ?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two CEO reveals most GTA 6 fans are pre-ordering the $100 Ultimate Edition over the Standard Edition — and now I worry that more games will follow Rockstar's lead by locking things we expect in a basic game behind a paywall - TechRadar",
+      "date": "Tue, 11 Aug 2026 11:25:32 GMT",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNVjJ4Tk4yR2lQaWo0cHk5YmJJTFZsa1N4b25KSDRJOHhNS0hGeU5JX0U2ZEI0QlZHemhtdTlXamFwcXFXX2xjYVA5RklNRUtKcnRBNVlfT2YtRGdyS2xnUFM3RlBTRVBqb0ZfN1BJVUVpbGZhR1dLbkFmaXVUcFJyTkFzd1k0cnJjY3VHUVNrOFpST014WlhZd1BUVkthVEs4ZG51U1UyRjFQYUpJYzA0UWc5TVhieWlBb3g0ckUzVWJmY3BMbVZ0TV83NFBFN1czZTdXWWkxa2tTV3ktN29PNDV3cEFIS2ZTZUhYdVBVVWtqX2JIYWd5WG9VbmNIdWFLMXFseUpxd3doVW9KZkVzVzFZNlNDZ3V2Ukg2T29YcUY?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
     }
   ],
   "sentiment": {
@@ -1626,74 +1626,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.51,
+      "elapsed_sec": 1.11,
       "category": "stock",
-      "last_fetched": "2026-08-15T03:06:03Z"
+      "last_fetched": "2026-08-15T03:52:55Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 17,
+        "items_raw": 20,
         "elapsed_sec": 0.3,
         "category": "financial",
-        "last_fetched": "2026-08-15T03:06:05Z"
+        "last_fetched": "2026-08-15T03:52:57Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.64,
+        "elapsed_sec": 0.72,
         "category": "financial",
-        "last_fetched": "2026-08-15T03:06:05Z"
+        "last_fetched": "2026-08-15T03:52:57Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.65,
+        "elapsed_sec": 0.67,
         "category": "aggregator",
-        "last_fetched": "2026-08-15T03:06:05Z"
+        "last_fetched": "2026-08-15T03:52:57Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.68,
+        "elapsed_sec": 4.67,
         "category": "platform",
-        "last_fetched": "2026-08-15T03:06:05Z"
+        "last_fetched": "2026-08-15T03:52:57Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.25,
         "category": "platform",
-        "last_fetched": "2026-08-15T03:06:05Z"
+        "last_fetched": "2026-08-15T03:52:57Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.45,
+        "elapsed_sec": 0.49,
         "category": "gaming",
-        "last_fetched": "2026-08-15T03:06:05Z"
+        "last_fetched": "2026-08-15T03:52:57Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.49,
+        "elapsed_sec": 0.52,
         "category": "gaming",
-        "last_fetched": "2026-08-15T03:06:05Z"
+        "last_fetched": "2026-08-15T03:52:57Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.84,
+        "elapsed_sec": 0.81,
         "category": "community",
-        "last_fetched": "2026-08-15T03:06:05Z"
+        "last_fetched": "2026-08-15T03:52:57Z"
       }
     ],
     "summary": {
@@ -1701,7 +1701,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 54,
-      "last_run_utc": "2026-08-15T03:06:03Z"
+      "last_run_utc": "2026-08-15T03:52:55Z"
     }
   },
   "alerts": [
