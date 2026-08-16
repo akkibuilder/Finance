@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-16T19:42:34Z",
-  "updated_at_local": "16 Aug 2026, 19:42",
+  "updated_at": "2026-08-16T19:55:30Z",
+  "updated_at_local": "16 Aug 2026, 19:55",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1514,7 +1514,7 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two CEO Reveals GTA VI Preorders Are Favoring the $100 Ultimate Edition - Yahoo Finance UK",
+      "headline": "Take-Two CEO Reveals GTA VI Preorders Are Favoring the $100 Ultimate Edition - uk.finance.yahoo.com",
       "date": "Tue, 11 Aug 2026 16:33:35 GMT",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zamRGX1pCbUFyeDV3UXBtN2ZuQUdXOWRPV19GWXl4aFdnZDlqWU41bjlMLWpZSllyQWRQeHJpWTZXUUJxTVN2dDViN2I1MWo1dUlCTWRkOXQwV3BTVFVVMFRXcWxtcWVwWU03bHM5MV9yVDI5U1F6YldTWQ?oc=5",
       "source": "Google News",
@@ -1546,7 +1546,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two CEO Admits GTA 6 Could Have Cost More Than $80, but Rockstar Chose Restraint and Overdelivered Value - wccftech.com",
+      "headline": "Take-Two CEO Admits GTA 6 Could Have Cost More Than $80, but Rockstar Chose Restraint and Overdelivered Value - Wccftech",
       "date": "Tue, 11 Aug 2026 09:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BLThyczZoUjJqRmRCX04xbXNlOEEzei03OTVVQjJrZzVBLWNhY3RldDNEeVF1VkVETmU5VnhPZVlJTGJYYUVSSFlRYmlla3cyMVdwek1qcVhNcmhFbVlGNTFxRDEzZVgzMWd1X3dn0gFzQVVfeXFMUEVWQlIxc3E0ZE5yaVRJeHF6azAyWUY5MXN3S3ZVa0RaeW9JUFdlY3MtQW0wTE9JZ3JkaWFiTFphYi13aktrSm5yNmVtS0N0SHd0cVNocUdWTGlQSFRMVjRjMWxRZlhSVks5cWljTmJjQWk4dw?oc=5",
       "source": "Google News",
@@ -1621,74 +1621,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.52,
+      "elapsed_sec": 1.29,
       "category": "stock",
-      "last_fetched": "2026-08-16T19:42:32Z"
+      "last_fetched": "2026-08-16T19:55:28Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 17,
-        "elapsed_sec": 0.28,
+        "elapsed_sec": 0.47,
         "category": "financial",
-        "last_fetched": "2026-08-16T19:42:33Z"
+        "last_fetched": "2026-08-16T19:55:29Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.51,
         "category": "financial",
-        "last_fetched": "2026-08-16T19:42:33Z"
+        "last_fetched": "2026-08-16T19:55:29Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.5,
+        "elapsed_sec": 0.54,
         "category": "aggregator",
-        "last_fetched": "2026-08-16T19:42:33Z"
+        "last_fetched": "2026-08-16T19:55:29Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.35,
+        "elapsed_sec": 0.27,
         "category": "platform",
-        "last_fetched": "2026-08-16T19:42:33Z"
+        "last_fetched": "2026-08-16T19:55:29Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.25,
         "category": "platform",
-        "last_fetched": "2026-08-16T19:42:33Z"
+        "last_fetched": "2026-08-16T19:55:29Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.39,
+        "elapsed_sec": 0.23,
         "category": "gaming",
-        "last_fetched": "2026-08-16T19:42:33Z"
+        "last_fetched": "2026-08-16T19:55:29Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.34,
+        "elapsed_sec": 0.43,
         "category": "gaming",
-        "last_fetched": "2026-08-16T19:42:33Z"
+        "last_fetched": "2026-08-16T19:55:29Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.85,
+        "elapsed_sec": 0.61,
         "category": "community",
-        "last_fetched": "2026-08-16T19:42:33Z"
+        "last_fetched": "2026-08-16T19:55:29Z"
       }
     ],
     "summary": {
@@ -1696,7 +1696,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 55,
-      "last_run_utc": "2026-08-16T19:42:32Z"
+      "last_run_utc": "2026-08-16T19:55:28Z"
     }
   },
   "alerts": [
