@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-17T14:00:50Z",
-  "updated_at_local": "17 Aug 2026, 14:00",
+  "updated_at": "2026-08-17T14:42:55Z",
+  "updated_at_local": "17 Aug 2026, 14:42",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1488,7 +1488,7 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two doubles down on GTA 6 release date, expects net bookings to increase by 22% - TweakTown",
+      "headline": "Take-Two doubles down on GTA 6 release date, expects net bookings to increase by 22% - tweaktown.com",
       "date": "Tue, 28 Jul 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOc1VIT3ZpS0ZodThXZG1kMm1qcGZpUVR6RGJRY043VUJRQWttODk1Rl9ZcmNrTkpiSGpsN1BORWpleHo1QmJyY0pBNXdQZGVTVVdKLXZYMG9IOW5VVzd6b1ZJcThMWVlpdzJKYzB1SGR3NWRrMk50amhLdlRXREVpRlYtM05fb3lSMVlualk2UksyZDhXeW9UX0k2R3hrUk04OFo3M2Y4SWtDcVRuYi1ZZGJfRWx4N0N1UjNTbzBIa2g4UHNfdFFRWm1Dc2hVbG04MWdXS093?oc=5",
       "source": "Google News",
@@ -1544,20 +1544,20 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two CEO reveals most GTA 6 fans are pre-ordering the $100 Ultimate Edition over the Standard Edition — and now I worry that more games will follow Rockstar's lead by locking things we expect in a basic game behind a paywall - TechRadar",
-      "date": "Tue, 11 Aug 2026 11:25:32 GMT",
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNVjJ4Tk4yR2lQaWo0cHk5YmJJTFZsa1N4b25KSDRJOHhNS0hGeU5JX0U2ZEI0QlZHemhtdTlXamFwcXFXX2xjYVA5RklNRUtKcnRBNVlfT2YtRGdyS2xnUFM3RlBTRVBqb0ZfN1BJVUVpbGZhR1dLbkFmaXVUcFJyTkFzd1k0cnJjY3VHUVNrOFpST014WlhZd1BUVkthVEs4ZG51U1UyRjFQYUpJYzA0UWc5TVhieWlBb3g0ckUzVWJmY3BMbVZ0TV83NFBFN1czZTdXWWkxa2tTV3ktN29PNDV3cEFIS2ZTZUhYdVBVVWtqX2JIYWd5WG9VbmNIdWFLMXFseUpxd3doVW9KZkVzVzFZNlNDZ3V2Ukg2T29YcUY?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
       "headline": "Take-Two CEO Admits GTA 6 Could Have Cost More Than $80, but Rockstar Chose Restraint and Overdelivered Value - Wccftech",
       "date": "Tue, 11 Aug 2026 09:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BLThyczZoUjJqRmRCX04xbXNlOEEzei03OTVVQjJrZzVBLWNhY3RldDNEeVF1VkVETmU5VnhPZVlJTGJYYUVSSFlRYmlla3cyMVdwek1qcVhNcmhFbVlGNTFxRDEzZVgzMWd1X3dn0gFzQVVfeXFMUEVWQlIxc3E0ZE5yaVRJeHF6azAyWUY5MXN3S3ZVa0RaeW9JUFdlY3MtQW0wTE9JZ3JkaWFiTFphYi13aktrSm5yNmVtS0N0SHd0cVNocUdWTGlQSFRMVjRjMWxRZlhSVks5cWljTmJjQWk4dw?oc=5",
       "source": "Google News",
       "importance": 10,
       "sentiment": "neutral"
+    },
+    {
+      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
+      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bullish"
     }
   ],
   "sentiment": {
@@ -1627,74 +1627,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.1,
+      "elapsed_sec": 1.05,
       "category": "stock",
-      "last_fetched": "2026-08-17T14:00:48Z"
+      "last_fetched": "2026-08-17T14:42:53Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 17,
-        "elapsed_sec": 0.25,
+        "elapsed_sec": 0.3,
         "category": "financial",
-        "last_fetched": "2026-08-17T14:00:49Z"
+        "last_fetched": "2026-08-17T14:42:54Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.61,
+        "elapsed_sec": 0.58,
         "category": "financial",
-        "last_fetched": "2026-08-17T14:00:49Z"
+        "last_fetched": "2026-08-17T14:42:54Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.58,
+        "elapsed_sec": 0.59,
         "category": "aggregator",
-        "last_fetched": "2026-08-17T14:00:49Z"
+        "last_fetched": "2026-08-17T14:42:54Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.79,
+        "elapsed_sec": 0.6,
         "category": "platform",
-        "last_fetched": "2026-08-17T14:00:49Z"
+        "last_fetched": "2026-08-17T14:42:54Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.23,
+        "elapsed_sec": 0.2,
         "category": "platform",
-        "last_fetched": "2026-08-17T14:00:49Z"
+        "last_fetched": "2026-08-17T14:42:54Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.15,
         "category": "gaming",
-        "last_fetched": "2026-08-17T14:00:49Z"
+        "last_fetched": "2026-08-17T14:42:54Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.21,
+        "elapsed_sec": 0.19,
         "category": "gaming",
-        "last_fetched": "2026-08-17T14:00:49Z"
+        "last_fetched": "2026-08-17T14:42:54Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.88,
+        "elapsed_sec": 0.86,
         "category": "community",
-        "last_fetched": "2026-08-17T14:00:49Z"
+        "last_fetched": "2026-08-17T14:42:54Z"
       }
     ],
     "summary": {
@@ -1702,7 +1702,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 56,
-      "last_run_utc": "2026-08-17T14:00:48Z"
+      "last_run_utc": "2026-08-17T14:42:53Z"
     }
   },
   "alerts": [
