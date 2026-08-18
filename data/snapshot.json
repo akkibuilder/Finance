@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-18T17:42:09Z",
-  "updated_at_local": "18 Aug 2026, 17:42",
+  "updated_at": "2026-08-18T18:02:45Z",
+  "updated_at_local": "18 Aug 2026, 18:02",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1492,6 +1492,14 @@
       "sentiment": "bearish"
     },
     {
+      "headline": "Take Two Interactive Software (TTWO) Could Be 13% Undervalued As Earnings And Guidance Land",
+      "date": "Tue, 18 Aug 2026 09:12:28 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-software-ttwo-could-091228231.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
       "headline": "Does Take-Two’s Shift To Modest Profit Guidance Reframe The Bull Case For TTWO?",
       "date": "Tue, 18 Aug 2026 01:07:48 +0000",
       "url": "https://finance.yahoo.com/markets/stocks/articles/does-two-shift-modest-profit-010748760.html?.tsrc=rss",
@@ -1540,34 +1548,26 @@
       "sentiment": "bullish"
     },
     {
+      "headline": "Rockstar Games Announces Pre-Orders for Grand Theft Auto VI - Take-Two Interactive Software, Inc.",
+      "date": "Thu, 25 Jun 2026 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLWlWR0F6ZjlETERjNGZNc2ltYndGR0pBSTVPT1NibDllRzBxTDZOdWstZ2s1Rm5LUU1MVDNhVXoyTkhMdEZ2ZTljYzRZSDVLWFd3MnkwUUdLNkQtTEhZbnVYRUtycV9CMUNLeG5lUG5DZnhhU3dJQXZkamFKZlIzQUtHQVZ0SnZLbnJVM09zb1hPdkU?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
       "headline": "Take-Two sticks with 'GTA VI' launch timeline, forecasts annual bookings below estimates - Reuters",
       "date": "Thu, 21 May 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2dBdUEzSks5MlZadVAzQlhEUXBnaGxkRnN2Tk9TekZqSjdDRzNYMkRBUGFLRG1HYTNsYW9HVXNvalc1Z2Z4UzZhdnJoSmZwUXN1TGFzS2JoWk9wejJ2MmdJcE4tVzhjU2RUNFFsdFZQTjlPMjNqUUdtOFVpX2lFZmp3QmRBb3FrU3ZrUG8tZ1lNeEJOWlcxNnVmLUNwRHJTUjRVWGFQVy13ZnAxNXkzajNDWDA2bFJxb1A3Vk9B?oc=5",
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two's Rockstar Games says 'GTA VI' pre-orders to begin on June 25 - Reuters",
-      "date": "Thu, 18 Jun 2026 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaVh3OUpTZ0I0TEM3b3JQaEFFNkdOdTFzN0R1UEVOYnRUeVJaRDByNHhoV0doWWc4U0Q1N3VKeUUwUGpVU1BscUJHZGd3SE9VSTdrNEw1QXZYbmVhQU5hMnNEWTk1SzBoS2wzMmF0QTcxTTZ1OUgyOVFZVWNlVTcyNnVfcDV1VEk4azZwWEpaVnNoTmxTcVV4X2RXSURJMlVKeDZwcnBiVlZwUQ?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two sees annual bookings below revised estimates as 'GTA VI' delay weighs - Reuters",
-      "date": "Thu, 15 May 2025 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb09IeHhfU29ZZzZZaVhhdU9qb0ZNS0VaSzl4MGpMNVVpdTlVWGQtbi1GdFpYME14aWRrMlUtb2JVbDZZZEtEdWJuV3lRd3ZpVmEydjBMTUNxOW9Wa0pLWUh2VkJveFVJM1JRMUtOcEpZVG5RbUdtQV9jeGJrc05Cd1AwVUV0emxjY0pmVXFUMFlRVTd6aUFkMjd3T05qYVRJVUxDZHFzOTNnNExYZDMySkJBU3dydw?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bearish"
     }
   ],
   "sentiment": {
     "fan_excitement": 9,
-    "release_confidence": 6,
-    "short_term_risk": 8,
+    "release_confidence": 7,
+    "short_term_risk": 7,
     "long_term_upside": 8
   },
   "game_metrics": {
@@ -1631,74 +1631,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.21,
+      "elapsed_sec": 1.75,
       "category": "stock",
-      "last_fetched": "2026-08-18T17:42:07Z"
+      "last_fetched": "2026-08-18T18:02:42Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 17,
-        "elapsed_sec": 0.94,
+        "elapsed_sec": 0.39,
         "category": "financial",
-        "last_fetched": "2026-08-18T17:42:08Z"
+        "last_fetched": "2026-08-18T18:02:44Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.58,
+        "elapsed_sec": 0.78,
         "category": "financial",
-        "last_fetched": "2026-08-18T17:42:08Z"
+        "last_fetched": "2026-08-18T18:02:44Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.53,
+        "elapsed_sec": 0.73,
         "category": "aggregator",
-        "last_fetched": "2026-08-18T17:42:08Z"
+        "last_fetched": "2026-08-18T18:02:44Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.87,
+        "elapsed_sec": 0.54,
         "category": "platform",
-        "last_fetched": "2026-08-18T17:42:08Z"
+        "last_fetched": "2026-08-18T18:02:44Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.18,
+        "elapsed_sec": 0.32,
         "category": "platform",
-        "last_fetched": "2026-08-18T17:42:08Z"
+        "last_fetched": "2026-08-18T18:02:44Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.23,
+        "elapsed_sec": 0.42,
         "category": "gaming",
-        "last_fetched": "2026-08-18T17:42:08Z"
+        "last_fetched": "2026-08-18T18:02:44Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.52,
         "category": "gaming",
-        "last_fetched": "2026-08-18T17:42:08Z"
+        "last_fetched": "2026-08-18T18:02:44Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.85,
+        "elapsed_sec": 0.86,
         "category": "community",
-        "last_fetched": "2026-08-18T17:42:08Z"
+        "last_fetched": "2026-08-18T18:02:44Z"
       }
     ],
     "summary": {
@@ -1706,7 +1706,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 57,
-      "last_run_utc": "2026-08-18T17:42:07Z"
+      "last_run_utc": "2026-08-18T18:02:42Z"
     }
   },
   "alerts": [
