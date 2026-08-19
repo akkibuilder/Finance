@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-19T22:31:17Z",
-  "updated_at_local": "19 Aug 2026, 22:31",
+  "updated_at": "2026-08-19T22:59:42Z",
+  "updated_at_local": "19 Aug 2026, 22:59",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1556,9 +1556,9 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two stock jumps on \"GTA IV\" release date - Reuters",
-      "date": "Thu, 24 Jan 2008 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbk5ubmhVcG9ISngwNjZQd3gxeEZSRC1icUU5SWsyTFdLWi1CVF9tRkNVUnF6RU9fUFlSMkFwMzVxdkVreEhqRzUtREt1YnZmSEg4Y05GSlY5YlpKdS1MUHBDM1UyZVBRWXRCWWJQQy1TbkpwT0xOTnlIRnVJRUtfYWpzTEdhQnlDRmpFaUtlX21zbVpadENMQXl2b1FKMndxZlJz?oc=5",
+      "headline": "Take-Two sticks with 'GTA VI' launch timeline, forecasts annual bookings below estimates - Reuters",
+      "date": "Thu, 21 May 2026 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2dBdUEzSks5MlZadVAzQlhEUXBnaGxkRnN2Tk9TekZqSjdDRzNYMkRBUGFLRG1HYTNsYW9HVXNvalc1Z2Z4UzZhdnJoSmZwUXN1TGFzS2JoWk9wejJ2MmdJcE4tVzhjU2RUNFFsdFZQTjlPMjNqUUdtOFVpX2lFZmp3QmRBb3FrU3ZrUG8tZ1lNeEJOWlcxNnVmLUNwRHJTUjRVWGFQVy13ZnAxNXkzajNDWDA2bFJxb1A3Vk9B?oc=5",
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
@@ -1633,16 +1633,16 @@
       "error": "No module named 'sklearn'",
       "elapsed_sec": 1.11,
       "category": "stock",
-      "last_fetched": "2026-08-19T22:31:16Z"
+      "last_fetched": "2026-08-19T22:59:40Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 17,
-        "elapsed_sec": 0.3,
+        "elapsed_sec": 0.29,
         "category": "financial",
-        "last_fetched": "2026-08-19T22:31:17Z"
+        "last_fetched": "2026-08-19T22:59:41Z"
       },
       {
         "label": "Reuters",
@@ -1650,55 +1650,55 @@
         "items_raw": 100,
         "elapsed_sec": 0.61,
         "category": "financial",
-        "last_fetched": "2026-08-19T22:31:17Z"
+        "last_fetched": "2026-08-19T22:59:41Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.66,
         "category": "aggregator",
-        "last_fetched": "2026-08-19T22:31:17Z"
+        "last_fetched": "2026-08-19T22:59:41Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.29,
+        "elapsed_sec": 0.72,
         "category": "platform",
-        "last_fetched": "2026-08-19T22:31:17Z"
+        "last_fetched": "2026-08-19T22:59:41Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.25,
+        "elapsed_sec": 0.2,
         "category": "platform",
-        "last_fetched": "2026-08-19T22:31:17Z"
+        "last_fetched": "2026-08-19T22:59:41Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.32,
+        "elapsed_sec": 0.5,
         "category": "gaming",
-        "last_fetched": "2026-08-19T22:31:17Z"
+        "last_fetched": "2026-08-19T22:59:41Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.35,
         "category": "gaming",
-        "last_fetched": "2026-08-19T22:31:17Z"
+        "last_fetched": "2026-08-19T22:59:41Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.73,
+        "elapsed_sec": 0.9,
         "category": "community",
-        "last_fetched": "2026-08-19T22:31:17Z"
+        "last_fetched": "2026-08-19T22:59:41Z"
       }
     ],
     "summary": {
@@ -1706,7 +1706,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 58,
-      "last_run_utc": "2026-08-19T22:31:16Z"
+      "last_run_utc": "2026-08-19T22:59:40Z"
     }
   },
   "alerts": [
