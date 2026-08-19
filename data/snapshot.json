@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-19T11:59:56Z",
-  "updated_at_local": "19 Aug 2026, 11:59",
+  "updated_at": "2026-08-19T13:00:11Z",
+  "updated_at_local": "19 Aug 2026, 13:00",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1532,7 +1532,7 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two CEO Admits GTA 6 Could Have Cost More Than $80, but Rockstar Chose Restraint and Overdelivered Value - Wccftech",
+      "headline": "Take-Two CEO Admits GTA 6 Could Have Cost More Than $80, but Rockstar Chose Restraint and Overdelivered Value - wccftech.com",
       "date": "Tue, 11 Aug 2026 09:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BLThyczZoUjJqRmRCX04xbXNlOEEzei03OTVVQjJrZzVBLWNhY3RldDNEeVF1VkVETmU5VnhPZVlJTGJYYUVSSFlRYmlla3cyMVdwek1qcVhNcmhFbVlGNTFxRDEzZVgzMWd1X3dn0gFzQVVfeXFMUEVWQlIxc3E0ZE5yaVRJeHF6azAyWUY5MXN3S3ZVa0RaeW9JUFdlY3MtQW0wTE9JZ3JkaWFiTFphYi13aktrSm5yNmVtS0N0SHd0cVNocUdWTGlQSFRMVjRjMWxRZlhSVks5cWljTmJjQWk4dw?oc=5",
       "source": "Google News",
@@ -1631,74 +1631,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 2.1,
+      "elapsed_sec": 1.95,
       "category": "stock",
-      "last_fetched": "2026-08-19T11:59:53Z"
+      "last_fetched": "2026-08-19T13:00:08Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 17,
-        "elapsed_sec": 0.3,
+        "elapsed_sec": 0.41,
         "category": "financial",
-        "last_fetched": "2026-08-19T11:59:55Z"
+        "last_fetched": "2026-08-19T13:00:10Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.46,
+        "elapsed_sec": 0.82,
         "category": "financial",
-        "last_fetched": "2026-08-19T11:59:55Z"
+        "last_fetched": "2026-08-19T13:00:10Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.51,
+        "elapsed_sec": 0.7,
         "category": "aggregator",
-        "last_fetched": "2026-08-19T11:59:55Z"
+        "last_fetched": "2026-08-19T13:00:10Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.79,
+        "elapsed_sec": 0.41,
         "category": "platform",
-        "last_fetched": "2026-08-19T11:59:55Z"
+        "last_fetched": "2026-08-19T13:00:10Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.21,
+        "elapsed_sec": 0.35,
         "category": "platform",
-        "last_fetched": "2026-08-19T11:59:55Z"
+        "last_fetched": "2026-08-19T13:00:10Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.68,
+        "elapsed_sec": 0.47,
         "category": "gaming",
-        "last_fetched": "2026-08-19T11:59:55Z"
+        "last_fetched": "2026-08-19T13:00:10Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.46,
         "category": "gaming",
-        "last_fetched": "2026-08-19T11:59:55Z"
+        "last_fetched": "2026-08-19T13:00:10Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.98,
+        "elapsed_sec": 0.92,
         "category": "community",
-        "last_fetched": "2026-08-19T11:59:55Z"
+        "last_fetched": "2026-08-19T13:00:10Z"
       }
     ],
     "summary": {
@@ -1706,7 +1706,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 58,
-      "last_run_utc": "2026-08-19T11:59:53Z"
+      "last_run_utc": "2026-08-19T13:00:08Z"
     }
   },
   "alerts": [
