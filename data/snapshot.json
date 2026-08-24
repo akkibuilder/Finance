@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-24T23:18:34Z",
-  "updated_at_local": "24 Aug 2026, 23:18",
+  "updated_at": "2026-08-24T23:45:13Z",
+  "updated_at_local": "24 Aug 2026, 23:45",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1627,74 +1627,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.26,
+      "elapsed_sec": 1.01,
       "category": "stock",
-      "last_fetched": "2026-08-24T23:18:32Z"
+      "last_fetched": "2026-08-24T23:45:11Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 14,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.18,
         "category": "financial",
-        "last_fetched": "2026-08-24T23:18:33Z"
+        "last_fetched": "2026-08-24T23:45:12Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.48,
         "category": "financial",
-        "last_fetched": "2026-08-24T23:18:33Z"
+        "last_fetched": "2026-08-24T23:45:12Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.58,
+        "elapsed_sec": 0.51,
         "category": "aggregator",
-        "last_fetched": "2026-08-24T23:18:33Z"
+        "last_fetched": "2026-08-24T23:45:12Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.61,
         "category": "platform",
-        "last_fetched": "2026-08-24T23:18:33Z"
+        "last_fetched": "2026-08-24T23:45:12Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.25,
+        "elapsed_sec": 0.2,
         "category": "platform",
-        "last_fetched": "2026-08-24T23:18:33Z"
+        "last_fetched": "2026-08-24T23:45:12Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.4,
+        "elapsed_sec": 0.47,
         "category": "gaming",
-        "last_fetched": "2026-08-24T23:18:33Z"
+        "last_fetched": "2026-08-24T23:45:12Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.21,
+        "elapsed_sec": 0.31,
         "category": "gaming",
-        "last_fetched": "2026-08-24T23:18:33Z"
+        "last_fetched": "2026-08-24T23:45:12Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.92,
+        "elapsed_sec": 0.95,
         "category": "community",
-        "last_fetched": "2026-08-24T23:18:33Z"
+        "last_fetched": "2026-08-24T23:45:12Z"
       }
     ],
     "summary": {
@@ -1702,7 +1702,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 63,
-      "last_run_utc": "2026-08-24T23:18:32Z"
+      "last_run_utc": "2026-08-24T23:45:11Z"
     }
   },
   "alerts": [
