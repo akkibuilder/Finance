@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-27T09:45:34Z",
-  "updated_at_local": "27 Aug 2026, 09:45",
+  "updated_at": "2026-08-27T20:00:39Z",
+  "updated_at_local": "27 Aug 2026, 20:00",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1206,7 +1206,7 @@
       "days_to_launch": 84,
       "above_avg_pct": 0.73,
       "bearish_signals": 2,
-      "bullish_signals": 3
+      "bullish_signals": 2
     }
   },
   "events": [
@@ -1468,14 +1468,6 @@
   },
   "news": [
     {
-      "headline": "GTA 6 Extended Look on Netflix: how to watch the Grand Theft Auto 6 trailer 3 - The Shortcut | Matt Swider",
-      "date": "Wed, 26 Aug 2026 17:25:12 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOc1hYUXNOR2dpWFQ4Y3pQZFc1RExNWWNFY21IQXR3bFhnOGpCUVEteGEzRlBZZlpwTGh6U1lILTJwSDFZaUlmdEN1M29TRmx6c2xCa1NOX3hzcS0tSFd3LUZESkFjZE4wbGtmUkZ0b1Z0T19Ubzl1dDF4c0dQa1dZOXJfM1pEQU9icGJfLVRORlFnaWIxaG9sS1gxcHdqV3hicGpibTRMSW5wZw?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
       "headline": "GTA 6 Is ‘Nearly There,' Rockstar Says After a Week of Leaks",
       "date": "Wed, 26 Aug 2026 12:22:07 +0000",
       "url": "https://beincrypto.com/gta-6-rockstar-leaks-response/?.tsrc=rss",
@@ -1524,6 +1516,14 @@
       "sentiment": "neutral"
     },
     {
+      "headline": "'GTA VI' delay weighs on global videogame market growth, data shows - Reuters",
+      "date": "Tue, 17 Jun 2025 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOWtfMkV6MkNkaVFkaVNndWhKOTk2cGNXci1tMjNYcXdtSHNXUDVQbFNmenBkVFdJaWlHbTM5bUltcXJXVVgwVGRaWUUteDNVbUcxMTBMMFNzZFhtV1VvMDJnaXhyVm1YdVJ2WUxQSXFHY0JaU3MzWVE1bGlwZnJwMEUxc2YzcnBEOGJ0ZUtyajk2Z0lTWmdMYXZPRUw4NUlVU1NQUUtSVnRWeF9DTWtScElhRnBVYmg1T0ktVQ?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bearish"
+    },
+    {
       "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
       "date": "Tue, 16 Apr 2024 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
@@ -1556,19 +1556,19 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two sticks with 'GTA VI' launch timeline, forecasts annual bookings below estimates - Reuters",
-      "date": "Thu, 21 May 2026 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2dBdUEzSks5MlZadVAzQlhEUXBnaGxkRnN2Tk9TekZqSjdDRzNYMkRBUGFLRG1HYTNsYW9HVXNvalc1Z2Z4UzZhdnJoSmZwUXN1TGFzS2JoWk9wejJ2MmdJcE4tVzhjU2RUNFFsdFZQTjlPMjNqUUdtOFVpX2lFZmp3QmRBb3FrU3ZrUG8tZ1lNeEJOWlcxNnVmLUNwRHJTUjRVWGFQVy13ZnAxNXkzajNDWDA2bFJxb1A3Vk9B?oc=5",
-      "source": "Reuters",
+      "headline": "Take-Two Makes Unusual GTA 6 Move With Netflix",
+      "date": "Thu, 27 Aug 2026 16:53:57 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-makes-unusual-gta-6-165357675.html?.tsrc=rss",
+      "source": "Yahoo Finance",
       "importance": 10,
-      "sentiment": "bullish"
+      "sentiment": "neutral"
     }
   ],
   "sentiment": {
-    "fan_excitement": 10,
-    "release_confidence": 7,
-    "short_term_risk": 7,
-    "long_term_upside": 9
+    "fan_excitement": 9,
+    "release_confidence": 6,
+    "short_term_risk": 8,
+    "long_term_upside": 8
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1631,74 +1631,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.37,
+      "elapsed_sec": 1.03,
       "category": "stock",
-      "last_fetched": "2026-08-27T09:45:17Z"
+      "last_fetched": "2026-08-27T20:00:38Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 13,
-        "elapsed_sec": 0.27,
+        "elapsed_sec": 0.26,
         "category": "financial",
-        "last_fetched": "2026-08-27T09:45:18Z"
+        "last_fetched": "2026-08-27T20:00:39Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.65,
+        "elapsed_sec": 0.61,
         "category": "financial",
-        "last_fetched": "2026-08-27T09:45:18Z"
+        "last_fetched": "2026-08-27T20:00:39Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.73,
+        "elapsed_sec": 0.65,
         "category": "aggregator",
-        "last_fetched": "2026-08-27T09:45:18Z"
+        "last_fetched": "2026-08-27T20:00:39Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.54,
+        "elapsed_sec": 0.32,
         "category": "platform",
-        "last_fetched": "2026-08-27T09:45:18Z"
+        "last_fetched": "2026-08-27T20:00:39Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.23,
         "category": "platform",
-        "last_fetched": "2026-08-27T09:45:18Z"
+        "last_fetched": "2026-08-27T20:00:39Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.49,
+        "elapsed_sec": 0.2,
         "category": "gaming",
-        "last_fetched": "2026-08-27T09:45:18Z"
+        "last_fetched": "2026-08-27T20:00:39Z"
       },
       {
         "label": "GamesRadar",
-        "status": "empty",
-        "items_raw": 0,
-        "elapsed_sec": 15.27,
+        "status": "ok",
+        "items_raw": 50,
+        "elapsed_sec": 0.2,
         "category": "gaming",
-        "last_fetched": "2026-08-27T09:45:18Z"
+        "last_fetched": "2026-08-27T20:00:39Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.91,
+        "elapsed_sec": 0.54,
         "category": "community",
-        "last_fetched": "2026-08-27T09:45:18Z"
+        "last_fetched": "2026-08-27T20:00:39Z"
       }
     ],
     "summary": {
@@ -1706,7 +1706,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 66,
-      "last_run_utc": "2026-08-27T09:45:17Z"
+      "last_run_utc": "2026-08-27T20:00:38Z"
     }
   },
   "alerts": [
