@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-16T15:10:40Z",
-  "updated_at_local": "16 Sep 2026, 15:10",
+  "updated_at": "2026-09-16T18:54:09Z",
+  "updated_at_local": "16 Sep 2026, 18:54",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1206,7 +1206,7 @@
       "days_to_launch": 64,
       "above_avg_pct": 0.73,
       "bearish_signals": 2,
-      "bullish_signals": 3
+      "bullish_signals": 2
     }
   },
   "events": [
@@ -1484,14 +1484,6 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "GTA 6 Trailer 3 Coming? Take-Two Investor Call Drives Fanbase Buzz - Esquire India",
-      "date": "Wed, 16 Sep 2026 02:08:12 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWtEUC13YmNIMkZid184c2xEcmpVaUpEcU9ON1BjUjFRZXlYTmhCTUF3WTlxNDFZVDdhRi1WdlBGWXI3MEZYbEtWLXMtUVhlTUNyeHJrOHExSnViT1lkR01GZkdwbE1FVTdjT0JhUWwxNEZPWTFZRWw2dEE1ZUJDSnAwcFZTanRjVkRwY3BXOG4yNXU2YjljLTc4eG1VVk5sTzJBUTFISU56NjF4Nm00VW1QUVdwMjdwVW5aVnhxUGJIQdIBzwFBVV95cUxQYmtXcnpibGxrYXlUblRfNGlvblRrYk1GU1dGNlkteHEtaVBlY1pWQVF4RmRzLWx0Z0NnRF9EVUxyM3FYSkl3N2s2c3k2bnpHMThSOEh4SG5WV2gxYnlkSlNyNVpIcERmZlo2YUJCWmZ3V3Nfc21CQ0J2R0RXSDhkOU5YMzhaWGZlSUFUYTAtaFQwNXlSRU9LdldsazM4d0FaMDNjUW5ZNVc2X0dja0VJOHQ2S0l0Y3FTb0xiUW9DTE9ZTEF3ODA2M2hjNG9CdUE?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
       "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - Reuters",
       "date": "Wed, 08 Nov 2023 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEdHd0NqM1gwaENTcU40SUtIZ2pTSllybTVXUW5EY3FBTXJLZE1kTG9MZzdjcDd5MGVyeHdyeWJOR0c1Nm9adVFtb0E1S2xVeWk2X1VSbHI3QUNEVzhDTVNuamx3T0Fzbk1xS2ZVVUtlTDBSMFBFcnV1bzFtb1dhUUxJcml3ZHU1UEJOQnlsNHd6NG0yMWo1REZJYVVHeF9sYzRKczdjVWJoc0pIV3NvWWNuWkpMbU94?oc=5",
@@ -1559,6 +1551,14 @@
       "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
       "date": "Tue, 05 Dec 2023 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two raises annual bookings forecast, sticks with 'GTA VI' November launch - Reuters",
+      "date": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV1VKdDhNZ1ZOQlQtVU5JZkVUOWJvWjk5Tk5QMTZKd2ZOWlVYblE1TWlENkh3Q2NJVTB3cVpaSXZvWTBSUmVXVGNSc2FPZjI4VldIUkpyY2VTSVJvMTJfMjBYdnVVRWxkMVR5ZEkwUWtBUzNIdmU0T0hhQmtQQlNTejZ5RU9nTFFPQlphbzE4V1h0dEwxdElGcEIxVTlBZFZf?oc=5",
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
@@ -1631,74 +1631,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.05,
+      "elapsed_sec": 1.59,
       "category": "stock",
-      "last_fetched": "2026-09-16T15:10:38Z"
+      "last_fetched": "2026-09-16T18:54:06Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 18,
-        "elapsed_sec": 0.26,
+        "elapsed_sec": 0.42,
         "category": "financial",
-        "last_fetched": "2026-09-16T15:10:39Z"
+        "last_fetched": "2026-09-16T18:54:08Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.57,
+        "elapsed_sec": 0.69,
         "category": "financial",
-        "last_fetched": "2026-09-16T15:10:39Z"
+        "last_fetched": "2026-09-16T18:54:08Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.67,
+        "elapsed_sec": 0.71,
         "category": "aggregator",
-        "last_fetched": "2026-09-16T15:10:39Z"
+        "last_fetched": "2026-09-16T18:54:08Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.37,
+        "elapsed_sec": 0.68,
         "category": "platform",
-        "last_fetched": "2026-09-16T15:10:39Z"
+        "last_fetched": "2026-09-16T18:54:08Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.27,
+        "elapsed_sec": 0.34,
         "category": "platform",
-        "last_fetched": "2026-09-16T15:10:39Z"
+        "last_fetched": "2026-09-16T18:54:08Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.19,
+        "elapsed_sec": 0.61,
         "category": "gaming",
-        "last_fetched": "2026-09-16T15:10:39Z"
+        "last_fetched": "2026-09-16T18:54:08Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.23,
+        "elapsed_sec": 0.41,
         "category": "gaming",
-        "last_fetched": "2026-09-16T15:10:39Z"
+        "last_fetched": "2026-09-16T18:54:08Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.63,
+        "elapsed_sec": 1.1,
         "category": "community",
-        "last_fetched": "2026-09-16T15:10:39Z"
+        "last_fetched": "2026-09-16T18:54:08Z"
       }
     ],
     "summary": {
@@ -1706,7 +1706,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 86,
-      "last_run_utc": "2026-09-16T15:10:38Z"
+      "last_run_utc": "2026-09-16T18:54:06Z"
     }
   },
   "alerts": [
