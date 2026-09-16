@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-16T01:00:18Z",
-  "updated_at_local": "16 Sep 2026, 01:00",
+  "updated_at": "2026-09-16T05:52:58Z",
+  "updated_at_local": "16 Sep 2026, 05:52",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1206,7 +1206,7 @@
       "days_to_launch": 64,
       "above_avg_pct": 0.73,
       "bearish_signals": 2,
-      "bullish_signals": 2
+      "bullish_signals": 3
     }
   },
   "events": [
@@ -1476,6 +1476,14 @@
       "sentiment": "bullish"
     },
     {
+      "headline": "GTA 6 Trailer 3 Coming? Take-Two Investor Call Drives Fanbase Buzz - Esquire India",
+      "date": "Wed, 16 Sep 2026 02:08:12 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWtEUC13YmNIMkZid184c2xEcmpVaUpEcU9ON1BjUjFRZXlYTmhCTUF3WTlxNDFZVDdhRi1WdlBGWXI3MEZYbEtWLXMtUVhlTUNyeHJrOHExSnViT1lkR01GZkdwbE1FVTdjT0JhUWwxNEZPWTFZRWw2dEE1ZUJDSnAwcFZTanRjVkRwY3BXOG4yNXU2YjljLTc4eG1VVk5sTzJBUTFISU56NjF4Nm00VW1QUVdwMjdwVW5aVnhxUGJIQdIBzwFBVV95cUxQYmtXcnpibGxrYXlUblRfNGlvblRrYk1GU1dGNlkteHEtaVBlY1pWQVF4RmRzLWx0Z0NnRF9EVUxyM3FYSkl3N2s2c3k2bnpHMThSOEh4SG5WV2gxYnlkSlNyNVpIcERmZlo2YUJCWmZ3V3Nfc21CQ0J2R0RXSDhkOU5YMzhaWGZlSUFUYTAtaFQwNXlSRU9LdldsazM4d0FaMDNjUW5ZNVc2X0dja0VJOHQ2S0l0Y3FTb0xiUW9DTE9ZTEF3ODA2M2hjNG9CdUE?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
       "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - Reuters",
       "date": "Wed, 08 Nov 2023 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEdHd0NqM1gwaENTcU40SUtIZ2pTSllybTVXUW5EY3FBTXJLZE1kTG9MZzdjcDd5MGVyeHdyeWJOR0c1Nm9adVFtb0E1S2xVeWk2X1VSbHI3QUNEVzhDTVNuamx3T0Fzbk1xS2ZVVUtlTDBSMFBFcnV1bzFtb1dhUUxJcml3ZHU1UEJOQnlsNHd6NG0yMWo1REZJYVVHeF9sYzRKczdjVWJoc0pIV3NvWWNuWkpMbU94?oc=5",
@@ -1554,21 +1562,13 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
-    },
-    {
-      "headline": "'Grand Theft Auto' publisher Take-Two ups full-year profit forecast - Reuters",
-      "date": "Tue, 03 Feb 2015 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLV9pRVhRenNTb1V3UWFQX1l5d2s3NzlFOXJGb0labUF3MEo4UXFrR05qaTJudGkteTl1TXNuZEZpTnZjNXBmTy1fcTd1Y0txYXlNU2tCZFgyeldYN0FaTTdkTzlUa2t4aWlkakU0QmdrMURrZTZWdmU2MnhyZHQ5R2I0UG1ZM0c0TmtEZ212RkpYamo2RVRqT0VtN293d0E5bm1FMmt6aWRiOHZKRzVMVUlqY1JoWFh4Y254dUVnZXg?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "neutral"
     }
   ],
   "sentiment": {
-    "fan_excitement": 9,
+    "fan_excitement": 10,
     "release_confidence": 7,
     "short_term_risk": 7,
-    "long_term_upside": 8
+    "long_term_upside": 9
   },
   "game_metrics": {
     "franchise_sales": "400M+",
@@ -1631,26 +1631,26 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.12,
+      "elapsed_sec": 1.31,
       "category": "stock",
-      "last_fetched": "2026-09-16T01:00:16Z"
+      "last_fetched": "2026-09-16T05:52:56Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 18,
-        "elapsed_sec": 0.31,
+        "elapsed_sec": 0.34,
         "category": "financial",
-        "last_fetched": "2026-09-16T01:00:17Z"
+        "last_fetched": "2026-09-16T05:52:57Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.66,
+        "elapsed_sec": 0.61,
         "category": "financial",
-        "last_fetched": "2026-09-16T01:00:17Z"
+        "last_fetched": "2026-09-16T05:52:57Z"
       },
       {
         "label": "Google News",
@@ -1658,55 +1658,55 @@
         "items_raw": 100,
         "elapsed_sec": 0.65,
         "category": "aggregator",
-        "last_fetched": "2026-09-16T01:00:17Z"
+        "last_fetched": "2026-09-16T05:52:57Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.51,
+        "elapsed_sec": 0.5,
         "category": "platform",
-        "last_fetched": "2026-09-16T01:00:17Z"
+        "last_fetched": "2026-09-16T05:52:57Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.42,
+        "elapsed_sec": 0.32,
         "category": "platform",
-        "last_fetched": "2026-09-16T01:00:17Z"
+        "last_fetched": "2026-09-16T05:52:57Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.44,
         "category": "gaming",
-        "last_fetched": "2026-09-16T01:00:17Z"
+        "last_fetched": "2026-09-16T05:52:57Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.35,
+        "elapsed_sec": 0.46,
         "category": "gaming",
-        "last_fetched": "2026-09-16T01:00:17Z"
+        "last_fetched": "2026-09-16T05:52:57Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 1.03,
+        "elapsed_sec": 0.98,
         "category": "community",
-        "last_fetched": "2026-09-16T01:00:17Z"
+        "last_fetched": "2026-09-16T05:52:57Z"
       }
     ],
     "summary": {
       "events_detected_total": 6,
       "fresh_this_run": 0,
       "news_items": 12,
-      "archive_count": 85,
-      "last_run_utc": "2026-09-16T01:00:16Z"
+      "archive_count": 86,
+      "last_run_utc": "2026-09-16T05:52:56Z"
     }
   },
   "alerts": [
