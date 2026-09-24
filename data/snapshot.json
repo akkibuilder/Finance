@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-24T05:08:50Z",
-  "updated_at_local": "24 Sep 2026, 05:08",
+  "updated_at": "2026-09-24T09:58:56Z",
+  "updated_at_local": "24 Sep 2026, 09:58",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1556,10 +1556,10 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two CFO Sells 1,335 Company Shares as Grand Theft Auto 6 Nears Launch",
-      "date": "Tue, 08 Sep 2026 19:50:23 +0000",
-      "url": "https://www.fool.com/coverage/filings/2026/09/08/take-two-cfo-sells-1-335-company-shares-as-grand-theft-auto-6-nears-launch/?.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
+      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
+      "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
     }
@@ -1631,74 +1631,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 0.84,
+      "elapsed_sec": 0.96,
       "category": "stock",
-      "last_fetched": "2026-09-24T05:08:49Z"
+      "last_fetched": "2026-09-24T09:58:55Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 17,
-        "elapsed_sec": 0.27,
+        "elapsed_sec": 0.24,
         "category": "financial",
-        "last_fetched": "2026-09-24T05:08:49Z"
+        "last_fetched": "2026-09-24T09:58:56Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.54,
+        "elapsed_sec": 0.52,
         "category": "financial",
-        "last_fetched": "2026-09-24T05:08:49Z"
+        "last_fetched": "2026-09-24T09:58:56Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.55,
         "category": "aggregator",
-        "last_fetched": "2026-09-24T05:08:49Z"
+        "last_fetched": "2026-09-24T09:58:56Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.22,
+        "elapsed_sec": 0.28,
         "category": "platform",
-        "last_fetched": "2026-09-24T05:08:49Z"
+        "last_fetched": "2026-09-24T09:58:56Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.27,
+        "elapsed_sec": 0.22,
         "category": "platform",
-        "last_fetched": "2026-09-24T05:08:49Z"
+        "last_fetched": "2026-09-24T09:58:56Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.18,
+        "elapsed_sec": 0.15,
         "category": "gaming",
-        "last_fetched": "2026-09-24T05:08:49Z"
+        "last_fetched": "2026-09-24T09:58:56Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.36,
+        "elapsed_sec": 0.33,
         "category": "gaming",
-        "last_fetched": "2026-09-24T05:08:49Z"
+        "last_fetched": "2026-09-24T09:58:56Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.84,
+        "elapsed_sec": 0.72,
         "category": "community",
-        "last_fetched": "2026-09-24T05:08:49Z"
+        "last_fetched": "2026-09-24T09:58:56Z"
       }
     ],
     "summary": {
@@ -1706,7 +1706,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 94,
-      "last_run_utc": "2026-09-24T05:08:49Z"
+      "last_run_utc": "2026-09-24T09:58:55Z"
     }
   },
   "alerts": [
