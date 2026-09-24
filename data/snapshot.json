@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-24T09:58:56Z",
-  "updated_at_local": "24 Sep 2026, 09:58",
+  "updated_at": "2026-09-24T14:46:41Z",
+  "updated_at_local": "24 Sep 2026, 14:46",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1516,7 +1516,7 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "GTA 6 still has no release date on PC, but Take-Two’s CEO sends a message of hope to players: “It is becoming - Diario AS",
+      "headline": "GTA 6 still has no release date on PC, but Take-Two’s CEO sends a message of hope to players: “It is becoming - en.as.com",
       "date": "Tue, 22 Sep 2026 18:02:53 GMT",
       "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNMm83aDZJb0hqYVpsRHpOYThXTTVKWWxrbk82N3VHdzBXWnBRUzlONWZfTHZ3X1BiYUYtZlhmaUt4ckR2TWVrZGQ4MVVSZGx0RDk4ZmN0TTAxMGw1MVZtMUxXZ0xCM2pVTFA4OFhUdmxfMmx6d1Z2b1pWb1FzdjRZcGp2TzdPRnFWLW92SGZhRkdHREhWQVU1enBtRTRUODdDSXgwbU8wWHhPN0tUU2xXQnZzRzU1UnB1TXRQT0JqcG9Hc0hOY21lTlVnMVc3Yk1Sbm0tZmhRWlB4aHFLMXpYdXpMWGJZTmo5OEVZUjl6OGdNb0huSk5uWjNVb1pPaTRuT3Y5LUxMeC1LY1NFN1VucjJxa0tseHlqeGfSAa4CQVVfeXFMTllaWF9SZEEzTncxSWtqRlNrTmsyUk83OTJRRUVNNi14bHptY2YwNXRwSWtZc2JGUzJRb21JTkRGTkdEeUZSOTUzRGFSSEFwQ1FPUEEzbUNibDdxcGxSc2lHQThscTBXRkxfdGVhZFB4NHBRUGJqSmF2VWZFSF9kOHNBamstandWdzZlU1h0aWlDeEROM1dnUmxrSllqakdCRkg5MTlsenBZR2ZOdzd2VlNPZTdkcWtlSUZ5QmJfMmF2X2FnbU5uLVZzRThTQy1fWUh6MGp6SFdvQ1N5NlZjbFkwWTBYTGxHUW50OUxZdkd5ZGNiYnFjUldUelZ3cmo1S2tIQ3dPUFFPTXRlMzZ1cEVvdGR4Z1FyazFWRGlQWVE4RXhkU280LXlYR3c5ZVE?oc=5",
       "source": "Google News",
@@ -1631,74 +1631,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 0.96,
+      "elapsed_sec": 1.95,
       "category": "stock",
-      "last_fetched": "2026-09-24T09:58:55Z"
+      "last_fetched": "2026-09-24T14:46:38Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 17,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.62,
         "category": "financial",
-        "last_fetched": "2026-09-24T09:58:56Z"
+        "last_fetched": "2026-09-24T14:46:40Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.52,
+        "elapsed_sec": 0.65,
         "category": "financial",
-        "last_fetched": "2026-09-24T09:58:56Z"
+        "last_fetched": "2026-09-24T14:46:40Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.55,
+        "elapsed_sec": 0.63,
         "category": "aggregator",
-        "last_fetched": "2026-09-24T09:58:56Z"
+        "last_fetched": "2026-09-24T14:46:40Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.28,
+        "elapsed_sec": 0.66,
         "category": "platform",
-        "last_fetched": "2026-09-24T09:58:56Z"
+        "last_fetched": "2026-09-24T14:46:40Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.22,
+        "elapsed_sec": 0.2,
         "category": "platform",
-        "last_fetched": "2026-09-24T09:58:56Z"
+        "last_fetched": "2026-09-24T14:46:40Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.15,
+        "elapsed_sec": 0.21,
         "category": "gaming",
-        "last_fetched": "2026-09-24T09:58:56Z"
+        "last_fetched": "2026-09-24T14:46:40Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.33,
+        "elapsed_sec": 0.19,
         "category": "gaming",
-        "last_fetched": "2026-09-24T09:58:56Z"
+        "last_fetched": "2026-09-24T14:46:40Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.72,
+        "elapsed_sec": 0.97,
         "category": "community",
-        "last_fetched": "2026-09-24T09:58:56Z"
+        "last_fetched": "2026-09-24T14:46:40Z"
       }
     ],
     "summary": {
@@ -1706,7 +1706,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 94,
-      "last_run_utc": "2026-09-24T09:58:55Z"
+      "last_run_utc": "2026-09-24T14:46:38Z"
     }
   },
   "alerts": [
