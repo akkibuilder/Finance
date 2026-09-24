@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-24T00:19:54Z",
-  "updated_at_local": "24 Sep 2026, 00:19",
+  "updated_at": "2026-09-24T05:08:50Z",
+  "updated_at_local": "24 Sep 2026, 05:08",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1206,7 +1206,7 @@
       "days_to_launch": 56,
       "above_avg_pct": 0.73,
       "bearish_signals": 1,
-      "bullish_signals": 3
+      "bullish_signals": 2
     }
   },
   "events": [
@@ -1476,6 +1476,22 @@
       "sentiment": "bullish"
     },
     {
+      "headline": "GTA 6 Release Date: Nov. 19, 2026 Confirmed, 2 Delays - tech-insider.org",
+      "date": "Wed, 23 Sep 2026 21:56:04 GMT",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1VOXdqTGVKWmhSY0ZPb2ZhUUU4T3NXSFpKQ3o4RDc5T2R1MG5NT0ZHRUc0SlNtMnVZLWppdlAwZXAwQlA0OWpkYkZUdFkzYVJMTzNsN25KTW5OV1VEcmNRVHZnMGJEV3hIWlhDTGkydlI2MmFtYUNLLXJuMA?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bearish"
+    },
+    {
+      "headline": "The Hidden Price of GTA 6 Is Paid by Americans, And It Doesn’t Land on Take Two’s Balance Sheet",
+      "date": "Wed, 23 Sep 2026 18:18:18 +0000",
+      "url": "https://www.barchart.com/story/news/4762295/the-hidden-price-of-gta-6-is-paid-by-americans-and-it-doesnt-land-on-take-twos-balance-sheet?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
       "headline": "What Take-Two Interactive Software (TTWO)'s Softer Near-Term Earnings vs Costly Pipeline Means For Shareholders",
       "date": "Wed, 16 Sep 2026 14:10:35 +0000",
       "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-software-ttwo-softer-141035525.html?.tsrc=rss",
@@ -1546,28 +1562,12 @@
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "bullish"
-    },
-    {
-      "headline": "TTWO Stock Rises Premarket: GTA 6 Boss Explains Why Keeping Its Satire Relevant Is Harder Than Ever",
-      "date": "Tue, 08 Sep 2026 09:24:49 +0000",
-      "url": "https://stocktwits.com/news-articles/markets/equity/ttwo-stock-rises-premarket-gta-6-boss-explains-why-keeping-its-satire-relevant-is-harder-than-ever/cZt3rkSRJUI?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
-      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
     }
   ],
   "sentiment": {
     "fan_excitement": 9,
-    "release_confidence": 8,
-    "short_term_risk": 7,
+    "release_confidence": 7,
+    "short_term_risk": 8,
     "long_term_upside": 8
   },
   "game_metrics": {
@@ -1631,9 +1631,9 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.02,
+      "elapsed_sec": 0.84,
       "category": "stock",
-      "last_fetched": "2026-09-24T00:19:52Z"
+      "last_fetched": "2026-09-24T05:08:49Z"
     },
     "feeds": [
       {
@@ -1642,71 +1642,71 @@
         "items_raw": 17,
         "elapsed_sec": 0.27,
         "category": "financial",
-        "last_fetched": "2026-09-24T00:19:53Z"
+        "last_fetched": "2026-09-24T05:08:49Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.7,
+        "elapsed_sec": 0.54,
         "category": "financial",
-        "last_fetched": "2026-09-24T00:19:53Z"
+        "last_fetched": "2026-09-24T05:08:49Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.6,
+        "elapsed_sec": 0.59,
         "category": "aggregator",
-        "last_fetched": "2026-09-24T00:19:53Z"
+        "last_fetched": "2026-09-24T05:08:49Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.45,
+        "elapsed_sec": 0.22,
         "category": "platform",
-        "last_fetched": "2026-09-24T00:19:53Z"
+        "last_fetched": "2026-09-24T05:08:49Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.27,
         "category": "platform",
-        "last_fetched": "2026-09-24T00:19:53Z"
+        "last_fetched": "2026-09-24T05:08:49Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.49,
+        "elapsed_sec": 0.18,
         "category": "gaming",
-        "last_fetched": "2026-09-24T00:19:53Z"
+        "last_fetched": "2026-09-24T05:08:49Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.31,
+        "elapsed_sec": 0.36,
         "category": "gaming",
-        "last_fetched": "2026-09-24T00:19:53Z"
+        "last_fetched": "2026-09-24T05:08:49Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.93,
+        "elapsed_sec": 0.84,
         "category": "community",
-        "last_fetched": "2026-09-24T00:19:53Z"
+        "last_fetched": "2026-09-24T05:08:49Z"
       }
     ],
     "summary": {
       "events_detected_total": 6,
       "fresh_this_run": 0,
       "news_items": 12,
-      "archive_count": 93,
-      "last_run_utc": "2026-09-24T00:19:52Z"
+      "archive_count": 94,
+      "last_run_utc": "2026-09-24T05:08:49Z"
     }
   },
   "alerts": [
