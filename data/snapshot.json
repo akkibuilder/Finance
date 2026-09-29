@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-29T14:58:58Z",
-  "updated_at_local": "29 Sep 2026, 14:58",
+  "updated_at": "2026-09-29T19:52:50Z",
+  "updated_at_local": "29 Sep 2026, 19:52",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1556,10 +1556,10 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Grand Theft Auto VI: Extended Trailer, First Look, Release Date; GTA VI - Netflix",
-      "date": "Thu, 27 Aug 2026 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUkl0YzZvSXltTXZwRzRqdEdrRWRPUkVHS0JwQTY5UXNZc3pRRXd3dDI0Rk02Ni12STJQbndVV0dHTEVTa1NDOXpCVkVvMk1oN1ZQengwUzFCT0VOcmZZeWdCUHNrMGdhOUY2WmZVZE85UnZSYU5DNDBFM1J1Y1BCY292QQ?oc=5",
-      "source": "Google News",
+      "headline": "Gaming Your Portfolio: Should You Add Take-Two Ahead of GTA 6’s November Launch?",
+      "date": "Thu, 24 Sep 2026 11:25:00 +0000",
+      "url": "https://www.marketbeat.com/articles/gaming-your-portfolio-should-you-add-take-two-ahead-of-gta-6s-november-launch/?utm_source=yahoofinance&amp;utm_medium=yahoofinance&amp;.tsrc=rss",
+      "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "bullish"
     }
@@ -1631,18 +1631,18 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.81,
+      "elapsed_sec": 1.3,
       "category": "stock",
-      "last_fetched": "2026-09-29T14:58:55Z"
+      "last_fetched": "2026-09-29T19:52:48Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 19,
-        "elapsed_sec": 0.37,
+        "elapsed_sec": 0.32,
         "category": "financial",
-        "last_fetched": "2026-09-29T14:58:57Z"
+        "last_fetched": "2026-09-29T19:52:50Z"
       },
       {
         "label": "Reuters",
@@ -1650,55 +1650,55 @@
         "items_raw": 100,
         "elapsed_sec": 0.61,
         "category": "financial",
-        "last_fetched": "2026-09-29T14:58:57Z"
+        "last_fetched": "2026-09-29T19:52:50Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.62,
+        "elapsed_sec": 0.71,
         "category": "aggregator",
-        "last_fetched": "2026-09-29T14:58:57Z"
+        "last_fetched": "2026-09-29T19:52:50Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.62,
+        "elapsed_sec": 0.4,
         "category": "platform",
-        "last_fetched": "2026-09-29T14:58:57Z"
+        "last_fetched": "2026-09-29T19:52:50Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.26,
+        "elapsed_sec": 0.25,
         "category": "platform",
-        "last_fetched": "2026-09-29T14:58:57Z"
+        "last_fetched": "2026-09-29T19:52:50Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.6,
+        "elapsed_sec": 0.38,
         "category": "gaming",
-        "last_fetched": "2026-09-29T14:58:57Z"
+        "last_fetched": "2026-09-29T19:52:50Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.44,
+        "elapsed_sec": 0.26,
         "category": "gaming",
-        "last_fetched": "2026-09-29T14:58:57Z"
+        "last_fetched": "2026-09-29T19:52:50Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.92,
+        "elapsed_sec": 0.88,
         "category": "community",
-        "last_fetched": "2026-09-29T14:58:57Z"
+        "last_fetched": "2026-09-29T19:52:50Z"
       }
     ],
     "summary": {
@@ -1706,7 +1706,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 99,
-      "last_run_utc": "2026-09-29T14:58:55Z"
+      "last_run_utc": "2026-09-29T19:52:48Z"
     }
   },
   "alerts": [
