@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-13T15:56:21Z",
-  "updated_at_local": "13 Oct 2026, 15:56",
+  "updated_at": "2026-10-13T20:58:26Z",
+  "updated_at_local": "13 Oct 2026, 20:58",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1572,32 +1572,32 @@
       "sentiment": "neutral"
     },
     {
+      "headline": "Take-Two Interactive Slides 5% as Wells Fargo Trims Estimates Behind $300 Target; Roblox Holds Flat, GameStop Barely Budges",
+      "date": "Tue, 13 Oct 2026 17:55:21 +0000",
+      "url": "https://247wallst.com/investing/2026/10/13/take-two-interactive-slides-5-as-wells-fargo-trims-estimates-behind-300-target-roblox-holds-flat-gamestop-barely-budges/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Grand Theft Auto 6's PC version will reportedly arrive 'in the first quarter of 2027' and fans are convinced Rockstar has moved the date up to avoid a potential PS5 emulator — 'GTA 6 will probably be emulator ready a month after launch' - TechRadar",
+      "date": "Tue, 13 Oct 2026 16:36:49 GMT",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPNnBGbGRqdXhxNUVPRWFSTk5lckppRDNEVkNqT2hlM2FrVG1rN2JGRE5mSXl1Yk4waTVUMER0MmRoVzdNZVZZM0lqZmVPZVl2X1JZcVBHQnlEVjlhaVFDZXJJc1Rlamg2ZjNDb19oMktPRU9WY2xkRXJNX0lUY3NCQldfNUdhOWdHX2xRd2ppUU1NU1RwdHB3ajQwNkYtejU1OGN4OUE4dEJXUEpPa3A5QVlPdEVPZUFNT01iQjlZTnpFYVRoOTdVcVNibkN6X0FuVm5odHBIWDdTakdvVUNjTzBRQVRHRUdDU3AwZzJURWpBQm9KMzI1MWpuRHJtVzhlWks4c3F0SDdoZU9hSENV?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
       "headline": "Take-Two Interactive Software, Inc. to Report Second Quarter Fiscal Year 2027 Results on Monday, November 9, 2026",
       "date": "Tue, 13 Oct 2026 12:00:00 +0000",
       "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-software-inc-report-120000538.html?.tsrc=rss",
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "neutral"
-    },
-    {
-      "headline": "Rockstar Officially Comments on GTA 6's Release Date - OpenCritic",
-      "date": "Tue, 13 Oct 2026 11:14:58 GMT",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaXloeFZKRnYxWFJGdTd5ZWs2RzF0aFFDZ1pVMVFjdnBZeVFRSDJwakFkRlluanNjZmNmaHR6X01fbWtjaTl5ZEp2M3dteS1IYjc3c2R0WUdidzV6eU4wVDI5TFI4cVNFNFBldE8wQ0xqOXpXZXNxdFZVUWtuRjNGbnZOdEVhRUQtU0xVRUtB?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
-      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
     }
   ],
   "sentiment": {
-    "fan_excitement": 9,
+    "fan_excitement": 8,
     "release_confidence": 8,
     "short_term_risk": 7,
     "long_term_upside": 8
@@ -1663,74 +1663,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.09,
+      "elapsed_sec": 1.47,
       "category": "stock",
-      "last_fetched": "2026-10-13T15:56:19Z"
+      "last_fetched": "2026-10-13T20:58:24Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 18,
-        "elapsed_sec": 0.37,
+        "items_raw": 19,
+        "elapsed_sec": 0.39,
         "category": "financial",
-        "last_fetched": "2026-10-13T15:56:20Z"
+        "last_fetched": "2026-10-13T20:58:26Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.57,
+        "elapsed_sec": 0.71,
         "category": "financial",
-        "last_fetched": "2026-10-13T15:56:20Z"
+        "last_fetched": "2026-10-13T20:58:26Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.64,
+        "elapsed_sec": 0.72,
         "category": "aggregator",
-        "last_fetched": "2026-10-13T15:56:20Z"
+        "last_fetched": "2026-10-13T20:58:26Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.58,
+        "elapsed_sec": 0.41,
         "category": "platform",
-        "last_fetched": "2026-10-13T15:56:20Z"
+        "last_fetched": "2026-10-13T20:58:26Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.18,
+        "elapsed_sec": 0.31,
         "category": "platform",
-        "last_fetched": "2026-10-13T15:56:20Z"
+        "last_fetched": "2026-10-13T20:58:26Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.48,
         "category": "gaming",
-        "last_fetched": "2026-10-13T15:56:20Z"
+        "last_fetched": "2026-10-13T20:58:26Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.44,
         "category": "gaming",
-        "last_fetched": "2026-10-13T15:56:20Z"
+        "last_fetched": "2026-10-13T20:58:26Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.81,
+        "elapsed_sec": 0.67,
         "category": "community",
-        "last_fetched": "2026-10-13T15:56:20Z"
+        "last_fetched": "2026-10-13T20:58:26Z"
       }
     ],
     "summary": {
@@ -1738,7 +1738,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 113,
-      "last_run_utc": "2026-10-13T15:56:19Z"
+      "last_run_utc": "2026-10-13T20:58:24Z"
     }
   },
   "alerts": [
