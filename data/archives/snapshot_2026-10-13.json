@@ -1,0 +1,1918 @@
+{
+  "updated_at": "2026-10-13T01:19:57Z",
+  "updated_at_local": "13 Oct 2026, 01:19",
+  "stock": {
+    "ticker": "TKE.DE",
+    "currency": "EUR",
+    "price_eur": 215.05,
+    "price_usd": 231.24,
+    "usd_to_eur": 0.93,
+    "day_change_abs": -3.58,
+    "day_change_pct": -1.64,
+    "week52_high": 268.43,
+    "week52_low": 141.06,
+    "history": [
+      {
+        "date": "2025-09-08",
+        "close": 147.75
+      },
+      {
+        "date": "2025-09-09",
+        "close": 147.43
+      },
+      {
+        "date": "2025-09-10",
+        "close": 147.25
+      },
+      {
+        "date": "2025-09-11",
+        "close": 148.87
+      },
+      {
+        "date": "2025-09-12",
+        "close": 148.65
+      },
+      {
+        "date": "2025-09-15",
+        "close": 142.69
+      },
+      {
+        "date": "2025-09-16",
+        "close": 142.3
+      },
+      {
+        "date": "2025-09-17",
+        "close": 142.62
+      },
+      {
+        "date": "2025-09-18",
+        "close": 143.19
+      },
+      {
+        "date": "2025-09-19",
+        "close": 145.77
+      },
+      {
+        "date": "2025-09-22",
+        "close": 146.02
+      },
+      {
+        "date": "2025-09-23",
+        "close": 143.87
+      },
+      {
+        "date": "2025-09-24",
+        "close": 144.48
+      },
+      {
+        "date": "2025-09-25",
+        "close": 147.39
+      },
+      {
+        "date": "2025-09-26",
+        "close": 147.56
+      },
+      {
+        "date": "2025-09-29",
+        "close": 145.47
+      },
+      {
+        "date": "2025-09-30",
+        "close": 144.86
+      },
+      {
+        "date": "2025-10-01",
+        "close": 146.0
+      },
+      {
+        "date": "2025-10-02",
+        "close": 147.99
+      },
+      {
+        "date": "2025-10-03",
+        "close": 147.52
+      },
+      {
+        "date": "2025-10-06",
+        "close": 150.87
+      },
+      {
+        "date": "2025-10-07",
+        "close": 148.42
+      },
+      {
+        "date": "2025-10-08",
+        "close": 149.76
+      },
+      {
+        "date": "2025-10-09",
+        "close": 146.43
+      },
+      {
+        "date": "2025-10-10",
+        "close": 140.75
+      },
+      {
+        "date": "2025-10-13",
+        "close": 139.61
+      },
+      {
+        "date": "2025-10-14",
+        "close": 141.08
+      },
+      {
+        "date": "2025-10-15",
+        "close": 138.58
+      },
+      {
+        "date": "2025-10-16",
+        "close": 140.43
+      },
+      {
+        "date": "2025-10-17",
+        "close": 138.4
+      },
+      {
+        "date": "2025-10-20",
+        "close": 138.11
+      },
+      {
+        "date": "2025-10-21",
+        "close": 139.89
+      },
+      {
+        "date": "2025-10-22",
+        "close": 141.31
+      },
+      {
+        "date": "2025-10-23",
+        "close": 142.14
+      },
+      {
+        "date": "2025-10-24",
+        "close": 143.6
+      },
+      {
+        "date": "2025-10-27",
+        "close": 141.97
+      },
+      {
+        "date": "2025-10-28",
+        "close": 141.06
+      },
+      {
+        "date": "2025-10-29",
+        "close": 142.2
+      },
+      {
+        "date": "2025-10-30",
+        "close": 141.75
+      },
+      {
+        "date": "2025-10-31",
+        "close": 146.8
+      },
+      {
+        "date": "2025-11-03",
+        "close": 144.49
+      },
+      {
+        "date": "2025-11-04",
+        "close": 147.66
+      },
+      {
+        "date": "2025-11-05",
+        "close": 148.85
+      },
+      {
+        "date": "2025-11-06",
+        "close": 150.8
+      },
+      {
+        "date": "2025-11-07",
+        "close": 154.1
+      },
+      {
+        "date": "2025-11-10",
+        "close": 149.61
+      },
+      {
+        "date": "2025-11-11",
+        "close": 151.83
+      },
+      {
+        "date": "2025-11-12",
+        "close": 148.62
+      },
+      {
+        "date": "2025-11-13",
+        "close": 148.77
+      },
+      {
+        "date": "2025-11-14",
+        "close": 149.42
+      },
+      {
+        "date": "2025-11-17",
+        "close": 151.87
+      },
+      {
+        "date": "2025-11-18",
+        "close": 157.24
+      },
+      {
+        "date": "2025-11-19",
+        "close": 158.77
+      },
+      {
+        "date": "2025-11-20",
+        "close": 157.39
+      },
+      {
+        "date": "2025-11-21",
+        "close": 156.13
+      },
+      {
+        "date": "2025-11-24",
+        "close": 155.28
+      },
+      {
+        "date": "2025-11-25",
+        "close": 155.19
+      },
+      {
+        "date": "2025-11-26",
+        "close": 157.01
+      },
+      {
+        "date": "2025-11-27",
+        "close": 155.38
+      },
+      {
+        "date": "2025-11-28",
+        "close": 154.77
+      },
+      {
+        "date": "2025-12-01",
+        "close": 147.03
+      },
+      {
+        "date": "2025-12-02",
+        "close": 148.03
+      },
+      {
+        "date": "2025-12-03",
+        "close": 150.76
+      },
+      {
+        "date": "2025-12-04",
+        "close": 150.8
+      },
+      {
+        "date": "2025-12-05",
+        "close": 151.48
+      },
+      {
+        "date": "2025-12-08",
+        "close": 156.64
+      },
+      {
+        "date": "2025-12-09",
+        "close": 157.36
+      },
+      {
+        "date": "2025-12-10",
+        "close": 155.05
+      },
+      {
+        "date": "2025-12-11",
+        "close": 157.23
+      },
+      {
+        "date": "2025-12-12",
+        "close": 158.21
+      },
+      {
+        "date": "2025-12-15",
+        "close": 165.98
+      },
+      {
+        "date": "2025-12-16",
+        "close": 165.16
+      },
+      {
+        "date": "2025-12-17",
+        "close": 175.77
+      },
+      {
+        "date": "2025-12-18",
+        "close": 176.13
+      },
+      {
+        "date": "2025-12-19",
+        "close": 174.82
+      },
+      {
+        "date": "2025-12-22",
+        "close": 175.3
+      },
+      {
+        "date": "2025-12-23",
+        "close": 177.51
+      },
+      {
+        "date": "2025-12-24",
+        "close": 179.39
+      },
+      {
+        "date": "2025-12-25",
+        "close": 173.05
+      },
+      {
+        "date": "2025-12-26",
+        "close": 174.95
+      },
+      {
+        "date": "2025-12-29",
+        "close": 173.47
+      },
+      {
+        "date": "2025-12-30",
+        "close": 173.52
+      },
+      {
+        "date": "2025-12-31",
+        "close": 178.07
+      },
+      {
+        "date": "2026-01-01",
+        "close": 175.3
+      },
+      {
+        "date": "2026-01-02",
+        "close": 174.23
+      },
+      {
+        "date": "2026-01-05",
+        "close": 175.8
+      },
+      {
+        "date": "2026-01-06",
+        "close": 176.12
+      },
+      {
+        "date": "2026-01-07",
+        "close": 172.89
+      },
+      {
+        "date": "2026-01-08",
+        "close": 173.52
+      },
+      {
+        "date": "2026-01-09",
+        "close": 170.43
+      },
+      {
+        "date": "2026-01-12",
+        "close": 178.81
+      },
+      {
+        "date": "2026-01-13",
+        "close": 179.62
+      },
+      {
+        "date": "2026-01-14",
+        "close": 183.35
+      },
+      {
+        "date": "2026-01-15",
+        "close": 179.81
+      },
+      {
+        "date": "2026-01-16",
+        "close": 179.54
+      },
+      {
+        "date": "2026-01-19",
+        "close": 180.61
+      },
+      {
+        "date": "2026-01-20",
+        "close": 183.35
+      },
+      {
+        "date": "2026-01-21",
+        "close": 185.02
+      },
+      {
+        "date": "2026-01-22",
+        "close": 189.32
+      },
+      {
+        "date": "2026-01-23",
+        "close": 191.38
+      },
+      {
+        "date": "2026-01-26",
+        "close": 186.58
+      },
+      {
+        "date": "2026-01-27",
+        "close": 187.18
+      },
+      {
+        "date": "2026-01-28",
+        "close": 186.68
+      },
+      {
+        "date": "2026-01-29",
+        "close": 192.38
+      },
+      {
+        "date": "2026-01-30",
+        "close": 190.65
+      },
+      {
+        "date": "2026-02-02",
+        "close": 186.07
+      },
+      {
+        "date": "2026-02-03",
+        "close": 186.84
+      },
+      {
+        "date": "2026-02-04",
+        "close": 189.2
+      },
+      {
+        "date": "2026-02-05",
+        "close": 193.35
+      },
+      {
+        "date": "2026-02-06",
+        "close": 193.26
+      },
+      {
+        "date": "2026-02-09",
+        "close": 192.92
+      },
+      {
+        "date": "2026-02-10",
+        "close": 194.38
+      },
+      {
+        "date": "2026-02-11",
+        "close": 192.37
+      },
+      {
+        "date": "2026-02-12",
+        "close": 195.68
+      },
+      {
+        "date": "2026-02-13",
+        "close": 195.97
+      },
+      {
+        "date": "2026-02-16",
+        "close": 203.74
+      },
+      {
+        "date": "2026-02-17",
+        "close": 204.63
+      },
+      {
+        "date": "2026-02-18",
+        "close": 211.26
+      },
+      {
+        "date": "2026-02-19",
+        "close": 212.04
+      },
+      {
+        "date": "2026-02-20",
+        "close": 211.1
+      },
+      {
+        "date": "2026-02-23",
+        "close": 216.55
+      },
+      {
+        "date": "2026-02-24",
+        "close": 218.24
+      },
+      {
+        "date": "2026-02-25",
+        "close": 222.15
+      },
+      {
+        "date": "2026-02-26",
+        "close": 220.43
+      },
+      {
+        "date": "2026-02-27",
+        "close": 214.71
+      },
+      {
+        "date": "2026-03-02",
+        "close": 214.44
+      },
+      {
+        "date": "2026-03-03",
+        "close": 217.24
+      },
+      {
+        "date": "2026-03-04",
+        "close": 219.22
+      },
+      {
+        "date": "2026-03-05",
+        "close": 215.94
+      },
+      {
+        "date": "2026-03-06",
+        "close": 217.61
+      },
+      {
+        "date": "2026-03-09",
+        "close": 213.59
+      },
+      {
+        "date": "2026-03-10",
+        "close": 213.44
+      },
+      {
+        "date": "2026-03-11",
+        "close": 211.06
+      },
+      {
+        "date": "2026-03-12",
+        "close": 212.72
+      },
+      {
+        "date": "2026-03-13",
+        "close": 214.28
+      },
+      {
+        "date": "2026-03-16",
+        "close": 216.97
+      },
+      {
+        "date": "2026-03-17",
+        "close": 214.64
+      },
+      {
+        "date": "2026-03-18",
+        "close": 215.87
+      },
+      {
+        "date": "2026-03-19",
+        "close": 215.88
+      },
+      {
+        "date": "2026-03-20",
+        "close": 223.21
+      },
+      {
+        "date": "2026-03-23",
+        "close": 218.21
+      },
+      {
+        "date": "2026-03-24",
+        "close": 217.87
+      },
+      {
+        "date": "2026-03-25",
+        "close": 224.08
+      },
+      {
+        "date": "2026-03-26",
+        "close": 224.03
+      },
+      {
+        "date": "2026-03-27",
+        "close": 238.27
+      },
+      {
+        "date": "2026-03-30",
+        "close": 236.04
+      },
+      {
+        "date": "2026-03-31",
+        "close": 233.56
+      },
+      {
+        "date": "2026-04-01",
+        "close": 233.74
+      },
+      {
+        "date": "2026-04-02",
+        "close": 232.71
+      },
+      {
+        "date": "2026-04-03",
+        "close": 233.38
+      },
+      {
+        "date": "2026-04-06",
+        "close": 232.11
+      },
+      {
+        "date": "2026-04-07",
+        "close": 238.15
+      },
+      {
+        "date": "2026-04-08",
+        "close": 234.5
+      },
+      {
+        "date": "2026-04-09",
+        "close": 235.49
+      },
+      {
+        "date": "2026-04-10",
+        "close": 246.62
+      },
+      {
+        "date": "2026-04-13",
+        "close": 235.82
+      },
+      {
+        "date": "2026-04-14",
+        "close": 237.44
+      },
+      {
+        "date": "2026-04-15",
+        "close": 239.86
+      },
+      {
+        "date": "2026-04-16",
+        "close": 244.45
+      },
+      {
+        "date": "2026-04-17",
+        "close": 243.44
+      },
+      {
+        "date": "2026-04-20",
+        "close": 240.27
+      },
+      {
+        "date": "2026-04-21",
+        "close": 241.89
+      },
+      {
+        "date": "2026-04-22",
+        "close": 234.73
+      },
+      {
+        "date": "2026-04-23",
+        "close": 234.56
+      },
+      {
+        "date": "2026-04-24",
+        "close": 239.43
+      },
+      {
+        "date": "2026-04-27",
+        "close": 250.09
+      },
+      {
+        "date": "2026-04-28",
+        "close": 245.36
+      },
+      {
+        "date": "2026-04-29",
+        "close": 242.18
+      },
+      {
+        "date": "2026-04-30",
+        "close": 242.28
+      },
+      {
+        "date": "2026-05-01",
+        "close": 244.05
+      },
+      {
+        "date": "2026-05-04",
+        "close": 239.97
+      },
+      {
+        "date": "2026-05-05",
+        "close": 237.1
+      },
+      {
+        "date": "2026-05-06",
+        "close": 232.93
+      },
+      {
+        "date": "2026-05-07",
+        "close": 235.14
+      },
+      {
+        "date": "2026-05-08",
+        "close": 226.93
+      },
+      {
+        "date": "2026-05-11",
+        "close": 232.42
+      },
+      {
+        "date": "2026-05-12",
+        "close": 232.62
+      },
+      {
+        "date": "2026-05-13",
+        "close": 236.07
+      },
+      {
+        "date": "2026-05-14",
+        "close": 234.6
+      },
+      {
+        "date": "2026-05-15",
+        "close": 231.93
+      },
+      {
+        "date": "2026-05-18",
+        "close": 238.21
+      },
+      {
+        "date": "2026-05-19",
+        "close": 239.88
+      },
+      {
+        "date": "2026-05-20",
+        "close": 251.8
+      },
+      {
+        "date": "2026-05-21",
+        "close": 251.57
+      },
+      {
+        "date": "2026-05-22",
+        "close": 253.81
+      },
+      {
+        "date": "2026-05-25",
+        "close": 262.63
+      },
+      {
+        "date": "2026-05-26",
+        "close": 268.43
+      },
+      {
+        "date": "2026-05-27",
+        "close": 262.64
+      },
+      {
+        "date": "2026-05-28",
+        "close": 260.92
+      },
+      {
+        "date": "2026-05-29",
+        "close": 262.47
+      },
+      {
+        "date": "2026-06-01",
+        "close": 250.97
+      },
+      {
+        "date": "2026-06-02",
+        "close": 243.68
+      },
+      {
+        "date": "2026-06-03",
+        "close": 243.33
+      },
+      {
+        "date": "2026-06-04",
+        "close": 242.87
+      },
+      {
+        "date": "2026-06-05",
+        "close": 244.04
+      },
+      {
+        "date": "2026-06-08",
+        "close": 229.38
+      },
+      {
+        "date": "2026-06-09",
+        "close": 230.46
+      },
+      {
+        "date": "2026-06-10",
+        "close": 231.69
+      },
+      {
+        "date": "2026-06-11",
+        "close": 235.09
+      },
+      {
+        "date": "2026-06-12",
+        "close": 237.81
+      },
+      {
+        "date": "2026-06-15",
+        "close": 229.11
+      },
+      {
+        "date": "2026-06-16",
+        "close": 226.79
+      },
+      {
+        "date": "2026-06-17",
+        "close": 224.98
+      },
+      {
+        "date": "2026-06-18",
+        "close": 222.97
+      },
+      {
+        "date": "2026-06-19",
+        "close": 215.7
+      },
+      {
+        "date": "2026-06-22",
+        "close": 215.83
+      },
+      {
+        "date": "2026-06-23",
+        "close": 213.51
+      },
+      {
+        "date": "2026-06-24",
+        "close": 214.71
+      },
+      {
+        "date": "2026-06-25",
+        "close": 220.24
+      },
+      {
+        "date": "2026-06-26",
+        "close": 220.35
+      },
+      {
+        "date": "2026-06-29",
+        "close": 216.46
+      },
+      {
+        "date": "2026-06-30",
+        "close": 212.35
+      },
+      {
+        "date": "2026-07-01",
+        "close": 211.96
+      },
+      {
+        "date": "2026-07-02",
+        "close": 212.17
+      },
+      {
+        "date": "2026-07-03",
+        "close": 218.05
+      },
+      {
+        "date": "2026-07-06",
+        "close": 222.09
+      },
+      {
+        "date": "2026-07-07",
+        "close": 224.29
+      },
+      {
+        "date": "2026-07-08",
+        "close": 220.42
+      },
+      {
+        "date": "2026-07-09",
+        "close": 221.43
+      },
+      {
+        "date": "2026-07-10",
+        "close": 222.79
+      },
+      {
+        "date": "2026-07-13",
+        "close": 228.66
+      },
+      {
+        "date": "2026-07-14",
+        "close": 222.07
+      },
+      {
+        "date": "2026-07-15",
+        "close": 223.88
+      },
+      {
+        "date": "2026-07-16",
+        "close": 222.47
+      },
+      {
+        "date": "2026-07-17",
+        "close": 222.44
+      },
+      {
+        "date": "2026-07-20",
+        "close": 218.3
+      },
+      {
+        "date": "2026-07-21",
+        "close": 214.49
+      },
+      {
+        "date": "2026-07-22",
+        "close": 216.98
+      },
+      {
+        "date": "2026-07-23",
+        "close": 221.2
+      },
+      {
+        "date": "2026-07-24",
+        "close": 227.49
+      },
+      {
+        "date": "2026-07-27",
+        "close": 228.83
+      },
+      {
+        "date": "2026-07-28",
+        "close": 222.19
+      },
+      {
+        "date": "2026-07-29",
+        "close": 227.52
+      },
+      {
+        "date": "2026-07-30",
+        "close": 228.32
+      },
+      {
+        "date": "2026-07-31",
+        "close": 224.34
+      },
+      {
+        "date": "2026-08-03",
+        "close": 226.48
+      },
+      {
+        "date": "2026-08-04",
+        "close": 227.41
+      },
+      {
+        "date": "2026-08-05",
+        "close": 224.85
+      },
+      {
+        "date": "2026-08-06",
+        "close": 225.16
+      },
+      {
+        "date": "2026-08-07",
+        "close": 223.53
+      },
+      {
+        "date": "2026-08-10",
+        "close": 224.15
+      },
+      {
+        "date": "2026-08-11",
+        "close": 230.19
+      },
+      {
+        "date": "2026-08-12",
+        "close": 227.23
+      },
+      {
+        "date": "2026-08-13",
+        "close": 227.87
+      },
+      {
+        "date": "2026-08-14",
+        "close": 242.15
+      },
+      {
+        "date": "2026-08-17",
+        "close": 241.78
+      },
+      {
+        "date": "2026-08-18",
+        "close": 238.17
+      },
+      {
+        "date": "2026-08-19",
+        "close": 244.3
+      },
+      {
+        "date": "2026-08-20",
+        "close": 246.98
+      },
+      {
+        "date": "2026-08-21",
+        "close": 246.12
+      },
+      {
+        "date": "2026-08-24",
+        "close": 244.68
+      },
+      {
+        "date": "2026-08-25",
+        "close": 243.9
+      },
+      {
+        "date": "2026-08-26",
+        "close": 245.34
+      },
+      {
+        "date": "2026-08-27",
+        "close": 244.4
+      },
+      {
+        "date": "2026-08-28",
+        "close": 246.4
+      },
+      {
+        "date": "2026-08-31",
+        "close": 247.24
+      },
+      {
+        "date": "2026-09-01",
+        "close": 250.01
+      },
+      {
+        "date": "2026-09-02",
+        "close": 252.19
+      },
+      {
+        "date": "2026-09-03",
+        "close": 251.38
+      },
+      {
+        "date": "2026-09-04",
+        "close": 247.76
+      },
+      {
+        "date": "2026-09-07",
+        "close": 237.05
+      },
+      {
+        "date": "2026-09-08",
+        "close": 239.88
+      },
+      {
+        "date": "2026-09-09",
+        "close": 239.42
+      },
+      {
+        "date": "2026-09-10",
+        "close": 244.76
+      },
+      {
+        "date": "2026-09-11",
+        "close": 252.76
+      },
+      {
+        "date": "2026-09-14",
+        "close": 244.17
+      },
+      {
+        "date": "2026-09-15",
+        "close": 243.48
+      },
+      {
+        "date": "2026-09-16",
+        "close": 237.62
+      },
+      {
+        "date": "2026-09-17",
+        "close": 236.38
+      },
+      {
+        "date": "2026-09-18",
+        "close": 237.06
+      },
+      {
+        "date": "2026-09-21",
+        "close": 229.05
+      },
+      {
+        "date": "2026-09-22",
+        "close": 234.92
+      },
+      {
+        "date": "2026-09-23",
+        "close": 233.96
+      },
+      {
+        "date": "2026-09-24",
+        "close": 230.64
+      },
+      {
+        "date": "2026-09-25",
+        "close": 229.01
+      },
+      {
+        "date": "2026-09-28",
+        "close": 230.43
+      },
+      {
+        "date": "2026-09-29",
+        "close": 237.11
+      },
+      {
+        "date": "2026-09-30",
+        "close": 239.1
+      },
+      {
+        "date": "2026-10-01",
+        "close": 243.31
+      },
+      {
+        "date": "2026-10-02",
+        "close": 240.27
+      },
+      {
+        "date": "2026-10-05",
+        "close": 236.56
+      },
+      {
+        "date": "2026-10-06",
+        "close": 239.57
+      },
+      {
+        "date": "2026-10-07",
+        "close": 240.89
+      },
+      {
+        "date": "2026-10-08",
+        "close": 238.83
+      },
+      {
+        "date": "2026-10-09",
+        "close": 232.17
+      },
+      {
+        "date": "2026-10-12",
+        "close": 218.63
+      },
+      {
+        "date": "2026-10-13",
+        "close": 215.05
+      }
+    ],
+    "data_source": "sample"
+  },
+  "portfolio": {
+    "shares": 10.17859464,
+    "avg_price": 213.49,
+    "invested": 2172.9,
+    "extra_cash": 250.0,
+    "max_loss": 400.0,
+    "profit_target": 600.0,
+    "current_value": 2188.91,
+    "pl_abs": 16.01,
+    "pl_pct": 0.74,
+    "target_value": 2772.9,
+    "distance_to_target": 583.99,
+    "progress_pct": 2.67,
+    "break_even_price": 213.49
+  },
+  "strategy": {
+    "primary": "HOLD CASH",
+    "primary_confidence": 60,
+    "reasoning": [
+      "No clear edge right now — keep dry powder.",
+      "Price is near your average cost (213.49 €).",
+      "Risk/reward is not attractive right now.",
+      "High 'buy the rumor, sell the news' risk before launch."
+    ],
+    "actions": {
+      "hold_shares": {
+        "verdict": "HOLD",
+        "confidence": 85
+      },
+      "invest_extra": {
+        "verdict": "HOLD CASH",
+        "confidence": 60
+      },
+      "sell_all": {
+        "verdict": "NO",
+        "confidence": 90
+      }
+    },
+    "metrics": {
+      "days_to_preorder": -110,
+      "days_to_launch": 37,
+      "above_avg_pct": 0.73,
+      "bearish_signals": 0,
+      "bullish_signals": 2
+    }
+  },
+  "events": [
+    {
+      "date": "2023-12-04",
+      "title": "Trailer 1",
+      "short": "TRAILER 1",
+      "icon": "▶",
+      "type": "trailer",
+      "color": "#a855f7",
+      "impact": "Set franchise hype record; TTWO closed +1.8% next session.",
+      "source": "Rockstar Newswire"
+    },
+    {
+      "date": "2025-05-06",
+      "title": "Trailer 2",
+      "short": "TRAILER 2",
+      "icon": "▶",
+      "type": "trailer",
+      "color": "#a855f7",
+      "impact": "Confirmed Vice City setting; TTWO +3.2% week-over-week.",
+      "source": "Rockstar Newswire"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Cover Art",
+      "short": "COVER ART",
+      "icon": "🖼",
+      "type": "media",
+      "color": "#16a34a",
+      "impact": "Marketing kickoff. Generally bullish for pre-release positioning.",
+      "source": "Rockstar Newswire"
+    },
+    {
+      "key": "trailer-3",
+      "date": "2026-06-24",
+      "title": "Trailer 3",
+      "short": "TRAILER 3",
+      "icon": "🎥",
+      "color": "#a855f7",
+      "type": "trailer",
+      "auto_detected": true,
+      "detected_at": "2026-06-24T10:59:13Z",
+      "confirmations": 1,
+      "source": "Google News",
+      "trigger_headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
+      "trigger_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFcl9jX19kTUZKNm8xaGJST2U2NUstRUltbFU2aHdUUldQOVV3OGppNFF5bWFtdW92TDNPOWcyNy1ZTU1nNFY1Und3azhmOS1Va2hVXzFFd0JYQnpZRXYxRVFhV2dHbUN1XzY3VlVSYXhSc3hwUTN3OE1lYjQ3VXEzX2dCd3VpR21TX0hZOW9QZEUxYTdaZWtxUGpmOC1sUXItQ09XTWhHV0FBRnQ0?oc=5",
+      "impact": "Auto-detected from 1 source: If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot…"
+    },
+    {
+      "key": "price-reveal",
+      "date": "2026-06-24",
+      "title": "Price Revealed",
+      "short": "PRICING",
+      "icon": "💰",
+      "color": "#16a34a",
+      "type": "commerce",
+      "auto_detected": true,
+      "detected_at": "2026-06-24T18:14:44Z",
+      "confirmations": 1,
+      "source": "Yahoo Finance",
+      "trigger_headline": "GTA VI Price Set at $80 as Preorders Open",
+      "trigger_url": "https://finance.yahoo.com/media-advertising/articles/gta-vi-price-set-80-173822958.html?.tsrc=rss",
+      "impact": "Auto-detected from 1 source: GTA VI Price Set at $80 as Preorders Open…"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Preorders Open",
+      "short": "PREORDERS OPEN",
+      "icon": "🛒",
+      "type": "commerce",
+      "color": "#f97316",
+      "impact": "First hard demand signal. Historically high-volatility event.",
+      "source": "Take-Two IR"
+    },
+    {
+      "key": "pc-version",
+      "date": "2026-07-14",
+      "title": "PC Version",
+      "short": "PC ANNOUNCE",
+      "icon": "🖥",
+      "color": "#16a34a",
+      "type": "platform",
+      "auto_detected": true,
+      "detected_at": "2026-07-14T07:22:20Z",
+      "confirmations": 1,
+      "source": "Google News",
+      "trigger_headline": "GTA 6 PC release date: Why Rockstar is delaying the launch, explained - The Economic Times",
+      "trigger_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYXhGLXliZzRud0h3NVRkSGdSNW9HYVBGYU9BcmNjcUkyNVU5Uk1lMU0xWm5zZ0Z5MUVPVEtrVzJfVlhkRFRLYzBWM2VIZDYtajR1Ri1EX1FqdnF0SkZpS3loc1V1bEt2azVYanI5MVpJMXpTZDlqUi15eU83ZDBvYS1nWmJzQVJ5M1czN2ViazVfbkZudFpubUJMT0FYWlZTWlprTzRHa3d4X1ZCZWZGbThxbkxsVnV2bmx6SEZEVF9JVExJaXpubGUwTEF5UXlWTnhFbdIB2gFBVV95cUxNNnl3Y2kydkJsSG5hdm5QSmdSZmV2eVotcC15M2tXZ2g0NGdlMDJva1RZMVY0SURuWS1hc2ZXWlFHbWYtWWhjZ2VSeXluYnVsSGlJb0FKOFEybHdONldnVG5kSFl6VTdCcVNVREFEc25zT3Zjb1lnRU5RNUx6MW5qOFVsWFZ0ampwUGpBdkZHdTFsa1E2RkJvSTByWmYtaDJ0V1h5ck9YV1B0NmpnanVOb1ZNNUV6TnFwSVB2OUxsc2dQRXZhSEwxTk9jUDdKeVFFN01iSzFycDN0QQ?oc=5",
+      "impact": "Auto-detected from 1 source: GTA 6 PC release date: Why Rockstar is delaying the launch, explained - The Economic Times…"
+    },
+    {
+      "key": "delay-announced",
+      "date": "2026-08-06",
+      "title": "Delay Announced",
+      "short": "DELAY",
+      "icon": "⚠",
+      "color": "#dc2626",
+      "type": "negative",
+      "auto_detected": true,
+      "detected_at": "2026-08-07T13:50:12Z",
+      "confirmations": 1,
+      "source": "Google News",
+      "trigger_headline": "Is GTA 6 delayed again? What to know about November release date - El Paso Times",
+      "trigger_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQUI2bDJjVWx4eVJqVzRYSTBhLVBuak5LVDBDWW4zd3VjUHRpakdLWk9BNGVYaDRfeEQ0dmhDaVQwNDlZT2dYcnlKWTlyaWVZY1pzTWpOLXNGZkhsSEhGcnFJUUxCRElaeWs3TU5BZlVlWXRiOWlrd2xEUkxwX3c5bDJQOXZrR1dqNXhHYU5ZcERLTGFtSy1nMXF4TW1hdzlXYVcxdS1OSzN6SVFZbDBWS25n?oc=5",
+      "impact": "Auto-detected from 1 source: Is GTA 6 delayed again? What to know about November release date - El Paso Times…"
+    },
+    {
+      "key": "collector-edition",
+      "date": "2026-08-07",
+      "title": "Collector Edition",
+      "short": "COLLECTOR ED",
+      "icon": "🎁",
+      "color": "#9333ea",
+      "type": "commerce",
+      "auto_detected": true,
+      "detected_at": "2026-08-07T19:38:25Z",
+      "confirmations": 1,
+      "source": "IGN",
+      "trigger_headline": "'Pricing Has Not Kept Pace With Inflation' — Take-Two Boss Insists Rockstar Got GTA 6 Standard and Ultimate Edition Price Points Right",
+      "trigger_url": "https://www.ign.com/articles/pricing-has-not-kept-pace-with-inflation-take-two-boss-insists-rockstar-got-gta-6-standard-and-ultimate-edition-price-points-right",
+      "impact": "Auto-detected from 1 source: 'Pricing Has Not Kept Pace With Inflation' — Take-Two Boss Insists Rockstar Got GTA 6 Stan…"
+    },
+    {
+      "key": "preorder-record",
+      "date": "2026-08-09",
+      "title": "Preorder Numbers",
+      "short": "PREORDERS",
+      "icon": "📊",
+      "color": "#16a34a",
+      "type": "commerce",
+      "auto_detected": true,
+      "detected_at": "2026-08-09T20:28:07Z",
+      "confirmations": 1,
+      "source": "Google News",
+      "trigger_headline": "Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com",
+      "trigger_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObFM3OFV2M0E4a1hEZ1R3YktrU0ZUUXFaSHpybFBuWllmRl8xOUt2bEdYRHJyZzlqLWlZdVpZdTJFRU1GcURab3I4TmlaZWE5aVZubjRhbDBwM0gzYUR0dV9mMDJnZlZrbzVXa2xrZk5GSFlfMWQ0RzU4ZEFrTkRDb0hB?oc=5",
+      "impact": "Auto-detected from 1 source: Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com…"
+    },
+    {
+      "key": "award-nomination",
+      "date": "2026-09-29",
+      "title": "Award / Nomination",
+      "short": "AWARD",
+      "icon": "🏅",
+      "color": "#eab308",
+      "type": "recognition",
+      "auto_detected": true,
+      "detected_at": "2026-09-29T23:23:17Z",
+      "confirmations": 1,
+      "source": "IGN",
+      "trigger_headline": "GTA 6's Game of the Year Chances Have Been Called Into Question",
+      "trigger_url": "https://www.ign.com/articles/gta-6s-game-of-the-year-chances-have-been-called-into-question",
+      "impact": "Auto-detected from 1 source: GTA 6's Game of the Year Chances Have Been Called Into Question…"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Launch",
+      "short": "LAUNCH",
+      "icon": "🚀",
+      "type": "release",
+      "color": "#a855f7",
+      "impact": "Global release. Classic 'sell the news' risk window.",
+      "source": "Take-Two IR"
+    }
+  ],
+  "detected_events": [
+    {
+      "key": "trailer-3",
+      "date": "2026-06-24",
+      "title": "Trailer 3",
+      "short": "TRAILER 3",
+      "icon": "🎥",
+      "color": "#a855f7",
+      "type": "trailer",
+      "auto_detected": true,
+      "detected_at": "2026-06-24T10:59:13Z",
+      "confirmations": 1,
+      "source": "Google News",
+      "trigger_headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
+      "trigger_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFcl9jX19kTUZKNm8xaGJST2U2NUstRUltbFU2aHdUUldQOVV3OGppNFF5bWFtdW92TDNPOWcyNy1ZTU1nNFY1Und3azhmOS1Va2hVXzFFd0JYQnpZRXYxRVFhV2dHbUN1XzY3VlVSYXhSc3hwUTN3OE1lYjQ3VXEzX2dCd3VpR21TX0hZOW9QZEUxYTdaZWtxUGpmOC1sUXItQ09XTWhHV0FBRnQ0?oc=5",
+      "impact": "Auto-detected from 1 source: If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot…"
+    },
+    {
+      "key": "price-reveal",
+      "date": "2026-06-24",
+      "title": "Price Revealed",
+      "short": "PRICING",
+      "icon": "💰",
+      "color": "#16a34a",
+      "type": "commerce",
+      "auto_detected": true,
+      "detected_at": "2026-06-24T18:14:44Z",
+      "confirmations": 1,
+      "source": "Yahoo Finance",
+      "trigger_headline": "GTA VI Price Set at $80 as Preorders Open",
+      "trigger_url": "https://finance.yahoo.com/media-advertising/articles/gta-vi-price-set-80-173822958.html?.tsrc=rss",
+      "impact": "Auto-detected from 1 source: GTA VI Price Set at $80 as Preorders Open…"
+    },
+    {
+      "key": "pc-version",
+      "date": "2026-07-14",
+      "title": "PC Version",
+      "short": "PC ANNOUNCE",
+      "icon": "🖥",
+      "color": "#16a34a",
+      "type": "platform",
+      "auto_detected": true,
+      "detected_at": "2026-07-14T07:22:20Z",
+      "confirmations": 1,
+      "source": "Google News",
+      "trigger_headline": "GTA 6 PC release date: Why Rockstar is delaying the launch, explained - The Economic Times",
+      "trigger_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYXhGLXliZzRud0h3NVRkSGdSNW9HYVBGYU9BcmNjcUkyNVU5Uk1lMU0xWm5zZ0Z5MUVPVEtrVzJfVlhkRFRLYzBWM2VIZDYtajR1Ri1EX1FqdnF0SkZpS3loc1V1bEt2azVYanI5MVpJMXpTZDlqUi15eU83ZDBvYS1nWmJzQVJ5M1czN2ViazVfbkZudFpubUJMT0FYWlZTWlprTzRHa3d4X1ZCZWZGbThxbkxsVnV2bmx6SEZEVF9JVExJaXpubGUwTEF5UXlWTnhFbdIB2gFBVV95cUxNNnl3Y2kydkJsSG5hdm5QSmdSZmV2eVotcC15M2tXZ2g0NGdlMDJva1RZMVY0SURuWS1hc2ZXWlFHbWYtWWhjZ2VSeXluYnVsSGlJb0FKOFEybHdONldnVG5kSFl6VTdCcVNVREFEc25zT3Zjb1lnRU5RNUx6MW5qOFVsWFZ0ampwUGpBdkZHdTFsa1E2RkJvSTByWmYtaDJ0V1h5ck9YV1B0NmpnanVOb1ZNNUV6TnFwSVB2OUxsc2dQRXZhSEwxTk9jUDdKeVFFN01iSzFycDN0QQ?oc=5",
+      "impact": "Auto-detected from 1 source: GTA 6 PC release date: Why Rockstar is delaying the launch, explained - The Economic Times…"
+    },
+    {
+      "key": "delay-announced",
+      "date": "2026-08-06",
+      "title": "Delay Announced",
+      "short": "DELAY",
+      "icon": "⚠",
+      "color": "#dc2626",
+      "type": "negative",
+      "auto_detected": true,
+      "detected_at": "2026-08-07T13:50:12Z",
+      "confirmations": 1,
+      "source": "Google News",
+      "trigger_headline": "Is GTA 6 delayed again? What to know about November release date - El Paso Times",
+      "trigger_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQUI2bDJjVWx4eVJqVzRYSTBhLVBuak5LVDBDWW4zd3VjUHRpakdLWk9BNGVYaDRfeEQ0dmhDaVQwNDlZT2dYcnlKWTlyaWVZY1pzTWpOLXNGZkhsSEhGcnFJUUxCRElaeWs3TU5BZlVlWXRiOWlrd2xEUkxwX3c5bDJQOXZrR1dqNXhHYU5ZcERLTGFtSy1nMXF4TW1hdzlXYVcxdS1OSzN6SVFZbDBWS25n?oc=5",
+      "impact": "Auto-detected from 1 source: Is GTA 6 delayed again? What to know about November release date - El Paso Times…"
+    },
+    {
+      "key": "collector-edition",
+      "date": "2026-08-07",
+      "title": "Collector Edition",
+      "short": "COLLECTOR ED",
+      "icon": "🎁",
+      "color": "#9333ea",
+      "type": "commerce",
+      "auto_detected": true,
+      "detected_at": "2026-08-07T19:38:25Z",
+      "confirmations": 1,
+      "source": "IGN",
+      "trigger_headline": "'Pricing Has Not Kept Pace With Inflation' — Take-Two Boss Insists Rockstar Got GTA 6 Standard and Ultimate Edition Price Points Right",
+      "trigger_url": "https://www.ign.com/articles/pricing-has-not-kept-pace-with-inflation-take-two-boss-insists-rockstar-got-gta-6-standard-and-ultimate-edition-price-points-right",
+      "impact": "Auto-detected from 1 source: 'Pricing Has Not Kept Pace With Inflation' — Take-Two Boss Insists Rockstar Got GTA 6 Stan…"
+    },
+    {
+      "key": "preorder-record",
+      "date": "2026-08-09",
+      "title": "Preorder Numbers",
+      "short": "PREORDERS",
+      "icon": "📊",
+      "color": "#16a34a",
+      "type": "commerce",
+      "auto_detected": true,
+      "detected_at": "2026-08-09T20:28:07Z",
+      "confirmations": 1,
+      "source": "Google News",
+      "trigger_headline": "Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com",
+      "trigger_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObFM3OFV2M0E4a1hEZ1R3YktrU0ZUUXFaSHpybFBuWllmRl8xOUt2bEdYRHJyZzlqLWlZdVpZdTJFRU1GcURab3I4TmlaZWE5aVZubjRhbDBwM0gzYUR0dV9mMDJnZlZrbzVXa2xrZk5GSFlfMWQ0RzU4ZEFrTkRDb0hB?oc=5",
+      "impact": "Auto-detected from 1 source: Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com…"
+    },
+    {
+      "key": "award-nomination",
+      "date": "2026-09-29",
+      "title": "Award / Nomination",
+      "short": "AWARD",
+      "icon": "🏅",
+      "color": "#eab308",
+      "type": "recognition",
+      "auto_detected": true,
+      "detected_at": "2026-09-29T23:23:17Z",
+      "confirmations": 1,
+      "source": "IGN",
+      "trigger_headline": "GTA 6's Game of the Year Chances Have Been Called Into Question",
+      "trigger_url": "https://www.ign.com/articles/gta-6s-game-of-the-year-chances-have-been-called-into-question",
+      "impact": "Auto-detected from 1 source: GTA 6's Game of the Year Chances Have Been Called Into Question…"
+    }
+  ],
+  "fresh_detections": [],
+  "next_catalyst": {
+    "date": "2026-11-19",
+    "title": "Launch",
+    "short": "LAUNCH",
+    "icon": "🚀",
+    "type": "release",
+    "color": "#a855f7",
+    "impact": "Global release. Classic 'sell the news' risk window.",
+    "source": "Take-Two IR"
+  },
+  "news": [
+    {
+      "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - Reuters",
+      "date": "Wed, 24 Jun 2026 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTIyaUktTHJkNkcwQm1KVTdZdk1EcWliQlFKb0ZOOUxUR21vZjA2bDVVSUpXQmdTaFhWMzVINW81bHc1anlmQzZ5RmQ0Z0ZoSDJfakYzeVNqQUljX3RORnNBN0s3TXFoVWEtNjZQZnBuZGtGR3hPZkZlbFE4aXd5UmxWal80RzRab1llekRRWE8?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - Reuters",
+      "date": "Wed, 08 Nov 2023 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEdHd0NqM1gwaENTcU40SUtIZ2pTSllybTVXUW5EY3FBTXJLZE1kTG9MZzdjcDd5MGVyeHdyeWJOR0c1Nm9adVFtb0E1S2xVeWk2X1VSbHI3QUNEVzhDTVNuamx3T0Fzbk1xS2ZVVUtlTDBSMFBFcnV1bzFtb1dhUUxJcml3ZHU1UEJOQnlsNHd6NG0yMWo1REZJYVVHeF9sYzRKczdjVWJoc0pIV3NvWWNuWkpMbU94?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "GTA 6 may be the last blockbuster built without AI",
+      "date": "Wed, 07 Oct 2026 21:47:03 +0000",
+      "url": "https://www.thestreet.com/crypto/artificial-intelligence/gta-6-may-be-the-last-blockbuster-built-without-ai?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "How GTA VI Fuels Multiyear Growth for Take-Two Interactive Software (TTWO)?",
+      "date": "Wed, 07 Oct 2026 13:39:04 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gta-vi-fuels-multiyear-growth-133904619.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Unity Climbs 4% as Google Partnership Opens Game Creation to Non-Coders; Roblox Drops 4%, Take-Two Holds Steady",
+      "date": "Wed, 07 Oct 2026 13:11:57 +0000",
+      "url": "https://247wallst.com/investing/2026/10/07/unity-climbs-4-as-google-partnership-opens-game-creation-to-non-coders-roblox-drops-3-take-two-holds-steady/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Xbox Denies GTA 6 Cloud Streaming Rumors, But Stock Markets Remain Cautious",
+      "date": "Wed, 07 Oct 2026 08:34:02 +0000",
+      "url": "https://beincrypto.com/gta-6-release-xbox-cloud-streaming-rumors/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "'Grand Theft Auto' maker Take-Two raises full-year forecast - Reuters",
+      "date": "Wed, 03 Feb 2016 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVVFCOUV0TE9Qb2pqcVJ3d2djUWpQcU5DZ3hzRmhrWDkybDNtd1FabWxMVTNoRDluWjdNOS1sc2ItSndZd0lUWFA0MWlsZDJjbnYxMDRhZjR0QTd5TzhveE11RlM4SVBQY21XcFRpQ0tVTlBXdXBDTC1SRzc1MWJQbXBzMGd2VkRXTG01cnR4RkVOTi1IcGRGYVhQT2ZNbDFaY2RNMGVfcUY2WWZpQU8ycDBlZVREM0hpeHhNN1QzMGpUUQ?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Take-Two confirms GTA VI leak, says game development unaffected - Reuters",
+      "date": "Tue, 20 Sep 2022 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2pXXzJmNEJrZldpQkFYeEI4U3NCUGZvVkhjcVFlcVo1NV92QVhDcnhrWThqQzcybnJFQmp4cGF6bFZSb2F1V2RSVVlxaVZLN2p1RUJJMjI4XzYzRkxhcXA0LXNPUEFuQlh2a2xGMHpZZXNDQ3VZWUhiYXdYdVgwUXRaRXVJMEM4ME9uSlBhcGtHdEFTTS16bWRScnA4NE04a0JwQ3RRUExWZXpwYTVuT1Y3SDU?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bearish"
+    },
+    {
+      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
+      "date": "Tue, 16 Apr 2024 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
+      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two raises annual bookings forecast, sticks with 'GTA VI' November launch - Reuters",
+      "date": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV1VKdDhNZ1ZOQlQtVU5JZkVUOWJvWjk5Tk5QMTZKd2ZOWlVYblE1TWlENkh3Q2NJVTB3cVpaSXZvWTBSUmVXVGNSc2FPZjI4VldIUkpyY2VTSVJvMTJfMjBYdnVVRWxkMVR5ZEkwUWtBUzNIdmU0T0hhQmtQQlNTejZ5RU9nTFFPQlphbzE4V1h0dEwxdElGcEIxVTlBZFZf?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two sticks with 'GTA VI' launch timeline, forecasts annual bookings below estimates - Reuters",
+      "date": "Thu, 21 May 2026 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd2dBdUEzSks5MlZadVAzQlhEUXBnaGxkRnN2Tk9TekZqSjdDRzNYMkRBUGFLRG1HYTNsYW9HVXNvalc1Z2Z4UzZhdnJoSmZwUXN1TGFzS2JoWk9wejJ2MmdJcE4tVzhjU2RUNFFsdFZQTjlPMjNqUUdtOFVpX2lFZmp3QmRBb3FrU3ZrUG8tZ1lNeEJOWlcxNnVmLUNwRHJTUjRVWGFQVy13ZnAxNXkzajNDWDA2bFJxb1A3Vk9B?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bullish"
+    }
+  ],
+  "sentiment": {
+    "fan_excitement": 9,
+    "release_confidence": 8,
+    "short_term_risk": 7,
+    "long_term_upside": 8
+  },
+  "game_metrics": {
+    "franchise_sales": "400M+",
+    "copies_sold": "N/A",
+    "copies_sold_note": "Not Released",
+    "launch_estimate": "45M+",
+    "launch_estimate_note": "First Weeks (Est.)",
+    "preorder_numbers": "N/A",
+    "preorder_note": "Waiting",
+    "platforms": "PS5, XSX|S"
+  },
+  "analyst": {
+    "price_target_low": 280,
+    "price_target_high": 300,
+    "currency": "USD",
+    "rating": "STRONG BUY",
+    "analysts_count": 32,
+    "upside_low": 15,
+    "upside_high": 25
+  },
+  "countdowns": [
+    {
+      "key": "preorders",
+      "label": "Preorders",
+      "icon": "🛒",
+      "date": "2026-06-25",
+      "known": true
+    },
+    {
+      "key": "trailer-3",
+      "label": "Trailer 3",
+      "icon": "🎥",
+      "date": "2026-06-24",
+      "known": true
+    },
+    {
+      "key": "review-embargo",
+      "label": "Reviews",
+      "icon": "📰",
+      "date": null,
+      "known": false
+    },
+    {
+      "key": "launch",
+      "label": "Launch",
+      "icon": "🚀",
+      "date": "2026-11-19",
+      "known": true
+    },
+    {
+      "key": "online-mode",
+      "label": "Online Mode",
+      "icon": "🌐",
+      "date": null,
+      "known": false
+    }
+  ],
+  "data_quality": {
+    "stock": {
+      "source": "yfinance",
+      "status": "error",
+      "error": "No module named 'sklearn'",
+      "elapsed_sec": 1.2,
+      "category": "stock",
+      "last_fetched": "2026-10-13T01:19:54Z"
+    },
+    "feeds": [
+      {
+        "label": "Yahoo Finance",
+        "status": "ok",
+        "items_raw": 18,
+        "elapsed_sec": 0.22,
+        "category": "financial",
+        "last_fetched": "2026-10-13T01:19:56Z"
+      },
+      {
+        "label": "Reuters",
+        "status": "ok",
+        "items_raw": 100,
+        "elapsed_sec": 0.6,
+        "category": "financial",
+        "last_fetched": "2026-10-13T01:19:56Z"
+      },
+      {
+        "label": "Google News",
+        "status": "ok",
+        "items_raw": 100,
+        "elapsed_sec": 0.67,
+        "category": "aggregator",
+        "last_fetched": "2026-10-13T01:19:56Z"
+      },
+      {
+        "label": "PlayStation Blog",
+        "status": "ok",
+        "items_raw": 10,
+        "elapsed_sec": 0.32,
+        "category": "platform",
+        "last_fetched": "2026-10-13T01:19:56Z"
+      },
+      {
+        "label": "Xbox Wire",
+        "status": "ok",
+        "items_raw": 10,
+        "elapsed_sec": 0.23,
+        "category": "platform",
+        "last_fetched": "2026-10-13T01:19:56Z"
+      },
+      {
+        "label": "IGN",
+        "status": "ok",
+        "items_raw": 20,
+        "elapsed_sec": 0.26,
+        "category": "gaming",
+        "last_fetched": "2026-10-13T01:19:56Z"
+      },
+      {
+        "label": "GamesRadar",
+        "status": "ok",
+        "items_raw": 50,
+        "elapsed_sec": 0.29,
+        "category": "gaming",
+        "last_fetched": "2026-10-13T01:19:56Z"
+      },
+      {
+        "label": "r/GTA6",
+        "status": "ok",
+        "items_raw": 25,
+        "elapsed_sec": 0.87,
+        "category": "community",
+        "last_fetched": "2026-10-13T01:19:56Z"
+      }
+    ],
+    "summary": {
+      "events_detected_total": 7,
+      "fresh_this_run": 0,
+      "news_items": 12,
+      "archive_count": 112,
+      "last_run_utc": "2026-10-13T01:19:54Z"
+    }
+  },
+  "alerts": [
+    {
+      "label": "Trailer 3 released",
+      "status": "RE-EVALUATE",
+      "active": true,
+      "tone": "purple",
+      "category": "event",
+      "key": "trailer-3",
+      "fresh": false,
+      "source": "Google News",
+      "headline": "If Rockstar Follows Its Own Precedent, Don’t Expect GTA 6 Trailer 3 This Week - GameSpot",
+      "triggered_at": "2026-06-24T10:59:13Z",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFcl9jX19kTUZKNm8xaGJST2U2NUstRUltbFU2aHdUUldQOVV3OGppNFF5bWFtdW92TDNPOWcyNy1ZTU1nNFY1Und3azhmOS1Va2hVXzFFd0JYQnpZRXYxRVFhV2dHbUN1XzY3VlVSYXhSc3hwUTN3OE1lYjQ3VXEzX2dCd3VpR21TX0hZOW9QZEUxYTdaZWtxUGpmOC1sUXItQ09XTWhHV0FBRnQ0?oc=5"
+    },
+    {
+      "label": "GTA VI delayed",
+      "status": "REDUCE EXPOSURE",
+      "active": true,
+      "tone": "red",
+      "category": "event",
+      "key": "delay-announced",
+      "fresh": false,
+      "source": "Google News",
+      "headline": "Is GTA 6 delayed again? What to know about November release date - El Paso Times",
+      "triggered_at": "2026-08-07T13:50:12Z",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQUI2bDJjVWx4eVJqVzRYSTBhLVBuak5LVDBDWW4zd3VjUHRpakdLWk9BNGVYaDRfeEQ0dmhDaVQwNDlZT2dYcnlKWTlyaWVZY1pzTWpOLXNGZkhsSEhGcnFJUUxCRElaeWs3TU5BZlVlWXRiOWlrd2xEUkxwX3c5bDJQOXZrR1dqNXhHYU5ZcERLTGFtSy1nMXF4TW1hdzlXYVcxdS1OSzN6SVFZbDBWS25n?oc=5"
+    },
+    {
+      "label": "Collector Edition announced",
+      "status": "BULLISH SIGNAL",
+      "active": true,
+      "tone": "purple",
+      "category": "event",
+      "key": "collector-edition",
+      "fresh": false,
+      "source": "IGN",
+      "headline": "'Pricing Has Not Kept Pace With Inflation' — Take-Two Boss Insists Rockstar Got GTA 6 Stan",
+      "triggered_at": "2026-08-07T19:38:25Z",
+      "url": "https://www.ign.com/articles/pricing-has-not-kept-pace-with-inflation-take-two-boss-insists-rockstar-got-gta-6-standard-and-ultimate-edition-price-points-right"
+    },
+    {
+      "label": "PC version announced",
+      "status": "BULLISH",
+      "active": true,
+      "tone": "green",
+      "category": "event",
+      "key": "pc-version",
+      "fresh": false,
+      "source": "Google News",
+      "headline": "GTA 6 PC release date: Why Rockstar is delaying the launch, explained - The Economic Times",
+      "triggered_at": "2026-07-14T07:22:20Z",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYXhGLXliZzRud0h3NVRkSGdSNW9HYVBGYU9BcmNjcUkyNVU5Uk1lMU0xWm5zZ0Z5MUVPVEtrVzJfVlhkRFRLYzBWM2VIZDYtajR1Ri1EX1FqdnF0SkZpS3loc1V1bEt2azVYanI5MVpJMXpTZDlqUi15eU83ZDBvYS1nWmJzQVJ5M1czN2ViazVfbkZudFpubUJMT0FYWlZTWlprTzRHa3d4X1ZCZWZGbThxbkxsVnV2bmx6SEZEVF9JVExJaXpubGUwTEF5UXlWTnhFbdIB2gFBVV95cUxNNnl3Y2kydkJsSG5hdm5QSmdSZmV2eVotcC15M2tXZ2g0NGdlMDJva1RZMVY0SURuWS1hc2ZXWlFHbWYtWWhjZ2VSeXluYnVsSGlJb0FKOFEybHdONldnVG5kSFl6VTdCcVNVREFEc25zT3Zjb1lnRU5RNUx6MW5qOFVsWFZ0ampwUGpBdkZHdTFsa1E2RkJvSTByWmYtaDJ0V1h5ck9YV1B0NmpnanVOb1ZNNUV6TnFwSVB2OUxsc2dQRXZhSEwxTk9jUDdKeVFFN01iSzFycDN0QQ?oc=5"
+    },
+    {
+      "label": "Preorder record set",
+      "status": "BULLISH",
+      "active": true,
+      "tone": "green",
+      "category": "event",
+      "key": "preorder-record",
+      "fresh": false,
+      "source": "Google News",
+      "headline": "Take-Two CEO Reveals Record Preorders for GTA VI Ahead of November Release - AOL.com",
+      "triggered_at": "2026-08-09T20:28:07Z",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObFM3OFV2M0E4a1hEZ1R3YktrU0ZUUXFaSHpybFBuWllmRl8xOUt2bEdYRHJyZzlqLWlZdVpZdTJFRU1GcURab3I4TmlaZWE5aVZubjRhbDBwM0gzYUR0dV9mMDJnZlZrbzVXa2xrZk5GSFlfMWQ0RzU4ZEFrTkRDb0hB?oc=5"
+    },
+    {
+      "label": "Award / nomination",
+      "status": "RECOGNITION",
+      "active": true,
+      "tone": "orange",
+      "category": "event",
+      "key": "award-nomination",
+      "fresh": false,
+      "source": "IGN",
+      "headline": "GTA 6's Game of the Year Chances Have Been Called Into Question",
+      "triggered_at": "2026-09-29T23:23:17Z",
+      "url": "https://www.ign.com/articles/gta-6s-game-of-the-year-chances-have-been-called-into-question"
+    },
+    {
+      "label": "Price revealed",
+      "status": "ASSESS",
+      "active": true,
+      "tone": "green",
+      "category": "event",
+      "key": "price-reveal",
+      "fresh": false,
+      "source": "Yahoo Finance",
+      "headline": "GTA VI Price Set at $80 as Preorders Open",
+      "triggered_at": "2026-06-24T18:14:44Z",
+      "url": "https://finance.yahoo.com/media-advertising/articles/gta-vi-price-set-80-173822958.html?.tsrc=rss"
+    },
+    {
+      "label": "Profit exceeds +600 €",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "portfolio",
+      "key": "profit-target",
+      "fresh": false
+    },
+    {
+      "label": "TTWO falls 10% after preorder event",
+      "status": "BUY 250 €",
+      "active": false,
+      "tone": "blue",
+      "category": "portfolio",
+      "key": "post-preorder-dip",
+      "fresh": false
+    },
+    {
+      "label": "Gameplay reveal",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "gameplay-reveal",
+      "fresh": false
+    },
+    {
+      "label": "Review embargo lifted",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "review-embargo",
+      "fresh": false
+    },
+    {
+      "label": "Metacritic score available",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "metacritic",
+      "fresh": false
+    },
+    {
+      "label": "Online mode announced",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "online-mode",
+      "fresh": false
+    },
+    {
+      "label": "Launch trailer dropped",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "launch-trailer",
+      "fresh": false
+    },
+    {
+      "label": "Copies sold milestone",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "sales-milestone",
+      "fresh": false
+    },
+    {
+      "label": "Wishlist ranking spike",
+      "status": "Watching",
+      "active": false,
+      "tone": "blue",
+      "category": "event",
+      "key": "wishlist-rank",
+      "fresh": false
+    }
+  ]
+}
