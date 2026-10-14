@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14T19:08:12Z",
-  "updated_at_local": "14 Oct 2026, 19:08",
+  "updated_at": "2026-10-14T22:17:36Z",
+  "updated_at_local": "14 Oct 2026, 22:17",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1206,7 +1206,7 @@
       "days_to_launch": 36,
       "above_avg_pct": 0.73,
       "bearish_signals": 2,
-      "bullish_signals": 3
+      "bullish_signals": 2
     }
   },
   "events": [
@@ -1508,6 +1508,22 @@
       "sentiment": "bullish"
     },
     {
+      "headline": "Should You Be Worried About Take-Two Stock?",
+      "date": "Wed, 14 Oct 2026 21:03:27 +0000",
+      "url": "https://www.trefis.com/articles/618672/should-you-be-worried-about-take-two-stock/2026-10-14?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "GTA 6 Delays Officially Explained By Rockstar Games - SVG",
+      "date": "Wed, 14 Oct 2026 20:21:20 GMT",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lRXJHT2J2VW0zNXZSeEllV2xLV01leC0yWktwdG5fbW5LU1czLU1FZTd4Ul9HX2VXYXFpLVhZeVdub2xZZ3lSQlpQelZuRFp4Wmg4UzZQVTF2cUFrcUpYanNBUV9OMUVMd01vU1hlenF5dHFP?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bearish"
+    },
+    {
       "headline": "GTA 6 Developer Rockstar Makes A Big Promise About Its Next Game's Release Date - SVG",
       "date": "Wed, 14 Oct 2026 18:36:48 GMT",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdE82cnZWZkxjYS1iMXBJY0Y4VEdTSmltbTYxekEtVlZZVEcxLThOQjRSZGRnS1k3aTVQMVFxYUQwTjRKYll5X2F6dkJtNUJkMVdEWi02cUhJMU9UU2dOYVY1SWQyaTFDRXhLVzlRRGdUS0NsVEN2TmxsSjk4VEk4ZUd2TzRVbWZFNFR5ZA?oc=5",
@@ -1548,14 +1564,6 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "GTA 6 Team Recounts Take-Two CEO’s Response to Second Delay: “‘Please Tell Me You’re Kidding'” - GamingBolt",
-      "date": "Wed, 14 Oct 2026 12:17:17 GMT",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYjEzaFlXZVFCeGt2YlUwY1FTOHZZXzdhdzRRam94clUwVlJjeF96dURXZ2VzRE5OOHZZNFNnbk9ibnZpQ2otZi1ScEhtbWRSRFRFQlR0UW4xRWplR3pUcDVWX05laTF1LU9RcmlmbWJxdTJER1dZdTQtRnNodDI0RXNvT2d4eDJhQkt2VXdDWnh2ZUoxN1haMml5OG9ETVg5Z3NSRV9wRGdyclY2ZmxN?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "bearish"
-    },
-    {
       "headline": "Why GTA 6 Was Delayed Twice, According to Rockstar - DualShockers",
       "date": "Wed, 14 Oct 2026 12:06:34 GMT",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GTWhrbTBOUFQ2UWVodkhNejdaX21DM21EUG5tbk5MOHlsZVhiaGR2UnNIUXhJOGpySWV1YmVDenBMSTRkeXNLaEpGbS1BNWowa2x6b3VXR2FLLU5mRXZPNkZyTzhXdk9W?oc=5",
@@ -1583,14 +1591,6 @@
       "headline": "How GTA VI Fuels Multiyear Growth for Take-Two Interactive Software (TTWO)?",
       "date": "Wed, 07 Oct 2026 13:39:04 +0000",
       "url": "https://finance.yahoo.com/markets/stocks/articles/gta-vi-fuels-multiyear-growth-133904619.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Unity Climbs 4% as Google Partnership Opens Game Creation to Non-Coders; Roblox Drops 4%, Take-Two Holds Steady",
-      "date": "Wed, 07 Oct 2026 13:11:57 +0000",
-      "url": "https://247wallst.com/investing/2026/10/07/unity-climbs-4-as-google-partnership-opens-game-creation-to-non-coders-roblox-drops-3-take-two-holds-steady/?.tsrc=rss",
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "neutral"
@@ -1663,74 +1663,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.05,
+      "elapsed_sec": 0.83,
       "category": "stock",
-      "last_fetched": "2026-10-14T19:08:10Z"
+      "last_fetched": "2026-10-14T22:17:34Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 19,
-        "elapsed_sec": 0.3,
+        "elapsed_sec": 0.35,
         "category": "financial",
-        "last_fetched": "2026-10-14T19:08:11Z"
+        "last_fetched": "2026-10-14T22:17:35Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.64,
+        "elapsed_sec": 0.56,
         "category": "financial",
-        "last_fetched": "2026-10-14T19:08:11Z"
+        "last_fetched": "2026-10-14T22:17:35Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.65,
+        "elapsed_sec": 0.7,
         "category": "aggregator",
-        "last_fetched": "2026-10-14T19:08:11Z"
+        "last_fetched": "2026-10-14T22:17:35Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.54,
+        "elapsed_sec": 0.29,
         "category": "platform",
-        "last_fetched": "2026-10-14T19:08:11Z"
+        "last_fetched": "2026-10-14T22:17:35Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.33,
         "category": "platform",
-        "last_fetched": "2026-10-14T19:08:11Z"
+        "last_fetched": "2026-10-14T22:17:35Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.15,
         "category": "gaming",
-        "last_fetched": "2026-10-14T19:08:11Z"
+        "last_fetched": "2026-10-14T22:17:35Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.17,
+        "elapsed_sec": 0.35,
         "category": "gaming",
-        "last_fetched": "2026-10-14T19:08:11Z"
+        "last_fetched": "2026-10-14T22:17:35Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.89,
+        "elapsed_sec": 0.77,
         "category": "community",
-        "last_fetched": "2026-10-14T19:08:11Z"
+        "last_fetched": "2026-10-14T22:17:35Z"
       }
     ],
     "summary": {
@@ -1738,7 +1738,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 114,
-      "last_run_utc": "2026-10-14T19:08:10Z"
+      "last_run_utc": "2026-10-14T22:17:34Z"
     }
   },
   "alerts": [
