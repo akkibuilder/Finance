@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15T00:42:08Z",
-  "updated_at_local": "15 Oct 2026, 00:42",
+  "updated_at": "2026-10-15T05:14:30Z",
+  "updated_at_local": "15 Oct 2026, 05:14",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1556,14 +1556,6 @@
       "sentiment": "bearish"
     },
     {
-      "headline": "Why GTA 6 Was Delayed Twice, According to Rockstar - DualShockers",
-      "date": "Wed, 14 Oct 2026 12:06:34 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GTWhrbTBOUFQ2UWVodkhNejdaX21DM21EUG5tbk5MOHlsZVhiaGR2UnNIUXhJOGpySWV1YmVDenBMSTRkeXNLaEpGbS1BNWowa2x6b3VXR2FLLU5mRXZPNkZyTzhXdk9W?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "bearish"
-    },
-    {
       "headline": "Take-Two to unveil trailer for widely awaited 'GTA VI' next month - Reuters",
       "date": "Wed, 08 Nov 2023 08:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEdHd0NqM1gwaENTcU40SUtIZ2pTSllybTVXUW5EY3FBTXJLZE1kTG9MZzdjcDd5MGVyeHdyeWJOR0c1Nm9adVFtb0E1S2xVeWk2X1VSbHI3QUNEVzhDTVNuamx3T0Fzbk1xS2ZVVUtlTDBSMFBFcnV1bzFtb1dhUUxJcml3ZHU1UEJOQnlsNHd6NG0yMWo1REZJYVVHeF9sYzRKczdjVWJoc0pIV3NvWWNuWkpMbU94?oc=5",
@@ -1580,17 +1572,25 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "How GTA VI Fuels Multiyear Growth for Take-Two Interactive Software (TTWO)?",
-      "date": "Wed, 07 Oct 2026 13:39:04 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/gta-vi-fuels-multiyear-growth-133904619.html?.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "'Grand Theft Auto' maker Take-Two raises full-year forecast - Reuters",
+      "date": "Wed, 03 Feb 2016 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVVFCOUV0TE9Qb2pqcVJ3d2djUWpQcU5DZ3hzRmhrWDkybDNtd1FabWxMVTNoRDluWjdNOS1sc2ItSndZd0lUWFA0MWlsZDJjbnYxMDRhZjR0QTd5TzhveE11RlM4SVBQY21XcFRpQ0tVTlBXdXBDTC1SRzc1MWJQbXBzMGd2VkRXTG01cnR4RkVOTi1IcGRGYVhQT2ZNbDFaY2RNMGVfcUY2WWZpQU8ycDBlZVREM0hpeHhNN1QzMGpUUQ?oc=5",
+      "source": "Reuters",
       "importance": 10,
       "sentiment": "neutral"
     },
     {
-      "headline": "'Grand Theft Auto' maker Take-Two raises full-year forecast - Reuters",
-      "date": "Wed, 03 Feb 2016 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVVFCOUV0TE9Qb2pqcVJ3d2djUWpQcU5DZ3hzRmhrWDkybDNtd1FabWxMVTNoRDluWjdNOS1sc2ItSndZd0lUWFA0MWlsZDJjbnYxMDRhZjR0QTd5TzhveE11RlM4SVBQY21XcFRpQ0tVTlBXdXBDTC1SRzc1MWJQbXBzMGd2VkRXTG01cnR4RkVOTi1IcGRGYVhQT2ZNbDFaY2RNMGVfcUY2WWZpQU8ycDBlZVREM0hpeHhNN1QzMGpUUQ?oc=5",
+      "headline": "Take-Two confirms GTA VI leak, says game development unaffected - Reuters",
+      "date": "Tue, 20 Sep 2022 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2pXXzJmNEJrZldpQkFYeEI4U3NCUGZvVkhjcVFlcVo1NV92QVhDcnhrWThqQzcybnJFQmp4cGF6bFZSb2F1V2RSVVlxaVZLN2p1RUJJMjI4XzYzRkxhcXA0LXNPUEFuQlh2a2xGMHpZZXNDQ3VZWUhiYXdYdVgwUXRaRXVJMEM4ME9uSlBhcGtHdEFTTS16bWRScnA4NE04a0JwQ3RRUExWZXpwYTVuT1Y3SDU?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bearish"
+    },
+    {
+      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
+      "date": "Tue, 16 Apr 2024 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
       "source": "Reuters",
       "importance": 10,
       "sentiment": "neutral"
@@ -1663,82 +1663,82 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.11,
+      "elapsed_sec": 1.45,
       "category": "stock",
-      "last_fetched": "2026-10-15T00:42:06Z"
+      "last_fetched": "2026-10-15T05:14:28Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 19,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.17,
         "category": "financial",
-        "last_fetched": "2026-10-15T00:42:07Z"
+        "last_fetched": "2026-10-15T05:14:29Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.53,
         "category": "financial",
-        "last_fetched": "2026-10-15T00:42:07Z"
+        "last_fetched": "2026-10-15T05:14:29Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.63,
+        "elapsed_sec": 0.58,
         "category": "aggregator",
-        "last_fetched": "2026-10-15T00:42:07Z"
+        "last_fetched": "2026-10-15T05:14:29Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.64,
+        "elapsed_sec": 0.83,
         "category": "platform",
-        "last_fetched": "2026-10-15T00:42:07Z"
+        "last_fetched": "2026-10-15T05:14:29Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.19,
+        "elapsed_sec": 0.18,
         "category": "platform",
-        "last_fetched": "2026-10-15T00:42:07Z"
+        "last_fetched": "2026-10-15T05:14:29Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.14,
+        "elapsed_sec": 0.67,
         "category": "gaming",
-        "last_fetched": "2026-10-15T00:42:07Z"
+        "last_fetched": "2026-10-15T05:14:29Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.34,
+        "elapsed_sec": 0.3,
         "category": "gaming",
-        "last_fetched": "2026-10-15T00:42:07Z"
+        "last_fetched": "2026-10-15T05:14:29Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.89,
+        "elapsed_sec": 0.97,
         "category": "community",
-        "last_fetched": "2026-10-15T00:42:07Z"
+        "last_fetched": "2026-10-15T05:14:29Z"
       }
     ],
     "summary": {
       "events_detected_total": 7,
       "fresh_this_run": 0,
       "news_items": 12,
-      "archive_count": 114,
-      "last_run_utc": "2026-10-15T00:42:06Z"
+      "archive_count": 115,
+      "last_run_utc": "2026-10-15T05:14:28Z"
     }
   },
   "alerts": [
