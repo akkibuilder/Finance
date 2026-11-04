@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-04T17:12:36Z",
-  "updated_at_local": "04 Nov 2026, 17:12",
+  "updated_at": "2026-11-04T22:37:59Z",
+  "updated_at_local": "04 Nov 2026, 22:37",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1499,14 +1499,6 @@
   },
   "news": [
     {
-      "headline": "How Would You Fix Take-Two?",
-      "date": "Wed, 28 Oct 2026 10:23:38 +0000",
-      "url": "https://www.trefis.com/stock/ttwo/articles/621040/how-would-you-fix-take-two/2026-10-28?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
       "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - Reuters",
       "date": "Wed, 24 Jun 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTIyaUktTHJkNkcwQm1KVTdZdk1EcWliQlFKb0ZOOUxUR21vZjA2bDVVSUpXQmdTaFhWMzVINW81bHc1anlmQzZ5RmQ0Z0ZoSDJfakYzeVNqQUljX3RORnNBN0s3TXFoVWEtNjZQZnBuZGtGR3hPZkZlbFE4aXd5UmxWal80RzRab1llekRRWE8?oc=5",
@@ -1521,6 +1513,14 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bullish"
+    },
+    {
+      "headline": "Why Piper Sandler Thinks You Should Buy Take-Two Stock Before November 19",
+      "date": "Wed, 04 Nov 2026 14:52:21 +0000",
+      "url": "https://www.barchart.com/story/news/8647747/why-piper-sandler-thinks-you-should-buy-take-two-stock-before-november-19?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
     },
     {
       "headline": "Take-Two to Report Q2 Earnings: What's in the Cards for the Stock?",
@@ -1662,74 +1662,74 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.26,
+      "elapsed_sec": 2.88,
       "category": "stock",
-      "last_fetched": "2026-11-04T17:12:34Z"
+      "last_fetched": "2026-11-04T22:37:55Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 18,
-        "elapsed_sec": 0.16,
+        "items_raw": 19,
+        "elapsed_sec": 0.25,
         "category": "financial",
-        "last_fetched": "2026-11-04T17:12:35Z"
+        "last_fetched": "2026-11-04T22:37:58Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
-        "items_raw": 82,
-        "elapsed_sec": 0.32,
+        "items_raw": 89,
+        "elapsed_sec": 0.46,
         "category": "financial",
-        "last_fetched": "2026-11-04T17:12:35Z"
+        "last_fetched": "2026-11-04T22:37:58Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.48,
+        "elapsed_sec": 0.56,
         "category": "aggregator",
-        "last_fetched": "2026-11-04T17:12:35Z"
+        "last_fetched": "2026-11-04T22:37:58Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.87,
         "category": "platform",
-        "last_fetched": "2026-11-04T17:12:35Z"
+        "last_fetched": "2026-11-04T22:37:58Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.15,
+        "elapsed_sec": 0.17,
         "category": "platform",
-        "last_fetched": "2026-11-04T17:12:35Z"
+        "last_fetched": "2026-11-04T22:37:58Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.08,
+        "elapsed_sec": 0.19,
         "category": "gaming",
-        "last_fetched": "2026-11-04T17:12:35Z"
+        "last_fetched": "2026-11-04T22:37:58Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.26,
+        "elapsed_sec": 0.34,
         "category": "gaming",
-        "last_fetched": "2026-11-04T17:12:35Z"
+        "last_fetched": "2026-11-04T22:37:58Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.6,
+        "elapsed_sec": 0.77,
         "category": "community",
-        "last_fetched": "2026-11-04T17:12:35Z"
+        "last_fetched": "2026-11-04T22:37:58Z"
       }
     ],
     "summary": {
@@ -1737,7 +1737,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 135,
-      "last_run_utc": "2026-11-04T17:12:34Z"
+      "last_run_utc": "2026-11-04T22:37:55Z"
     }
   },
   "alerts": [
