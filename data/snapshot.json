@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T12:59:25Z",
-  "updated_at_local": "10 Nov 2026, 12:59",
+  "updated_at": "2026-11-10T20:22:50Z",
+  "updated_at_local": "10 Nov 2026, 20:22",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1205,7 +1205,7 @@
       "days_to_launch": 9,
       "above_avg_pct": 0.73,
       "bearish_signals": 1,
-      "bullish_signals": 3
+      "bullish_signals": 2
     }
   },
   "events": [
@@ -1518,9 +1518,7 @@
       "impact": "Auto-detected from 1 source: Rockstar + Take-Two Officially Comment on GTA 6 Online - OpenCritic…"
     }
   ],
-  "fresh_detections": [
-    "online-mode"
-  ],
+  "fresh_detections": [],
   "next_catalyst": {
     "key": "online-mode",
     "date": "2026-11-10",
@@ -1571,65 +1569,65 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two: 3 Key Takeaways for Long-Term Investors",
-      "date": "Tue, 10 Nov 2026 12:01:08 +0000",
-      "url": "https://www.fool.com/earnings/takeaways/2026/11/10/take-two-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
+      "headline": "Why Take-Two Stock's Got Game Today",
+      "date": "Tue, 10 Nov 2026 18:59:57 +0000",
+      "url": "https://www.fool.com/investing/2026/11/10/why-take-two-stock-s-got-game-today/?.tsrc=rss",
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two Shares Rise Over 3% After Quarterly Results as GTA VI November 19 Release Confirmed",
-      "date": "Tue, 10 Nov 2026 11:39:21 +0000",
-      "url": "https://investorshub.advfn.com/market-news/article/39611/take-two-shares-rise-over-3-after-quarterly-results-as-gta-vi-november-19-release-confirmed?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "Nvidia, Hims & Hers, JBS, Take-Two, and More Stocks That Explain Today’s Market",
-      "date": "Tue, 10 Nov 2026 11:24:00 +0000",
-      "url": "https://finance.yahoo.com/m/7a09187f-b3a7-3224-bf52-479775b74718/nvidia%2C-hims-%26-hers%2C-jbs%2C.html?.tsrc=rss",
+      "headline": "Take-Two Stocks Rise 4.96% as GTA VI Pre-Orders Track Far Above Plan",
+      "date": "Tue, 10 Nov 2026 18:40:30 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-stocks-rise-4-96-184030617.html?.tsrc=rss",
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "neutral"
     },
     {
-      "headline": "Rockstar + Take-Two Officially Comment on GTA 6 Online - OpenCritic",
-      "date": "Tue, 10 Nov 2026 11:08:49 GMT",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWlJlQXdKQWJMLWR1QmduLWdkYVpuNFRFeUw2Z2VIZFRxRmZBVm1ib013eldhT1lodEx4TnFNeTdSN3pobHZYRHE0d0dta05iNTVNZGpRXzVkRkMtUWxIUUZvellIQnVyT2ZlbEgxVGt5X3FQU3JtMklOa0NKWk1LSzAxbWRHX19aa1d3VzdxQQ?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "GTA 6 preorders are 'far in excess' of expectations, Take-Two CEO says - TweakTown",
-      "date": "Tue, 10 Nov 2026 10:47:02 GMT",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMk9mc2V3d3dSSmpqdTEwS1JVYjdyQVlicjhES0hnNnVoQlRCbmhoV05CRXYtenVMVHVaMnJ5ZTBpM19yeTU0eXFvTHVVbUx0cHI4cUZTbVNIVVc0RjRHN21jY1lOZFREUWNvc2xvWTBHN0JNdW1CVkFtUDhIcW1OcE5QRTgxQ3FMNnFCa19vUm5RdVc1OWZpZ3VkdTUwdWhfaHlCU1NpZHRZLXlBbzE1XzBVWVRyZTg?oc=5",
-      "source": "Google News",
+      "headline": "Take-Two Q2 Earnings Beat on Lower Costs Despite Bookings Miss",
+      "date": "Tue, 10 Nov 2026 18:21:00 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-q2-earnings-beat-lower-182100180.html?.tsrc=rss",
+      "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "bearish"
     },
     {
-      "headline": "Take-Two shares climb after results, guidance; GTA VI release date reiterated - Investing.com",
-      "date": "Tue, 10 Nov 2026 10:39:31 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNlMxcVlTMlk2bGd6U3ZHa3BLcTNWSkI2TG9zNkh4dUY5WEZCbGNXT2JrZExWYUd3dGVzOHd1QWJVcGh2LUJrdno4OUNyaG1fbDBfU3g0eG04RjFURW5rRnZLaUpHaldFX3ZzaDNlOGUtMVFmMEFoZWNOZFUzeUtiOUJjNnJQS3NUZkk4RVdxQ1hFel9pNjdSNl9mZzR2ODRHXzNFcmQzRHFYb3BwVFFFNzRqVUhWQXlpMHc?oc=5",
-      "source": "Google News",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two Stock Jumps as CEO Calls the Next Grand Theft Auto ‘Uncharted Territory’",
-      "date": "Tue, 10 Nov 2026 09:50:00 +0000",
-      "url": "https://finance.yahoo.com/m/457ed0a7-b63f-3e41-93e7-96b39163f026/take-two-stock-jumps-as-ceo.html?.tsrc=rss",
+      "headline": "Take-Two Interactive earnings analysis: questions answered and next catalysts",
+      "date": "Tue, 10 Nov 2026 18:03:32 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-earnings-analysis-questions-180332722.html?.tsrc=rss",
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "neutral"
     },
     {
-      "headline": "GTA VI Preorders ‘Far In Excess Of Expectations…Numbers Will Speak Soon’ — CEO Boosts Expectations As TTWO Lifts Annual Forecasts",
-      "date": "Tue, 10 Nov 2026 08:13:12 +0000",
-      "url": "https://stocktwits.com/news-articles/markets/equity/gta-vi-preorders-far-in-excess-of-expectations-numbers-will-speak-soon-ceo-boosts-expectations-as-ttwo-lifts-annual-forecasts/cNGuacWR978?.tsrc=rss",
+      "headline": "Anthropic, Nvidia, CoreWeave, Take-Two, D-Wave, Securitize, and More That Explain Today’s Market",
+      "date": "Tue, 10 Nov 2026 17:56:00 +0000",
+      "url": "https://finance.yahoo.com/m/7a09187f-b3a7-3224-bf52-479775b74718/anthropic%2C-nvidia%2C-coreweave%2C.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "XBOX Signs 10 Year Agreement For GTA 6 With Take-Two For Cloud Streaming - RockstarINTEL",
+      "date": "Tue, 10 Nov 2026 16:50:50 GMT",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVzB6dnRJYTBnSV80QXBmZ2hibkxiVXo2RU5rMk9CN0hwemh6SGt3cGVZWThHdS11Y0N1REtoak5PQUh2S1E4S040bVE0MXNxV0ZTRzhuajVFRFpBdG1iUFBrUkJpdy14ZW5kbFNUdFM3NjQ3T2ZnRWplOVhkT2tLWmNPODllbjFhT29XTUlsNEhxT2c4ZmgwR0piNTVhM1F3?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Take-Two stock rises on 'unprecedented' preorders for 'Grand Theft Auto VI' - Yahoo Finance",
+      "date": "Tue, 10 Nov 2026 16:06:44 GMT",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOFI4WnpaUkk0NkNUdldPY2pOX3M2eXBoNkZzaXRGSEZuSFpqTzR5ZjVabE9ncng1QXd4RXR6VDRpa294UFFSU21fMUpwcmtVYWxaMmR1Ql9vYmtCRTNITm8taWVSTUhETE5wN2xBT0FVYTBTTkFHTTJCTmh6VVZtYm1hTkNaSnJHdVNTN3lNVFk1ZDQ3Y1BfVXZUOWlYekNDcDNVWDdkODJIcEpRWnJ2TXFDSUpGTkMzc0tuMnNxNUxkT0kwZUtBMVhZbnpvUlVM?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two stock rises on 'unprecedented' preorders for 'Grand Theft Auto VI'",
+      "date": "Tue, 10 Nov 2026 16:06:44 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/article/take-two-stock-rises-on-unprecedented-preorders-for-grand-theft-auto-vi-160644526.html?.tsrc=rss",
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "bullish"
@@ -1702,98 +1700,85 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.4,
+      "elapsed_sec": 1.3,
       "category": "stock",
-      "last_fetched": "2026-11-10T12:59:23Z"
+      "last_fetched": "2026-11-10T20:22:48Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 15,
-        "elapsed_sec": 0.23,
+        "items_raw": 18,
+        "elapsed_sec": 0.25,
         "category": "financial",
-        "last_fetched": "2026-11-10T12:59:25Z"
+        "last_fetched": "2026-11-10T20:22:49Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
-        "items_raw": 85,
-        "elapsed_sec": 0.36,
+        "items_raw": 82,
+        "elapsed_sec": 0.45,
         "category": "financial",
-        "last_fetched": "2026-11-10T12:59:25Z"
+        "last_fetched": "2026-11-10T20:22:49Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.42,
+        "elapsed_sec": 0.56,
         "category": "aggregator",
-        "last_fetched": "2026-11-10T12:59:25Z"
+        "last_fetched": "2026-11-10T20:22:49Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.51,
         "category": "platform",
-        "last_fetched": "2026-11-10T12:59:25Z"
+        "last_fetched": "2026-11-10T20:22:49Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.1,
+        "elapsed_sec": 0.2,
         "category": "platform",
-        "last_fetched": "2026-11-10T12:59:25Z"
+        "last_fetched": "2026-11-10T20:22:49Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.09,
+        "elapsed_sec": 0.58,
         "category": "gaming",
-        "last_fetched": "2026-11-10T12:59:25Z"
+        "last_fetched": "2026-11-10T20:22:49Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.14,
+        "elapsed_sec": 0.31,
         "category": "gaming",
-        "last_fetched": "2026-11-10T12:59:25Z"
+        "last_fetched": "2026-11-10T20:22:49Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.81,
+        "elapsed_sec": 0.67,
         "category": "community",
-        "last_fetched": "2026-11-10T12:59:25Z"
+        "last_fetched": "2026-11-10T20:22:49Z"
       }
     ],
     "summary": {
       "events_detected_total": 8,
-      "fresh_this_run": 1,
+      "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 141,
-      "last_run_utc": "2026-11-10T12:59:23Z"
+      "last_run_utc": "2026-11-10T20:22:48Z"
     }
   },
   "alerts": [
-    {
-      "label": "Online mode announced",
-      "status": "BULLISH",
-      "active": true,
-      "tone": "green",
-      "category": "event",
-      "key": "online-mode",
-      "fresh": true,
-      "source": "Google News",
-      "headline": "Rockstar + Take-Two Officially Comment on GTA 6 Online - OpenCritic",
-      "triggered_at": "2026-11-10T12:59:25Z",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWlJlQXdKQWJMLWR1QmduLWdkYVpuNFRFeUw2Z2VIZFRxRmZBVm1ib013eldhT1lodEx4TnFNeTdSN3pobHZYRHE0d0dta05iNTVNZGpRXzVkRkMtUWxIUUZvellIQnVyT2ZlbEgxVGt5X3FQU3JtMklOa0NKWk1LSzAxbWRHX19aa1d3VzdxQQ?oc=5"
-    },
     {
       "label": "Trailer 3 released",
       "status": "RE-EVALUATE",
@@ -1845,6 +1830,19 @@
       "headline": "GTA 6 PC release date: Why Rockstar is delaying the launch, explained - The Economic Times",
       "triggered_at": "2026-07-14T07:22:20Z",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYXhGLXliZzRud0h3NVRkSGdSNW9HYVBGYU9BcmNjcUkyNVU5Uk1lMU0xWm5zZ0Z5MUVPVEtrVzJfVlhkRFRLYzBWM2VIZDYtajR1Ri1EX1FqdnF0SkZpS3loc1V1bEt2azVYanI5MVpJMXpTZDlqUi15eU83ZDBvYS1nWmJzQVJ5M1czN2ViazVfbkZudFpubUJMT0FYWlZTWlprTzRHa3d4X1ZCZWZGbThxbkxsVnV2bmx6SEZEVF9JVExJaXpubGUwTEF5UXlWTnhFbdIB2gFBVV95cUxNNnl3Y2kydkJsSG5hdm5QSmdSZmV2eVotcC15M2tXZ2g0NGdlMDJva1RZMVY0SURuWS1hc2ZXWlFHbWYtWWhjZ2VSeXluYnVsSGlJb0FKOFEybHdONldnVG5kSFl6VTdCcVNVREFEc25zT3Zjb1lnRU5RNUx6MW5qOFVsWFZ0ampwUGpBdkZHdTFsa1E2RkJvSTByWmYtaDJ0V1h5ck9YV1B0NmpnanVOb1ZNNUV6TnFwSVB2OUxsc2dQRXZhSEwxTk9jUDdKeVFFN01iSzFycDN0QQ?oc=5"
+    },
+    {
+      "label": "Online mode announced",
+      "status": "BULLISH",
+      "active": true,
+      "tone": "green",
+      "category": "event",
+      "key": "online-mode",
+      "fresh": false,
+      "source": "Google News",
+      "headline": "Rockstar + Take-Two Officially Comment on GTA 6 Online - OpenCritic",
+      "triggered_at": "2026-11-10T12:59:25Z",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWlJlQXdKQWJMLWR1QmduLWdkYVpuNFRFeUw2Z2VIZFRxRmZBVm1ib013eldhT1lodEx4TnFNeTdSN3pobHZYRHE0d0dta05iNTVNZGpRXzVkRkMtUWxIUUZvellIQnVyT2ZlbEgxVGt5X3FQU3JtMklOa0NKWk1LSzAxbWRHX19aa1d3VzdxQQ?oc=5"
     },
     {
       "label": "Preorder record set",
