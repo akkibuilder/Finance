@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T15:15:52Z",
-  "updated_at_local": "11 Nov 2026, 15:15",
+  "updated_at": "2026-11-11T22:05:44Z",
+  "updated_at_local": "11 Nov 2026, 22:05",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1204,8 +1204,8 @@
       "days_to_preorder": -139,
       "days_to_launch": 8,
       "above_avg_pct": 0.73,
-      "bearish_signals": 1,
-      "bullish_signals": 2
+      "bearish_signals": 0,
+      "bullish_signals": 3
     }
   },
   "events": [
@@ -1539,6 +1539,54 @@
       "sentiment": "bullish"
     },
     {
+      "headline": "GTA 6 preorders reach “unprecedented levels,” Take-Two CEO says ahead of launch - MIXED News",
+      "date": "Wed, 11 Nov 2026 21:36:09 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONUlWZVN3cEllOGVRUVFIT0VJWURuc2JuOUVOZFhYTGRTMU1JOFBTRlJsS0ZIaG1rNlF4dnl4alJSZ0lLUTc4dzhFeWdCNmM5SEl1VXlTV2xIRzgxdnVqWm5OWHFXZkNFc1dwZ0dzbHVoNW9tSm02U1RQV1BSa0ZmNXFR?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two's Zelnick on Success of the GTA Franchise",
+      "date": "Wed, 11 Nov 2026 19:10:53 +0000",
+      "url": "https://finance.yahoo.com/video/twos-zelnick-success-gta-franchise-191053524.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Take-Two CEO sends strong message to investors ahead of GTA 6",
+      "date": "Wed, 11 Nov 2026 18:33:00 +0000",
+      "url": "https://www.thestreet.com/investing/take-two-ceo-strong-message-gta-6-investors?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Is Take-Two Still The Business You Bought?",
+      "date": "Wed, 11 Nov 2026 17:54:04 +0000",
+      "url": "https://www.trefis.com/stock/ttwo/articles/624348/is-take-two-still-the-business-you-bought/2026-11-11?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Why Did Take-Two Stock Move?",
+      "date": "Wed, 11 Nov 2026 16:05:17 +0000",
+      "url": "https://www.trefis.com/stock/ttwo/articles/624389/why-did-take-two-stock-move/2026-11-11?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "GTA 6 Demand Is 'Extraordinary,' but Take-Two CEO Isn't Ready to Declare Victory",
+      "date": "Wed, 11 Nov 2026 16:00:06 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gta-6-demand-extraordinary-two-160006051.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
       "headline": "Take-Two CEO Zelnick: AI Wont Kill Gaming Jobs",
       "date": "Wed, 11 Nov 2026 13:02:09 +0000",
       "url": "https://finance.yahoo.com/video/two-ceo-zelnick-ai-wont-130209253.html?.tsrc=rss",
@@ -1577,58 +1625,10 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bearish"
-    },
-    {
-      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
-      "date": "Tue, 16 Apr 2024 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Anthropic, Nvidia, CoreWeave, Take-Two, D-Wave, Securitize, and More That Explain Today’s Market",
-      "date": "Tue, 10 Nov 2026 21:42:00 +0000",
-      "url": "https://finance.yahoo.com/m/7a09187f-b3a7-3224-bf52-479775b74718/anthropic%2C-nvidia%2C-coreweave%2C.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two isn’t ready to ‘declare victory’ on GTA 6 before launch",
-      "date": "Tue, 10 Nov 2026 21:33:00 +0000",
-      "url": "https://www.thestreet.com/investing/take-two-gta-6-declare-victory-preorders?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "Why Take-Two Stock's Got Game Today",
-      "date": "Tue, 10 Nov 2026 18:59:57 +0000",
-      "url": "https://www.fool.com/investing/2026/11/10/why-take-two-stock-s-got-game-today/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two Stocks Rise 4.96% as GTA VI Pre-Orders Track Far Above Plan",
-      "date": "Tue, 10 Nov 2026 18:40:30 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/two-stocks-rise-4-96-184030617.html?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two Interactive Software Stock Soars - Sparking Huge Unusual TTWO Put Option Volume",
-      "date": "Tue, 10 Nov 2026 18:30:04 +0000",
-      "url": "https://www.barchart.com/story/news/8764054/take-two-interactive-software-stock-soars-sparking-huge-unusual-ttwo-put-option-volume?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
     }
   ],
   "sentiment": {
-    "fan_excitement": 8,
+    "fan_excitement": 9,
     "release_confidence": 8,
     "short_term_risk": 7,
     "long_term_upside": 8
@@ -1694,50 +1694,50 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 2.23,
+      "elapsed_sec": 1.34,
       "category": "stock",
-      "last_fetched": "2026-11-11T15:15:49Z"
+      "last_fetched": "2026-11-11T22:05:42Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 19,
-        "elapsed_sec": 0.2,
+        "elapsed_sec": 0.15,
         "category": "financial",
-        "last_fetched": "2026-11-11T15:15:52Z"
+        "last_fetched": "2026-11-11T22:05:43Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
-        "items_raw": 74,
-        "elapsed_sec": 0.33,
+        "items_raw": 73,
+        "elapsed_sec": 0.32,
         "category": "financial",
-        "last_fetched": "2026-11-11T15:15:52Z"
+        "last_fetched": "2026-11-11T22:05:43Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.49,
+        "elapsed_sec": 0.43,
         "category": "aggregator",
-        "last_fetched": "2026-11-11T15:15:52Z"
+        "last_fetched": "2026-11-11T22:05:43Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.09,
+        "elapsed_sec": 0.19,
         "category": "platform",
-        "last_fetched": "2026-11-11T15:15:52Z"
+        "last_fetched": "2026-11-11T22:05:43Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.42,
+        "elapsed_sec": 0.14,
         "category": "platform",
-        "last_fetched": "2026-11-11T15:15:52Z"
+        "last_fetched": "2026-11-11T22:05:43Z"
       },
       {
         "label": "IGN",
@@ -1745,23 +1745,23 @@
         "items_raw": 20,
         "elapsed_sec": 0.12,
         "category": "gaming",
-        "last_fetched": "2026-11-11T15:15:52Z"
+        "last_fetched": "2026-11-11T22:05:43Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.24,
+        "elapsed_sec": 0.16,
         "category": "gaming",
-        "last_fetched": "2026-11-11T15:15:52Z"
+        "last_fetched": "2026-11-11T22:05:43Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.58,
+        "elapsed_sec": 0.63,
         "category": "community",
-        "last_fetched": "2026-11-11T15:15:52Z"
+        "last_fetched": "2026-11-11T22:05:43Z"
       }
     ],
     "summary": {
@@ -1769,7 +1769,7 @@
       "fresh_this_run": 0,
       "news_items": 12,
       "archive_count": 142,
-      "last_run_utc": "2026-11-11T15:15:49Z"
+      "last_run_utc": "2026-11-11T22:05:42Z"
     }
   },
   "alerts": [
