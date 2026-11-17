@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-17T02:06:09Z",
-  "updated_at_local": "17 Nov 2026, 02:06",
+  "updated_at": "2026-11-17T10:41:24Z",
+  "updated_at_local": "17 Nov 2026, 10:41",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1205,7 +1205,7 @@
       "days_to_launch": 2,
       "above_avg_pct": 0.73,
       "bearish_signals": 1,
-      "bullish_signals": 4
+      "bullish_signals": 3
     }
   },
   "events": [
@@ -1555,6 +1555,22 @@
       "sentiment": "bearish"
     },
     {
+      "headline": "Kalshi will pay someone $120,000 to play GTA VI starting at midnight on Nov. 19 — plus a $15,000 bonus",
+      "date": "Tue, 17 Nov 2026 10:15:00 +0000",
+      "url": "https://finance.yahoo.com/media-advertising/articles/kalshi-pay-someone-120-000-101500112.html?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "GTA 6 Preorders Near 15 Million Copies, Sales Value Hits NT$48 Billion as Take-Two Stock Rallies Ahead of Launch - BigGo Finance",
+      "date": "Tue, 17 Nov 2026 04:05:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RSTJEdFV5MUZwdTJnMTdVcmFpNzVIZEpJSUxvbjF4YWlzUm84dDgzdWVETnFjNzZUa2hVelFyTzlwXzE2Ulc5bEM4RnlNSGk2cTlvcHREQ3ZBaVZNLWMwM3VmLVpqRDg2UFVQcDNZTnhfemp1T1E?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
       "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
       "date": "Tue, 16 Apr 2024 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
@@ -1609,22 +1625,6 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bearish"
-    },
-    {
-      "headline": "Take-Two forecasts downbeat Q4 bookings, reiterates 'GTA VI' launch in fall - Reuters",
-      "date": "Thu, 06 Feb 2025 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObzhqTUh0RzlGUko5WnZsZ3NCcUgyWVBVcFNFSTlUaXkxMElkb2t4NHBrRjI4QjJKMl9hUkZ0azYxbmhmUkpwaVFzZC1nR0d5NTZYUFIyT3BXQXZLcGFjdTNMcGdlZ0lzUlJxNTM2bWRPV3hlTnUzbWZWYkZ1LUMyOUxlbkV1eEZLOEpxWktSeF9KTUozZmtNaF9IQ0FpeEZ2OGUzWXJ3S0t0MTRSck85VXBDNEVVcXQt?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
-    },
-    {
-      "headline": "Grand Theft Auto Revs Up Big Revenue",
-      "date": "Sun, 15 Nov 2026 05:01:00 +0000",
-      "url": "https://www.thedailyupside.com/industries/media-entertainment/grand-theft-auto-revs-up-big-revenue/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
     }
   ],
   "sentiment": {
@@ -1694,82 +1694,82 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 0.91,
+      "elapsed_sec": 1.04,
       "category": "stock",
-      "last_fetched": "2026-11-17T02:06:07Z"
+      "last_fetched": "2026-11-17T10:41:22Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
-        "items_raw": 16,
+        "items_raw": 17,
         "elapsed_sec": 0.14,
         "category": "financial",
-        "last_fetched": "2026-11-17T02:06:08Z"
+        "last_fetched": "2026-11-17T10:41:24Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
-        "items_raw": 64,
-        "elapsed_sec": 0.37,
+        "items_raw": 65,
+        "elapsed_sec": 0.3,
         "category": "financial",
-        "last_fetched": "2026-11-17T02:06:08Z"
+        "last_fetched": "2026-11-17T10:41:24Z"
       },
       {
         "label": "Google News",
-        "status": "empty",
-        "items_raw": 0,
-        "elapsed_sec": 0.45,
+        "status": "ok",
+        "items_raw": 100,
+        "elapsed_sec": 0.43,
         "category": "aggregator",
-        "last_fetched": "2026-11-17T02:06:08Z"
+        "last_fetched": "2026-11-17T10:41:24Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.23,
+        "elapsed_sec": 0.18,
         "category": "platform",
-        "last_fetched": "2026-11-17T02:06:08Z"
+        "last_fetched": "2026-11-17T10:41:24Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.18,
+        "elapsed_sec": 0.15,
         "category": "platform",
-        "last_fetched": "2026-11-17T02:06:08Z"
+        "last_fetched": "2026-11-17T10:41:24Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.11,
+        "elapsed_sec": 0.07,
         "category": "gaming",
-        "last_fetched": "2026-11-17T02:06:08Z"
+        "last_fetched": "2026-11-17T10:41:24Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.28,
+        "elapsed_sec": 0.21,
         "category": "gaming",
-        "last_fetched": "2026-11-17T02:06:08Z"
+        "last_fetched": "2026-11-17T10:41:24Z"
       },
       {
         "label": "r/GTA6",
         "status": "ok",
         "items_raw": 25,
-        "elapsed_sec": 0.69,
+        "elapsed_sec": 0.55,
         "category": "community",
-        "last_fetched": "2026-11-17T02:06:08Z"
+        "last_fetched": "2026-11-17T10:41:24Z"
       }
     ],
     "summary": {
       "events_detected_total": 8,
       "fresh_this_run": 0,
       "news_items": 12,
-      "archive_count": 147,
-      "last_run_utc": "2026-11-17T02:06:07Z"
+      "archive_count": 148,
+      "last_run_utc": "2026-11-17T10:41:22Z"
     }
   },
   "alerts": [
