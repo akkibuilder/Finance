@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-19T00:20:38Z",
-  "updated_at_local": "19 Nov 2026, 00:20",
+  "updated_at": "2026-11-19T07:44:12Z",
+  "updated_at_local": "19 Nov 2026, 07:44",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1205,7 +1205,7 @@
       "days_to_launch": 0,
       "above_avg_pct": 0.73,
       "bearish_signals": 0,
-      "bullish_signals": 0
+      "bullish_signals": 1
     }
   },
   "events": [
@@ -1550,9 +1550,7 @@
       "impact": "Auto-detected from 1 source: TTWO Stock Rallies After GTA VI Scores 99 On Metacritic: Freedom Broker Says Wait Was Wort…"
     }
   ],
-  "fresh_detections": [
-    "metacritic"
-  ],
+  "fresh_detections": [],
   "next_catalyst": {
     "date": "2026-11-19",
     "title": "Launch",
@@ -1597,14 +1595,6 @@
       "sentiment": "neutral"
     },
     {
-      "headline": "'GTA VI' publisher Take-Two jumps as gamers relish blockbuster release - Reuters",
-      "date": "Wed, 18 Nov 2026 18:31:56 GMT",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTms1VVZUOTUyUjBnS3VLVjFBZU5SeW1UWDZNRDJqY2w1N3dlT2Z6OEU2MDNIdGRaMG9XRzZMZVZZWDhERVRWbVpSVnkxZFVtUU9wVmxhVTl4akNIN2p6d0JWSHJ1RzlpNnljZkFXTjBySlRHMVNaRXMtbDM5eFctekpJay03M1ZJM0JzdkpfTml3MWJOcVh6YnBvaVk3QTYyS2Rha2cxYUtpWF9TWjdr?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
       "headline": "Why Take-Two Stock's Winning the Game Today",
       "date": "Wed, 18 Nov 2026 18:08:41 +0000",
       "url": "https://www.fool.com/investing/2026/11/18/why-take-two-stock-s-winning-the-game-today/?.tsrc=rss",
@@ -1621,44 +1611,52 @@
       "sentiment": "bullish"
     },
     {
-      "headline": "Take-Two Stocks Rise 4.85% Premarket as GTA VI Hits 99 Metacritic Before Launch",
-      "date": "Wed, 18 Nov 2026 17:48:36 +0000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/two-stocks-rise-4-85-174836552.html?.tsrc=rss",
-      "source": "Yahoo Finance",
+      "headline": "Rockstar promotes GTA VI in China despite lack of sales approval - Reuters",
+      "date": "Wed, 18 Nov 2026 07:57:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVmEzTWFRSTRmdDg5emtqSER1aTNfQVNMd1pWV3FzVFRZR0xGSzRBTzZ3aV9WRmN3Q2F1eDdHTlp6OW9vS0FrZll2MldBVzFaa1hFVURoSjA5cFc0cGhZN21DV2RGdTFEdHpILW5kVk5JdFNuaEdzbEhfdzJVVDY1eVpkbTRmLUxrYmliYURCSU81NV92Q2c1VF9NeHFYamQxSkF0c0x1a28?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "Take-Two stock rises on 'unprecedented' preorders for 'Grand Theft Auto VI' - Yahoo Finance",
+      "date": "Tue, 10 Nov 2026 08:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOFI4WnpaUkk0NkNUdldPY2pOX3M2eXBoNkZzaXRGSEZuSFpqTzR5ZjVabE9ncng1QXd4RXR6VDRpa294UFFSU21fMUpwcmtVYWxaMmR1Ql9vYmtCRTNITm8taWVSTUhETE5wN2xBT0FVYTBTTkFHTTJCTmh6VVZtYm1hTkNaSnJHdVNTN3lNVFk1ZDQ3Y1BfVXZUOWlYekNDcDNVWDdkODJIcEpRWnJ2TXFDSUpGTkMzc0tuMnNxNUxkT0kwZUtBMVhZbnpvUlVM?oc=5",
+      "source": "Google News",
       "importance": 10,
       "sentiment": "bullish"
     },
     {
-      "headline": "GTA VI Reviews Are Stellar. It’s Another Reason to Buy Take-Two Stock.",
-      "date": "Wed, 18 Nov 2026 16:44:00 +0000",
-      "url": "https://finance.yahoo.com/m/e9cb2fb2-0545-3b71-87f2-1a7e3fa434c6/gta-vi-reviews-are-stellar..html?.tsrc=rss",
+      "headline": "GME Stock In Focus: GameStop Bulls Want ‘GTA 6 Squeeze’ Even As CEO Ryan Cohen Questions Digital-Only Games Play",
+      "date": "Thu, 19 Nov 2026 07:34:05 +0000",
+      "url": "https://stocktwits.com/news-articles/markets/equity/gme-stock-gta-6-ryan-cohen-digital-download-gamestop-consoles/cNbibf3R9in?.tsrc=rss",
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "neutral"
     },
     {
-      "headline": "How to invest in Grand Theft Auto 6 and gaming stocks",
-      "date": "Wed, 18 Nov 2026 16:00:10 +0000",
-      "url": "https://moneyweek.com/economy/global-economy/gta-6-release-take-two-interactive-software-stock?.tsrc=rss",
+      "headline": "Sony shares rise as Playstation dominates GTA VI sales",
+      "date": "Thu, 19 Nov 2026 06:37:34 +0000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sony-shares-rise-playstation-dominates-063734369.html?.tsrc=rss",
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "neutral"
     },
     {
-      "headline": "Take-Two shares jump over 6% as GTA VI launch drives investor optimism",
-      "date": "Wed, 18 Nov 2026 15:31:00 +0000",
-      "url": "https://www.proactiveinvestors.com/companies/news/1102030/take-two-shares-jump-over-6-as-gta-vi-launch-drives-investor-optimism-1102030.html?.tsrc=rss",
+      "headline": "Should You Buy Take-Two Interactive After the GTA VI Release?",
+      "date": "Thu, 19 Nov 2026 05:21:02 +0000",
+      "url": "https://www.fool.com/investing/2026/11/19/should-you-buy-take-two-interactive-after-gta-vi-release/?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "neutral"
+    },
+    {
+      "headline": "GTA VI Is Live, Take-Two Stock Is Popping, and Crypto Punters Say Record Sales Are a Lock",
+      "date": "Thu, 19 Nov 2026 03:07:52 +0000",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63417226/gta-vi-launch-record-setting-day-sales-crypto-bettors-polymarket?utm_source=yahooFinance&amp;utm_campaign=partner_feed&amp;utm_medium=referral&amp;.tsrc=rss",
       "source": "Yahoo Finance",
       "importance": 10,
       "sentiment": "bullish"
-    },
-    {
-      "headline": "Take-Two Stock Surges 7% as GTA 6 Earns ‘Masterpiece' Reviews",
-      "date": "Wed, 18 Nov 2026 15:14:10 +0000",
-      "url": "https://beincrypto.com/take-two-stock-surges-gta-6-masterpiece-reviews/?.tsrc=rss",
-      "source": "Yahoo Finance",
-      "importance": 10,
-      "sentiment": "neutral"
     }
   ],
   "sentiment": {
@@ -1728,98 +1726,85 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 0.81,
+      "elapsed_sec": 1.03,
       "category": "stock",
-      "last_fetched": "2026-11-19T00:20:37Z"
+      "last_fetched": "2026-11-19T07:44:10Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 15,
-        "elapsed_sec": 0.14,
+        "elapsed_sec": 0.15,
         "category": "financial",
-        "last_fetched": "2026-11-19T00:20:38Z"
+        "last_fetched": "2026-11-19T07:44:11Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.49,
+        "elapsed_sec": 0.5,
         "category": "financial",
-        "last_fetched": "2026-11-19T00:20:38Z"
+        "last_fetched": "2026-11-19T07:44:11Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.56,
+        "elapsed_sec": 0.45,
         "category": "aggregator",
-        "last_fetched": "2026-11-19T00:20:38Z"
+        "last_fetched": "2026-11-19T07:44:11Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.21,
+        "elapsed_sec": 0.16,
         "category": "platform",
-        "last_fetched": "2026-11-19T00:20:38Z"
+        "last_fetched": "2026-11-19T07:44:11Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.18,
+        "elapsed_sec": 0.2,
         "category": "platform",
-        "last_fetched": "2026-11-19T00:20:38Z"
+        "last_fetched": "2026-11-19T07:44:11Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.12,
+        "elapsed_sec": 0.13,
         "category": "gaming",
-        "last_fetched": "2026-11-19T00:20:38Z"
+        "last_fetched": "2026-11-19T07:44:11Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.47,
+        "elapsed_sec": 0.1,
         "category": "gaming",
-        "last_fetched": "2026-11-19T00:20:38Z"
+        "last_fetched": "2026-11-19T07:44:11Z"
       },
       {
         "label": "r/GTA6",
         "status": "empty",
         "items_raw": 0,
-        "elapsed_sec": 0.06,
+        "elapsed_sec": 0.07,
         "category": "community",
-        "last_fetched": "2026-11-19T00:20:38Z"
+        "last_fetched": "2026-11-19T07:44:11Z"
       }
     ],
     "summary": {
       "events_detected_total": 9,
-      "fresh_this_run": 1,
+      "fresh_this_run": 0,
       "news_items": 12,
-      "archive_count": 149,
-      "last_run_utc": "2026-11-19T00:20:37Z"
+      "archive_count": 150,
+      "last_run_utc": "2026-11-19T07:44:10Z"
     }
   },
   "alerts": [
-    {
-      "label": "Metacritic score available",
-      "status": "ASSESS",
-      "active": true,
-      "tone": "orange",
-      "category": "event",
-      "key": "metacritic",
-      "fresh": true,
-      "source": "Yahoo Finance",
-      "headline": "TTWO Stock Rallies After GTA VI Scores 99 On Metacritic: Freedom Broker Says Wait Was Wort",
-      "triggered_at": "2026-11-19T00:20:38Z",
-      "url": "https://stocktwits.com/news-articles/markets/equity/ttwo-stock-rallies-after-gta-vi-scores-99-on-metacritic-freedom-broker-says-wait-was-worth-it-for-gamers-and-investors-alike/cNbgXS8R9i2?.tsrc=rss"
-    },
     {
       "label": "Trailer 3 released",
       "status": "RE-EVALUATE",
@@ -1858,6 +1843,19 @@
       "headline": "'Pricing Has Not Kept Pace With Inflation' — Take-Two Boss Insists Rockstar Got GTA 6 Stan",
       "triggered_at": "2026-08-07T19:38:25Z",
       "url": "https://www.ign.com/articles/pricing-has-not-kept-pace-with-inflation-take-two-boss-insists-rockstar-got-gta-6-standard-and-ultimate-edition-price-points-right"
+    },
+    {
+      "label": "Metacritic score available",
+      "status": "ASSESS",
+      "active": true,
+      "tone": "orange",
+      "category": "event",
+      "key": "metacritic",
+      "fresh": false,
+      "source": "Yahoo Finance",
+      "headline": "TTWO Stock Rallies After GTA VI Scores 99 On Metacritic: Freedom Broker Says Wait Was Wort",
+      "triggered_at": "2026-11-19T00:20:38Z",
+      "url": "https://stocktwits.com/news-articles/markets/equity/ttwo-stock-rallies-after-gta-vi-scores-99-on-metacritic-freedom-broker-says-wait-was-worth-it-for-gamers-and-investors-alike/cNbgXS8R9i2?.tsrc=rss"
     },
     {
       "label": "PC version announced",
