@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-24T00:22:21Z",
-  "updated_at_local": "24 Nov 2026, 00:22",
+  "updated_at": "2026-11-24T10:12:31Z",
+  "updated_at_local": "24 Nov 2026, 10:12",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1204,8 +1204,8 @@
       "days_to_preorder": -152,
       "days_to_launch": -5,
       "above_avg_pct": 0.73,
-      "bearish_signals": 0,
-      "bullish_signals": 4
+      "bearish_signals": 1,
+      "bullish_signals": 3
     }
   },
   "events": [
@@ -1578,6 +1578,22 @@
       "sentiment": "bullish"
     },
     {
+      "headline": "GTA 6 broke every record, and Take-Two's real test starts now",
+      "date": "Tue, 24 Nov 2026 03:47:00 +0000",
+      "url": "https://www.thestreet.com/investing/take-two-stock-gta-online-bet-bofa?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "Take-Two confirms GTA VI leak, says game development unaffected - Reuters",
+      "date": "Tue, 20 Sep 2022 07:00:00 GMT",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN2pXXzJmNEJrZldpQkFYeEI4U3NCUGZvVkhjcVFlcVo1NV92QVhDcnhrWThqQzcybnJFQmp4cGF6bFZSb2F1V2RSVVlxaVZLN2p1RUJJMjI4XzYzRkxhcXA0LXNPUEFuQlh2a2xGMHpZZXNDQ3VZWUhiYXdYdVgwUXRaRXVJMEM4ME9uSlBhcGtHdEFTTS16bWRScnA4NE04a0JwQ3RRUExWZXpwYTVuT1Y3SDU?oc=5",
+      "source": "Reuters",
+      "importance": 10,
+      "sentiment": "bearish"
+    },
+    {
       "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
       "date": "Tue, 16 Apr 2024 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
@@ -1632,22 +1648,6 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two's Rockstar Games says 'GTA VI' pre-orders to begin on June 25 - Reuters",
-      "date": "Thu, 18 Jun 2026 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaVh3OUpTZ0I0TEM3b3JQaEFFNkdOdTFzN0R1UEVOYnRUeVJaRDByNHhoV0doWWc4U0Q1N3VKeUUwUGpVU1BscUJHZGd3SE9VSTdrNEw1QXZYbmVhQU5hMnNEWTk1SzBoS2wzMmF0QTcxTTZ1OUgyOVFZVWNlVTcyNnVfcDV1VEk4azZwWEpaVnNoTmxTcVV4X2RXSURJMlVKeDZwcnBiVlZwUQ?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Take-Two sees annual bookings below revised estimates as 'GTA VI' delay weighs - Reuters",
-      "date": "Thu, 15 May 2025 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb09IeHhfU29ZZzZZaVhhdU9qb0ZNS0VaSzl4MGpMNVVpdTlVWGQtbi1GdFpYME14aWRrMlUtb2JVbDZZZEtEdWJuV3lRd3ZpVmEydjBMTUNxOW9Wa0pLWUh2VkJveFVJM1JRMUtOcEpZVG5RbUdtQV9jeGJrc05Cd1AwVUV0emxjY0pmVXFUMFlRVTd6aUFkMjd3T05qYVRJVUxDZHFzOTNnNExYZDMySkJBU3dydw?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bearish"
     }
   ],
   "sentiment": {
@@ -1717,18 +1717,18 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.35,
+      "elapsed_sec": 1.7,
       "category": "stock",
-      "last_fetched": "2026-11-24T00:22:19Z"
+      "last_fetched": "2026-11-24T10:12:28Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 19,
-        "elapsed_sec": 0.11,
+        "elapsed_sec": 0.28,
         "category": "financial",
-        "last_fetched": "2026-11-24T00:22:21Z"
+        "last_fetched": "2026-11-24T10:12:30Z"
       },
       {
         "label": "Reuters",
@@ -1736,63 +1736,63 @@
         "items_raw": 100,
         "elapsed_sec": 0.51,
         "category": "financial",
-        "last_fetched": "2026-11-24T00:22:21Z"
+        "last_fetched": "2026-11-24T10:12:30Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.46,
+        "elapsed_sec": 0.87,
         "category": "aggregator",
-        "last_fetched": "2026-11-24T00:22:21Z"
+        "last_fetched": "2026-11-24T10:12:30Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.53,
+        "elapsed_sec": 0.54,
         "category": "platform",
-        "last_fetched": "2026-11-24T00:22:21Z"
+        "last_fetched": "2026-11-24T10:12:30Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.11,
+        "elapsed_sec": 0.2,
         "category": "platform",
-        "last_fetched": "2026-11-24T00:22:21Z"
+        "last_fetched": "2026-11-24T10:12:30Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.08,
+        "elapsed_sec": 0.32,
         "category": "gaming",
-        "last_fetched": "2026-11-24T00:22:21Z"
+        "last_fetched": "2026-11-24T10:12:30Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.14,
+        "elapsed_sec": 0.19,
         "category": "gaming",
-        "last_fetched": "2026-11-24T00:22:21Z"
+        "last_fetched": "2026-11-24T10:12:30Z"
       },
       {
         "label": "r/GTA6",
         "status": "empty",
         "items_raw": 0,
-        "elapsed_sec": 0.11,
+        "elapsed_sec": 0.15,
         "category": "community",
-        "last_fetched": "2026-11-24T00:22:21Z"
+        "last_fetched": "2026-11-24T10:12:30Z"
       }
     ],
     "summary": {
       "events_detected_total": 9,
       "fresh_this_run": 0,
       "news_items": 12,
-      "archive_count": 154,
-      "last_run_utc": "2026-11-24T00:22:19Z"
+      "archive_count": 155,
+      "last_run_utc": "2026-11-24T10:12:28Z"
     }
   },
   "alerts": [
