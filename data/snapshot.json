@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25T03:44:49Z",
-  "updated_at_local": "25 Nov 2026, 03:44",
+  "updated_at": "2026-11-25T13:33:35Z",
+  "updated_at_local": "25 Nov 2026, 13:33",
   "stock": {
     "ticker": "TKE.DE",
     "currency": "EUR",
@@ -1204,8 +1204,8 @@
       "days_to_preorder": -153,
       "days_to_launch": -6,
       "above_avg_pct": 0.73,
-      "bearish_signals": 0,
-      "bullish_signals": 3
+      "bearish_signals": 1,
+      "bullish_signals": 4
     }
   },
   "events": [
@@ -1554,6 +1554,22 @@
   "next_catalyst": null,
   "news": [
     {
+      "headline": "Did Take-Two Stock Beat A Falling Market?",
+      "date": "Wed, 25 Nov 2026 13:04:29 +0000",
+      "url": "https://www.trefis.com/stock/ttwo/articles/629004/did-take-two-stock-beat-a-falling-market/2026-11-25?.tsrc=rss",
+      "source": "Yahoo Finance",
+      "importance": 10,
+      "sentiment": "bullish"
+    },
+    {
+      "headline": "GTA 6 PC port takedown confirmed: Take-Two cites Rockstar's ban on reverse engineering - TweakTown",
+      "date": "Wed, 25 Nov 2026 07:00:03 GMT",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOa0hZMUZrS2Zqc3RHNzE2WWNTVTU5YUN4QlY1OUFxcjdrUVEtTElyb3g2emJjcENHV1g5dTE2ZWI5V3hMTmgxeE1BdkJlNkNURGRLY2liZTdUOE1zNW5mcWJJd2dnSnFsMGNFWUJpY1B0RVNwMXVwZl9qeGU4VENkU0NRakRFMS1FTVplbng0X0R3dkxyQW1DWVVnQ2VraHVtdUhsNHpkZHZpTFBoTjdwdW03dndUZUJpcFV0SUo1SVc3YnRMVDV3dkNVM0Q5UQ?oc=5",
+      "source": "Google News",
+      "importance": 10,
+      "sentiment": "bearish"
+    },
+    {
       "headline": "Take-Two prices 'Grand Theft Auto VI' at $79.99, sticks to November 19 launch - Reuters",
       "date": "Wed, 24 Jun 2026 07:00:00 GMT",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTTIyaUktTHJkNkcwQm1KVTdZdk1EcWliQlFKb0ZOOUxUR21vZjA2bDVVSUpXQmdTaFhWMzVINW81bHc1anlmQzZ5RmQ0Z0ZoSDJfakYzeVNqQUljX3RORnNBN0s3TXFoVWEtNjZQZnBuZGtGR3hPZkZlbFE4aXd5UmxWal80RzRab1llekRRWE8?oc=5",
@@ -1632,28 +1648,12 @@
       "source": "Reuters",
       "importance": 10,
       "sentiment": "bearish"
-    },
-    {
-      "headline": "'Grand Theft Auto' maker Take-Two to let go 5% of staff, scrap some projects - Reuters",
-      "date": "Tue, 16 Apr 2024 07:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGltdV85OGpseXBvLVptYmdvZlZZN2xYMGN3SkxSN21QNHVDOE8zMVJ1RDU5SUJDWFh1MjdXamhpTTVMZ0ZnQmc1Zkg0MXhFTEJ3andreWpDWG52LXJpSkhNWUZpVk1UVHRSeHh4T2VqbkxtWVJQdlJwMTlvaDRSRU02WGZuM2lsTllPUWNUcE0?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "neutral"
-    },
-    {
-      "headline": "Rockstar Games sets 'GTA VI' launch for 2025 in game's first trailer - Reuters",
-      "date": "Tue, 05 Dec 2023 08:00:00 GMT",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcHZ4VTRvVFB3cG1ybVN0VzI3WXFfM2dCT2duaWh6bmpoWHZtX3hjOS1CV2dUUlVXbFF3MUJVa2dDeTVINTRzSEZBODhVcV9IOF9uMDJDQXBzcWJCdk01elJxb0tQVXpBSkx1bXBZNk1Cd25Jb2Rsd3RiTS1PaXZnQUdhZURwUXAwNGJ4Umh1YUp6RTFYYVZMeGllSk5rQlEtSEpHNGt1YVVZMmRRRzR2NGNB?oc=5",
-      "source": "Reuters",
-      "importance": 10,
-      "sentiment": "bullish"
     }
   ],
   "sentiment": {
     "fan_excitement": 9,
-    "release_confidence": 8,
-    "short_term_risk": 7,
+    "release_confidence": 7,
+    "short_term_risk": 8,
     "long_term_upside": 8
   },
   "game_metrics": {
@@ -1717,82 +1717,82 @@
       "source": "yfinance",
       "status": "error",
       "error": "No module named 'sklearn'",
-      "elapsed_sec": 1.17,
+      "elapsed_sec": 1.02,
       "category": "stock",
-      "last_fetched": "2026-11-25T03:44:47Z"
+      "last_fetched": "2026-11-25T13:33:33Z"
     },
     "feeds": [
       {
         "label": "Yahoo Finance",
         "status": "ok",
         "items_raw": 19,
-        "elapsed_sec": 0.26,
+        "elapsed_sec": 0.19,
         "category": "financial",
-        "last_fetched": "2026-11-25T03:44:48Z"
+        "last_fetched": "2026-11-25T13:33:34Z"
       },
       {
         "label": "Reuters",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.59,
+        "elapsed_sec": 0.58,
         "category": "financial",
-        "last_fetched": "2026-11-25T03:44:48Z"
+        "last_fetched": "2026-11-25T13:33:34Z"
       },
       {
         "label": "Google News",
         "status": "ok",
         "items_raw": 100,
-        "elapsed_sec": 0.57,
+        "elapsed_sec": 0.51,
         "category": "aggregator",
-        "last_fetched": "2026-11-25T03:44:48Z"
+        "last_fetched": "2026-11-25T13:33:34Z"
       },
       {
         "label": "PlayStation Blog",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.12,
         "category": "platform",
-        "last_fetched": "2026-11-25T03:44:48Z"
+        "last_fetched": "2026-11-25T13:33:34Z"
       },
       {
         "label": "Xbox Wire",
         "status": "ok",
         "items_raw": 10,
-        "elapsed_sec": 0.17,
+        "elapsed_sec": 0.2,
         "category": "platform",
-        "last_fetched": "2026-11-25T03:44:48Z"
+        "last_fetched": "2026-11-25T13:33:34Z"
       },
       {
         "label": "IGN",
         "status": "ok",
         "items_raw": 20,
-        "elapsed_sec": 0.34,
+        "elapsed_sec": 0.11,
         "category": "gaming",
-        "last_fetched": "2026-11-25T03:44:48Z"
+        "last_fetched": "2026-11-25T13:33:34Z"
       },
       {
         "label": "GamesRadar",
         "status": "ok",
         "items_raw": 50,
-        "elapsed_sec": 0.38,
+        "elapsed_sec": 0.3,
         "category": "gaming",
-        "last_fetched": "2026-11-25T03:44:48Z"
+        "last_fetched": "2026-11-25T13:33:34Z"
       },
       {
         "label": "r/GTA6",
         "status": "empty",
         "items_raw": 0,
-        "elapsed_sec": 0.18,
+        "elapsed_sec": 0.12,
         "category": "community",
-        "last_fetched": "2026-11-25T03:44:48Z"
+        "last_fetched": "2026-11-25T13:33:34Z"
       }
     ],
     "summary": {
       "events_detected_total": 9,
       "fresh_this_run": 0,
       "news_items": 12,
-      "archive_count": 155,
-      "last_run_utc": "2026-11-25T03:44:47Z"
+      "archive_count": 156,
+      "last_run_utc": "2026-11-25T13:33:33Z"
     }
   },
   "alerts": [
